@@ -10,7 +10,7 @@ Summary of computer software professional materials, including: computer major i
 
 # 更新日志
 
-2024.11.10 新增：计算机毕业设计成品（1900多套）C语言、PHP、VB、java等。
+2024.11.10 新增：计算机毕业设计成品（1900多套），包括：C语言、PHP、VB、java、JSP、Andorid、Python、微信小程序等论文及源码。
 
 
 # 下载：
