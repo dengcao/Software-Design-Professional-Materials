@@ -1,4 +1,4 @@
-# 源码说明
+# 说明
 
 大学期间必备的计算机软件专业资料汇总，包括：计算机专业实习报告（58篇）、计算机毕业设计成品（含源码和论文，1900多套，包括C语言/PHP/VB/java/JSP/Andorid/Python/微信小程序等）、HTML+CSS+JS速查参考手册（收藏版）、42套div+css模板专题模板（各风格和行业应用网站模板），等等。此资料仅用于学习参考，请勿用于其他用途，否则后果自负。
 
@@ -13,7 +13,7 @@ Summary of computer software professional materials, including: computer major i
 2024.11.10 新增：计算机毕业设计成品（1900多套）C语言、PHP、VB、java等。
 
 
-# 源码下载：
+# 下载：
 
 必备计算机软件专业资料汇总。支持本开源项目，请到Gitee和GitHub给我们点Star！
 
