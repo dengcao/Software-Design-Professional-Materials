@@ -1,0 +1,65 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑供应商分类</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#foodName").change(function(){
+				var url="${ctx}/provideFood/getList";
+				$.get(url,function(data,status){
+					if(status=="success"){
+						var obj=eval(data);
+						var foodName=$("#foodName").val();
+						for(var i=0;i<obj.length;i++){
+							if(obj[i].foodName==foodName){
+								alert(foodName+"已经存在，不能重复添加");
+								$("#foodName").val("");
+							}
+						}
+					}
+				});
+			});
+		});
+	</script>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+</head>
+<body>
+<a href='${ctx }/provider/list' >返回供应商列表</a>
+<a href='${ctx }/provideFood/list?providerId=${providerId}&providerName=${providerName}' >返回供应商食品列表</a>
+<hr />
+<form action="${ctx }/provideFood/update" method="post">
+<input type="hidden" name="id" value="${provideFood.id}">
+<table class="t1">
+	<tr>
+		<td>供应商ID</td>
+		<td><input type="text" name="providerId" readonly value="${provideFood.providerId }"/></td>
+	</tr>
+<tr>
+	<td>供应商名称</td>
+	<td><input type="text" name="providerName" readonly value="${provideFood.providerName }"/></td>
+</tr>
+	<tr>
+		<td>食品名称</td>
+		<td><input type="text" name="foodName" id="foodName" readonly value="${provideFood.foodName }"/></td>
+	</tr>
+	<tr>
+		<td>采购价格</td>
+		<td><input type="text" name="purchasePrice" required value="${provideFood.purchasePrice }"/></td>
+	</tr>
+	<tr>
+		<td>备注</td>
+		<td><input type="text" name="remarks" value="${provideFood.remarks }"/></td>
+	</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="保存">  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+package com.nemo.service;
+
+import com.nemo.pojo.SalePlanDetail;
+
+import java.util.List;
+
+/**
+ * 销售计划详细功能的服务层实现接口
+ *
+ */
+public interface SalePlanDetailService {
+	public List<SalePlanDetail> querySalePlanDetailList(String id) ;
+	
+	public boolean deleteSalePlanDetailById(int id);
+	
+	public boolean updateSalePlanDetail(SalePlanDetail SalePlanDetail);
+	
+	public boolean addSalePlanDetail(SalePlanDetail SalePlanDetail);
+
+	public SalePlanDetail findSalePlanDetailById(int id);
+
+	public List<SalePlanDetail> findLimitList(int start,int end,String planId);
+
+	public int count();
+
+	public List<SalePlanDetail> findFuzzyList(String condition,String planId);
+
+
+
+
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="219.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="219_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >进销存顶级数据流程如图3-9所示。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >54</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：5个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存顶级数据<span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-9<span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">信息分类<span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-10<span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……方式业务联系人财务联系人铺底金额帐期图3-9实体属性图（供应商信息）3.2.2<span class='green'>信息分类流程图流程图如图3-10所示，</span>数据分类的程序，在计算相似度时，首先遍历所有的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《成都顺天食品有限公司冷食批发进销存管理信息系统的设计与实现》<br><b>作者：</b>贺伟<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>谢梅<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>冷食批发 进销存管理信息系统 软件开发 数据安全
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存顶级数据流程<span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-9<span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">可得到核心用例<span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-<span style="background:#cbcbcb">3</span><span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……举办应生成销售结算并天生销售管理单参与发卖办理的销售者主要是销售人员，结合发卖流程的具体分析，<span class='green'>可得到核心用例图如图3-3所示。</span>3.管理.3管理办理需求库存办理是指对原料与……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于Web的进销存管理系统的设计和实现》<br><b>作者：</b>刘莎<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>左锋<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>进销存管理 信息管理系统 J2EE SSH
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >53</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存顶级数据<span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-9<span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">出库终止’其主要<span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span><span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。<span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……1总体业务流程进销存按照一定的流程贯穿于企业的整个经营过程，其流程由销售计划发起，销售<span class='green'>出库终止’其主要流程如图3所示。图3</span>进销存业务流程分析3．2业务模块基于ASP平台上进……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于ASP的中小企业进销存管理系统研究》<br><b>作者：</b>赵韩 李洪涛 陈科<br><b>作者单位：</b>合肥工业大学安徽省数字化设计与制造重点实验室,合肥,230009<br><b>参考文献：</b>5篇<br><b>页码：</b>P43—P45<br><b>分类号：</b>TP391<br><b>机标分类号：</b>TP3 F27<br><b>基金项目：</b>安徽省科学技术厅(07010202108)<br><b>期刊名称：</b>《微计算机信息》<br><b>出版时间：</b>2010年33期<br><b>ISSN：</b>1008-0570<br><b>关键词：</b>进销存 系统建模 家电企业<br><b>摘要：</b>通过对中小企业进销存业务的深入分析,将该进销存系统分为销售管理、生产计划管理、库存管理、采购管理以及基础数据管理等功能模块,并详细设计了各个功能模块的具体功能.采用基于ASP的模式,为构建和开发面向中小企业的进销存管理系统提供蓝图.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >53</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存顶级数据<span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-9<span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">信息。库存管理<span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-5<span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。上上</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……客户信息，操作人员可以进行客户信息的修改、删除操作，操作人员还可以增加新的客户信息、查询某客户<span class='green'>信息。库存管理流程如图3-5所示。上上</span>匿豫照翻匿j竺蚺翁上J，上土上鹦隰……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于Spring框架的通信企业进销存系统的构建》<br><b>作者：</b>惠婷婷<br><b>分类号：</b>F626<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李银胜<br><b>学位授予单位：</b>复旦大学<br><b>学位年度：</b>2009<br><b>关键词：</b>Spring框架 通信企业 进销存系统 Hibernate工具 科学管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >51</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存顶级数据流程<span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span>3-<span style="background:#cbcbcb">9</span><span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">发送失败。上述过程<span style="background:#cbcbcb">如</span><span style="background:#cbcbcb">图</span>4-<span style="background:#cbcbcb">9</span><span style="background:#cbcbcb">所</span><span style="background:#cbcbcb">示</span>。<span style="background:#cbcbcb">图</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，系统会提示短信成功发送乐成信息。反之则失败标明短信成功没有乐成而且，并且一样会以短信形式予以提示<span class='green'>发送失败。上述过程如图4-9所示。图</span>4-13告警联动配置实现4.4访问7会见局域网……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《楼宇信息管理定位跟踪系统设计与实现》<br><b>作者：</b>朱海斌<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>刘涛<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>楼宇定位系统 环境监测 网络监控
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+无
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

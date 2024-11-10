@@ -1,0 +1,111 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="/common/public.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+    <title>入库</title>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            exportTable();
+            var myDate = new Date();
+            var date=myDate.toLocaleDateString();
+            $("#storageDate").val(date);
+            var foodName=  $("#foodName").val();
+            getStoregeTotal(foodName);
+
+            var d = new Date()
+            var vYear = d.getFullYear()
+            var vMon = d.getMonth() + 1
+            var vDay = d.getDate()
+            var h = d.getHours();
+            var m = d.getMinutes();
+            var se = d.getSeconds();
+            var date= d.toLocaleDateString();
+            s=vYear+(vMon<10 ? "0" + vMon : vMon)+(vDay<10 ? "0"+ vDay : vDay)+
+            (h<10 ? "0"+ h : h)+(m<10 ? "0" + m : m)+(se<10 ? "0" +se : se);
+//			var s=getDate();
+            var id="KC"+s+$("#id").val();
+            $("#id").val(id);
+
+        });
+    </script>
+    <script type="text/javascript">
+        function getStoregeTotal(foodName){
+            var url="${ctx}/store/storeFood?foodName="+foodName;
+            var foodNum=Number($("#foodNum").val());
+            $.get(url,function(data,status){
+                if(status=="success"){
+                    var storeList=eval(data);
+                    if(storeList.length>0){
+                        var max = 0;
+                        for (var j = 0; j < storeList.length; j++) {
+                            max=max+storeList[j].foodNum;
+                        }
+                        $("#storegeTotal").val(max+foodNum);
+                        $("#storegeMin").val(storeList[0].storegeMin);
+                    }else{
+                        $("#storegeTotal").val(foodNum);
+                    }
+                }else{
+                    alert("服务器异常");
+
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<hr/>
+<form action="${ctx}/store/save" method="post" name="forms">
+    <input type="hidden" name="id" id="id" value="${id}">
+    <input type="hidden" name="intId" id="intId" value="${intStore.intId}">
+    <input type="hidden" name="foodId" id="foodId" value="${intStore.foodId}">
+    <input  type="hidden" name="classId" id="classId" value="${intStore.classId}">
+    <input  type="hidden" name="storageType" id="storageType" value="${intStore.intType}">
+    <input  type="hidden" name="storageDate" id="storageDate">
+    <input  type="hidden" name="inputNum" id="inputNum" value="${intStore.qualifiedNum}">
+
+    <table class="t1">
+        <tr>
+            <td>食品条码</td>
+            <td><input type="text" name="foodBarCode" id="foodBarCode" value="${intStore.foodBarCode}" readonly></td>
+            <td>食品名称</td>
+            <td><input type="text" name="foodName" id="foodName" value="${intStore.foodName}" readonly></td>
+            <td>食品规格</td>
+            <td><input type="text" name="foodStandard" id="foodStandard" value="${intStore.foodStandard}" readonly></td>
+            <td>食品分类</td>
+            <td><input type="text" name="className" id="className" value="${intStore.className}" readonly></td>
+        </tr>
+        <tr>
+            <td>供应商名称</td>
+            <td><input type="text" name="providerName" id="providerName" value="${intStore.providerName}" readonly></td>
+            <td>入库量</td>
+            <td><input type="text" name="foodNum" id="foodNum" value="${intStore.qualifiedNum}" required readonly></td>
+            <td>库存总量</td>
+            <td><input type="text" name="storegeTotal" id="storegeTotal"  readonly></td>
+            <td>过期时间</td>
+            <td><input type="text" name="overDate" id="overDate" value="${intStore.overDate}" required></td>
+
+        </tr>
+        <tr>
+            <td>最低库存</td>
+            <td><input type="text" name="storegeMin" id="storegeMin" required ></td>
+            <td>备注</td>
+            <td><input type="text" name="remarks" id="remarks" ></td>
+            <td><input type="submit" value="保存"> </td>
+        </tr>
+    </table>
+
+
+</form>
+
+<p>
+</p>
+
+</body>
+
+</html>

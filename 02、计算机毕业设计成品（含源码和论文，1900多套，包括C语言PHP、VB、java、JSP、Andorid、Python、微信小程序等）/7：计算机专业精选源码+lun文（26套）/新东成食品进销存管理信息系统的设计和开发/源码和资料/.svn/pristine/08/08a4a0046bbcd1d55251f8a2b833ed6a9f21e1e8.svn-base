@@ -1,0 +1,80 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑用户</title>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var p = Number($("#userPower").val());
+			p = manageCheck(p);
+			$("#userPower").val(p);
+			var tt = 1;
+			$("#manageSelect").click(function () {
+				tt = tt ? 0 : 1;
+				if (tt) {
+					var manageSelect = $("#manageSelect").find("option:selected").val();
+					$("#userPowert").val(manageSelect);
+					manageSelect = manageCheck(manageSelect);
+					$("#userPower").val(manageSelect);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+<a href="${ctx}/user/list">返回列表</a>
+<hr />
+<form action="${ctx }/user/update" method="post">
+<input type="hidden" name="id" value="${user.id }">
+<table>
+<tr>
+	<td>用户名</td>
+	<td><input type="text" name="username" value="${user.username }"/></td>
+</tr>
+<tr>
+	<td>生日</td>
+	<td><input type="text" name="birthday" value="${user.birthday }" /></td>
+</tr>	
+<tr>
+	<td>性别</td>
+	<td>
+		男<input type="radio" name="sex" value="1" <c:if test="${user.sex==1}">checked="checked"</c:if> />
+		女<input type="radio" name="sex" value="2" <c:if test="${user.sex==2}">checked="checked"</c:if> />
+	</td>
+</tr>	
+<tr>
+	<td>地址</td>
+	<td><input type="text" name="address" value="${user.address }" /></td>
+</tr>
+	<tr>
+		<td>管理员类型</td>
+		<input type="hidden" name="userPower" id="userPowert" value="${user.userPower }" readonly/>
+		<td><input type="text"  id="userPower" value="${user.userPower }" readonly/></td>
+		<td><select id="manageSelect" name="manageSelect">
+			<option value="0">系统管理员</option>
+			<option value="1">运营总监</option>
+			<option value="2">财务总监</option>
+			<option value="3">物流总监</option>
+			<option value="11">市场负责员</option>
+			<option value="12">物价负责员</option>
+			<option value="13">收银负责员</option>
+			<option value="31">采购负责员</option>
+			<option value="32">仓储负责员</option>
+			<option value="33">配送负责员</option>
+			<option value="34">质检负责员</option>
+			<option value="4">不设定</option>
+		</select></td>
+	</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="保存">  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

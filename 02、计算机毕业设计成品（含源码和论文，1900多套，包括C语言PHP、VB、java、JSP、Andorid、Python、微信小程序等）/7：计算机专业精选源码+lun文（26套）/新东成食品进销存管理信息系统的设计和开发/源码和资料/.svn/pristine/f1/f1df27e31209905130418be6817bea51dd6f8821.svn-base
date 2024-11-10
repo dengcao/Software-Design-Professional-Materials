@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="63.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="63_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >公司信息化建设迫不及待，主要是公司对信息化的投入几乎没有，公司领导对信息化的建设意识并不是很强。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >41</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">公司</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span>迫不及待，主要是<span style="background:#cbcbcb">公司</span>对<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span>投入几乎<span style="background:#cbcbcb">没有</span>，<span style="background:#cbcbcb">公司</span>领导对<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">建设</span><span style="background:#cbcbcb">意识</span>并不是很强。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">公司</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span><span style="background:#cbcbcb">的</span>过程中，人员<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">意识</span>薄弱，<span style="background:#cbcbcb">没有</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span>专业基础，对于<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span>中<span style="background:#cbcbcb">的</span>风险</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……186硅谷科技创新论坛从20世纪末开始，互联网技术在各行各业都得到了广泛应用，并且逐步发展到公司的管理与发展中。因此，加快公司的现代化信息建设已经成为当今世界发展的主流。但是，在<span class='green'>公司的信息化建设的过程中，人员的信息化意识薄弱，没有信息化的专业基础，对于信息化建设中的风险</span>因素分析不到位等等，都为公司的信息化建设增加了困难。因此，对于公司的信息化建设中的风险因素进行分析……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《公司信息化建设中的风险因素与对策》<br><b>作者：</b>王红燕 罗云 刘迅<br><b>作者单位：</b>一拖 洛阳 福莱格车身有限公司,河南洛阳,471004<br><b>参考文献：</b>3篇<br><b>页码：</b>P186—P187<br><b>页数：</b>2页<br><b>分类号：</b>F270<br><b>机标分类号：</b>G43<br><b>期刊名称：</b>《硅谷》<br><b>出版时间：</b>2014年7期<br><b>ISSN：</b>1671-7597<br><b>关键词：</b>公司 信息化建设 风险因素 对策<br><b>摘要：</b>互联网技术在各行各业都得到了广泛应用，并且逐步发展到公司的管理与发展中。文章根据近年来公司信息化建设的经验，对其中存在的风险因素进行阐述，提出相应的解决措施，希望能够对公司的信息化建设有所借鉴。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >公司<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span>迫不及待，主要<span style="background:#cbcbcb">是</span>公司对<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span>投入几乎<span style="background:#cbcbcb">没有</span>，公司<span style="background:#cbcbcb">领导</span>对<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">建设</span>意识并不是很强。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">。档案<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span><span style="background:#cbcbcb">的</span>成败，<span style="background:#cbcbcb">领导</span><span style="background:#cbcbcb">是</span>关键。<span style="background:#cbcbcb">没有</span><span style="background:#cbcbcb">领导</span><span style="background:#cbcbcb">的</span>支持，要加快档案<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span>，那只能<span style="background:#cbcbcb">是</span>一句</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……销，企业档案部门的生存和发展都受到严重影响．，档案信息化建设更无从说起，而且即使已开展信息化建设的企业在发展中也很不平衡。4如何加强企业档案信息化建设4．1加强领导在档案信息化建设中的作用<span class='green'>。档案信息化建设的成败，领导是关键。没有领导的支持，要加快档案信息化建设，那只能是一句</span>不切实际的空话。在信息化建设过程中应首先成立专门领导机构，组织有关部门和人员制定规划，协调各相关部门、……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《网络环境下企业档案信息化发展之路研究》<br><b>作者：</b>庞娟<br><b>作者单位：</b>哈尔滨市城市建设投资集团有限公司,黑龙江哈尔滨,150000<br><b>参考文献：</b>2篇<br><b>页数：</b>1页<br><b>机标分类号：</b>H31 G43<br><b>期刊名称：</b>《赤子》<br><b>出版时间：</b>2013年3期<br><b>ISSN：</b>1671-603<br><b>关键词：</b>企业档案 网络环境 信息化 发展<br><b>摘要：</b>目前,在社会信息环境下,企业之间的竞争主要体现信息资源这方面.而作为企业信息化的一个重要内容,企业档案信息化建设的如何和企业的命运紧密相连.企业档案事业是企业的基础管理工作,要随着时代的发展而不断发展,因此,基于网络环境,要不断的完善和加强企业的档案管理工作,进一步加强企业档案信息资源的开发和利用能力,以更好的服务于企业.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >公司<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span>迫不及待，主要<span style="background:#cbcbcb">是</span>公司<span style="background:#cbcbcb">对</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span>投入几乎没有，公司领导<span style="background:#cbcbcb">对</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">建设</span>意识并不是很强。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">建设</span><span style="background:#cbcbcb">的</span>勇气和决心，真正缺乏<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">对</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span>领悟，<span style="background:#cbcbcb">对</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span>价值<span style="background:#cbcbcb">的</span>认可。<span style="background:#cbcbcb">对</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">化</span><span style="background:#cbcbcb">的</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……片面的认识，有些注重短期效益，有些注重长期效益，莫衷一是，再加上信息化建设往往高投入，缺乏可信服的效益评价会引起投资者甚至旁观者的质疑。处于黄金发展期的中国企业，并不缺信息化投资的资金，也不缺<span class='green'>信息化建设的勇气和决心，真正缺乏的是对信息化的领悟，对信息化价值的认可。对信息化的</span>领悟确实是需要很长时间的逐步积累完成，对信息化价值的认可也需要通过信息化绩效的评价来促进。在信息……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《企业信息化评价方法与实例探究》<br><b>作者：</b>郑冰<br><b>分类号：</b>F270.7<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>凌鸿<br><b>学位授予单位：</b>复旦大学<br><b>学位年度：</b>2007<br><b>关键词：</b>企业信息化 评价方法 信息产业
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">迫不及待：</span><span class="green">如饥似渴 急如星火 火烧眉毛 </span><br/> <span class="red">几乎：</span><span class="green">险些 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

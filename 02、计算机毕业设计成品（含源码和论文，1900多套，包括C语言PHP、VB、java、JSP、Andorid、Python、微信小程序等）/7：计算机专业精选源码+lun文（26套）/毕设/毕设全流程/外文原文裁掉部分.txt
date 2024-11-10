@@ -1,0 +1,15 @@
+However, the aim of designing the speech control system is that robot could better understand human¡¯s intentions rather than human trying to adapt to the system. Therefore, the robot adaptive control system is designed for the sake of a more natural HRI performance, which will be introduced in the following section.
+
+
+
+	B. Robot Adaptive Control System
+	In this method, the control task is divided into two phases: adaptive phase and convergence phase. In the adaptive phase, the focus is to ?nd an approximation of g?; while in the second phase, the control law is implemented with g? obtained in the ?rst phase to perform tasks, such as target tracking and obstacle avoidance. Firstly, the control law ¦Ø(j) is designed to be
+						¦Ø(j) = k¦Ø¦×e(j) = k¦Øg?y(j) (6)
+where k¦Ø > 0 is a constant. However, as g? is unknown resulting in that the control law cannot be utilized directly, so Eq. (6) is rewritten as
+						¦Ø(j) = k¦Øg(j)y(j) (7)
+with a random initialization of g(j), when there is a speech input at time j. The adaptive law for g(j) is designed as 
+
+where k g is a positive constant. After the ?rst phase, an estimated desired g ?? can be obtained, which will be used for the task in the next phase. In the second phase, the control law is chosen to be
+						¦Ø(j) = ktk¦Øg ??y(j) (9)
+where kt > 1 is a constant introduced to reduce the in¨¤uence of time delay in the system due to communication delay and computation cost on the speech system. There is another control scheme, which is to implement Eq.(7) & Eq.(8) for the whole task. The merit is that the possible range of control inputs is broader and the sensitivity is improved; nevertheless, the degree of controllability is
+weaken.

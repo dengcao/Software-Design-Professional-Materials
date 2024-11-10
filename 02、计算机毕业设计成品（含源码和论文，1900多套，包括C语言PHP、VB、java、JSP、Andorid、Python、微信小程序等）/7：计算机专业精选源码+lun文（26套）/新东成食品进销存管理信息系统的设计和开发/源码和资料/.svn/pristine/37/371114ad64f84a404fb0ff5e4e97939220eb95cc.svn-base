@@ -1,0 +1,109 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.StoreMapper;
+import com.nemo.pojo.Store;
+import com.nemo.service.StoreService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ *
+ */
+@Service
+public class StoreImpl implements StoreService {
+    @Autowired
+    StoreMapper storeMapper;
+    @Override
+    public List<Store> queryStoreList() throws Exception {
+        return storeMapper.findStoreList();
+    }
+
+    @Override
+    public boolean deleteStoreById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("storeId",id+"");
+        return storeMapper.deleteStoreById(map);
+    }
+
+    @Override
+    public boolean updateStore(Store store) {
+        return storeMapper.updateStore(store);
+    }
+
+    @Override
+    public boolean addStore(Store store) {
+        return storeMapper.addStore(store);
+    }
+
+    @Override
+    public Store findStoreById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("storeId",id+"");
+        return storeMapper.findStoreById(map);
+    }
+
+    @Override
+    public List<Store> findStoreByFoodName(String foodName) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("foodName",foodName);
+        return storeMapper.findStoreByFoodName(map);
+    }
+
+    @Override
+    public boolean setTotalZero(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("storeId",id+"");
+        return storeMapper.setTotalZero(map);
+    }
+
+    @Override
+    public boolean setFoodNum(Store store) {
+        return storeMapper.setFoodNum(store);
+    }
+
+    @Override
+    public boolean setStoreTotal(Store store) {
+        return storeMapper.setStoreTotal(store);
+    }
+
+
+    @Override
+    public List<Store> findLimitList(int start, int end,int type) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        if(type==3){
+            return storeMapper.findPoliceLimitList(map);
+        }else {
+            return storeMapper.findLimitList(map);
+        }
+
+    }
+
+    @Override
+    public int count() {
+        return storeMapper.count();
+    }
+
+    @Override
+    public List<Store> findFuzzyList(String condition) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where concat(storeId,foodBarCode,foodName,foodStandard,className," +
+                "storageDate,overDate,inputNum,foodNum,storegeTotal,storegeMin,providerName) like "+"'%"+condition+"%'");
+        return storeMapper.findFuzzyList(map);
+    }
+
+    @Override
+    public List<Store> findId() {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition"," order by storeId DESC limit 0,1");
+        return storeMapper.findFuzzyList(map);
+
+    }
+}

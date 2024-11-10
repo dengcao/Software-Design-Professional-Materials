@@ -1,0 +1,49 @@
+// 创建分页
+
+page =
+    function(){
+        function pagePart(url,total){
+            $("#Pagination").pagination(total, {
+                num_edge_entries: 1, //边缘页数
+                'num_display_entries' : 8,//主体
+                callback: pageselectCallback,
+                items_per_page:5, //每页显示5项
+                'prev_text'           : "上一页",
+                'next_text'           : "下一页"
+            });
+            function pageselectCallback(page_index, jq){
+                var urls=url+"?index="+page_index;
+                $.get(urls,function(data,status){
+                    if(status=="success"){
+                      if(data!=null){
+                          var obj=eval(data);
+                          customPage(obj);
+                          tableDiv();
+                      }
+                    }
+                });
+                return false;
+            };
+        }
+        return {pagePart:pagePart};
+    }();
+
+
+
+function tableDiv(){
+    $(".t1 tr").mouseover(function () {
+        //如果鼠标移到class为stripe的表格的tr上时，执行函数
+        $(this).addClass("over");
+    }).mouseout(function () {
+        //给这行添加class值为over，并且当鼠标一出该行时执行函数
+        $(this).removeClass("over");
+    }) //移除该行的class
+    //更替显示颜色
+    $(".t1 tr:odd").addClass("alt");
+    $(".t1 tr:even").addClass("alb");
+}
+
+
+
+
+

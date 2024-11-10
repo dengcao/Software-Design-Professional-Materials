@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="433_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="433_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >进过这次系统开发，让我认识到数据库设计的重要性，设数据库的设计一定要充分考虑好，</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >46</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进过这次<span style="background:#cbcbcb">系统</span>开发，让我认识到<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span><span style="background:#cbcbcb">的</span>重要性，设<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">设计</span>一定要充分考虑好，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">设计</span>3.3<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span>根据<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span><span style="background:#cbcbcb">的</span>核心流程，<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">设计</span>包含了需求分析、E-R</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……原则上，要力争不重复，清晰明了，方便编程人员通过SQL语句实现数据库表的操作。本文系统的数据库设计在原则上主要集中于以上几点，特别是要满足范式设计要求。万方数据第三章系统数据库<span class='green'>设计3.3系统数据库设计根据数据库设计的核心流程，数据库的设计包含了需求分析、E-R</span>模型设计、数据库表设计和数据库物理设计等相关环节，本文研发的图书借阅数据分析软件包含了图书、读者……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《图书借阅数据分析软件的设计与开发》<br><b>作者：</b>牛浩然<br><b>分类号：</b>TP311.1<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李会勇<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>高等院校 图书馆 借阅管理 C/S模式 软件设计
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进过这次<span style="background:#cbcbcb">系统</span>开发，让我<span style="background:#cbcbcb">认识</span><span style="background:#cbcbcb">到</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span>，设<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">设计</span>一定要充分考虑好，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">停留在模拟<span style="background:#cbcbcb">系统</span>阶段是无法真正<span style="background:#cbcbcb">认识</span><span style="background:#cbcbcb">到</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">的</span>。五、结语综上所述，可见<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span>在</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……具有较高的实际应用价值。其对数据库设计的要求必然符合其应有的地位。之所以在观念上对数据库设计存在重视不足的问题同相关人员没有大型系统开发经历有一定的关系统，开发经验总<span class='green'>停留在模拟系统阶段是无法真正认识到数据库设计的重要性的。五、结语综上所述，可见数据库设计在</span>系统设计中的作用是举足轻重的。对数据库设计重要性的忽视必将为整个系统埋下隐患，对系统以及开发……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《浅谈数据库设计在系统设计中的重要性》<br><b>作者：</b>伞颖 高辉<br><b>作者单位：</b>哈尔滨广厦学院；哈尔滨华德学院<br><b>参考文献：</b>3篇<br><b>页数：</b>1页<br><b>机标分类号：</b>TP3 U65<br><b>期刊名称：</b>《中国校外教育（下旬刊）》<br><b>出版时间：</b>2013年8期<br><b>ISSN：</b>1004-8502<br><b>关键词：</b>数据库设计 系统设计 数据库设计习惯<br><b>摘要：</b>对数据库设计在系统设计中重要性的认识主要有以下几个方面:海量数据环境到来为数据库设计提出的新高度；好的数据库设计所应具备的基本条件；重视不足的数据库设计的具体体现；如何培养良好数据库设计习惯.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进过这次系统开发，让我<span style="background:#cbcbcb">认识</span><span style="background:#cbcbcb">到</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span>，设<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">设计</span>一定要<span style="background:#cbcbcb">充分</span>考虑好，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">信息建设。<span style="background:#cbcbcb">充分</span>地<span style="background:#cbcbcb">认识</span><span style="background:#cbcbcb">到</span>企业<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span>工作<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span>，规范化处理<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">设计</span>，是保证企业<span style="background:#cbcbcb">数据</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……E—R图的作用发挥到最大，才能够使数据字典和E—R图不流于形式。5结语规范的企业数据库设计T作关系到企业信息收集工作的质量和效率，也关系着企业整体运营效率和企业现代化<span class='green'>信息建设。充分地认识到企业数据库设计工作的重要性，规范化处理数据库设计，是保证企业数据</span>库设计工作质量的基础。只有这样，数据库设计工作才能够真正的发挥出应有的效益。参考文献：………
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《数据库设计技巧及设计规范》<br><b>作者：</b>刘勇<br><b>作者单位：</b>淮安生物工程高等职业学校 江苏淮安223200<br><b>参考文献：</b>3篇<br><b>页码：</b>P251—P252<br><b>页数：</b>2页<br><b>期刊名称：</b>《信息技术与信息化》<br><b>出版时间：</b>2014年5期<br><b>ISSN：</b>1672-9528<br><b>关键词：</b>数据库 设计技巧 设计规范<br><b>摘要：</b>计算机技术的高速发展使得计算机由传统的科学计算向处理数据转变.在处理数据的过程中,计算机需要存储、查找、统计大量数据等,而不是传统的科学计算.本文针对现代数据库的设计技巧和设计规范加以简单的阐述,以期将数据库工作变得更规范,供初学者参考.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+进过这次<span class="red">系统</span>开发，让我认识到<span class="red">数据</span>库<span class="red">设计</span>的重要性，设<span class="red">数据</span>库的<span class="red">设计</span>一定要充分考虑好，
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">这次：</span><span class="green">此次 </span><br/> <span class="red">开发：</span><span class="green">开拓 开辟 斥地 </span><br/> <span class="red">认识：</span><span class="green">了解 相识 领会 </span><br/> <span class="red">一定：</span><span class="green">必定 必然 肯定 </span><br/> <span class="red">充分：</span><span class="green">充实 充裕 </span><br/> <span class="red">考虑：</span><span class="green">思量 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

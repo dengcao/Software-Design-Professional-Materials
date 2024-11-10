@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="368_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="368_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >单元测试是提高软件质量的不可缺少的方式，还可以提高程序员的编程能力。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >46</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：5个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >单元<span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">提高</span><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">不可</span><span style="background:#cbcbcb">缺少</span><span style="background:#cbcbcb">的</span>方式，还可以<span style="background:#cbcbcb">提高</span>程序员<span style="background:#cbcbcb">的</span>编程能力。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>面向对象<span style="background:#cbcbcb">软件</span>开发<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">不可</span><span style="background:#cbcbcb">缺少</span><span style="background:#cbcbcb">的</span>一环，<span style="background:#cbcbcb">是</span>保证<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span>，<span style="background:#cbcbcb">提高</span><span style="background:#cbcbcb">软件</span>可靠</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……工程、网络数据库。面向对象软件测试的研究刘金艳，尹治本，蔺娟茹（西南交通大学计算机与通信工程学院，四川成都&%""#%）摘要：面向对象<span class='green'>软件测试是面向对象软件开发的不可缺少的一环，是保证软件质量，提高软件可靠</span>性的关键。文中分析了面向对象程序设计语言的特点及其对软件测试的影响，总结……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《面向对象软件测试的研究》<br><b>作者：</b>刘金艳 尹治本 蔺娟茹<br><b>作者单位：</b>西南交通大学,计算机与通信工程学院,四川,成都,610031<br><b>参考文献：</b>8篇<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>页码：</b>P53—P56<br><b>页数：</b>4页<br><b>分类号：</b>TP311.56<br><b>机标分类号：</b>TP3 V35<br><b>期刊名称：</b>《微机发展》<br><b>出版时间：</b>2003年6期<br><b>期刊级别：</b>ISTIC<br><b>ISSN：</b>1005-3751<br><b>关键词：</b>面向对象 软件测试 单元测试 集成测试 系统测试<br><b>摘要：</b>面向对象软件测试是面向对象软件开发的不可缺少的一环,是保证软件质量,提高软件可靠性的关键.文中分析了面向对象程序设计语言的特点及其对软件测试的影响,总结了面向对象软件测试的内容、测试层次及测试用例的设计方法,同时讨论了面向对象软件测试技术的现状与发展.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >单元<span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">提高</span><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">不可</span><span style="background:#cbcbcb">缺少</span><span style="background:#cbcbcb">的</span>方式，还可以<span style="background:#cbcbcb">提高</span>程序员<span style="background:#cbcbcb">的</span>编程能力。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>面向对象<span style="background:#cbcbcb">软件</span>开发<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">不可</span><span style="background:#cbcbcb">缺少</span><span style="background:#cbcbcb">的</span>一环，<span style="background:#cbcbcb">是</span>保证<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span>，<span style="background:#cbcbcb">提高</span><span style="background:#cbcbcb">软件</span>可靠</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……第2卷第3期渝西学院学报(自然科学版)面向对象软件测试探讨谢声鹏(重庆师范大学现代信息管理系，重庆沙坪坝400047)[摘要】面向对象<span class='green'>软件测试是面向对象软件开发的不可缺少的一环，是保证软件质量，提高软件可靠</span>性的关键．但目前的研究现状与面向对象的分析、设计技术以及程序设计语言的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《面向对象软件测试探讨》<br><b>作者：</b>谢声鹏<br><b>作者单位：</b>重庆师范大学,现代信息管理系,重庆,沙坪坝,400047<br><b>参考文献：</b>2篇<br><b>被引次数：</b>3次（统计时间：2015年8月）<br><b>页码：</b>P26—P28<br><b>页数：</b>3页<br><b>分类号：</b>TP393.09<br><b>机标分类号：</b>TP3 V35<br><b>期刊名称：</b>《渝西学院学报（自然科学版）》<br><b>出版时间：</b>2003年3期<br><b>关键词：</b>面向对象 软件测试 测试策略 类测试 单元测试 集成测试<br><b>摘要：</b>面向对象软件测试是面向对象软件开发的不可缺少的一环,是保证软件质量,提高软件可靠性的关键.但目前的研究现状与面向对象的分析、设计技术以及程序设计语言的研究相比尚显薄弱.本文在分析面向对象程序设计语言对软件测试影响的基础上,讨论了面向对象软件测试的测试策略及测试技术.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >单元<span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">提高</span><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span><span style="background:#cbcbcb">的</span>不可缺少<span style="background:#cbcbcb">的</span>方式，还可以<span style="background:#cbcbcb">提高</span>程序员<span style="background:#cbcbcb">的</span>编程能力。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">测试</span>。<span style="background:#cbcbcb">提高</span><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">质量</span>和可靠性水平2<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>保证<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……问题的严重性。加强软件开发和生产管理。建立和完善软件测试的手段和方法，严格按照软件工程化方法进行软件开发和管理，实为迫切需要。万方数据重视<span class='green'>软件测试。提高软件的质量和可靠性水平2软件测试软件测试是保证软件质量。</span>提高软件可靠性的最主要活动之一。软件测试的事实是对软件规格说明。设计……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《重视软件测试,提高软件的质量和可靠性水平》<br><b>作者：</b>蔡永强<br><b>作者单位：</b>海军驻北京地区航空军事代表室,北京,100086<br><b>页码：</b>P55—P57<br><b>页数：</b>3页<br><b>分类号：</b>F406.3<br><b>机标分类号：</b>TM7 TH1<br><b>期刊名称：</b>《航空精密制造技术》<br><b>出版时间：</b>2007年6期<br><b>期刊级别：</b>ISTIC<br><b>ISSN：</b>1003-5451<br><b>关键词：</b>软件测试 软件质量 管理 措施<br><b>摘要：</b>从提高软件质量的重要性出发,简要介绍了软件测试的目的和原则,分析了当前智能设备应用软件在开发、管理和测试方面存在的主要问题以及重视软件测试,提高软件质量和可靠性水平应采取的措施.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >单元<span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>提高<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">不可</span><span style="background:#cbcbcb">缺少</span><span style="background:#cbcbcb">的</span>方式，还可以提高程序员<span style="background:#cbcbcb">的</span>编程能力。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>保证<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span><span style="background:#cbcbcb">的</span>重要活动，<span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">软件</span>项目实施<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">不可</span><span style="background:#cbcbcb">缺少</span><span style="background:#cbcbcb">的</span>环节。<span style="background:#cbcbcb">软件</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……期间，完成测试建设工作，包括自动化教本的执行和修改，以及测试用例的完善。在实际中取得了较好的测试效果。1绪论1.1课题的研究背景<span class='green'>软件测试是保证软件质量的重要活动，是软件项目实施的不可缺少的环节。软件</span>测试的直接目的是发现软件中存在的缺陷，并且测试软件的有效性。软件测试……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《某企业级系统测试方法及其应用》<br><b>作者：</b>徐倩<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>方少红<br><b>学位授予单位：</b>华中科技大学<br><b>学位年度：</b>2005<br><b>关键词：</b>软件测试 STEP方法 SONET BLSR 软件质量 结构化测试
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >单元<span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>提高<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span><span style="background:#cbcbcb">的</span>不可缺少<span style="background:#cbcbcb">的</span>方式，还可以提高程序员<span style="background:#cbcbcb">的</span>编程能力。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>保证<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">质量</span><span style="background:#cbcbcb">的</span>重要手段。文章阐述了_T-程<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">测试</span>技术</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……；己二十周年纪念文集蘸曹鸥j》工程软件测试势在必行(福州大学数学与计算机科学学院，福建福州350002)胡颖，郑文波摘要：软件质量是软件产品的根本，<span class='green'>软件测试是保证软件质量的重要手段。文章阐述了_T-程软件的测试技术</span>、工程软件测试的组织、管理和策略。强调了工程软件测试的标准化和培养……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《工程软件测试势在必行》<br><b>作者：</b>胡颖 郑文波<br><b>作者单位：</b>福州大学数学与计算机科学学院,福建,福州,350002<br><b>参考文献：</b>11篇<br><b>页码：</b>P133—P138<br><b>页数：</b>6页<br><b>分类号：</b>TP31<br><b>期刊名称：</b>《自动化博览》<br><b>出版时间：</b>2003年z1期<br><b>关键词：</b>工程软件 软件测试 软件测试管理 软件质量<br><b>摘要：</b>软件质量是软件产品的根本,软件测试是保证软件质量的重要手段.文章阐述了工程软件的测试技术、工程软件测试的组织、管理和策略.强调了工程软件测试的标准化和培养软件测试人才的迫切性.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+单元<span class="red">测试</span>是<span class="red">提高</span><span class="red">软件</span><span class="red">质量</span>的<span class="red">不可</span><span class="red">缺少</span>的方式，还可以<span class="red">提高</span>程序员的编程能力。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">单元：</span><span class="green">单位 </span><br/> <span class="red">不可：</span><span class="green">不成 不行 弗成 </span><br/> <span class="red">缺少：</span><span class="green">枯窘 窘蹙 贫乏 </span><br/> <span class="red">方式：</span><span class="green">方法 要领 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

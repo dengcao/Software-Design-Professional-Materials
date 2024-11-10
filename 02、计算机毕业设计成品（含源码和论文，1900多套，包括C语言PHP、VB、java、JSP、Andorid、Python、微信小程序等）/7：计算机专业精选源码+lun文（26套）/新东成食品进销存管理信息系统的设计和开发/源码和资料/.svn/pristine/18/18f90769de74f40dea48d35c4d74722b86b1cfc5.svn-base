@@ -1,0 +1,16 @@
+ 
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>DatePicker</title> 
+<meta name="author" content="hongru.chen" />
+    <link rel="stylesheet" href="css/calendar.css">
+    <script type="text/javascript" src="js/calendar.js"></script>
+</head>
+<body> 
+<input type="text" id="date-input" /> 
+<input type="text" id="calendar" /><br>
+<select><option>an</option></select>
+</body> 
+</html> 

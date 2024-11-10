@@ -1,0 +1,68 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, form, blockquote, dl, dd, pre {
+    margin:0;
+}
+button, th, td {
+    padding:0;
+}
+ul, ol, textarea, input {
+    margin:0;
+    padding:0;
+}
+ul, ol {
+    list-style: none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+fieldset, img {
+    border:0;
+}
+select, input, img, select {
+    vertical-align:middle;
+}
+.button {
+    color:#fff;
+}
+input {
+}
+select, textarea {
+}
+h2 {
+    font-family:"Microsoft YaHei";
+    font-weight:700;
+}
+body {
+    font:12px/1.5em Arial;
+    color:#000;
+    background:#fafafa;
+}
+a {
+    text-decoration: none;
+    color:#696969;
+}
+a:hover {
+    text-decoration: underline;
+    color:#696969;
+}
+.clear {
+    clear:both;
+}
+
+/*----------------------------------top----------------------------------*/
+.top{
+    padding-top: 50px;
+
+}
+/*----------------------------------container-----------------------------*/
+
+/*----------------------------------left----------------------------------*/
+
+/*----------------------------------mainbody-------------------------------*/
+
+/*----------------------------------footer-----------------------------*/

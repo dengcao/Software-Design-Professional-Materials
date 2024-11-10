@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="318.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="318_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >根据公司的实际情况以及公司的业务流程和数据流程分析，进销存管理系统分为如下5大管理模块。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >42</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：2个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">根据</span>公司<span style="background:#cbcbcb">的</span>实际情况以及公司<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">业务</span><span style="background:#cbcbcb">流程</span>和数据<span style="background:#cbcbcb">流程</span>分析，<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>分为<span style="background:#cbcbcb">如下</span>5大<span style="background:#cbcbcb">管理</span>模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">业务</span><span style="background:#cbcbcb">流程</span>图<span style="background:#cbcbcb">根据</span>企业<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">业务</span><span style="background:#cbcbcb">流程</span>可以设计出企业<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">业务</span><span style="background:#cbcbcb">流程</span>图<span style="background:#cbcbcb">如下</span>：<span style="background:#cbcbcb">系统</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……处理方式，随时掌制各部门的进销调存和生产情况，实现企业整体的物流、信息流和资金流的一体化管理。小微型企业的进销存业务流程基本如下图所示：图3.1企业<span class='green'>进销存业务流程图根据企业的业务流程可以设计出企业进销存管理系统的业务流程图如下：系统</span>登录验证企业进销存管理系统提示错误基本资料进货管理库存管理销售管理系统维护信息查询其他商品管理……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《企业进销存管理系统的研发与设计》<br><b>作者：</b>吕哲<br><b>学科专业：</b>计算机技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>林涛<br><b>学位授予单位：</b>河北工业大学<br><b>学位年度：</b>2012<br><b>关键词：</b>经营成本 进销存管理系统 数据模型
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">根据</span>公司的实际情况以及公司的业务流程<span style="background:#cbcbcb">和</span>数据流程<span style="background:#cbcbcb">分析</span>，<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>分为如下5大<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>。2．3<span style="background:#cbcbcb">系统</span>基本功能<span style="background:#cbcbcb">模块</span><span style="background:#cbcbcb">根据</span>实地调研<span style="background:#cbcbcb">和</span>以上<span style="background:#cbcbcb">分析</span>，<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>不仅可以用来<span style="background:#cbcbcb">管理</span>企业日常</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，所以必须严格保证数据安全性和完整性。因此，良好的安全机制也是系统不可或缺的。总之，企业要在企业信息化大背景下，以业务为根基，选用或开发适合本企业发展的进销存管理<span class='green'>系统。2．3系统基本功能模块根据实地调研和以上分析，进销存管理系统不仅可以用来管理企业日常</span>经营中最基本的采购、销售、库存、运输配送以及由此产生的应收应付、往来管理等基本业务，同时还……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《钢材进销存管理系统研究》<br><b>作者：</b>廖细雄<br><b>分类号：</b>TP391.78<br><b>学科专业：</b>机械电子工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李凯<br><b>学位授予单位：</b>北京服装学院<br><b>学位年度：</b>2007<br><b>关键词：</b>钢材批发企业 库存管理 数据库管理系统 业务模型
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">根据：</span><span class="green">凭据 凭证 按照 </span><br/> <span class="red">实际：</span><span class="green">现实 </span><br/> <span class="red">业务：</span><span class="green">买卖 交易 生意 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

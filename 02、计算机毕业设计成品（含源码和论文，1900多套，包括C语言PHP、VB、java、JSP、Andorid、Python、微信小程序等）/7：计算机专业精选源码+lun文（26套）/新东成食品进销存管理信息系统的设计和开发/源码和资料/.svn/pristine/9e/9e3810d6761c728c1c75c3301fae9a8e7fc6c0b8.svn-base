@@ -1,0 +1,503 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="220.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="220_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='red' >图3-8 进销存管理系统顶层数据流程图</span><br><br>
+<div style="display:none;">该句相似度：<span class='red' >84</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：36个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='red' >84</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span>3-8<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span>流程<span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">图</span>4-1<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span>流<span style="background:#cbcbcb">图</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……析方法和规则从数据流图导出系统模块结构图。顶层数据流图如图4-1所示：<span class='green'>图4-1进销存管理系统顶层数据流图</span>食品进销存管理系统客户操作人员查询……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《食品进销存管理系统的设计与实现》<br><b>作者：</b>郭亦文<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>戴一岗<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2009<br><b>关键词：</b>管理信息系统 数据库技术 食品进销存管理 盘点
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='red' >72</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span>3-8<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">．6图书<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span>(</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，查看各类表单和报表，查询核对有关信息。如图2．6为顶层数据流程图。图2<span class='green'>．6图书进销存管理系统顶层数据流程图(</span>2)零层图一个系统可以被分解为若干个子……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《图书进销存管理系统的设计与实现》<br><b>作者：</b>车鑫<br><b>分类号：</b>F274<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李旭东<br><b>学位授予单位：</b>南开大学<br><b>学位年度：</b>2011<br><b>关键词：</b>图书进销存 数据库 管理信息系统 业务流程
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='red' >70</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-<span style="background:#cbcbcb">8</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span>系统顶层<span style="background:#cbcbcb">数据</span>流程<span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">3</span>-<span style="background:#cbcbcb">8</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span>发卖办理一层<span style="background:#cbcbcb">数据</span>流<span style="background:#cbcbcb">图</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……退销售货单文件发卖订单发卖收款单发卖退销售退货回销售单出货付款单发卖出货单发卖收款单销售<span class='green'>管理3-8进销存发卖办理一层数据流图</span>(c)库存数据管理图图3-9为库存办理……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于Web的进销存管理系统的设计和实现》<br><b>作者：</b>刘莎<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>左锋<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>进销存管理 信息管理系统 J2EE SSH
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='red' >70</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span>3-8<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span>流程<span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">的分析<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span>流<span style="background:#cbcbcb">图</span>如<span style="background:#cbcbcb">图</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……重点获取输入和输出数据特点为设计构件的接口建立依据。（1）进销存（JXC）顶层DFD<span class='green'>的分析进销存管理系统顶层数据流图如图</span>4-3。数据首先出自基础数据的设置，通过……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于工作流的构件组装技术研究与应用》<br><b>作者：</b>唐一韬<br><b>分类号：</b>TP311.5<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>尤志强<br><b>学位授予单位：</b>湖南大学<br><b>学位年度：</b>2007<br><b>关键词：</b>软件复用 工作流 工作流引擎
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >63</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-8进销存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">3</span>．4商品库存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>．</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……(即：顶层图)概括了该系统的总体功能，说明了主要的输入流和输出流等。图<span class='green'>3．4商品库存管理系统顶层数据流程图3．</span>3．2一层数据流程图第一层数据流程图(即……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于.NET平台的商品库存管理系统的设计与实现》<br><b>作者：</b>王颖<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>杨青<br><b>学位授予单位：</b>西安电子科技大学<br><b>学位年度：</b>2009<br><b>关键词：</b>库存管理系统 企业信息化 代码设计 数据库设计
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >60</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span>3-8<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span>管理<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">浩华公司<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span>上<span style="background:#cbcbcb">图</span>所</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……系统出货表配货表退货表发货单补货单采购单采购退货单采购批量通知库存台账图3-4<span class='green'>浩华公司进销存系统顶层数据流程上图所</span>述中各加工分成对应子系统，可得系统第一层数据……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《广东浩华服饰有限公司进销存系统的设计与实现》<br><b>作者：</b>谢秀红<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>陈伟雄<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>服装 进销存系统 系统设计 进销存 系统
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >58</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span>3-8进销存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">一个<span style="background:#cbcbcb">管理</span>学校学藉办理<span style="background:#cbcbcb">系统</span>的<span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span>!</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……"然后逐层向下分析分解直到把系统分化为详细的低层次的数据流程图!如高等+是<span class='green'>一个管理学校学藉办理系统的顶层数据流程图!</span>图，-图.则管理别是学藉办理系统的/……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《业务流程图与数据流程图的比较》<br><b>作者：</b>冯志波<br><b>作者单位：</b>郑州大学西亚斯国际学院工商管理系<br><b>参考文献：</b>7篇<br><b>页码：</b>P111—P112<br><b>页数：</b>2页<br><b>分类号：</b>TP3<br><b>机标分类号：</b>TP3 TF0<br><b>期刊名称：</b>《科技信息（学术版）》<br><b>出版时间：</b>2007年1期<br><b>ISSN：</b>1001-9960<br><b>关键词：</b>结构化系统开发方法 系统调研 业务流程图 数据流程图<br><b>摘要：</b>业务流程图(Transaction Flow Diagram 简称TFD)和数据流程图(Data Flow Diagram 简称DFD)是结构化信息系统开发方法中两种常用的图形工具.本文从描述对象、功能作用、基本符号和绘制方法四个方面阐述二者的区别,对它们的联系也作了介绍.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >56</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >图<span style="background:#cbcbcb">3</span>-8<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>顶层<span style="background:#cbcbcb">数据</span>流程图</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">．<span style="background:#cbcbcb">3</span>仓储企业<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">数据</span>库设计<span style="background:#cbcbcb">进</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……和出库模块信息查询功能的集中与强化，为管理层提供更多的信息，并对各项数据统计管理<span class='green'>．3仓储企业进销存管理系统数据库设计进</span>销存管理系统的数据库设计主要是围绕库存来展开……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《仓储企业进销存管理系统的设计与实现》<br><b>作者：</b>王全彬<br><b>作者单位：</b>康定民族师范高等专科学校,四川康定,626001<br><b>参考文献：</b>4篇<br><b>被引次数：</b>3次（统计时间：2015年8月）<br><b>页码：</b>P47—P49<br><b>页数：</b>3页<br><b>分类号：</b>TP274<br><b>机标分类号：</b>F27 S37<br><b>期刊名称：</b>《通化师范学院学报》<br><b>出版时间：</b>2009年4期<br><b>ISSN：</b>1008-7974<br><b>关键词：</b>信息化 进销存 优化管理<br><b>摘要：</b>仓储企业的多样性及其灵活多变的经营方式.加上相关投入量的限制,使得很多仓储企业没有进行信息化建设.因此.开发基于仓储企业应用的进销存管理系统尤为重要.该文给出了能够满足仓储企业进销存管理的仓储企业进销存管理系统的设计与实现方案.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">9</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-8进销存<span style="background:#cbcbcb">管理</span>系统<span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">图</span>4-<span style="background:#cbcbcb">3</span>l财务<span style="background:#cbcbcb">管理</span>模块<span style="background:#cbcbcb">顶层</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">流程</span>财务<span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……嫠l算单Il”…。I请款单客户-竺望兰I财务管理系统I：置暑量：薪资结算清单<span class='green'>图4-3l财务管理模块顶层数据流程财务管理</span>部分一般分为会计核算与财务管理两大块。其中会计核算……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《景区物流管理信息系统研究与构建》<br><b>作者：</b>黄梅<br><b>分类号：</b>F253.9<br><b>学科专业：</b>旅游管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张锦<br><b>学位授予单位：</b>西南交通大学<br><b>学位年度：</b>2010<br><b>关键词：</b>景区物流管理 管理模式 管理信息系统 服务水平 物流市场
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">10</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">3</span>-8<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>顶层数据流程<span style="background:#cbcbcb">图</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">图</span>4．<span style="background:#cbcbcb">3</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>功能模块<span style="background:#cbcbcb">图</span><span style="background:#cbcbcb">图</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……采购管理进一步细化，得到采购管理一层数据流程图(图4．5)大连理工大学专业学位硕士学位论文<span class='green'>图4．3进销存管理系统功能模块图图</span>4．4系统零级图医疗器械公司进销存系统……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《医疗器械公司进销存系统的设计与实现》<br><b>作者：</b>季蓉蓉<br><b>分类号：</b>TP315<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>罗钟铉<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2009<br><b>关键词：</b>医疗器械企业 信息管理系统 进销存系统
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

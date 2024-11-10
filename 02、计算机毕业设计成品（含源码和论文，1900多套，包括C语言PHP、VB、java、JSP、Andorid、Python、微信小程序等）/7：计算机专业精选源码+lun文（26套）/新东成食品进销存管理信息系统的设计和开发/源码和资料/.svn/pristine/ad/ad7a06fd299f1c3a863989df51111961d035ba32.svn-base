@@ -1,0 +1,72 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.PriceMapper;
+import com.nemo.pojo.Price;
+import com.nemo.service.PriceServer;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/13 16:39
+ * 价格具体实现类
+ */
+@Service
+public class PriceImpl implements PriceServer {
+
+    @Autowired
+    PriceMapper priceMapper;
+
+    @Override
+    public List<Price> findPriceList() {
+        return priceMapper.findPriceList();
+    }
+
+    @Override
+    public boolean deletePriceById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("foodId",id+"");
+        return priceMapper.deletePriceById(map);
+    }
+
+    @Override
+    public boolean updatePrice(Price price) {
+        return priceMapper.updatePrice(price);
+    }
+
+    @Override
+    public boolean addPrice(Price price) {
+        return priceMapper.addPrice(price);
+    }
+
+    @Override
+    public Price findPriceById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("foodId",id+"");
+        return priceMapper.findPriceById(map);
+    }
+
+    @Override
+    public List<Price> findLimitList(int start, int end) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        return priceMapper.findLimitList(map);
+    }
+
+    @Override
+    public int count() {
+        return priceMapper.count();
+    }
+
+    @Override
+    public List<Price> findFuzzyList(String condition) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where concat(foodId,foodName,purchasePrice,salePrice) like "+"'%"+condition+"%'");
+        return priceMapper.findFuzzyList(map);
+    }
+}

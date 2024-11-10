@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>修改密码</title>
+    <script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+</head>
+<body>
+<a href="${ctx}/index.jsp">返回主页</a>
+<a href="${ctx}/user/list">返回列表</a>
+<hr />
+<form action="${ctx}/user/editPSW" method="post">
+    <input type="hidden" name="username" value="${name}">
+    <table>
+        <tr>
+            <td>修改密码：</td>
+            <td><input type="text" name="userPSW" ></td>
+        </tr>
+        <td></td>
+        <td><input type="submit" value="修改"></td>
+    </table>
+
+</form>
+</body>
+</html>

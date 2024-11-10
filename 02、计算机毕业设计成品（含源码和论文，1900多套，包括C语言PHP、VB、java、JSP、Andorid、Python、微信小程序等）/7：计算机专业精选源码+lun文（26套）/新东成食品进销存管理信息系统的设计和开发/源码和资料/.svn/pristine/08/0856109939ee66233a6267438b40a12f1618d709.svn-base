@@ -1,0 +1,63 @@
+package com.nemo.utils;
+
+import com.google.gson.Gson;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class CustomUtils {
+	
+	public static boolean isEmpty(String str) {
+		if (str == null || "".equals(str.trim())) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public static boolean isNotEmpty(String str) {
+		if ((str != null) && !"".equals(str.trim())) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public static String formatLike(String str) {
+		if (isNotEmpty(str)) {
+			return "%" + str + "%";
+		} else {
+			return null;
+		}
+	}
+	/**
+	 *@Author 刘宇飞
+	 *@Date 2016/04/05 20:02
+	 *  转码
+	 */
+	public static String transcoding(String str) throws Exception{
+		String tran = new String(str.getBytes("ISO-8859-1"), "UTF-8");
+		return tran;
+	}
+
+	/**
+	 * 对象转换成json字符串
+	 *
+	 * @param obj
+	 * @return
+	 */
+	public static String toJson(Object obj) {
+		Gson gson = new Gson();
+		return gson.toJson(obj);
+	}
+
+	public static String getLocaTime(){
+		Date dt=new Date();
+		SimpleDateFormat matter1=new SimpleDateFormat("yyyy-MM-dd");
+		return matter1.format(dt);
+	}
+
+
+
+
+}

@@ -1,0 +1,3 @@
+2016-12-22 15:45:12 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=魅族新闻&salt=1482392707&sign=0a37a114b386d010b949a92903858f5fd755b37a occur:4351ms
+2016-12-22 15:52:41 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=魅族新闻&salt=1482393158&sign=c3437c400d43eaa393d88a9e9f9a854a72aa7a43 occur:2436ms
+2016-12-22 16:55:35 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=魅族新闻&salt=1482396932&sign=82b9838baf11ae49f7fefcb0ca56d7a6f3de7023 occur:2401ms

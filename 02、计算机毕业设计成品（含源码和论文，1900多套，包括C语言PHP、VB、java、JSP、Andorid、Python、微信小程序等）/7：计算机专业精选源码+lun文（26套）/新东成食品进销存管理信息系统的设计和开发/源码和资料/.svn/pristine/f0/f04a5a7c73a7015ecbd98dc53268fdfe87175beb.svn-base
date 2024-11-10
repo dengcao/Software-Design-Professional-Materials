@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="common/public.jsp" %>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>系统登陆</title>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                    $("#username").val(window.username);
+                    $("#userPSW").val(window.userPSW);
+                    $("#login").click(function () {
+                        var username = $("#username").val();
+                        var userPSW = $("#userPSW").val();
+                        var url = "${ctx}/user/login";
+                        $.post(url, {username: username, userPSW: userPSW}, function (data, status) {
+                            if (status == "success") {
+                                var obj = eval('(' + data + ')');
+                                if (obj != null) {
+
+                                    $.cookie("userId", obj.id, {expires: 7});
+                                    $.cookie("username", obj.username, {expires: 7});
+                                    $.cookie("userPSW", obj.userPSW, {expires: 7});
+                                    $.cookie("userPower", obj.userPower, {expires: 7});
+
+                                    window.location.href = "main.jsp"
+                                } else {
+                                    alert("账号或密码错误")
+                                }
+
+                            } else {
+                                alert("服务器异常");
+                            }
+                        });
+                    });
+                    $("#reset").click(function () {
+                        $("#username").val("");
+                        $("#userPSW").val("");
+                    });
+                }
+        );
+    </script>
+
+</head>
+
+<body>
+<br/>
+<br/><br/><br/>
+<br/><br/><br/>
+<center>
+    <a style="font-size: xx-large;color: #0000ff">新东成进销存管理信息系统</a>
+    <br/><br/><br/>
+    <br/>
+    <table style="">
+        <tr>
+            <td>用户名：</td>
+            <td><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td>密 码:</td>
+            <td><input type="password" id="userPSW"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button id="login" style="margin: 10px">登陆</button>
+                <button id="reset">重置</button>
+            </td>
+        </tr>
+    </table>
+</center>
+
+</body>
+</html>

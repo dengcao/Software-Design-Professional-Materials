@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="339.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="339_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >采购详细表{详细计划编号，采购计划编号，食品编号，食品名称，食品价格，计划采购数量，采购总金额，备注}</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >45</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：2个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">采购</span>详细表{详细<span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">编号</span>，食品名称，食品价格，<span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">数量</span>，<span style="background:#cbcbcb">采购</span>总金额，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">采购</span>打算(<span style="background:#cbcbcb">采购</span>打算部门，物资<span style="background:#cbcbcb">编号</span><span style="background:#cbcbcb">数量</span>工程<span style="background:#cbcbcb">编号</span>，部分<span style="background:#cbcbcb">编号</span><span style="background:#cbcbcb">计划</span>需求时间，需求<span style="background:#cbcbcb">数量</span>间，打算时间时候<span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">采购</span>数目，最迟</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……部门需求清单编号，工程编号，部分编号，零数量编号，时间编号，需求数目，需求时候，计划料限额)计划.物料需求打算(物料需求打算部门，工程编号计划物资编号，部分数量，采购时间员编号，需求计划，需求计划)R.<span class='green'>采购打算(采购打算部门，物资编号数量工程编号，部分编号计划需求时间，需求数量间，打算时间时候计划采购数目，最迟</span>采购时候，打算采购单价，审核标志，审核任务，审核任务)R.采购计划单(义务单编号，采购打算编号计划物资编号……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于本体的物资管理领域企业行为数据模型研究》<br><b>作者：</b>焦宏想<br><b>分类号：</b>F270<br><b>学科专业：</b>管理科学与工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>葛世伦<br><b>学位授予单位：</b>江苏科技大学<br><b>学位年度：</b>2007<br><b>关键词：</b>企业信息化 企业行为数据 企业管理 物资管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">采购</span>详细表{详细计划<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">采购</span>计划<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">名称</span>，食品价格，计划<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">数量</span>，<span style="background:#cbcbcb">采购</span>总金额，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">采购</span>员，…)R．<span style="background:#cbcbcb">采购</span>订单(<span style="background:#cbcbcb">采购</span>订单<span style="background:#cbcbcb">编号</span>，物资<span style="background:#cbcbcb">名称</span>，供应商<span style="background:#cbcbcb">编号</span>，品名规格，<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">数量</span>，<span style="background:#cbcbcb">采购</span>单价，到货</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，零件编号，物资编号，需求数量，需求时间，部门编号，…)R．采购计划(工程编号，零件编号，物资编号，需求数量，采购数量，采购时间，…)R．采购任务单(任务单编号，物资编号，采购数量，采购时间，<span class='green'>采购员，…)R．采购订单(采购订单编号，物资名称，供应商编号，品名规格，采购数量，采购单价，到货</span>时间，R．资金计划(日期，客户编号，物资编号，入库数量，开票，付款，应付款，…)R．物资询价……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于本体的企业行为数据模型研究》<br><b>作者：</b>焦宏想 葛世伦 孙清<br><b>作者单位：</b>江苏科技大学,经济管理学院,江苏,镇江,212003<br><b>参考文献：</b>9篇<br><b>页码：</b>P4—P8<br><b>页数：</b>5页<br><b>分类号：</b>TP311<br><b>机标分类号：</b>TP3 F27<br><b>基金项目：</b>国家自然科学基金(70472005);教育部人文社会科学规划项目(03JD630025)<br><b>期刊名称：</b>《中国制造业信息化》<br><b>出版时间：</b>2006年23期<br><b>期刊级别：</b>ISTIC<br><b>ISSN：</b>1672-1616<br><b>关键词：</b>本体论 情景演算 数据模型 物资管理<br><b>摘要：</b>做好企业数据总体规划,建立企业数据模型有助于企业管理信息系统的成功实施.采用了本体论和情景演算方法形式化地描述企业运作过程,分析了管理活动与数据文件间的关系,进而归纳得到企业管理职能区域内的行为数据模型,并用关系模型表示之.最后以大型单件小批制造企业中物资管理领域为例,应用该建模方法建立了该领域的行为数据模型.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">计划：</span><span class="green">打算 筹算 规划 </span><br/> <span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">价格：</span><span class="green">代价 价值 价钱 </span><br/> <span class="red">数量：</span><span class="green">数目 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

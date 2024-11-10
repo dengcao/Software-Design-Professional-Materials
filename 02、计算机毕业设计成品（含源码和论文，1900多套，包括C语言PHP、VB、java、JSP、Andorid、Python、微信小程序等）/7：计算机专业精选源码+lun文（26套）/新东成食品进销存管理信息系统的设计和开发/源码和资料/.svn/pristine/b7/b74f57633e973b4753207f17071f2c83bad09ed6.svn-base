@@ -1,0 +1,351 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : localhost_3306
+Source Server Version : 50517
+Source Host           : localhost:3306
+Source Database       : sms
+
+Target Server Type    : MYSQL
+Target Server Version : 50517
+File Encoding         : 65001
+
+Date: 2016-05-19 09:37:44
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for backuptime
+-- ----------------------------
+DROP TABLE IF EXISTS `backuptime`;
+CREATE TABLE `backuptime` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `time` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of backuptime
+-- ----------------------------
+INSERT INTO `backuptime` VALUES ('1', '2016-05-18 17:09:24');
+
+-- ----------------------------
+-- Table structure for buy_plan
+-- ----------------------------
+DROP TABLE IF EXISTS `buy_plan`;
+CREATE TABLE `buy_plan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `buyPlanId` varchar(100) NOT NULL,
+  `salePlanId` varchar(50) NOT NULL,
+  `createTime` date NOT NULL,
+  `proposerId` int(11) NOT NULL,
+  `proposer` varchar(50) NOT NULL,
+  `approverId` int(11) NOT NULL,
+  `approver` varchar(50) NOT NULL,
+  `planSumMoney` varchar(50) DEFAULT NULL,
+  `propStatus` int(11) NOT NULL,
+  `approverOpinion` text,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of buy_plan
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for buy_plan_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `buy_plan_detail`;
+CREATE TABLE `buy_plan_detail` (
+  `detailId` int(11) NOT NULL AUTO_INCREMENT,
+  `buyPlanId` varchar(255) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `foodPrice` double(10,3) NOT NULL,
+  `buyNum` int(11) NOT NULL,
+  `buyTotalMoney` double(10,3) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`detailId`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of buy_plan_detail
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for food
+-- ----------------------------
+DROP TABLE IF EXISTS `food`;
+CREATE TABLE `food` (
+  `foodId` int(11) NOT NULL AUTO_INCREMENT,
+  `foodName` varchar(100) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`foodId`)
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of food
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for foodclass
+-- ----------------------------
+DROP TABLE IF EXISTS `foodclass`;
+CREATE TABLE `foodclass` (
+  `classId` int(11) NOT NULL AUTO_INCREMENT,
+  `className` varchar(100) NOT NULL,
+  PRIMARY KEY (`classId`)
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of foodclass
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for price
+-- ----------------------------
+DROP TABLE IF EXISTS `price`;
+CREATE TABLE `price` (
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `purchasePrice` double(10,3) NOT NULL,
+  `salePrice` double(10,3) NOT NULL,
+  `remarks` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`foodId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of price
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for provider
+-- ----------------------------
+DROP TABLE IF EXISTS `provider`;
+CREATE TABLE `provider` (
+  `providerId` int(11) NOT NULL AUTO_INCREMENT,
+  `providerName` varchar(100) NOT NULL,
+  `linkman` varchar(100) NOT NULL,
+  `linkNumber` varchar(100) NOT NULL,
+  `providerAdress` text,
+  `remarks` text,
+  PRIMARY KEY (`providerId`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of provider
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for provide_food
+-- ----------------------------
+DROP TABLE IF EXISTS `provide_food`;
+CREATE TABLE `provide_food` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `providerId` int(11) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `purchasePrice` double(100,0) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of provide_food
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for qcheck
+-- ----------------------------
+DROP TABLE IF EXISTS `qcheck`;
+CREATE TABLE `qcheck` (
+  `checkId` varchar(50) NOT NULL,
+  `userId` int(11) NOT NULL,
+  `userName` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `checkNum` double(11,4) NOT NULL,
+  `qualifiedNum` double(11,4) NOT NULL,
+  `qualifiedRate` double(11,4) NOT NULL,
+  `opinion` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of qcheck
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for sale_plan
+-- ----------------------------
+DROP TABLE IF EXISTS `sale_plan`;
+CREATE TABLE `sale_plan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `salePlanId` varchar(50) NOT NULL,
+  `createTime` date NOT NULL,
+  `startTime` date NOT NULL,
+  `endTime` date NOT NULL,
+  `proposerId` int(11) NOT NULL,
+  `proposer` varchar(50) NOT NULL,
+  `approverId` int(11) NOT NULL,
+  `approver` varchar(50) NOT NULL,
+  `planSumMoney` varchar(50) DEFAULT NULL,
+  `propStatus` int(11) NOT NULL,
+  `approverOpinion` text,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of sale_plan
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for sale_plan_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `sale_plan_detail`;
+CREATE TABLE `sale_plan_detail` (
+  `detailId` int(11) NOT NULL AUTO_INCREMENT,
+  `salePlanId` varchar(255) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `foodPrice` double(10,3) NOT NULL,
+  `saleNum` int(11) NOT NULL,
+  `saleTotalMoney` double(10,3) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`detailId`)
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of sale_plan_detail
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for store
+-- ----------------------------
+DROP TABLE IF EXISTS `store`;
+CREATE TABLE `store` (
+  `id` varchar(255) NOT NULL,
+  `storeId` int(11) NOT NULL AUTO_INCREMENT,
+  `intId` varchar(255) NOT NULL,
+  `foodBarCode` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodNum` int(10) NOT NULL,
+  `inputNum` int(11) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `storageType` varchar(10) NOT NULL,
+  `storageDate` date NOT NULL,
+  `overDate` date NOT NULL,
+  `storegeTotal` int(10) NOT NULL,
+  `storegeMin` int(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`storeId`)
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for store_int
+-- ----------------------------
+DROP TABLE IF EXISTS `store_int`;
+CREATE TABLE `store_int` (
+  `intId` varchar(20) NOT NULL,
+  `preIntId` varchar(50) DEFAULT NULL,
+  `userName` varchar(50) NOT NULL,
+  `foodBarCode` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodNum` int(10) NOT NULL,
+  `qualifiedNum` int(11) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `intType` int(10) NOT NULL,
+  `overDate` date NOT NULL,
+  `status` int(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`intId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_int
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for store_out
+-- ----------------------------
+DROP TABLE IF EXISTS `store_out`;
+CREATE TABLE `store_out` (
+  `outStoreId` int(11) NOT NULL AUTO_INCREMENT,
+  `storeId` int(11) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodOutNum` int(10) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `storageOutType` varchar(10) NOT NULL,
+  `storageOutDate` date NOT NULL,
+  `overDate` date NOT NULL,
+  `remarks` text,
+  `recAmount` double(50,3) DEFAULT NULL,
+  `reaAmount` double(50,3) DEFAULT NULL,
+  `userName` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`outStoreId`)
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_out
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for store_pre_int
+-- ----------------------------
+DROP TABLE IF EXISTS `store_pre_int`;
+CREATE TABLE `store_pre_int` (
+  `preIntId` varchar(20) NOT NULL,
+  `userId` int(11) NOT NULL,
+  `userName` varchar(50) NOT NULL,
+  `intType` int(10) NOT NULL,
+  `createTime` date NOT NULL,
+  `intDate` date NOT NULL,
+  `status` int(10) NOT NULL,
+  `reason` text NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`preIntId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_pre_int
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `birthday` varchar(50) NOT NULL,
+  `sex` varchar(10) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `userPSW` varchar(10) NOT NULL,
+  `userPower` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------

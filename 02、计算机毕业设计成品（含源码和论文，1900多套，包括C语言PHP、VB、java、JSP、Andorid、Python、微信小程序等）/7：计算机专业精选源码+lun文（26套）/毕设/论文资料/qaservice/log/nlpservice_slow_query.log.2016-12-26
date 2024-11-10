@@ -1,0 +1,5 @@
+2016-12-26 17:46:10 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=我想听张学友的张三的歌&salt=1482745490&sign=4f2aca43e63e600cbc783c2941afc4f0e940824a occur:79733ms
+2016-12-26 18:03:13 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=我想听张学友的张三的歌&salt=1482746587&sign=ce133f74192e44aede95dd3474dfd4521d83c62f occur:6104ms
+2016-12-26 18:05:09 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=我想听张学友的张三的歌&salt=1482746661&sign=508c66096667afb73f4ae1dbe1f7a126245d32ef occur:47841ms
+2016-12-26 18:06:00 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=我想听齐秦的张三的歌&salt=1482746745&sign=36cd239d3dd93d2f9bac8ef50f504277a202e21d occur:14470ms
+2016-12-26 18:08:09 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=我想听张学友的一生一火花&salt=1482746870&sign=061d7ed078c5e04d52de1d741d8540cdca40f702 occur:18641ms

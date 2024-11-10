@@ -1,0 +1,118 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/comonFoodSelect.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>新增质检报告</title>
+<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			if(window.userPower==0||window.userPower==34){
+			}else{
+				$("#save").hide();
+			}
+		});
+	</script>
+	<script type="text/javascript">
+		function  custom(obj){
+			$("#foodId").val(obj.foodId);
+			$("#foodName").val(obj.foodName);
+		}
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var d = new Date()
+			var vYear = d.getFullYear()
+			var vMon = d.getMonth() + 1
+			var vDay = d.getDate()
+			var h = d.getHours();
+			var m = d.getMinutes();
+			var se = d.getSeconds();
+			s=vYear+(vMon<10 ? "0" + vMon : vMon)+(vDay<10 ? "0"+ vDay : vDay)+
+			(h<10 ? "0"+ h : h)+(m<10 ? "0" + m : m)+(se<10 ? "0" +se : se);
+			var checkId="QC"+s;
+			$("#checkId").val(checkId);
+			$("#userId").val(window.userId);
+			$("#userName").val(window.username);
+
+			$("#checkNum").change(function(){
+				var check=	$("#checkNum").val();
+				var qualified=$("#qualifiedNum").val();
+				if(check>0){
+					if(qualified!=""){
+						if(check>=qualified){
+							var rate=Number(qualified)/Number(check);
+							$("#qualifiedRate").val(rate);
+						}else{
+							alert("合格量不能大于抽检量");
+							$("#qualifiedNum").val(1);
+						}
+					}
+				}else{
+					alert("抽检量不小于0")
+				}
+
+			});
+			$("#qualifiedNum").change(function(){
+               var qualifiedNum=$("#qualifiedNum").val();
+				var checkNum=	$("#checkNum").val();
+				if(checkNum>0){
+					if(checkNum!=""){
+						if(checkNum>=qualifiedNum){
+							var rate=Number(qualifiedNum)/Number(checkNum);
+							$("#qualifiedRate").val(rate);
+						}else{
+							alert("合格量不能大于抽检量");
+							$("#qualifiedNum").val(1);
+						}
+					}
+				}else{
+					alert("抽检量不小于0")
+				}
+
+			});
+
+		});
+	</script>
+</head>
+<body>
+<a href="${ctx}/check/list">质检报告列表</a>
+<hr />
+<form action="${ctx }/check/save" method="post" id="from">
+	<input type="hidden" name="userId" id="userId">
+	<input type="hidden" name="foodId" id="foodId">
+<table style="width: 300px;margin: auto;">
+<tr>
+	<td>质检ID</td>
+	<td><input type="text" name="checkId" id="checkId" required  readonly/></td>
+	</tr><tr>
+	<td>质检人</td>
+	<td><input type="text" name="userName" id="userName" required readonly/></td>
+</tr><tr>
+	<td>食品名称</td>
+	<td><input type="text" name="foodName" id="foodName" required readonly/></td>
+</tr><tr>
+	<td>质检量</td>
+	<td><input type="text" name="checkNum" id="checkNum" required /></td>
+</tr><tr>
+	<td>合格量</td>
+	<td><input type="text" name="qualifiedNum" id="qualifiedNum" required /></td>
+</tr><tr>
+	<td>合格率</td>
+	<td><input type="text" name="qualifiedRate" id="qualifiedRate" required readonly/></td>
+</tr><tr>
+	<td>质检意见</td>
+	<td><input type="text" name="opinion" id="opinion"  /></td>
+
+</tr>
+	<td></td>
+	<td id="save"><input type="submit" value="保存"  > </td>
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>

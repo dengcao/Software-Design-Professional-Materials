@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.StoreMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 库存列表 -->
+	<select id="findStoreList"
+		resultType="com.nemo.pojo.Store">
+		select * from store order by foodName DESC , storegeTotal DESC;
+	</select>
+
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.Store">
+		select * from store  order by foodName DESC , overDate DESC limit ${start},${end};
+	</select>
+	<!-- 分页查找 -->
+	<select id="findPoliceLimitList"
+			resultType="com.nemo.pojo.Store">
+		select * from store
+		where   <![CDATA[overDate<(select timestampadd(day, 7, now())) or (storegeMin> foodNum and foodNum!=0)  limit ${start},${end}]]>
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.Store" parameterType="java.util.Map">
+		<![CDATA[select * from store  ${condition} ]]>
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(storeId) from store
+	</select>
+	<!-- 根据id查找库存商品-->
+	<select id="findStoreById" resultType="com.nemo.pojo.Store">
+		select * from store where storeId=#{storeId}
+	</select>
+
+	<!-- 根据食品名称查找库存商品-->
+	<select id="findStoreByFoodName" resultType="com.nemo.pojo.Store">
+		select * from store where   foodName=#{foodName} order by overDate DESC
+	</select>
+
+<!-- 根据分类id删除分类 -->
+	<delete id="deleteStoreById" >
+		delete from store where storeId = #{storeId}
+	</delete>
+	
+	<!-- 更新分类 -->
+	<update id="updateStore">
+		update store set storageType=#{storageType},overDate=#{overDate},foodNum=#{foodNum},inputNum=#{inputNum},
+		StoregeMin=${storegeMin},remarks=#{remarks}
+		 where storeId=${storeId};
+	</update>
+
+	<!-- 更新总库存-->
+	<update id="setTotalZero">
+		update store set storegeTotal=0
+		where storeId=${storeId};
+	</update>
+	<!-- 根据id更新总库存-->
+	<update id="setStoreTotal">
+		update store set storegeTotal=${storegeTotal}
+		where storeId=${storeId};
+	</update>
+	<!-- 更新入库数量-->
+	<update id="setFoodNum">
+		update store set foodNum=${foodNum}
+		where storeId=${storeId};
+	</update>
+	<!-- 增加分类-->
+	<insert id="addStore">
+		insert into store(id,intId,foodBarCode,foodId,foodName,foodStandard,foodNum,inputNum,classId,className,providerName,
+		storageType,storageDate,overDate,storegeTotal,StoregeMin,remarks)
+		values(#{id},#{intId},#{foodBarCode},#{foodId},#{foodName},#{foodStandard},#{foodNum},#{inputNum},#{classId},#{className},
+			#{providerName},#{storageType},#{storageDate},#{overDate},#{storegeTotal},#{storegeMin},#{remarks})
+	</insert>
+
+</mapper>

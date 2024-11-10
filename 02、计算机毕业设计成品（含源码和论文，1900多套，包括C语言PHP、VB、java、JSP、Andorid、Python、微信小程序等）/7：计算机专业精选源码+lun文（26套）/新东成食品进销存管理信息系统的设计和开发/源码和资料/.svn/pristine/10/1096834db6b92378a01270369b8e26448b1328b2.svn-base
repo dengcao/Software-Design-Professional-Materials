@@ -1,0 +1,24 @@
+drop database sms;
+create database sms;
+use sms;
+
+create table user(
+  id int auto_increment primary key,
+  username varchar(50) not null,
+  birthday varchar(50) not null,
+  sex varchar(10) not null,
+  address varchar(100) not null
+
+);
+
+insert into user values(1,"ÁõÓî·É","1993","1","¹ãÎ÷ÓñÁÖ");
+
+select * from user;
+
+
+
+ show variables like 'character%';
+ 
+set character_set_client='utf8';
+
+mysql -uroot -p1

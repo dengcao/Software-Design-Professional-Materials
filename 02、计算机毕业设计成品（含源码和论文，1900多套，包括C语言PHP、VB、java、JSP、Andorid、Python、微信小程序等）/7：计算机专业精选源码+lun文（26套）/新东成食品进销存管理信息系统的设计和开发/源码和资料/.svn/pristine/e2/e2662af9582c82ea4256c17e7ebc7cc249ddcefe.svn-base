@@ -1,0 +1,30 @@
+package com.nemo.mapper;
+
+import com.nemo.pojo.Provider;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 12:00
+ * 供应商mapper
+ */
+public interface ProviderMapper {
+
+    public List<Provider> findProviderList();
+
+    public int deleteProviderById(Map<String, String> map);
+
+    public int updateProvider(Provider provider);
+
+    public int addProvider(Provider provider);
+
+    public Provider findProviderById(Map<String, String> map);
+
+    public List<Provider> findLimitList(Map<String, String> map);
+
+    public int count();
+
+    public List<Provider> findFuzzyList(Map<String,String> map);
+}

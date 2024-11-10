@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.FoodMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找食品列表 -->
+	<select id="findFoodList"
+		resultType="com.nemo.pojo.Food">
+		select * from food;
+	</select>
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.Food" parameterType="java.util.Map">
+		<![CDATA[select * from food  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.Food">
+		select * from food limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(foodId) from food
+	</select>
+
+	<!-- 根据分类查找食品列表 -->
+	<select id="findFoodList2"
+			resultType="com.nemo.pojo.Food">
+		select * from food where className=#{className};
+	</select>
+
+	<!-- 根据id查找食品-->
+	<select id="findFoodById" resultType="com.nemo.pojo.Food">
+		select * from food where foodId=${foodId}
+	</select>
+
+<!-- 根据食品id删除食品 -->
+	<delete id="deleteFoodById" >
+		delete from food where foodId = ${foodId}
+	</delete>
+	
+	<!-- 更新食品 -->
+	<update id="updateFood">
+		update food set foodName=#{foodName},classId=#{classId},className=#{className},foodStandard=#{foodStandard},
+	 remarks=#{remarks}
+		 where foodId=${foodId};
+	</update>
+	<!-- 增加食品-->
+	<insert id="addFood">
+		insert into food(foodName,classId,className,foodStandard,remarks)
+			values(#{foodName},#{classId},#{className},#{foodStandard},#{remarks})
+	</insert>
+
+</mapper>

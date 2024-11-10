@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.BuyPlanMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找分类 -->
+	<select id="findBuyPlanList"
+		resultType="com.nemo.pojo.BuyPlan">
+		select * from buy_plan ;
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.BuyPlan" parameterType="java.util.Map">
+		<![CDATA[select * from buy_plan  ${condition} ]]>
+	</select>
+
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.BuyPlan">
+		select * from buy_plan limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(buyPlanId) from buy_plan
+	</select>
+	<!-- 根据id查找分类-->
+	<select id="findBuyPlanById" resultType="com.nemo.pojo.BuyPlan">
+		select * from buy_plan where buyPlanId=#{buyPlanId}
+	</select>
+
+<!-- 根据分类id删除分类 -->
+	<delete id="deleteBuyPlanById" >
+		delete from buy_plan where buyPlanId=#{buyPlanId}
+	</delete>
+	
+	<!-- 更新分类 -->
+	<update id="updateBuyPlan">
+		update buy_plan set approverId=#{approverId}, approver=#{approver},remarks=#{remarks}
+		where buyPlanId=#{buyPlanId}
+	</update>
+	<!-- 增加分类-->
+	<insert id="addBuyPlan">
+		insert into buy_plan(buyPlanId,salePlanId,createTime,proposerId,proposer,approverId,approver,planSumMoney,propStatus,approverOpinion,remarks)
+			values("${buyPlanId}","${salePlanId}","${createTime}",${proposerId},"${proposer}",${approverId},"${approver}","${planSumMoney}","${propStatus}","${approverOpinion}","${remarks}")
+	</insert>
+
+
+	<!-- 修改总金额 -->
+	<update id="editSumMoney" parameterType="java.util.Map">
+		update buy_plan set planSumMoney=#{planSumMoney}
+		where buyPlanId=#{buyPlanId}
+	</update>
+
+
+	<!-- 修改审批状态 -->
+	<update id="editPropStatus" >
+		update buy_plan set propStatus=#{propStatus},approverOpinion=#{approverOpinion}
+		where buyPlanId=#{buyPlanId}
+	</update>
+
+
+
+
+</mapper>

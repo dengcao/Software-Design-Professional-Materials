@@ -1,0 +1,92 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.IntStoreMapper;
+import com.nemo.pojo.IntStore;
+import com.nemo.service.IntStoreService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ *
+ */
+@Service
+public class IntStoreImpl implements IntStoreService {
+    @Autowired
+    IntStoreMapper intStoreMapper;
+    @Override
+    public List<IntStore> queryIntStoreList() throws Exception {
+        return intStoreMapper.findIntStoreList();
+    }
+
+    @Override
+    public boolean deleteIntStoreById(String id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("intId",id+"");
+        return intStoreMapper.deleteIntStoreById(map);
+    }
+
+    @Override
+    public boolean updateIntStore(IntStore intStore) {
+        return intStoreMapper.updateIntStore(intStore);
+    }
+
+    @Override
+    public boolean addIntStore(IntStore intStore) {
+        return intStoreMapper.addIntStore(intStore);
+    }
+
+    @Override
+    public IntStore findIntStoreById(String id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("intId",id+"");
+        return intStoreMapper.findIntStoreById(map);
+    }
+
+
+
+    @Override
+    public List<IntStore> findLimitList( int start, int end,int type) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        map.put("type",type+"");
+        if(type==3){
+            return intStoreMapper.findAllLimitList(map);
+        }else {
+            return intStoreMapper.findLimitList(map);
+        }
+
+    }
+
+    @Override
+    public int count(int type) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("type",type+"");
+        return intStoreMapper.count(map);
+    }
+
+    @Override
+    public boolean updateStatus(String intId) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("intId",intId);
+        return intStoreMapper.updateStatus(map);
+    }
+
+    @Override
+    public List<IntStore> findFuzzyList(String condition,int type) {
+        Map<String,String> map=new HashMap<String, String>();
+        if(type==3){
+            map.put("condition","where status=2 and concat(userName,foodBarCode,foodName,foodStandard,className,providerName) like "+"'%"+condition+"%'");
+        }else {
+            map.put("condition","where concat(userName,foodBarCode,foodName,foodStandard,className,providerName) like "+"'%"+condition+"%'");
+        }
+
+        return intStoreMapper.findFuzzyList(map);
+    }
+}

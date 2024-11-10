@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="328_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="328_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >价格表{食品编号，食品名称，采购价格，销售价格，备注}</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >46</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：4个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">价格</span>表{食品编号，食品<span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">价格</span>，销售<span style="background:#cbcbcb">价格</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">12所示。客户：{商品<span style="background:#cbcbcb">名称</span>数量<span style="background:#cbcbcb">采购</span>数目<span style="background:#cbcbcb">价格</span><span style="background:#cbcbcb">采购</span>代价费用总共</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……代价，费用总共用度时间订单时候，备注)图4．11统计商品采购信息E．R图客户统计E．R图，如图4．<span class='green'>12所示。客户：{商品名称数量采购数目价格采购代价费用总共</span>用度时间订单时候，备注图4．12客户统计E—R图……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《汽车配件企业采购系统的设计与实现》<br><b>作者：</b>李春森<br><b>分类号：</b>F426.471<br><b>学科专业：</b>计算机应用技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孙亚民<br><b>学位授予单位：</b>南京理工大学<br><b>学位年度：</b>2007<br><b>关键词：</b>企业采购系统 系统设计 汽车配件企业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">价格</span>表{食品<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">名称</span>，采购<span style="background:#cbcbcb">价格</span>，销售<span style="background:#cbcbcb">价格</span>，<span style="background:#cbcbcb">备注</span>}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">(铸件<span style="background:#cbcbcb">编号</span>，铸件<span style="background:#cbcbcb">名称</span>，重量，<span style="background:#cbcbcb">价格</span>，类别<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">备注</span>)类别</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……金额，货款限额，日期，支付方式，货币种类，折扣，备注)部门(部门编号，部门名称，部门经理职工编号，备注)铸件清单<span class='green'>(铸件编号，铸件名称，重量，价格，类别编号，备注)类别</span>(类别编号，类别名称，备注)3.2生产管理模块E-R……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《华铸ERP熔模铸造企业管理信息系统的开发与应用》<br><b>作者：</b>冯春亮<br><b>学科专业：</b>材料加工工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>陈立亮<br><b>学位授予单位：</b>华中科技大学<br><b>学位年度：</b>2007
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >价格表{食品<span style="background:#cbcbcb">编号</span>，食品名称，<span style="background:#cbcbcb">采购</span>价格，销售价格，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">编号</span>，数量<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">采购</span>员<span style="background:#cbcbcb">编号</span>，时间数目，<span style="background:#cbcbcb">采购</span>单价，交货</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……订货量2，单价2，订货量3，单价3，审核标志，审核人员，审核日期)R.采购订单(采购订单编号，供应商<span class='green'>编号，数量编号，采购员编号，时间数目，采购单价，交货</span>时候，总管理领域第五章基于本体的物资办理范围企业行为数据模型R……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于本体的物资管理领域企业行为数据模型研究》<br><b>作者：</b>焦宏想<br><b>分类号：</b>F270<br><b>学科专业：</b>管理科学与工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>葛世伦<br><b>学位授予单位：</b>江苏科技大学<br><b>学位年度：</b>2007<br><b>关键词：</b>企业信息化 企业行为数据 企业管理 物资管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >价格表{食品<span style="background:#cbcbcb">编号</span>，食品名称，采购价格，<span style="background:#cbcbcb">销售</span>价格，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">日期，用户<span style="background:#cbcbcb">编号</span>，会员<span style="background:#cbcbcb">编号</span>，图书<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">销售</span>价，折扣，折</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……进货（进货单号，进货日期，供应商编号，图书编号，进货价，采购数量，商品总额）(8)销售单（销售单号，销售<span class='green'>日期，用户编号，会员编号，图书编号，销售价，折扣，折</span>后价，数量）库存盘点单盘点日期图书编号销售价盘点单号盘点备注……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《图书销售进销存系统的设计与实现》<br><b>作者：</b>白麟<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李迅波<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>图书销售 进销存系统 管理信息系统 面向对象 业务流程
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+<span class="red">价格</span>表{食品编号，食品<span class="red">名称</span>，<span class="red">采购</span><span class="red">价格</span>，销售<span class="red">价格</span>，备注}
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">价格：</span><span class="green">代价 价值 价钱 </span><br/> <span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

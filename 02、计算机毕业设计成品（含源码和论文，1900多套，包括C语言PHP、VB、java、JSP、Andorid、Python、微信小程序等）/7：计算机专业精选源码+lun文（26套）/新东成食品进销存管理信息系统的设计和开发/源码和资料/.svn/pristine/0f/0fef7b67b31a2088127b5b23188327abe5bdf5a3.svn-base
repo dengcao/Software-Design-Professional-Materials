@@ -1,0 +1,181 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 15:46
+ * 库存实体类
+ */
+public class Store {
+    private int storeId;
+    private String id;
+    private String foodBarCode;//食品条码
+    private String intId;
+    private int foodId;
+    private String foodName;
+    private int foodNum;
+    private int inputNum;
+    private String classId;
+    private String className;
+    private String foodStandard;
+    private String providerName;
+    private String storageType;
+    private String storageDate;
+    private String overDate;
+    private int storegeTotal;
+    private int  storegeMin;
+    private String remarks;
+
+    public int getFoodId() {
+        return foodId;
+    }
+
+    public void setFoodId(int foodId) {
+        this.foodId = foodId;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public String getFoodStandard() {
+        return foodStandard;
+    }
+
+    public void setFoodStandard(String foodStandard) {
+        this.foodStandard = foodStandard;
+    }
+
+    public String getProviderName() {
+        return providerName;
+    }
+
+    public void setProviderName(String providerName) {
+        this.providerName = providerName;
+    }
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public String getClassId() {
+        return classId;
+    }
+
+    public void setClassId(String classId) {
+        this.classId = classId;
+    }
+
+
+
+
+
+    public String getStorageType() {
+        return storageType;
+    }
+
+    public void setStorageType(String storageType) {
+        this.storageType = storageType;
+    }
+
+
+    public int getFoodNum() {
+        return foodNum;
+    }
+
+    public void setFoodNum(int foodNum) {
+        this.foodNum = foodNum;
+    }
+
+
+
+
+
+    public int getStoregeTotal() {
+        return storegeTotal;
+    }
+
+    public void setStoregeTotal(int storegeTotal) {
+        this.storegeTotal = storegeTotal;
+    }
+
+    public int getStoregeMin() {
+        return storegeMin;
+    }
+
+    public void setStoregeMin(int storegeMin) {
+        this.storegeMin = storegeMin;
+    }
+
+    public String getStorageDate() {
+        return storageDate;
+    }
+
+    public void setStorageDate(String storageDate) {
+        this.storageDate = storageDate;
+    }
+
+    public String getOverDate() {
+        return overDate;
+    }
+
+    public void setOverDate(String overDate) {
+        this.overDate = overDate;
+    }
+
+    public String getFoodBarCode() {
+        return foodBarCode;
+    }
+
+    public void setFoodBarCode(String foodBarCode) {
+        this.foodBarCode = foodBarCode;
+    }
+
+    public int getInputNum() {
+        return inputNum;
+    }
+
+    public void setInputNum(int inputNum) {
+        this.inputNum = inputNum;
+    }
+
+    public String getIntId() {
+        return intId;
+    }
+
+    public void setIntId(String intId) {
+        this.intId = intId;
+    }
+
+
+    public int getStoreId() {
+        return storeId;
+    }
+
+    public void setStoreId(int storeId) {
+        this.storeId = storeId;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+}

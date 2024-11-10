@@ -1,0 +1,31 @@
+package com.nemo.service;
+
+import com.nemo.pojo.IntStore;
+
+import java.util.List;
+
+/**
+ * 入库单的服务层实现接口
+ *
+ */
+public interface IntStoreService {
+	public List<IntStore> queryIntStoreList() throws Exception;
+	
+	public boolean deleteIntStoreById(String id);
+
+	
+	public boolean updateIntStore(IntStore intStore);
+	
+	public boolean addIntStore(IntStore intStore);
+
+	public IntStore findIntStoreById(String id);
+
+	public List<IntStore> findLimitList(int start, int end,int type,String preIntId);
+
+	public List<IntStore> count(int type,String preIntId);
+
+	public boolean updateStatus(String intId);
+
+	public List<IntStore> findFuzzyList(String condition,int type);
+
+}

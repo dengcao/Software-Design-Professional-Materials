@@ -1,0 +1,133 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.SalePlan;
+import com.nemo.pojo.User;
+import com.nemo.service.SalePlanService;
+import com.nemo.service.UserService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 销售计划操作类
+ */
+@Controller
+@RequestMapping("/salePlan")
+public class SalePlanController {
+    @Autowired
+    SalePlanService salePlanService;
+
+    @Autowired
+    private UserService userService;
+
+    @RequestMapping("/list")
+    public String allList(Model model) throws Exception{
+      /*  List<SalePlan> list = salePlanService.querySalePlanList();
+        model.addAttribute("salePlanList",list);*/
+        int count = salePlanService.count();
+        model.addAttribute("count",count);
+
+        return "salePlan/salePlanList";
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<SalePlan> list = salePlanService.findFuzzyList(CustomUtils.transcoding(condition));
+        return CustomUtils.toJson(list);
+    }
+
+
+    @RequestMapping("/exlist")
+    public String exList(Model model) throws Exception{
+        List<SalePlan> list = salePlanService.querySalePlanList();
+        List<SalePlan> exList=new ArrayList<SalePlan>();
+        exList.clear();
+        for(int i=0;i<list.size();i++){
+            if(list.get(i).getPropStatus()==3){
+                exList.add(list.get(i));
+            }
+        }
+        model.addAttribute("salePlanList",exList);
+        return "salePlan/salePlanEXList";
+    }
+
+
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<SalePlan> list = salePlanService.findLimitList(index * 5,5);
+        return CustomUtils.toJson(list);
+    }
+
+
+
+
+    @RequestMapping("/add")
+    public String addSalePlan(Model model)throws Exception{
+        List<User> list = userService.queryUserList();
+        model.addAttribute("userList", list);
+
+
+        List<SalePlan> blist = salePlanService.findId();
+        if(blist.size()>0){
+            model.addAttribute("id","00"+(blist.get(0).getId()+1)+"");
+        }else {
+            model.addAttribute("id","001");
+        }
+        return "salePlan/addSalePlan";
+    }
+
+    @RequestMapping("save")
+    public String saveSalePlan(@ModelAttribute SalePlan salePlan,Model model){
+       boolean res = salePlanService.addSalePlan(salePlan);
+        if(res){
+            model.addAttribute("mess","添加销售计划成功");
+        }else {
+            model.addAttribute("mess","添加销售计划失败");
+        }
+        return "salePlan/result";
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam String id,Model model){
+        boolean res = salePlanService.deleteSalePlanById(id);
+        if(res){
+            model.addAttribute("mess", "删除销售计划成功");
+        }else{
+            model.addAttribute("mess", "删除销售计划失败");
+        }
+        return "salePlan/result";
+    }
+
+    @RequestMapping(value = "/edit")
+    public String edit(@RequestParam String id,Model model)throws Exception{
+        SalePlan salePlan = salePlanService.findSalePlanById(id);
+        model.addAttribute("salePlan",salePlan);
+        List<User> list = userService.queryUserList();
+        model.addAttribute("userList", list);
+        return "salePlan/editSalePlan";
+    }
+
+    @RequestMapping("update")
+    public String update(@ModelAttribute SalePlan salePlan,Model model){
+        boolean res = salePlanService.updateSalePlan(salePlan);
+        if(res){
+            model.addAttribute("mess","修改销售计划成功");
+        }else {
+            model.addAttribute("mess","修改销售计划失败");
+        }
+        return "salePlan/result";
+    }
+}

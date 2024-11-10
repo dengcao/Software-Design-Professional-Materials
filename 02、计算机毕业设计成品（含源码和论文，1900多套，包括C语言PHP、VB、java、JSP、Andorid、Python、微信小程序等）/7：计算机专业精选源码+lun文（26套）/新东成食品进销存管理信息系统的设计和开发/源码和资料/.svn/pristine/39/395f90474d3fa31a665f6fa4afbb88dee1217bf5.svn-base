@@ -1,0 +1,109 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="public.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>新增食品价格</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+				var url="${ctx}/store/classList";
+				$.get(url,function(data,status){
+					if(status=="success"){
+						var obj = eval(data);
+						$("#selectClass").empty();
+						for(var i=0;i<obj.length;i++){
+							$("#selectClass").append("<option value='"+obj[i].classId+"'>"+obj[i].className+"</option>");
+						}
+						getFoodName(obj[0].className);
+					}else{
+						alert("服务器异常");
+					}
+				});
+
+			function getFoodName(className){
+				var url="${ctx}/store/foodList?className="+className;
+				 $.get(url,function(data,status){
+				 if(status=="success"){
+				 var obj1 = eval(data);
+				 $("#selectFoodName").empty();
+				 for(var i=0;i<obj1.length;i++){
+				 $("#selectFoodName").append("<option value='"+obj1[i].foodId+"'>"+obj1[i].foodName+"</option>");
+				 }
+				 }else{
+				 alert("服务器异常");
+				 }
+
+				 });
+			}
+
+			$("#selectClass").change(function(){
+                var className=$("#selectClass").find("option:selected").text();
+				getFoodName(className);
+			});
+
+			var   tt   =   1;
+          $("#selectFoodName").click(function(){
+			  tt   =   tt?0:1;
+			  if(tt) {
+				  var foodId=$("#selectFoodName").find("option:selected").val();
+				  var url="${ctx}/store/food?foodId="+foodId;
+				  $.get(url,function(data,status){
+					  if(status=="success"){
+						  //解析返回json串
+						  var obj = eval('(' + data + ')');
+						 // window.food=obj;
+						  custom(obj);
+
+					  }else{
+						  alert("服务器异常");
+					  }
+				  });
+			  }
+		  });
+		});
+
+	</script>
+	<script type="text/javascript">
+		function getTimeString(){
+			var d = new Date()
+			var vYear = d.getFullYear()
+			var vMon = d.getMonth() + 1
+			var vDay = d.getDate()
+			var h = d.getHours();
+			var m = d.getMinutes();
+			var se = d.getSeconds();
+			var date= d.toLocaleDateString();
+			s=vYear+(vMon<10 ? "0" + vMon : vMon)+(vDay<10 ? "0"+ vDay : vDay)+
+			(h<10 ? "0"+ h : h)+(m<10 ? "0" + m : m)+(se<10 ? "0" +se : se);
+			return s;
+		}
+	</script>
+
+</head>
+<body>
+<hr />
+<form action="${ctx }/price/save" method="post">
+	<table class="t1">
+		<tr>
+			<td>食品分类</td>
+			<td><select  id="selectClass" >
+				<c:forEach items="${classList}" var="foodclass">
+					<option value=${foodclass.classId}>${foodclass.className}</option>
+				</c:forEach>
+			</select>
+			</td>
+			<td>食品</td>
+			<td><select id="selectFoodName" >
+				<c:forEach items="${foodList}" var="food">
+					<option value=${food.foodId}>${food.foodName}</option>
+				</c:forEach>
+			</select>
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

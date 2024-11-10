@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.ProviderMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找所有的供应商 -->
+	<select id="findProviderList"
+		resultType="com.nemo.pojo.Provider">
+		select * from provider;
+	</select>
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.Provider" parameterType="java.util.Map">
+		<![CDATA[select * from provider  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.Provider">
+		select * from provider limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(providerId) from provider
+	</select>
+	<!-- 根据id查找供应商-->
+	<select id="findProviderById" resultType="com.nemo.pojo.Provider">
+		select * from provider where providerId=${providerId}
+	</select>
+
+<!-- 根据供应商id删除供应商信息 -->
+	<delete id="deleteProviderById" >
+		delete from provider where providerId = ${providerId}
+	</delete>
+	
+	<!-- 更新供应商 -->
+	<update id="updateProvider">
+		update provider set providerName=#{providerName},linkman=#{linkman},linkNumber=#{linkNumber},
+		providerAdress=#{providerAdress},remarks=#{remarks}
+		 where providerId=#{providerId};
+	</update>
+	<!-- 增加供应商-->
+	<insert id="addProvider">
+		insert into provider(providerName,linkman,linkNumber,providerAdress,remarks)
+			values(#{providerName},#{linkman},#{linkNumber},#{providerAdress},#{remarks})
+	</insert>
+
+
+	
+
+
+</mapper>

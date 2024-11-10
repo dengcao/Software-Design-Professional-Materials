@@ -1,0 +1,31 @@
+package com.nemo.service;
+
+import com.nemo.pojo.OutStore;
+
+import java.util.List;
+
+/**
+ * 出库功能的服务层实现接口
+ *
+ */
+public interface OutStoreService {
+	public List<OutStore> findOutStoreList() throws Exception;
+	
+	public boolean deleteOutStoreById(int id);
+
+	public boolean addOutStore(OutStore outStore);
+
+	public OutStore findOutStoreById(int id);
+
+	public List<OutStore> findLimitList(int start,int end);
+
+	public int count();
+
+	public int outTypeCount(int type);
+
+	List<OutStore> findLimitTypeList(int start, int end, int type);
+
+	public List<OutStore> findFuzzyList(String condition,int type);
+
+	public List<OutStore> analyzeSele(String start,String end);
+}

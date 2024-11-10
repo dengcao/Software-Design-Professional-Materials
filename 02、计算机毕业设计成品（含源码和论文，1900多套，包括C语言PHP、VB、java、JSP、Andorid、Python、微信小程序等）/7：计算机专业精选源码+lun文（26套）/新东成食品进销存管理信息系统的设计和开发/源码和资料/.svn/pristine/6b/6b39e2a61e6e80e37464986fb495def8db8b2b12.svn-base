@@ -1,0 +1,102 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="/common/public.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <script type="text/javascript" src="${ctx}/js/time.js"></script>
+    <script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+    <title>进货单</title>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#userId").val(window.userId);
+            $("#userName").val(window.username);
+            var date=new Date();
+            var localtime=date.toLocaleDateString();
+            $("#createTime").val(localtime);
+
+            var size= $("#size").val();
+            var type=$("#intType").val();
+            var preIntId="";
+            if(type==1){
+               preIntId="JH"+getTimeString()+ size;
+            }else {
+                preIntId="TH"+getTimeString()+ size;
+            }
+            $("#preIntId").val(preIntId);
+
+        });
+    </script>
+
+</head>
+<body>
+<input type="hidden" name="intDate"  id="date-input" >
+<input type="hidden" name="size" id="size" value="${size}" >
+<center>
+<form action="${ctx}/preIntStore/save" method="post">
+    <input type="hidden" name="intType" id="intType" value="${type}">
+    <input type="hidden" name="status" id="status" value="0">
+    <input type="hidden" name="userId" id="userId" >
+
+
+    <table >
+        <tr>
+            <c:if test="${type==1}">
+                <th colspan="2">添加进货单</th>
+            </c:if>
+            <c:if test="${type==2}">
+                <th colspan="2">添加退货单</th>
+            </c:if>
+        </tr>
+        <br/><br/>
+        <tr>
+            <td>创建时间</td>
+            <td><input type="text" name="createTime" id="createTime" readonly></td>
+        </tr>
+        <tr>
+            <td>员工名称</td>
+            <td><input type="text" name="userName" id="userName" readonly></td>
+        </tr>
+        <tr>
+            <td>编号</td>
+            <td><input type="text" name="preIntId" id="preIntId" readonly></td>
+        </tr>
+
+
+        <tr>
+            <c:if test="${type==1}">
+                <td>采购时间</td>
+            </c:if>
+            <c:if test="${type==2}">
+                <td>退货时间</td>
+            </c:if>
+            <td><input type="text" name="intDate" required id="calendar" readonly></td>
+        </tr>
+
+        <tr>
+            <c:if test="${type==1}">
+                <td>采购原因</td>
+            </c:if>
+            <c:if test="${type==2}">
+                <td>退货原因</td>
+            </c:if>
+            <td><input type="text" name="reason" required id="reason" ></td>
+        </tr>
+        <tr>
+            <td>备注</td>
+            <td><input type="text" name="remarks" id="remarks" ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="save"><input type="submit"  value="保存"></td>
+        </tr>
+
+
+    </table>
+</form>
+</center>
+</body>
+
+</html>

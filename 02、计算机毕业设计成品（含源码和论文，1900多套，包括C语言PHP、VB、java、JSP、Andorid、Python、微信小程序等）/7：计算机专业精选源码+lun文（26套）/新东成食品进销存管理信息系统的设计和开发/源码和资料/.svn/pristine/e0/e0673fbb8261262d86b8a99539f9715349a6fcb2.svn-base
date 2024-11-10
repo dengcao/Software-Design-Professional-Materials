@@ -1,0 +1,32 @@
+package com.nemo.mapper;
+
+import com.nemo.pojo.FoodClass;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:23
+ * 食品分类mapper
+ */
+public interface FoodClassMapper {
+    public List<FoodClass> findClassList();
+
+    public List<FoodClass> findClassLimitListBy(Map<String, String> map);
+
+    public int count();
+
+    public int deleteClassById(Map<String, String> map);
+
+    public int updateClass(FoodClass foodClass);
+
+    public int addClass(FoodClass foodClass);
+
+    public FoodClass findClassById(Map<String, String> map);
+
+    public List<FoodClass> findFuzzyList(Map<String,String> map);
+
+
+
+}

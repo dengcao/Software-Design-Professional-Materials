@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="70_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="70_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >总之，公司想要增强竞争力，必须进行管理信息系统的管理与开发。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >45</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >总之，公司想要<span style="background:#cbcbcb">增强</span><span style="background:#cbcbcb">竞争</span><span style="background:#cbcbcb">力</span>，<span style="background:#cbcbcb">必须</span>进行<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span>的<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">与</span>开发。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">，<span style="background:#cbcbcb">增强</span>企业<span style="background:#cbcbcb">竞争</span><span style="background:#cbcbcb">力</span>，<span style="background:#cbcbcb">必须</span>做好企业<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">与</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span>战略对应<span style="background:#cbcbcb">与</span>匹配。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……统战略实施成败的关键。通过分析不难看出企业管理与信息系统战略的关系，所以想要利用信息系统为企业创造利润，提高企业管理水平<span class='green'>，增强企业竞争力，必须做好企业管理与信息系统战略对应与匹配。</span>二、企业管理与信息系统战略对应信息系统在企业管理中的应用，……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《企业管理与信息系统战略对应研究》<br><b>作者：</b>薛莹莹<br><b>作者单位：</b>山西工商学院山西太原 030006<br><b>参考文献：</b>3篇<br><b>页码：</b>P47—P47<br><b>页数：</b>1页<br><b>期刊名称：</b>《东方企业文化》<br><b>出版时间：</b>2015年20期<br><b>ISSN：</b>1672-7355<br><b>关键词：</b>企业管理 信息系统 战略对应<br><b>摘要：</b>自改革开放后，我国经济得到了空前发展，涌现了大批民营企业，市场竞争日益激烈，加之全球经济的快速发展，国内企业不仅要面对国内同行业竞争，还要面对国际企业的挑战。企业想要在激烈的市场竞争中抢得先机，必须加强企业管理，提高管理水平，凝聚企业力量，提升核心竞争力，整合企业意识，统一组织目标。新时代背景下，信息技术得到了高度普及，信息技术和信息系统开始从不同角度和层次支持企业管理的实施，使企业管理水平得到了明显提高，信息系统与企业管理的有机融合已成为必然趋势。但信息系统的成功应用，做好企业管理与信息系统战略对应非常关键。本文将针对企业管理与信息系统战略对应展开研究和分析。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >总之，公司想要增强竞争力，必须进行<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">管理</span>与<span style="background:#cbcbcb">开发</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">低。（三）、<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">开发</span>过程<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">开发</span>过程</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……能够适应本单位的需求且满意度较高，最为方便的是系统维护工作。缺点是容易受业务工作的限制，系统优化不够，开发水平较<span class='green'>低。（三）、管理信息系统的开发过程管理信息系统的开发过程</span>一般包括系统开发准备、系统的需求概况调查、需求详细调查，系统分析……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《浅谈培训信息管理系统的建立》<br><b>作者：</b>秦怡<br><b>作者单位：</b>苏州职称评定中心<br><b>期刊名称：</b>《未知》
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >总之，公司想要增强竞争力，必须进行<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">与</span>开发。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">设计：确定进<span style="background:#cbcbcb">管理</span>存办理<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">与</span>其他办理<span style="background:#cbcbcb">信息</span>建立<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">管理</span>接口。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……进销存办理隋况调研，并管理离散制造企业进销存办理的需求建立、功能分析。2)创立系统的信息模型，完成系统的数据管理<span class='green'>设计：确定进管理存办理信息系统与其他办理信息建立的管理接口。</span>3)创立企业办理信息系统的组件模型，管理运用该模型对进销进行划分……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《离散制造企业的进销存管理信息系统研究与开发》<br><b>作者：</b>江琳<br><b>分类号：</b>F270.7<br><b>学科专业：</b>机械电子工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孙树栋<br><b>学位授予单位：</b>西北工业大学<br><b>学位年度：</b>2003<br><b>关键词：</b>组件 组件对象模式 进销存管理信息系统 制造业
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+总之，公司想要<span class="red">增强</span><span class="red">竞争</span>力，<span class="red">必须</span>进行<span class="red">管理</span><span class="red">信息</span><span class="red">系统</span>的<span class="red">管理</span>与开发。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">增强：</span><span class="green">加强 </span><br/> <span class="red">必须：</span><span class="green">必需 </span><br/> <span class="red">进行：</span><span class="green">举办 举行 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/> <span class="red">开发：</span><span class="green">开拓 开辟 斥地 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

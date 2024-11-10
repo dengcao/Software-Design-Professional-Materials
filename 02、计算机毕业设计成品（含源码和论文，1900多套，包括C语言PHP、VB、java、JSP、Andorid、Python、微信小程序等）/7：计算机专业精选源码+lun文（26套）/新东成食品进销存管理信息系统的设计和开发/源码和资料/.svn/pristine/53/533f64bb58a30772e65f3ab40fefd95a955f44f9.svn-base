@@ -1,0 +1,72 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.SalePlanDetailMapper;
+import com.nemo.pojo.SalePlanDetail;
+import com.nemo.service.SalePlanDetailService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ */
+@Service
+public class SalePlanDetailImpl implements SalePlanDetailService {
+    @Autowired
+    SalePlanDetailMapper SalePlanDetailMapper;
+    @Override
+    public List<SalePlanDetail> querySalePlanDetailList(String id)  {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("salePlanId",id+"");
+        return SalePlanDetailMapper.findDetailListBySalePlanId(map);
+    }
+
+    @Override
+    public boolean deleteSalePlanDetailById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("detailId",id+"");
+        return SalePlanDetailMapper.deleteSalePlanDetailById(map);
+    }
+
+    @Override
+    public boolean updateSalePlanDetail(SalePlanDetail SalePlanDetail) {
+        return SalePlanDetailMapper.updateSalePlanDetail(SalePlanDetail);
+    }
+
+    @Override
+    public boolean addSalePlanDetail(SalePlanDetail SalePlanDetail) {
+        return SalePlanDetailMapper.addSalePlanDetail(SalePlanDetail);
+    }
+
+    @Override
+    public SalePlanDetail findSalePlanDetailById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("detailId",id+"");
+        return SalePlanDetailMapper.findSalePlanDetailById(map);
+    }
+
+    @Override
+    public List<SalePlanDetail> findLimitList(int start, int end,String planId) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        map.put("salePlanId",planId);
+        return SalePlanDetailMapper.findLimitList(map);
+    }
+
+    @Override
+    public int count() {
+        return SalePlanDetailMapper.count();
+    }
+
+    @Override
+    public List<SalePlanDetail> findFuzzyList(String condition,String planId) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where salePlanId='"+planId+"' and concat(salePlanId,foodName,foodPrice,saleNum,saleTotalMoney) like "+"'%"+condition+"%'");
+        return SalePlanDetailMapper.findFuzzyList(map);
+    }
+}

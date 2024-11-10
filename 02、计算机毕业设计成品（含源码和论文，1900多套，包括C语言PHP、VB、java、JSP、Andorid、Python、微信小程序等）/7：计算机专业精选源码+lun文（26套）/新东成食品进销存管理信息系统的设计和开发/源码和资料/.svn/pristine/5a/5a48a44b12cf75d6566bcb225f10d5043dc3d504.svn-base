@@ -1,0 +1,216 @@
+package com.nemo.web.controller;
+
+import com.google.gson.Gson;
+import com.nemo.pojo.Food;
+import com.nemo.pojo.FoodClass;
+import com.nemo.pojo.Store;
+import com.nemo.service.FoodClassService;
+import com.nemo.service.FoodService;
+import com.nemo.service.IntStoreService;
+import com.nemo.service.StoreService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 库存操作类
+ */
+@Controller
+@RequestMapping("/store")
+public class StoreController {
+    @Autowired
+    FoodService foodService;
+
+    @Autowired
+    FoodClassService foodClassService;
+
+    @Autowired
+    StoreService storeService;
+
+    @Autowired
+    IntStoreService intStoreService;
+
+    private int type;
+
+    @RequestMapping("/list")
+    public String allList(@RequestParam int type,Model model) throws Exception{
+       /* List<Store> list = storeService.queryStoreList();*/
+        this.type=type;
+        model.addAttribute("type",type);
+        int count = storeService.count();
+        model.addAttribute("count",count);
+        return "store/storeList";
+    }
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<Store> list = storeService.findLimitList(index * 5,5,type);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<Store> list = storeService.findFuzzyList(CustomUtils.transcoding(condition));
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping("/add")
+    public String addStore(Model model) throws Exception{
+        List<FoodClass> classList = foodClassService.queryClassList();
+        model.addAttribute("classList",classList);
+        if(classList!=null){
+            String className = classList.get(0).getClassName();
+            List<Food> foodList = foodService.findFoodByClass(className);
+            model.addAttribute("foodList",foodList);
+        }
+
+        List<Store> slist = storeService.findId();
+        if(slist.size()>0){
+            model.addAttribute("id","00"+(slist.get(0).getStoreId()+1)+"");
+        }else {
+            model.addAttribute("id","001");
+        }
+        return "store/addStore";
+    }
+
+    @RequestMapping(value = "/classList",produces = "plain/text; charset=UTF-8")
+    @ResponseBody
+    public String getFoodClass() throws Exception{
+        List<FoodClass> classList = foodClassService.queryClassList();
+        Gson gson=new Gson();
+        String json = gson.toJson(classList);
+        return json;
+    }
+
+
+    @RequestMapping(value = "/foodList",produces = "plain/text; charset=UTF-8")
+    @ResponseBody
+    public String getFood(@RequestParam String className) throws Exception{
+       String name = CustomUtils.transcoding(className);
+        List<Food> foodList = foodService.findFoodByClass(name);
+        Gson gson=new Gson();
+        String json = gson.toJson(foodList);
+        return json;
+    }
+
+
+
+    @RequestMapping(value = "/food",produces = "plain/text; charset=UTF-8")
+    @ResponseBody
+    public String getFood(@RequestParam int foodId) throws Exception{
+        Food food = foodService.findFoodById(foodId);
+        Gson gson=new Gson();
+        String json = gson.toJson(food);
+        return json;
+    }
+
+
+    @RequestMapping(value = "/storeFood",produces = "plain/text; charset=UTF-8")
+    @ResponseBody
+    public String getStore(@RequestParam String foodName) throws Exception{
+        List<Store> list = storeService.findStoreByFoodName(CustomUtils.transcoding(foodName));
+        Gson gson=new Gson();
+        String json = gson.toJson(list);
+        return json;
+    }
+
+
+    @RequestMapping("save")
+    public String savStore(@ModelAttribute Store store,Model model) throws Exception{
+       boolean res = storeService.addStore(store);
+        if(res){
+            model.addAttribute("mess","添加入库成功");
+            //将之前的食品总量归0
+            returnZero(store.getFoodName());
+
+            //修改入库状态
+            updateIntStoreStatus(store);
+        }else {
+            model.addAttribute("mess","添加入库失败");
+        }
+        return "store/result";
+    }
+     /**
+      *@Author 刘宇飞
+      *@Date 2016/04/22 16:37
+      *
+      */
+    private void updateIntStoreStatus(Store store) {
+        intStoreService.updateStatus(store.getIntId());
+    }
+
+    /**
+     *@Author 刘宇飞
+     *@Date 2016/04/12 20:47
+     *将之前的食品总量归零
+     * @param foodName
+     */
+    private void returnZero(String foodName)throws Exception{
+        List<Store> list = storeService.findStoreByFoodName(foodName);
+        if(list.size()>0){
+            int total=0;
+           for(int i=0;i<=list.size()-1;i++){
+               storeService.setTotalZero(list.get(i).getStoreId());
+               //计算总库存量
+               total=total+list.get(i).getFoodNum();
+           }
+            //设置总库存
+            Store store=new Store();
+            store.setStoreId(list.get(0).getStoreId());
+            store.setStoregeTotal(total);
+            storeService.setStoreTotal(store);
+        }
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,String foodName,Model model)throws Exception{
+        boolean res = storeService.deleteStoreById(id);
+        if(res){
+            model.addAttribute("mess", "删除库存食品成功");
+            //将之前的食品总量归0
+            returnZero(foodName);
+        }else{
+            model.addAttribute("mess", "删除库存食品失败");
+        }
+        return "store/result";
+    }
+
+    @RequestMapping(value = "editStore")
+    public String editStore(@RequestParam int id,Model model)throws Exception{
+        Store store = storeService.findStoreById(id);
+        model.addAttribute("store",store);
+        return "store/editStore";
+    }
+
+    @RequestMapping(value = "findStore")
+    public String findStore(@RequestParam int id,Model model)throws Exception{
+        Store store = storeService.findStoreById(id);
+        model.addAttribute("store",store);
+        return "outStore/addOutStore";
+    }
+
+    @RequestMapping("update")
+    public String updateFood(@ModelAttribute Store store,Model model)throws Exception{
+        boolean res = storeService.updateStore(store);
+        if(res){
+            model.addAttribute("mess","修改库存食品成功");
+            //将之前的食品总量归0
+            returnZero(store.getFoodName());
+        }else {
+            model.addAttribute("mess","修改库存食品失败");
+        }
+
+        return "store/result";
+    }
+}

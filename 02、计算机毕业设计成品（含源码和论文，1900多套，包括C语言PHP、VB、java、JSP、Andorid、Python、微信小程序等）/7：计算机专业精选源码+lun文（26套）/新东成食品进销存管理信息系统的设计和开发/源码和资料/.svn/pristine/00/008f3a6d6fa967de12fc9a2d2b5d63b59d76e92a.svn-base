@@ -1,0 +1,115 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.UserMapper;
+import com.nemo.pojo.Backuptime;
+import com.nemo.pojo.User;
+import com.nemo.service.UserService;
+import com.nemo.utils.BackUpDB;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * 用户功能实现的服务层具体实现
+ * @author Nemo
+ *
+ */
+@Service
+public class UserServiceImpl implements UserService {
+	@Autowired
+	private UserMapper userMapper;
+
+	@Override
+	public List<User> queryUserList() throws Exception {
+		return userMapper.findUserList();
+	}
+
+	@Override
+	public boolean  deleteUserById(int id) {
+		Map<String,String> map = new HashMap<String, String>();
+		map.put("id", id+"");
+		return userMapper.deleteUserById(map)>0?true:false;
+	}
+
+	@Override
+	public boolean updateUser(User user) {
+		return userMapper.updateUser(user)>0?true:false;
+	}
+
+	@Override
+	public boolean addUser(User user) {
+		return userMapper.addUser(user)>0?true:false;
+	}
+
+	@Override
+	public User getUserById(int id) {
+		Map<String,String> map = new HashMap<String,String> ();
+		map.put("id", id+"");
+		return userMapper.getUserById(map);
+	}
+     /**
+      *@Author 刘宇飞
+      *@Date 2016/04/05 10:31
+      *登陆检测
+      */
+	@Override
+	public User checkLogin(Map<String,String> map) throws Exception {
+		return userMapper.checkLogin(map);
+
+	}
+    /**
+     *@Author 刘宇飞
+     *@Date 2016/04/05 10:31
+     *更新密码
+     */
+	@Override
+	public boolean updatePSW(Map<String,String> map) {
+
+		return userMapper.updatePSW(map);
+	}
+
+	@Override
+	public List<User> findLimitList(int start, int end) {
+		Map<String,String> map=new HashMap<String, String>();
+		map.put("start",start+"");
+		map.put("end",end+"");
+		return userMapper.findLimitList(map);
+	}
+
+	@Override
+	public int count() {
+		return userMapper.count();
+	}
+
+	@Override
+	public List<User> findFuzzyList(String condition) {
+		Map<String,String> map=new HashMap<String, String>();
+		map.put("condition","where concat(username,birthday,address) like "+"'%"+condition+"%'");
+		return userMapper.findFuzzyList(map);
+	}
+   //备份数据库
+	@Override
+	public boolean backUp(int type) throws IOException {
+		if(type==1){
+				return BackUpDB.backup();
+		}else {
+			return BackUpDB.recover();
+		}
+	}
+
+	@Override
+	public boolean updateTime(String time) {
+		Map<String,String> map=new HashMap<String, String>();
+		map.put("time",time);
+		return userMapper.updatebackuptime(map);
+	}
+
+	@Override
+	public List<Backuptime> findBackupTime() {
+		return userMapper.findBackupTime();
+	}
+}

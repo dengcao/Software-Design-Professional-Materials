@@ -1,0 +1,125 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head >
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+<title>出库</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			getPrice();
+			$("#userName").val(window.username);
+			$("#reaAmount").hide();
+			$("#foodOutNum").change(function(){
+			var out=	Number($("#foodOutNum").val());
+			var total=	Number($("#storegeTotal").val());
+				var price=Number($("#price").val());
+				var totalNum=out*price;
+				$("#recAmount").val(totalNum);
+					if(out>total){
+                           alert("出库量不能大于库存量")
+						$("#foodOutNum").val(0);
+						return;
+					}else if(out==0){
+						alert("出库量不能为零");
+						return;
+					}
+			});
+
+			$("#storageOutType").change(function(){
+				var type=Number($("#storageOutType").val());
+				if(type==2){
+					$("#reaAmount").show();
+				}else{
+					$("#reaAmount").hide();
+				}
+			});
+
+		});
+	</script>
+	<script type="text/javascript">
+		function getPrice(){
+			var foodId=$("#foodId").val();
+			var url="${ctx}/price/getPrice?id="+foodId;
+			$.get(url,function(data,status){
+				if(status=="success"){
+					var price=eval('('+data+')');
+                   $("#price").val(price.salePrice);
+				}else{
+					alert("服务器异常");
+				}
+			});
+		}
+	</script>
+</head>
+<body >
+<input type="hidden" id="date-input" />
+<center>
+
+<hr />
+	<form action="${ctx}/outStore/save" method="post" name="forms">
+		<table >
+			<input type="hidden" name="storeId" id="storeId" value="${store.storeId}"/>
+			<input type="hidden" name="foodId" id="foodId" value="${store.foodId}"/>
+			<input type="hidden" name="classId" id="classId" value="${store.classId}"/>
+			<input type="hidden" name="userName" id="userName" />
+			<tr>
+				<td>食品分类</td>
+				<td><input type="text" required name="className" id="className" value="${store.className}" readonly></td>
+				<td>食品名称</td>
+				<td><input type="text" required name="foodName" id="foodName" value="${store.foodName}" readonly></td>
+				<td>食品规格</td>
+				<td><input type="text" required name="foodStandard" id="foodStandard" value="${store.foodStandard}" readonly></td>
+                 <td>食品价格</td>
+				  <td><input type="text" id="price" required readonly></td>
+				<td>金额</td>
+				<td><input type="text" name="recAmount" id="recAmount" required readonly></td>
+			</tr>
+			<tr>
+				<td>出库时间</td>
+				<td><input type="text" name="storageOutDate" id="storageOutDate" required value="${time}" readonly ></td>
+
+				<input type="hidden" id="overDate" name="overDate" required value="${store.overDate}" readonly/>
+				<td>库存总量</td>
+				<td>
+					<c:if test="${store.storegeTotal==0 }">
+						<input type="text"  id="storegeTotal"  value="${store.foodNum}" readonly>
+					</c:if>
+					<c:if test="${store.storegeTotal!=0 }">
+						<input type="text"  id="storegeTotal"  value="${store.storegeTotal}" readonly>
+					</c:if>
+
+				</td>
+				<td>出库数量</td>
+				<td><input type="text" name="foodOutNum" id="foodOutNum" required ></td>
+				<td>出库类型</td>
+				<td>
+					<select name="storageOutType" id="storageOutType" >
+						<option value="1">配送出库</option>
+						<option value="2">销售出库</option>
+						<option value="3">耗损出库</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td id="rea">应收金额</td>
+				<td><input type="text" name="reaAmount" id="reaAmount" required value="0"></td>
+				<td>备注</td>
+				<td><input type="text" name="remarks" id="remarks" value="${store.remarks}"></td>
+				<td><input type="submit" value="保存"> </td>
+			</tr>
+		</table>
+
+
+	</form>
+
+<p>
+
+</p>
+</center>
+</body>
+
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="137_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="137_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >MySQL是一个典型的和最流行的关系型数据库管理系统，在 WEB 应用方面使用得较多的数据库。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >47</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：9个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >47</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span>一个典型<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">和</span>最流行<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，在WEB<span style="background:#cbcbcb">应用</span>方面使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">是</span>位于操作<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">应用</span><span style="background:#cbcbcb">系统</span>之间<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span>软件。夺<span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……机夺操作系统操作系统指安装数据库系统的计算机采用的操作系统。夺关系型数据库管理系统、数据库关系型数据库是存储在计算机上的、可共享的、有组织的关系型数据的集合。关系<span class='green'>型数据库管理系统是位于操作系统和关系型数据库应用系统之间的数据库管理软件。夺关系型数据库</span>应用系统关系型数据库应用系统指为满足用户需求，采用各种应用开发工具(如VB、PB和Delphi等)和……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《环境化学污染物致机体损伤及其防御信息数据库的研究及开发》<br><b>作者：</b>谢维<br><b>分类号：</b>TP311.13<br><b>学科专业：</b>公共卫生<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>赵耐青<br><b>学位授予单位：</b>复旦大学<br><b>学位年度：</b>2005<br><b>关键词：</b>环境化学污染物 关系型数据库 生物信息学 机体损伤 防御信息数据库 XML技术
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span>一个典型<span style="background:#cbcbcb">的</span>和最流行<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，在WEB应用方面使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span>，它是针对虚拟<span style="background:#cbcbcb">的</span>一般<span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>。ADO<span style="background:#cbcbcb">是</span>微软极力推荐<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>访问</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……在Java语言中建立与Database的连接，执行SQL语句，处理SQL语句返回的结果。它的最大特点是虚拟关系型数据库机制。程序开发者在JDBC中所使用的sQL语句，与Database进行连接的语句不是针对一个具体的关系<span class='green'>型数据库系统，它是针对虚拟的一般关系型数据库管理系统的。ADO是微软极力推荐的的数据库访问</span>技术之一，它集中体现了与OLEDB“’“’技术相结合而产生的灵活的数据库访问功能。ADO建立了……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《特种加工信息网功能的完善与数据库的建设》<br><b>作者：</b>周庆<br><b>分类号：</b>TH122<br><b>学科专业：</b>机械设计及理论<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王续跃<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2004<br><b>关键词：</b>特种加工 数据库系统 ASP 网上社区
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span>一个典型<span style="background:#cbcbcb">的</span>和最流行<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span>型<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，在WEB应用方面使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>。当前主流<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>。<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>可以分为大中型<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……：数据定义；数据操纵；数据运行管理；数据库的建立和维护数据库管理系统根据其支持的数据模型的不同可以分为层次数据库管理系统、网状数据库管理系统、关系数据库管理系统、面向对象数据库管理<span class='green'>系统。当前主流的数据库管理系统是关系数据库管理系统。数据库管理系统可以分为大中型数据库管理</span>系统(如Oracle，SQLSerVer，Sybase，DB2等)和小型数据库管理系统(如Access，Foxpro等)两大类。……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于Borland Delphi开发平台的数据库应用系统开发的原理与应用研究》<br><b>作者：</b>张乾<br><b>分类号：</b>TP311.5<br><b>学科专业：</b>应用数学<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>伍俊良<br><b>学位授予单位：</b>重庆大学<br><b>学位年度：</b>2009<br><b>关键词：</b>数据库系统 分布式系统 软件开发 体系结构 SQL语言 数据访问 数据安全
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span>一个典型<span style="background:#cbcbcb">的</span>和最流行<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span>型<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>管理<span style="background:#cbcbcb">系统</span>，在WEB应用方面使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">发展动态如下：(1)继续发展现有<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">是</span>一种用户友好<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……数据库技术的发展我国的数据库研究起步较晚，但发展较快，这主要得益于与国际数据库学术界的交流和我国计算机界对数据库理论与技术进行的不断深人的研讨，国内的数据库技术<span class='green'>发展动态如下：(1)继续发展现有的关系数据库系统关系数据库系统是一种用户友好的数据库，</span>具有灵活的用户视图，较高的数据独立性和较深的理论基础。我国对关系数据库的理论研究。取得……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《潜在语义分析在中文短文自动判分系统构建中的应用研究》<br><b>作者：</b>李莉<br><b>分类号：</b>TP301.2<br><b>学科专业：</b>森林经理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张太红<br><b>学位授予单位：</b>新疆农业大学<br><b>学位年度：</b>2006<br><b>关键词：</b>语义分析 奇异值分解 主观题 自动判分 考试系统
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span>一个典型<span style="background:#cbcbcb">的</span>和最<span style="background:#cbcbcb">流行</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，<span style="background:#cbcbcb">在</span>WEB应用<span style="background:#cbcbcb">方面</span>使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">分析。ORACLE<span style="background:#cbcbcb">是</span>目前最为<span style="background:#cbcbcb">流行</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">型</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>．因其<span style="background:#cbcbcb">在</span><span style="background:#cbcbcb">数据</span>安全性．<span style="background:#cbcbcb">数据</span>完整性控制<span style="background:#cbcbcb">方面</span><span style="background:#cbcbcb">的</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……对ORACLE数据库系统的启动过程的详细分析，以及相关配置文件的设置，通过数据库启动失败情况的分析．总结出数据库启动过程中的注意事项的处理办法和经验【关键词】：数据库，启动过程，进程，<span class='green'>分析。ORACLE是目前最为流行的关系型数据库管理系统．因其在数据安全性．数据完整性控制方面的</span>优越性能．以及跨越操作系统和多硬件平台的数据操作特点．越来越多的用户将其作为后台数据管理系统．一、……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《ORACLE数据库启动过程分析》<br><b>作者：</b>张春玉<br><b>作者单位：</b>民航东北地区空中交通管理局,气象中心,辽宁,沈阳,110043<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>分类号：</b>TP3<br><b>机标分类号：</b>TK4<br><b>期刊名称：</b>《福建电脑》<br><b>出版时间：</b>2010年8期<br><b>ISSN：</b>1673-2782<br><b>关键词：</b>数据库 启动过程 进程 分析<br><b>摘要：</b>本文对ORACLE数据库系统的启动过程的详细分析,以及相关配置文件的设置,通过数据库启动失败情况的分析,总结出数据库启动过程中的注意事项的处理办法和经验
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL是一个典型<span style="background:#cbcbcb">的</span>和最流行<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">关系</span>型<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，在WEB应用方面使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">库</span>技术将向何处去<span style="background:#cbcbcb">的</span>问题，最新<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，如扩展<span style="background:#cbcbcb">关系</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span>、面向对象<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……的有机结合，使数据库领域中新的技术内容层出不穷。如工程数据库、演绎数据库、知识数据库、模糊数据库、时态数据库、地理住处系统、多媒体住处系统等，不胜枚举。即使是面对着下一代数据<span class='green'>库技术将向何处去的问题，最新的数据库管理系统，如扩展关系数据库系统、面向对象的数据库</span>系统、分布式数据库系统等，也以其先进强大的技术支持和日趋完善的管理功能逐渐影响和渗透到包括商业……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《简论数据库的发展》<br><b>作者：</b>张丽君 焦翠玲<br><b>作者单位：</b>河南科技学院,河南,新乡,453003<br><b>参考文献：</b>5篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P72—P73<br><b>页数：</b>2页<br><b>分类号：</b>TP311.131<br><b>期刊名称：</b>《河南科技学院学报（自然科学版）》<br><b>出版时间：</b>2007年4期<br><b>ISSN：</b>1673-6060<br><b>关键词：</b>数据库 数据管理 数据库技术 信息系统<br><b>摘要：</b>数据库是数据管理的最新技术,数据库技术的发展,已经成为先进信息技术的重要组成部分,是现代计算机信息系统和计算机应用系统的基础和核心.数据库技术的发展经历了三代演变,目前流行的主要有SQL Server,Delphi,visual Foxpm,Oracle等.数据库技术的发展,使其在各行各业都得到了广泛的应用.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">一个</span><span style="background:#cbcbcb">典型</span><span style="background:#cbcbcb">的</span>和最流行<span style="background:#cbcbcb">的</span>关系型<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>管理<span style="background:#cbcbcb">系统</span>，<span style="background:#cbcbcb">在</span>WEB应用方面使用得较<span style="background:#cbcbcb">多</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">”<span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">一个</span><span style="background:#cbcbcb">典型</span><span style="background:#cbcbcb">的</span>分布式、自治<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">多</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span>。各建<span style="background:#cbcbcb">库</span>单位<span style="background:#cbcbcb">在</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">的</span>建设过程中保持着</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……标准1．元数据建设的背景与需求“科学数据库及其应用系统”经过几十个建库单位近20年的建设，目前已经拥有300多个专业数据库，总数据量达到8．2TB。“科学数据库及其应用系统<span class='green'>”是一个典型的分布式、自治的多数据库系统。各建库单位在数据库的建设过程中保持着</span>一定的独立性和自治性。这种自治性体现在各建库单位可以独立对各自承建的数据库内容和结构进行……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(会议论文)：</font><br>
+<b>篇名：</b>《科学数据库元数据分析与应用》<br><b>作者：</b>黎建辉 肖云 阎保平<br><b>作者单位：</b>中国科学院计算机网络信息中心,北京,100080<br><b>会议名称：</b>第七届科学数据库与信息技术学术讨论会<br><b>主办单位：</b>中科院科学数据库办公室<br><b>会议时间：</b>2004-06-23<br><b>会议地点：</b>云南丽江<br><b>关键词：</b>科学数据库 元数据 数据标准 元数据分析
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span>一个典型<span style="background:#cbcbcb">的</span>和最流行<span style="background:#cbcbcb">的</span>关系型<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，在WEB应用方面使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">，而<span style="background:#cbcbcb">管理</span>这个<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">的</span>软件就称之为<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>。<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span>一般<span style="background:#cbcbcb">是</span>由<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>、<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……数据库管理系统，以它为中介，与各种应用程序或应用系统接口，使之能方便地使用数据库中的数据。简单地说数据库就是一组经过计算机整理后的数据，存储在一个或多个文件中<span class='green'>，而管理这个数据库的软件就称之为数据库管理系统。数据库系统一般是由数据库、数据库</span>管理系统、数据库应用系统及计算机软硬件、系统人员和用户等组成。2前置数据库前置数据库存放用于……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《数据库规划与建设》<br><b>作者：</b>杜丹丹<br><b>作者单位：</b>哈尔滨冠林智能系统有限公司<br><b>期刊名称：</b>《中国科技财富》<br><b>出版时间：</b>2012年10期<br><b>ISSN：</b>1671-461X<br><b>关键词：</b>数据库 运行 维护<br><b>摘要：</b>数据库的规划建设可以给工作带来很到的方便,还可以提高工作效率.本文对数据库的规划与建设进行了论述.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">9</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >MySQL<span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">一个</span>典型<span style="background:#cbcbcb">的</span>和最流行<span style="background:#cbcbcb">的</span>关系型<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>管理<span style="background:#cbcbcb">系统</span>，在WEB应用方面使用得较多<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">，它应该<span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">一个</span>面向对象<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">系统</span>，同时又<span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">一个</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span>，即具有面向对象风范<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">库</span><span style="background:#cbcbcb">系统</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……的共性和它们之间存在的内在关系。面向对象的相关概念与程序设计技术相结合，形成了当今计算机技术中的一种风范。面向对象数据库是面向对象方法在数据库领域中的应用，所以面向对象的数据库系统<span class='green'>，它应该是一个面向对象的系统，同时又是一个数据库系统，即具有面向对象风范的数据库系统。</span>当前，面向对象数据库技术在概念和原理上都还未取得完全一致的理解，但大家都认为下述基本概念是面向……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《数据库技术新进展与科学数据库工程》<br><b>作者：</b>金涛 谢玲巧<br><b>作者单位：</b>浙江大学远程教育学院,医学部；浙江大学计算机有限公司,浙江杭州,310027<br><b>参考文献：</b>4篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P1—P4<br><b>页数：</b>4页<br><b>分类号：</b>TP311.131<br><b>机标分类号：</b>TP3 TQ0<br><b>期刊名称：</b>《南通职业大学学报》<br><b>出版时间：</b>2001年1期<br><b>ISSN：</b>1008-5327<br><b>关键词：</b>数据库 科学数据库 数据库族<br><b>摘要：</b>科学数据库及其信息系统建设的技术基础是:数据库技术、网络通信技术和信息工程技术,它们的发展和应用对促进科学数据库及其信息系统建设的科学化和实用化起着决定性的作用.本文仅就当今数据库技术的发展及其技术内容做一简介,并论述它们的发展与科学数据库系统建设的关系.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+MySQL是一个典型的和最流行的<span class="red">关系</span>型<span class="red">数据</span>库<span class="red">管理</span><span class="red">系统</span>，在WEB<span class="red">应用</span>方面使用得较多的<span class="red">数据</span>库。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">流行：</span><span class="green">盛行 风行 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

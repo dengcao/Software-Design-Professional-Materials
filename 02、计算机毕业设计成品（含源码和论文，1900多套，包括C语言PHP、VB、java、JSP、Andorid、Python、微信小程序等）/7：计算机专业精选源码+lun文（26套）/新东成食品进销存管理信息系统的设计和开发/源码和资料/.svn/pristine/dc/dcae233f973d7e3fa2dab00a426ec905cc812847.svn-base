@@ -1,0 +1,132 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.Provider;
+import com.nemo.service.ProviderService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 供应商操作类
+ */
+@Controller
+@RequestMapping("/provider")
+public class ProviderController {
+    @Autowired
+    ProviderService providerService;
+    private List<Provider> list;
+    private Provider providers;
+
+    @RequestMapping("/list")
+    public String allList(Model model) throws Exception{
+       /* List<Provider> list = providerService.queryProviderList();
+        model.addAttribute("providerList",list);*/
+
+        int count = providerService.count();
+        model.addAttribute("count",count);
+
+        return "provider/providerList";
+    }
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<Provider> list = providerService.findLimitList(index * 5,5);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<Provider> list = providerService.findFuzzyList(CustomUtils.transcoding(condition));
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping("/add")
+    public String addProvider()throws Exception{
+        list = providerService.queryProviderList();
+        return "provider/addProvider";
+    }
+
+    @RequestMapping("save")
+    public String saveProvider(@ModelAttribute Provider provider,Model model){
+        boolean has=false;
+        for(int i=0;i<list.size();i++){
+            if(list.get(i).getProviderName().equals(provider.getProviderName())){
+                has=true;
+            }
+        }
+        if(has){
+            model.addAttribute("mess","供应商已经存在，不能重复添加");
+        }else {
+            boolean res = providerService.addProvider(provider);
+            if(res){
+                model.addAttribute("mess","添加供应商成功");
+            }else {
+                model.addAttribute("mess","添加供应商失败");
+            }
+        }
+
+
+        return "provider/result";
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,Model model){
+        boolean res = providerService.deleteProviderById(id);
+        if(res){
+            model.addAttribute("mess", "删除供应商成功");
+        }else{
+            model.addAttribute("mess", "删除供应商失败");
+        }
+        return "provider/result";
+    }
+
+    @RequestMapping(value = "editProvider")
+    public String editProvider(@RequestParam int id,Model model)throws Exception{
+        providers = providerService.findProviderById(id);
+        model.addAttribute("provider", providers);
+        list = providerService.queryProviderList();
+        return "provider/editProvider";
+    }
+
+    @RequestMapping("update")
+    public String updateProvider(@ModelAttribute Provider provider,Model model){
+        if(!providers.getProviderName().equals(provider.getProviderName())){
+            boolean has=false;
+            for(int i=0;i<list.size();i++){
+                if(list.get(i).getProviderName().equals(provider.getProviderName())){
+                    has=true;
+                }
+            }
+            if(has){
+                model.addAttribute("mess","供应商已经存在，不能修改");
+            }else {
+                boolean res = providerService.updateProvider(provider);
+                if(res){
+                    model.addAttribute("mess","修改供应商成功");
+                }else {
+                    model.addAttribute("mess","修改供应商失败");
+                }
+            }
+        }else {
+            boolean res = providerService.updateProvider(provider);
+            if(res){
+                model.addAttribute("mess","修改供应商成功");
+            }else {
+                model.addAttribute("mess","修改供应商失败");
+            }
+        }
+
+        return "provider/result";
+    }
+}

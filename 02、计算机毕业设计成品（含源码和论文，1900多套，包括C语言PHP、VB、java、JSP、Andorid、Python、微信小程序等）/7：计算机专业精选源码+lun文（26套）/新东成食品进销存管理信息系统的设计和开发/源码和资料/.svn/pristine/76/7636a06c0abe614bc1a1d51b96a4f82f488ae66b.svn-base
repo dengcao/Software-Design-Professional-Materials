@@ -1,0 +1,121 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="/common/public.jsp" %>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>库存列表</title>
+    <script type="text/javascript" src="${ctx}/js/page.js"></script>
+    <script type="text/javascript" src="${ctx}/js/search.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            getPartList();
+            exportTable();
+            //搜索
+            $("#find").click(function(){
+                var condition=$("#condition").val();
+                var url2="${ctx}/intStore/getFList?condition="+condition;
+                if(condition==""){
+                    getPartList();
+                }else{
+                    search.cseatch(url2);
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        function getPartList(){
+            var url = "${ctx}/preIntStore/getLimitList";
+            var count = $("#count").val();
+            page.pagePart(url, count);
+        }
+        function customPage(obj) {
+            var type=$("#type").val();
+            $("#table tr:gt(1)").remove();
+            for (var i = 0; i < obj.length; i++) {
+                var status=Number(obj[i].status);
+                var op="";
+                if (status==1) {
+                    status = "已完成";
+                    op="查看详情";
+                } else {
+                    status = "未完成";
+                    op="添加";
+                }
+                var newRow = "<tr>" +
+                        "<td>" + obj[i].preIntId + "</td><td>" + obj[i].userName + "</td>" +
+                        "<td>" + obj[i].createTime + "</td><td>" + obj[i].intDate + "</td>" +
+                        "<td>" + obj[i].reason + "</td><td>" +status + "</td>" +
+                        "<td>" + obj[i].remarks + "</td><td>" ;
+
+                if(window.userPower==0||window.userPower==34){
+                    newRow=newRow+   "<a  href='${ctx}/intStore/list?type=" + type + "&preIntId="+obj[i].preIntId+"&status="+Number(obj[i].status)+"'>"+op+"</a>"  +
+                    "</td></tr>";
+                }
+
+                $("#table tr:last").after(newRow);
+            }
+
+        }
+    </script>
+
+
+</head>
+
+<body>
+<input type="hidden" id="count" value="${count}">
+
+<div class="pagin">
+    <br/>
+    <input type="hidden" value="${type}" id="type">
+    <br/> <br/>
+
+    <input type="text" id="condition" placeholder="请输入ID或者名称"><button id="find">搜索</button>
+    <button id="export">导出</button>
+    <br/><br/>
+    <table id="table" class="t1">
+        <tr><%--<th colspan="15">采购列表</th>--%>
+            <c:if test="${type==1}">
+                <th colspan="8">进货列表</th>
+            </c:if>
+            <c:if test="${type==2}">
+                <th colspan="8">退货列表</th>
+            </c:if>
+        </tr>
+
+        <tr>
+            <c:if test="${type==1}">
+                <td>进货ID</td>
+            </c:if>
+            <c:if test="${type==2}">
+                <td>退货ID</td>
+            </c:if>
+            <td>员工姓名</td>
+            <td>创建时间</td>
+            <c:if test="${type==1}">
+                <td>进货时间</td>
+            </c:if>
+            <c:if test="${type==2}">
+                <td>退货时间</td>
+            </c:if>
+            <c:if test="${type==1}">
+                <td>采购原因</td>
+            </c:if>
+            <c:if test="${type==2}">
+                <td>退货原因</td>
+            </c:if>
+            <td>状态</td>
+            <td>备注</td>
+            <td>操作</td>
+        </tr>
+    </table>
+    <br/>
+
+    <div id="Pagination" class="pagination"
+         style=" width: -moz-fit-content;width:-webkit-fit-content;width: fit-content;margin-left: auto;margin-right: auto;"></div>
+</div>
+
+</body>
+</html>

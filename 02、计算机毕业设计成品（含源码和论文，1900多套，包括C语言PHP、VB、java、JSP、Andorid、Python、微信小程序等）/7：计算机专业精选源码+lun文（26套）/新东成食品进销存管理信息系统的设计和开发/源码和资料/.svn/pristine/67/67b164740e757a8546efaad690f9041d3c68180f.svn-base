@@ -1,0 +1,69 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.FoodClassMapper;
+import com.nemo.pojo.FoodClass;
+import com.nemo.service.FoodClassService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ */
+@Service
+public class FoodClassImpl implements FoodClassService {
+    @Autowired
+    FoodClassMapper foodClassMapper;
+    @Override
+    public List<FoodClass> queryClassList() throws Exception {
+        return foodClassMapper.findClassList();
+    }
+
+    @Override
+    public boolean deleteClassById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("classId",id+"");
+        return foodClassMapper.deleteClassById(map)>0?true:false;
+    }
+
+    @Override
+    public boolean updateClass(FoodClass foodClass) {
+        return foodClassMapper.updateClass(foodClass)>0?true:false;
+    }
+
+    @Override
+    public boolean addClass(FoodClass foodClass) {
+        return foodClassMapper.addClass(foodClass)>0?true:false;
+    }
+
+    @Override
+    public FoodClass findClassById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("classId",id+"");
+        return foodClassMapper.findClassById(map);
+    }
+
+    @Override
+    public List<FoodClass> findClassLimitListBy(int start, int end) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        return foodClassMapper.findClassLimitListBy(map);
+    }
+
+    @Override
+    public int count() {
+        return foodClassMapper.count();
+    }
+
+    @Override
+    public List<FoodClass> findFuzzyList(String condition) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where concat(classId,className) like "+"'%"+condition+"%'");
+        return foodClassMapper.findFuzzyList(map);
+    }
+}

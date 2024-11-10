@@ -1,0 +1,57 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.PreIntStoreMapper;
+import com.nemo.pojo.PreIntStore;
+import com.nemo.service.PreIntStoreService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ */
+@Service
+public class PreIntStoreImpl implements PreIntStoreService{
+
+    @Autowired
+    PreIntStoreMapper preIntStoreMapper;
+
+    @Override
+    public List<PreIntStore> findFuzzyList(Map<String, String> map, int type) {
+               Map<String,String> map0=new HashMap<>();
+               if(type==1){
+                   map0.put("condition"," where createTime='"+ CustomUtils.getLocaTime()+"'&&intType="+map.get("intType"));
+               }
+               if(type==2){
+                   map0.put("condition"," where intType="+map.get("intType"));
+               }
+               if(type==3){
+                   map0.put("condition"," where intType="+map.get("intType")+"  limit "+map.get("start")+","+map.get("end"));
+               }
+                 return preIntStoreMapper.findFuzzyList(map0);
+    }
+
+    @Override
+    public boolean deleteProIntStore(String id) {
+        Map<String,String> map=new HashMap<>();
+        map.put("preIntId",id);
+        return preIntStoreMapper.deletePreIntStore(map);
+    }
+
+    @Override
+    public boolean addPreIntStore(PreIntStore preIntStore) {
+        return preIntStoreMapper.addPreIntStore(preIntStore);
+    }
+
+    @Override
+    public boolean finish(String preIntId) {
+        Map<String,String> map=new HashMap<>();
+        map.put("preIntId",preIntId);
+        return preIntStoreMapper.finish(map);
+    }
+}

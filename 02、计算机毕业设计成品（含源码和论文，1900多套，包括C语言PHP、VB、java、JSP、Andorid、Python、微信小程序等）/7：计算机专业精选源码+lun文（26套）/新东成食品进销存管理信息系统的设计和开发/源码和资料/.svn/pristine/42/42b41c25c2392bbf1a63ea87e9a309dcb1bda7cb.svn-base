@@ -1,0 +1,503 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="334.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="334_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >供应商表{供应商编号，供应商名称，联系人，联系电话，联系地址，备注}</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >69</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：18个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >69</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>表{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">电话</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">地址</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>（<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>姓名，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span><span style="background:#cbcbcb">电话</span>，邮编，<span style="background:#cbcbcb">地址</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……(1)角色（角色编号，角色名，角色权限）(2)用户（用户编号，用户姓名，登录密码，联系电话，用户状态（使用，停用），角色编号）(3)<span class='green'>供应商（供应商编号，供应商名称，联系人姓名，联系人电话，邮编，地址</span>，传真，开户银行，银行账号，供应商品类型，备注）(4)会员（会员编号，会员……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《图书销售进销存系统的设计与实现》<br><b>作者：</b>白麟<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李迅波<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>图书销售 进销存系统 管理信息系统 面向对象 业务流程
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >59</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">表</span>{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span>人，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">电话</span>，<span style="background:#cbcbcb">联系</span>地址，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">表</span>L<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，公司<span style="background:#cbcbcb">名称</span>"<span style="background:#cbcbcb">联系</span>包括"<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">电话</span>"详细截止"传真等#</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……还没有撑持08)9驱动程序的数据库#!$O数据管理的设计与所有G数据库设计#数据库包含了用户及办理员用到的全数存储信息#共五个表L.$<span class='green'>供应商表L供应商编号，公司名称"联系包括"联系电话"详细截止"传真等#</span>($项目表L包含项目序号"名称"停止方法"简介等#4$指标表L指标序号……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于B/S结构的供应商选择系统设计与实现》<br><b>作者：</b>林宇生 张秉权 郝永平<br><b>作者单位：</b>沈阳工业学院,沈阳,110168<br><b>参考文献：</b>4篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P7—P9<br><b>页数：</b>3页<br><b>机标分类号：</b>F42 F4<br><b>基金项目：</b>辽宁省沈阳市创新项目<br><b>期刊名称：</b>《电脑开发与应用》<br><b>出版时间：</b>2004年12期<br><b>ISSN：</b>1003-5850<br><b>关键词：</b>供应链 供应商 B/S结构 层次分析法<br><b>摘要：</b>供应商的选择是供应链管理的重要组成部分,在分析了敏捷制造模式下,供应商选择评估系统的功能需求基础上,提出了以B/S为结构的供应商选择系统的实现策略.介绍了供应商选择的过程、三层网络的结构和层次分析法原理,给出了如何基于三层结构,利用层次分析的方法,进行供应商选择的功能模块及实现方法.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >56</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>表{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，联系人，联系电话，联系地址，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>信息（<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>全称，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>类别，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>等级</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……公司主页，联系人姓名，联系人职务，联系人电话，备注）供应商类别（类别编号，类别名称，备注）供应商信誉等级（等级编号，信誉等级，等级折扣，备注）<span class='green'>供应商信息（供应商编号，供应商名称，供应商全称，供应商类别，供应商等级</span>，公司地址，电话，传真，Email，公司主页，联系人姓名，联系人职务，联系人电话……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《铸造企业EAM系统的研究与开发》<br><b>作者：</b>陈永聪<br><b>分类号：</b>F426.4<br><b>学科专业：</b>材料加工工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>周建新<br><b>学位授予单位：</b>华中科技大学<br><b>学位年度：</b>2011<br><b>关键词：</b>EAM系统 铸造企业 企业信息化 设备管理 企业资产管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">表</span>{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">联系</span>电话，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">地址</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">表</span>：保存<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">地址</span>、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>、<span style="background:#cbcbcb">供应</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……4-6所示(箭头表示了表之间主键、外键的关系，表的主键字段己用“PK"注明)，主要包含以下14张表(采用MicrosoftViso2007建模)：(1)<span class='green'>供应商表：保存供应商编号、供应商名称、供应商地址、供应商联系人、供应</span>商联系电话、供应商Email、供应商合法证件名称列表、供应商与制造厂关系、供应商……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于汽车产业链协作平台供应商选择的研究和实现》<br><b>作者：</b>石兆媛<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>计算机应用技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孙林夫<br><b>学位授予单位：</b>西南交通大学<br><b>学位年度：</b>2011<br><b>关键词：</b>汽车企业 产业链协作平台 供应商选择 灰色关联度 模糊互补判断矩阵 指标体系
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >50</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">表</span>{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">电话</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">地址</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>绩效评估<span style="background:#cbcbcb">表</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>：<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>：<span style="background:#cbcbcb">地址</span><span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span><span style="background:#cbcbcb">电话</span>所供产品时间时候成本</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……供方名录及时更新战略采购部9.0参考文件纠正改正与预防管理办理程序供应商认证及开发程序关于T公司供应链管理办理改善的研究附录3供应商绩效评估表附录3<span class='green'>供应商绩效评估表供应商编号：供应商名称：地址联系人电话所供产品时间时候成本</span>质量交服务供职总计等级品级)1季度2季度3季度4季度发现问题标题改善措施期限签字具名……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《关于T公司供应链采购管理改善的研究》<br><b>作者：</b>尤兰<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>朱雪珍<br><b>学位授予单位：</b>苏州大学<br><b>学位年度：</b>2013<br><b>关键词：</b>金融危机 EMS 供应链管理 采购管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >49</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">表</span>{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">电话</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">地址</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>考核评分<span style="background:#cbcbcb">表</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>：<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span><span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span><span style="background:#cbcbcb">地址</span>及邮编<span style="background:#cbcbcb">电话</span>考核指标占比评分</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……按约定方式交货4服务方面考核1.售前服务是否周到2.售后服务是否及时，能否及时处理异常情况5履约能力考核供应商对采购合同的执行情况MPAcc学位论文表4.2<span class='green'>供应商考核评分表供应商编号：供应商名称联系人地址及邮编电话考核指标占比评分</span>标准及指标计算方法得分平均价格比率15%平均价格比率=供应商供货价格/市场平均价格*……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《中原公司采购与付款内部控制改进研究》<br><b>作者：</b>张洪宾<br><b>学科专业：</b>会计硕士<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>刘桂良<br><b>学位授予单位：</b>湖南大学<br><b>学位年度：</b>2013<br><b>关键词：</b>粮食加工机械行业 内部控制 采购与付款
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >48</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>表{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>编号，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">电话</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">地址</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>ID、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">地址</span>、<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>、<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">电话</span>、产品类型、是否</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……管理信息系统的作用供应商质量体系的主要影响体现在图1上。2供应商质量管理信息数据库的结构按汽车行业的供应商质量信息一般要求，分别在表中建立<span class='green'>供应商ID、供应商名称、供应商地址、联系人、联系电话、产品类型、是否</span>取得Ts证书、质量报告、评审报告字段，如表1所示。上海汽车2011．09万方……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《汽车行业供应商质量管理信息系统研究与开发》<br><b>作者：</b>袁晔<br><b>作者单位：</b>上海汽车集团股份有限公司技术中心,上海,201804<br><b>参考文献：</b>2篇<br><b>页码：</b>P35—P38<br><b>分类号：</b>F426.471<br><b>机标分类号：</b>F25 F27<br><b>期刊名称：</b>《上海汽车》<br><b>出版时间：</b>2011年9期<br><b>ISSN：</b>1007-4554<br><b>关键词：</b>质量管理 汽车工业 供应链管理 供应商评级<br><b>摘要：</b>详细分析了汽车行业供应商质量管理的特点,阐述了零部件供应商的质量评级指标,并设计开发了汽车行业供应商质量管理信息系统.结合汽车行业竞争环境和零部件供应商的特性,构建了一套包含零部件供应商综合管理、质量体系、生产过程、物料管理、产品开发等5个评价指标体系,并详细论述了该评级体系在Access环境下供应商质量管理信息系统的构建和实际运用.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >47</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>表{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>编号，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>名称，联系人，联系电话，联系地址，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>。<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>1<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>2<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……供应商的联系；按物料反推查询供应商主要管理同一物料与其不同供应商资料的管理，即同种物料可以有多个不同供应商提供，为采购人员迅速的查找物料对应的<span class='green'>供应商。供应商供应商供应商1供应商供应商供应商2供应商供应商供应商</span>3物料物料物料1物料物料物料3物料物料物料2图2供应商与物料关系供应商评估及……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于评分机制的供应商管理信息系统开发》<br><b>作者：</b>邹青春<br><b>作者单位：</b>北京开放大学怀柔分校,北京,101400<br><b>参考文献：</b>3篇<br><b>页码：</b>P432—P434<br><b>页数：</b>3页<br><b>分类号：</b>F253.9<br><b>机标分类号：</b>TP3 H10<br><b>期刊名称：</b>《物流技术》<br><b>出版时间：</b>2014年7期<br><b>ISSN：</b>1005-152X<br><b>关键词：</b>供应商物料信息 供应商评估 评分机制 管理信息系统<br><b>摘要：</b>结合目前制造型企业在供应商选择中存在的问题，利用供应商信息管理、供应商物料信息及供应商评估系统等技术的支持，开发基于评分机制的供应商管理信息系统，帮助企业快速、合理的寻找到理想的供应商。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">9</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>表{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>编号，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>名称，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">联系</span>电话，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">地址</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>s1<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>s2<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>s3<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>s3<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>田乙丙丁<span style="background:#cbcbcb">地址</span>中山中山</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……合作。万方数据广东工业大学硕士学位论文表CN公司询价议价表物料名称：原料K订单数量：4吨阴采购员：XXX日期：x年x月x日交货地点：佛山工厂项目<span class='green'>供应商s1供应商s2供应商s3供应商s3联系人田乙丙丁地址中山中山</span>东莞佛th联系方式号码1号码2号码3号码4报价日期2014年1月2014年1月2014……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《N公司供应商评估和选择研究》<br><b>作者：</b>段伟<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>刘洪伟<br><b>学位授予单位：</b>广东工业大学<br><b>学位年度：</b>2015
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">10</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>表{<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">联系</span>电话，<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">地址</span>，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span>：包括<span style="background:#cbcbcb">编号</span>、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">名称</span>、<span style="background:#cbcbcb">联系</span>人名称、<span style="background:#cbcbcb">联系</span><span style="background:#cbcbcb">人</span>职称、<span style="background:#cbcbcb">地址</span>、城市、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……5)公司信息：包括编号、公司名称、地址、城市、省份、邮政编号、国家、电话号码、电子邮件、传真号码、开户银行、银行帐号、业务描述等。(6)<span class='green'>供应商：包括编号、供应商名称、联系人名称、联系人职称、地址、城市、</span>省份、邮政编号、国家、电话号码、电子邮件、传真号码、开户银行、银行帐号、业务描述……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于B/S结构的仓库管理系统》<br><b>作者：</b>周红<br><b>作者单位：</b>苏州大学,计算机科学与技术学院,江苏,苏州,215006<br><b>参考文献：</b>4篇<br><b>被引次数：</b>6次（统计时间：2015年8月）<br><b>页码：</b>P602—P603<br><b>页数：</b>2页<br><b>分类号：</b>TP315<br><b>机标分类号：</b>TP3 F71<br><b>期刊名称：</b>《电脑知识与技术(学术交流)》<br><b>出版时间：</b>2007年15期<br><b>ISSN：</b>1009-3044<br><b>关键词：</b>信息管理系统 控件 窗体 域<br><b>摘要：</b>仓库管理系统是典型的信息管理系统(MIS),其开发主要包括后台数据库的建立和维护,以及前端Web应用程序的开发两个方面.它使用VISUAL BASIC作为开发工具,同时用Microsoft Access 2003建立后台数据库,最后以JET数据库引擎技术实现前台界面与后台的连接.仓库管理系统主要完成仓库货物信息的录入、查询、统计和数据备份等功能,具有极强的实用性.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">供应：</span><span class="green">供给 提供 </span><br/> <span class="red">地址：</span><span class="green">地点 所在 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

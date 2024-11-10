@@ -1,0 +1,153 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 15:46
+ * 库存实体类
+ */
+public class OutStore {
+    private int outStoreId;
+    private int storeId;
+    private int foodId;
+    private String foodName;
+    private int foodOutNum;
+    private String classId;
+    private String className;
+    private String foodStandard;
+    private String storageOutType;
+    private String storageOutDate;
+    private String overDate;
+    private String remarks;
+    private double recAmount;
+    private double reaAmount;
+    private String userName;
+
+
+
+
+
+
+    public int getOutStoreId() {
+        return outStoreId;
+    }
+
+    public void setOutStoreId(int outStoreId) {
+        this.outStoreId = outStoreId;
+    }
+
+    public int getFoodId() {
+        return foodId;
+    }
+
+    public void setFoodId(int foodId) {
+        this.foodId = foodId;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public int getFoodOutNum() {
+        return foodOutNum;
+    }
+
+    public void setFoodOutNum(int foodOutNum) {
+        this.foodOutNum = foodOutNum;
+    }
+
+    public String getClassId() {
+        return classId;
+    }
+
+    public void setClassId(String classId) {
+        this.classId = classId;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public String getFoodStandard() {
+        return foodStandard;
+    }
+
+    public void setFoodStandard(String foodStandard) {
+        this.foodStandard = foodStandard;
+    }
+
+
+
+    public String getStorageOutType() {
+        return storageOutType;
+    }
+
+    public void setStorageOutType(String storageOutType) {
+        this.storageOutType = storageOutType;
+    }
+
+    public String getStorageOutDate() {
+        return storageOutDate;
+    }
+
+    public void setStorageOutDate(String storageOutDate) {
+        this.storageOutDate = storageOutDate;
+    }
+
+    public String getOverDate() {
+        return overDate;
+    }
+
+    public void setOverDate(String overDate) {
+        this.overDate = overDate;
+    }
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public int getStoreId() {
+        return storeId;
+    }
+
+    public void setStoreId(int storeId) {
+        this.storeId = storeId;
+    }
+
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+
+    public double getRecAmount() {
+        return recAmount;
+    }
+
+    public void setRecAmount(double recAmount) {
+        this.recAmount = recAmount;
+    }
+
+    public double getReaAmount() {
+        return reaAmount;
+    }
+
+    public void setReaAmount(double reaAmount) {
+        this.reaAmount = reaAmount;
+    }
+}

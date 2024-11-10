@@ -1,0 +1,81 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/14 16:07
+ * 销售计划详情实体
+ */
+public class SalePlanDetail {
+    private int detailId;
+    private String salePlanId;
+    private int foodId;
+    private String foodName;
+    private Double foodPrice;
+    private int saleNum;
+    private Double saleTotalMoney;
+    private String remarks;
+
+    public String getSalePlanId() {
+        return salePlanId;
+    }
+
+    public void setSalePlanId(String salePlanId) {
+        this.salePlanId = salePlanId;
+    }
+
+    public int getFoodId() {
+        return foodId;
+    }
+
+    public void setFoodId(int foodId) {
+        this.foodId = foodId;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public Double getFoodPrice() {
+        return foodPrice;
+    }
+
+    public void setFoodPrice(Double foodPrice) {
+        this.foodPrice = foodPrice;
+    }
+
+    public int getSaleNum() {
+        return saleNum;
+    }
+
+    public void setSaleNum(int saleNum) {
+        this.saleNum = saleNum;
+    }
+
+    public Double getSaleTotalMoney() {
+        return saleTotalMoney;
+    }
+
+    public void setSaleTotalMoney(Double saleTotalMoney) {
+        this.saleTotalMoney = saleTotalMoney;
+    }
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public int getDetailId() {
+        return detailId;
+    }
+
+    public void setDetailId(int detailId) {
+        this.detailId = detailId;
+    }
+}

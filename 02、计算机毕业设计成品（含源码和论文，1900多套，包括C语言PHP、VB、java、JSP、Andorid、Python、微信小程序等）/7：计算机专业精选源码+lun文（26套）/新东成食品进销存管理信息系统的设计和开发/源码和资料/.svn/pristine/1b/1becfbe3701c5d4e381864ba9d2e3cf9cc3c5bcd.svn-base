@@ -1,0 +1,59 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑销售计划</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var   tt   =   1;
+			$("#selectUser").click(function(){
+						tt   =   tt?0:1;
+						if(tt){
+							var userId=$("#selectUser").find("option:selected").val();
+							var userName=$("#selectUser").find("option:selected").text();
+							$("#approverId").val(userId);
+							$("#approver").val(userName);
+						}
+					}
+			);
+
+		});
+
+	</script>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+</head>
+<body>
+<a href="${ctx}/buyPlan/list">返回销售计划列表</a>
+<hr />
+<form action="${ctx }/buyPlan/update" method="post">
+<input type="hidden" name="buyPlanId" value="${buyPlan.buyPlanId}">
+<table class="t1">
+
+	<tr>
+		<td>审批人</td>
+		<input type="hidden" name="approverId" id="approverId" value="${buyPlan.approverId}">
+		<td><input type="text" name="approver" id="approver" readonly value="${buyPlan.approver}" required></td>
+		<td>
+			<select id="selectUser">
+				<c:forEach items="${userList }" var="user">
+					<option value="${user.id}">${user.username}</option>
+				</c:forEach>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>备注</td>
+		<td><input type="text" name="remarks" id="remarks" value="${buyPlan.remarks}"/></td>
+	</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="保存">  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

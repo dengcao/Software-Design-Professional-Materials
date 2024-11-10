@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="371.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="371_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >集成测试，是为了弥补单元测试的中一些不能反映的全局问题；</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >45</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：5个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span>，<span style="background:#cbcbcb">是</span>为了弥补<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>中一些不能反映<span style="background:#cbcbcb">的</span>全局问题；</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>下一个阶段，指<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">是</span>将通过<span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……关键模块还是要做的。对于支持一些标准规范的程序，关联测试的进行也是必需的。2．2集成测试(Inte粥tionTesting)<span class='green'>集成测试是单元测试的下一个阶段，指的是将通过测试的</span>单元模块组装成为系统或者是子系统，再次进行测试。在组装的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《软件测试基础及测试过程和策略探索》<br><b>作者：</b>邹建平<br><b>作者单位：</b>上海核工程研究设计院,上海,200233<br><b>参考文献：</b>7篇<br><b>页码：</b>P319—P322<br><b>页数：</b>4页<br><b>分类号：</b>TP311.5<br><b>期刊名称：</b>《价值工程》<br><b>出版时间：</b>2015年9期<br><b>期刊级别：</b>ISTIC<br><b>ISSN：</b>1006-4311<br><b>关键词：</b>测试工具 软件配置 测试用例 单元软件测试 边界值分析 测试的独立性<br><b>摘要：</b>保证软件质量的一个重要手段同时也是开发系统软件过程中的一项重要活动就是软件测试,以确保最终开发的系统安全、可靠地运行.本文以软件测试工作的实际需要为线索,主要对软件测试常用技术,方法以及策略进行探索和研究.目前国内核电领域仍缺少这方面的研究,希望能对此领域的软件测试工作有一定的指导意义.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span>，<span style="background:#cbcbcb">是</span>为了弥补<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>中一些不能反映<span style="background:#cbcbcb">的</span>全局问题；</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>在软件<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>基础上进行<span style="background:#cbcbcb">的</span>，所以<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……起来也能正常的工作。程序在某些局部反映不出来的问题，在全局上很可能暴露出来，影响功能的实现。由于软件的<span class='green'>集成测试是在软件的单元测试的基础上进行的，所以单元测试</span>必须在集成测试开始前完成。集成测试丰要是为了检测那些软件的单……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《实时信息物理系统的实时特性的面向方面测试方法》<br><b>作者：</b>杨敏<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>计算机应用技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张立臣<br><b>学位授予单位：</b>广东工业大学<br><b>学位年度：</b>2012<br><b>关键词：</b>信息物理融合系统 实时系统 软件测试
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span>，是为了弥补<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>中一些不能反映<span style="background:#cbcbcb">的</span>全局问题；</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">测试</span>。21<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>设计过程实际上就是项目设计</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……(Function丑11妇)，用来确保系统整体上以他们期望的方式运行。另外，单元测试中要求体现集成测试的原则，即持续<span class='green'>集成的测试。21单元测试单元测试的设计过程实际上就是项目设计</span>的过程。对初步的交互接口和数据接口类中将被使用的方法以……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于极限编程的测试分析》<br><b>作者：</b>陈伟 谢俊元<br><b>作者单位：</b>南京大学,计算机软件新技术国家重点试验室,计算机科学与技术系,江苏,南京,210093<br><b>参考文献：</b>6篇<br><b>被引次数：</b>8次（统计时间：2015年8月）<br><b>页码：</b>P69—P72<br><b>页数：</b>4页<br><b>分类号：</b>TP311<br><b>机标分类号：</b>TP3 TP2<br><b>期刊名称：</b>《计算机应用研究》<br><b>出版时间：</b>2004年1期<br><b>期刊级别：</b>ISTIC - PKU<br><b>ISSN：</b>1001-3695<br><b>关键词：</b>极限编程 重构 持续集成 测试先行<br><b>摘要：</b>相对于传统的软件工程方法而言,极限编程是一种轻量方法论,是一个周密而严谨的软件开发流程.任何一种软件开发方法都有自身的各种规则实践,而测试是个不变的恒量实践过程.XP中特别强调测试,而且测试的实现过程遵守测试先行原则,支持着其他实践--迭代开发、持续集成和重构等.对于极限编程来说,要做到测试所有可能出错的地方,而且所有测试都要100%的通过,这就是XP的极限理论之一,也是测试的基本原则.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span>，<span style="background:#cbcbcb">是</span>为了弥补<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>中一些不能反映<span style="background:#cbcbcb">的</span>全局问题；</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">。<span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span>在<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>基础上，<span style="background:#cbcbcb">测试</span>在将所有<span style="background:#cbcbcb">的</span>软件</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……组合单元时所发现的任何错误很可能与单元之间的接口有关。这种方法将可能发生的情况数量减少到更简单的分析级别<span class='green'>。集成测试是在单元测试的基础上，测试在将所有的软件</span>单元按照概要设计规格说明的要求组装成模块，子系统或系统的过程……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《测试与系统测试比较分析》<br><b>作者：</b>张袖斌 邬厚民<br><b>作者单位：</b>广州科技贸易职业学院计算机系,广东广州,511442<br><b>参考文献：</b>6篇<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>页码：</b>P32—P34<br><b>页数：</b>3页<br><b>分类号：</b>TP301<br><b>机标分类号：</b>TP3 U29<br><b>期刊名称：</b>《科技资讯》<br><b>出版时间：</b>2007年1期<br><b>ISSN：</b>1672-3791<br><b>关键词：</b>黑盒测试 集成测试 系统测试 软件质量<br><b>摘要：</b>成功的测试在于发现了迄今尚未发现的缺陷,而且测试是一个是"从小到大"、"由内至外"、"循序渐进"的测试过程,体现了"分而治之"的过程,期中集成测试和系统测试最为重要.集成测试界于单元测试和系统测试之间,起到"桥梁作用",一般由开发小组采用白盒加黑盒的方式来测试,既要验证"设计"又要验证"需求".系统测试的粒度最大,一般由独立测试小组采用黑盒方式来测试.主要测试系统是否符合"需求规格说明书".对两种测试的比较和分析多我们进一步完善软件测试提高软件质量有相当重要的作用.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span>，<span style="background:#cbcbcb">是</span>为了弥补<span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>中一些不能反映<span style="background:#cbcbcb">的</span>全局问题；</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">集成</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">是</span><span style="background:#cbcbcb">单元</span><span style="background:#cbcbcb">测试</span><span style="background:#cbcbcb">的</span>下一个阶段，在组装<span style="background:#cbcbcb">的</span>过程当中</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，因此无法采用黑盒测试方法进行动态验证，达到100%的逻辑覆盖要求。因此，需采取代码走查方法进行验证。3.2<span class='green'>集成测试集成测试是单元测试的下一个阶段，在组装的过程当中</span>，检查程序结构组装的正确性时应明确：穿越模块接口的数据是不是……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于软件测试的策略与测试方法应用分析》<br><b>作者：</b>黄爱明<br><b>作者单位：</b>重庆城市管理职业学院 重庆 401331<br><b>参考文献：</b>5篇<br><b>页码：</b>P64—P65<br><b>页数：</b>2页<br><b>分类号：</b>TP311<br><b>期刊名称：</b>《电脑知识与技术》<br><b>出版时间：</b>2015年2期<br><b>ISSN：</b>1009-3044<br><b>关键词：</b>软件测试 测试方法 应用分析 策略<br><b>摘要：</b>现如今，依靠计算机发展起来的技术越来越多，最为典型的一个便是软件工程。而在软件开发过程中，软件测试则是软件开发的核心，只有不断完善软件测试效率，对软件的缺陷进行弥补，才能使开发的软件慢慢完善。本文叙述了软件测试的概念，并阐述了软件测试的策略以及测试方法，以供参考！
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">弥补：</span><span class="green">填补 增补 补充 </span><br/> <span class="red">单元：</span><span class="green">单位 </span><br/> <span class="red">不能：</span><span class="green">不克 不及 </span><br/> <span class="red">问题：</span><span class="green">标题 题目 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

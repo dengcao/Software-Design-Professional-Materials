@@ -1,0 +1,367 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="167.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="167_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >质检合格的食品交给仓储部工作人员，办理入库手续。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >47</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：6个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >47</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >质检合格<span style="background:#cbcbcb">的</span>食品交给<span style="background:#cbcbcb">仓储</span><span style="background:#cbcbcb">部</span>工作<span style="background:#cbcbcb">人员</span>，<span style="background:#cbcbcb">办理</span>入库<span style="background:#cbcbcb">手续</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">符合要求<span style="background:#cbcbcb">的</span>存货由<span style="background:#cbcbcb">仓储</span><span style="background:#cbcbcb">部</span>fJ<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">人员</span><span style="background:#cbcbcb">办理</span>^库<span style="background:#cbcbcb">手续</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……要求，根据验收存货的品种、数量，填制验收单并出具检验报告，验收报告经相关授权部门审核后，<span class='green'>符合要求的存货由仓储部fJ的人员办理^库手续</span>保管，对于不符要求的存货不予办理^库手续。采购人员……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《企业存货的内部控制研究》<br><b>作者：</b>李彬<br><b>作者单位：</b>中铁一局集团物资工贸有限公司,710054<br><b>参考文献：</b>3篇<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>分类号：</b>F2<br><b>机标分类号：</b>F27 F25<br><b>期刊名称：</b>《现代商业》<br><b>出版时间：</b>2010年12期<br><b>ISSN：</b>1673-5889<br><b>关键词：</b>企业 存货 内部控制<br><b>摘要：</b>存货的内部控制主要是对存货的实物流转和价值流转记录程序的控制,是对存货业务流转过程依据交易授权、职责划分,资产接触、记录和稽核控制程序进行规范,制定相应的控制制度.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >质检<span style="background:#cbcbcb">合格</span>的食品交给<span style="background:#cbcbcb">仓储</span>部工作<span style="background:#cbcbcb">人员</span>，<span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">验收<span style="background:#cbcbcb">合格</span>单，由<span style="background:#cbcbcb">仓储</span><span style="background:#cbcbcb">人员</span>及时<span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>，填制</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……部门，根据运单、发票、合同以及产品说明书等材料由验收人员进行查验，若验收合格，即填制<span class='green'>验收合格单，由仓储人员及时办理入库手续，填制</span>入库单并妥善保管。同时对存货验收不当产生的风险……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《HNG烟草公司存货管理内部控制制度改进研究》<br><b>作者：</b>陈灿<br><b>分类号：</b>F425.7<br><b>学科专业：</b>会计学<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王善平<br><b>学位授予单位：</b>湖南大学<br><b>学位年度：</b>2012<br><b>关键词：</b>烟草公司 存货管理 内部控制 制度改进
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">质检</span><span style="background:#cbcbcb">合格</span><span style="background:#cbcbcb">的</span>食品交给仓储部工作人员，<span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">质检</span>员贴<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">合格</span>标签，并且<span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>，开</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……货主的正式入库凭证(也就是质检部门的检验结果)，由仓库管理员对货物进行清点，检查是否有<span class='green'>质检员贴的合格标签，并且办理入库手续，开</span>入库单，分配物料库存货位。具体的做法是对来料……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于MRP汽车零部件生产计划系统研究与实现》<br><b>作者：</b>王学勤<br><b>分类号：</b>F270.7<br><b>学科专业：</b>计算机应用技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孟宪福<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2005<br><b>关键词：</b>生产计划管理 MRP 成组技术 组产品 单个产品 提前期 汽车零部件行业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">质检</span><span style="background:#cbcbcb">合格</span>的食品交给<span style="background:#cbcbcb">仓储</span><span style="background:#cbcbcb">部</span>工作人员，办理<span style="background:#cbcbcb">入库</span>手续。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">质检</span><span style="background:#cbcbcb">部</span>检验<span style="background:#cbcbcb">合格</span>后，<span style="background:#cbcbcb">仓储</span><span style="background:#cbcbcb">部</span>填写<span style="background:#cbcbcb">入库</span>单进行<span style="background:#cbcbcb">入库</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……情况；入库：入库包含两种情况：采购材料入库和产品完工入库。采购部采购的材料和完工产品经<span class='green'>质检部检验合格后，仓储部填写入库单进行入库。</span>库管员对货品进行整理，按货号分仓库存放；采购……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《ERP人才培养模式研究》<br><b>作者：</b>张玉玲<br><b>分类号：</b>C961<br><b>学科专业：</b>管理科学与工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>苏建军<br><b>学位授予单位：</b>西安科技大学<br><b>学位年度：</b>2008<br><b>关键词：</b>现代企业 企业竞争 人才培养 信息技术
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >质检合格的食品交给<span style="background:#cbcbcb">仓储</span><span style="background:#cbcbcb">部</span>工作人员，<span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">上签字确认数量、品种，<span style="background:#cbcbcb">仓储</span><span style="background:#cbcbcb">部</span><span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>。废</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……人员到现场与生产厂，实业公司经办人员一同作业。装车、检斤完毕，共同在“入库通知单”<span class='green'>上签字确认数量、品种，仓储部办理入库手续。废</span>成品、废材料的入库，可同出库一同办理。2、……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《库房管理信息系统的研究与实现》<br><b>作者：</b>张伟<br><b>分类号：</b>TP311.132.4<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孙长海<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2005<br><b>关键词：</b>库房管理 管理信息系统 数据库 物流管理 功能模块 对象化建模
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >质检<span style="background:#cbcbcb">合格</span><span style="background:#cbcbcb">的</span>食品交给仓储部工作人员，<span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">合格</span><span style="background:#cbcbcb">的</span>检验记录或标签，填入库单<span style="background:#cbcbcb">办理</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">手续</span>，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……其数量，核实其包装无损，产品标识清晰无误后，通知质检员进行抽样检验。#$!仓储部根据<span class='green'>合格的检验记录或标签，填入库单办理入库手续，</span>及时登账并放置已检区或标识，报财务入账。#……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《农作物种子贮藏、保管和发放控制》<br><b>作者：</b>尹设飞 童海军 唐昌华 刘鑫<br><b>作者单位：</b>浙江省遂昌县种子加工中心,遂昌,323300；浙江省种子公司,杭州,310021<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>页码：</b>P26—P27<br><b>页数：</b>2页<br><b>分类号：</b>F324<br><b>机标分类号：</b>V21 U26<br><b>期刊名称：</b>《中国种业》<br><b>出版时间：</b>2003年10期<br><b>ISSN：</b>1671-895X
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">合格：</span><span class="green">及格 </span><br/> <span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">人员：</span><span class="green">职员 </span><br/> <span class="red">办理：</span><span class="green">打点 管理 解决 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

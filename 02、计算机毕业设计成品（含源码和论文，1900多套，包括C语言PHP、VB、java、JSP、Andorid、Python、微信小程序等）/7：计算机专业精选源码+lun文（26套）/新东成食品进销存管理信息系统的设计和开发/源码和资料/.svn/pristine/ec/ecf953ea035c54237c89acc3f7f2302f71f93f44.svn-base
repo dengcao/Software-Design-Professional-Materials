@@ -1,0 +1,169 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.SalePlan;
+import com.nemo.pojo.SalePlanDetail;
+import com.nemo.service.SalePlanDetailService;
+import com.nemo.service.SalePlanService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 销售详细计划操作类
+ */
+@Controller
+@RequestMapping("/salePlanDetail")
+public class SalePlanDetailController {
+    @Autowired
+    SalePlanDetailService salePlanDetailService;
+
+    @Autowired
+    SalePlanService salePlanService;
+
+
+
+    private String planId;
+    private String status;
+
+    @RequestMapping("/list")
+    public String allList(@RequestParam String id,String status,Model model) throws Exception{
+        planId=id;
+        this.status=status;
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        model.addAttribute("salePlanId",planId);
+     /*   List<SalePlanDetail> list = salePlanDetailService.querySalePlanDetailList(id);
+        model.addAttribute("salePlanDetailList",list);*/
+        int count = salePlanDetailService.count();
+        model.addAttribute("count",count);
+        return "salePlanDetail/salePlanDetailList";
+    }
+
+    @RequestMapping("/add")
+    public String add(Model model)throws Exception{
+        model.addAttribute("salePlanId",planId);
+        return "salePlanDetail/addSalePlanDetail";
+    }
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<SalePlanDetail> list = salePlanDetailService.findLimitList(index * 5,5,planId);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<SalePlanDetail> list = salePlanDetailService.findFuzzyList(CustomUtils.transcoding(condition),planId);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping("/check")
+    @ResponseBody
+    public String checkFood(@RequestParam String foodName)throws Exception{
+        boolean isExist=false;
+        List<SalePlanDetail> list = salePlanDetailService.querySalePlanDetailList(planId);
+        String name = CustomUtils.transcoding(foodName);
+        for(int i=0;i<list.size();i++){
+         if(list.get(i).getFoodName().equals(name)){
+             isExist=true;
+         }
+    }
+        if(isExist){
+            return "true";
+        }else {
+            return "false";
+        }
+
+    }
+
+    @RequestMapping(value = "/status",produces = "plain/text; charset=UTF-8")
+    @ResponseBody
+    public String editStatus(@RequestParam int propStatus, String option)throws Exception{
+        SalePlan salePlan=new SalePlan();
+        salePlan.setSalePlanId(planId);
+        salePlan.setPropStatus(propStatus);
+        salePlan.setApproverOpinion(CustomUtils.transcoding(option));
+        boolean su = salePlanService.editPropStatus(salePlan);
+        if(su){
+            return "true";
+        }else {
+            return "false";
+        }
+
+    }
+
+    @RequestMapping("save")
+    public String saveSalePlan(@ModelAttribute SalePlanDetail salePlanDetail,Model model)throws Exception{
+        model.addAttribute("salePlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+       boolean res = salePlanDetailService.addSalePlanDetail(salePlanDetail);
+        if(res){
+            model.addAttribute("mess","添加销售详细计划成功");
+        }else {
+            model.addAttribute("mess","添加销售详细计划失败");
+        }
+        sumMoney();
+        return "salePlanDetail/result";
+    }
+    /**
+     *@Author 刘宇飞
+     *@Date 2016/04/15 13:28
+     *计算计划总金额
+     */
+    private void sumMoney() {
+        List<SalePlanDetail> list = salePlanDetailService.querySalePlanDetailList(planId);
+        double sum=0;
+        for(int i=0;i<list.size();i++){
+            sum=sum+list.get(i).getSaleTotalMoney();
+        }
+        salePlanService.editSumMoney(planId,sum+"");
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,Model model)throws Exception{
+        model.addAttribute("salePlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        boolean res = salePlanDetailService.deleteSalePlanDetailById(id);
+        if(res){
+            model.addAttribute("mess", "删除销售详细计划成功");
+        }else{
+            model.addAttribute("mess", "删除销售详细计划失败");
+        }
+        sumMoney();
+        return "salePlanDetail/result";
+    }
+
+    @RequestMapping(value = "/edit")
+    public String edit(@RequestParam int id,Model model)throws Exception{
+        model.addAttribute("salePlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        SalePlanDetail salePlanDetail = salePlanDetailService.findSalePlanDetailById(id);
+        model.addAttribute("salePlanDetail",salePlanDetail);
+
+        return "salePlanDetail/editSalePlanDetail";
+    }
+
+    @RequestMapping("update")
+    public String update(@ModelAttribute SalePlanDetail salePlanDetail,Model model)throws Exception{
+        model.addAttribute("salePlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        boolean res = salePlanDetailService.updateSalePlanDetail(salePlanDetail);
+        if(res){
+            model.addAttribute("mess","修改销售详细计划成功");
+        }else {
+            model.addAttribute("mess","修改销售详细计划失败");
+        }
+        sumMoney();
+        return "salePlanDetail/result";
+    }
+}

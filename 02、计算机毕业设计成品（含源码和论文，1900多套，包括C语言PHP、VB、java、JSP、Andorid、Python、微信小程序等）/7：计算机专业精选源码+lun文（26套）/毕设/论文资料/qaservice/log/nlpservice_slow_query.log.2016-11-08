@@ -1,0 +1,3 @@
+2016-11-08 16:33:29 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=%E9%AD%85%E6%97%8F%E6%96%B0%E9%97%BB&salt=1478593726&sign=7fffe7e95042ba81f30e870242792745e1992912 occur:1095ms
+2016-11-08 16:36:32 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=%E9%AD%85%E6%97%8F%E6%96%B0%E9%97%BB&salt=%d1478594132&sign=3101784ff672746646e952e312ab6603b2f94520 occur:3698ms
+2016-11-08 16:38:39 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=%E9%AD%85%E6%97%8F%E6%96%B0%E9%97%BB&salt=%d1478594255&sign=0ff137e5f4549e385515532ef7c1a8a8b547ae036646e952e312ab6603b2f94520 occur:39414ms

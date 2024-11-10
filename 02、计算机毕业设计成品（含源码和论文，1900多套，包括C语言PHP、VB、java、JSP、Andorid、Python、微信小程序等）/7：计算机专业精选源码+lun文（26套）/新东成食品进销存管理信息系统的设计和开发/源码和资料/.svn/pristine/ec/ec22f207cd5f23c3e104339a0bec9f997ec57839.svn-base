@@ -1,0 +1,74 @@
+package com.nemo.pojo;
+
+import java.io.Serializable;
+
+/**
+ * 用户的实体对象
+ * @author Nemo
+ *
+ */
+public class User implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Integer id;//主键
+	private String username;//用户名
+	private String birthday;//生日
+	private String sex;//性别
+	private String address;//家庭地址
+	private String userPSW;//用户密码
+	private String userPower;//用户权限
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getBirthday() {
+		return birthday;
+	}
+	public void setBirthday(String birthday) {
+		this.birthday = birthday;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getUserPSW() {
+		return userPSW;
+	}
+
+	public void setUserPSW(String userPSW) {
+		this.userPSW = userPSW;
+	}
+
+	public String getUserPower() {
+		return userPower;
+	}
+
+	public void setUserPower(String userPower) {
+		this.userPower = userPower;
+	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", username=" + username + ", birthday="
+				+ birthday + ", sex=" + sex + ", address=" + address + "]";
+	}
+}

@@ -1,0 +1,503 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="100.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="100_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='red' >2.3 进销存管理信息系统的重要性</span><br><br>
+<div style="display:none;">该句相似度：<span class='red' >79</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：24个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='red' >79</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span>管理信息<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">及开发<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span>办理面对<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……背景本章意义了论文研究的后台和定见，并结合离散制造企业的现状和要求，说管理研究<span class='green'>及开发进销存办理面对系统的重要性。</span>进面临论文的研究目的、研究内容阐述了……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《离散制造企业的进销存管理信息系统研究与开发》<br><b>作者：</b>江琳<br><b>分类号：</b>F270.7<br><b>学科专业：</b>机械电子工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孙树栋<br><b>学位授予单位：</b>西北工业大学<br><b>学位年度：</b>2003<br><b>关键词：</b>组件 组件对象模式 进销存管理信息系统 制造业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='red' >74</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.<span style="background:#cbcbcb">3</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>重要性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">等。<span style="background:#cbcbcb">3</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>实现<span style="background:#cbcbcb">3</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……信息表，出库信息表，销售单表，产品盘点表，库存表，销售信息表，用户表<span class='green'>等。3进销存管理信息系统的实现3</span>.1系统数据链接公共代码。为了系统编码过程的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于MVC架构的进销存管理信息系统的设计与实现》<br><b>作者：</b>卿娟<br><b>作者单位：</b>广东省高级技工学校,广东惠州,516100<br><b>参考文献：</b>3篇<br><b>页码：</b>P276—P277<br><b>页数：</b>2页<br><b>分类号：</b>TP311.52<br><b>机标分类号：</b>F27 I20<br><b>期刊名称：</b>《计算机光盘软件与应用》<br><b>出版时间：</b>2014年5期<br><b>ISSN：</b>1007-9599<br><b>关键词：</b>进销存 MVC 系统设计<br><b>摘要：</b>本文主要是根据企业产品管理的现实状况，以及企业管理者的现实需求，设计出一个具有智能化的网络进销存管理信息系统。该系统采用当前先进的JSP技术和MVC开发模式。系统主要是以处理业务为主要目标，使企业从进货到销售再到管理等各项业务都能够在系统中轻松完成。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='red' >71</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>重要性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>概述<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>主要目<span style="background:#cbcbcb">的</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……的进销存管理软件，来提高本部门的综合竞争能力。1．2进销存管理信息<span class='green'>系统概述进销存管理信息系统的主要目的</span>是对企业的进货、销售、存活进行全面的控制……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《宁波华翔进销存管理信息系统设计与实现》<br><b>作者：</b>赖援海<br><b>分类号：</b>F270.7<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>罗钟铉<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2009<br><b>关键词：</b>企业管理 进销存信息管理系统 经营决策 客户管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='red' >71</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' ><span style="background:#cbcbcb">2</span>.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>重要性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">2</span>．1<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>构成…</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……与理论…………………………………………………72．<span class='green'>2．1进销存管理信息系统的构成…</span>………………………………………
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于ERP的中小型企业进销存管理信息化研究》<br><b>作者：</b>徐正利<br><b>分类号：</b>F253.9<br><b>学科专业：</b>物流管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>罗述全<br><b>学位授予单位：</b>武汉理工大学<br><b>学位年度：</b>2012<br><b>关键词：</b>中小型企业 进销存管理 管理信息系统 B/S体系结构 业务流程图
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >61</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>重要性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">NET<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>设计与</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……存管理，提升企业的信息化管理水平。参考文献[1]向才凤，张岳衡．基于ASP．<span class='green'>NET的进销存管理信息系统的设计与</span>实现【J】．中国管理信息化，2011．【……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于ASP.NET技术通用进销存系统开发》<br><b>作者：</b>吕洪林<br><b>作者单位：</b>辽宁对外经贸学院 辽宁大连116052<br><b>参考文献：</b>2篇<br><b>页码：</b>P49—P51<br><b>页数：</b>3页<br><b>机标分类号：</b>TP3 F27<br><b>期刊名称：</b>《信息安全与技术》<br><b>出版时间：</b>2013年10期<br><b>ISSN：</b>1674-9456<br><b>关键词：</b>进销存 进销存系统 ASP.NET<br><b>摘要：</b>通用进销存系统使用Visual Studio 2008作为开发工具,以C#3.5作为开发语言,用Microsoft SQLServer 2005作为后台数据库服务器.系统采用自顶向下方法开发,其功能模块主要包括基本信息模块、进货管理模块、库存管理模块、销售管理模块、查询统计模块和系统设置模块.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >61</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span>系统<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span></span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">三、<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span>一体化<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span><span style="background:#cbcbcb">性</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……进货、出货、销售明细表等。通过这些数据信息，能够直接反映信息管理系统的实体关系。<span class='green'>三、进销存一体化管理信息的重要性</span>进销存一体化管理信息实现了手头管理不大可能……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《进销存一体化管理信息系统分析与设计探析》<br><b>作者：</b>高卫松<br><b>作者单位：</b>江苏苏物拆船有限责任公司 江苏南京 210003<br><b>参考文献：</b>3篇<br><b>页码：</b>P72—P72,73<br><b>页数：</b>2页<br><b>期刊名称：</b>《现代商业》<br><b>出版时间：</b>2014年22期<br><b>ISSN：</b>1673-5889<br><b>关键词：</b>进货 销售 库存 管理信息系统 一体化 探析<br><b>摘要：</b>全球经济一体化的发展，导致了管理体制的改变。各大企业与集团间存在着越来越激烈的竞争关系。企业管理是企业的关键，结合经济、技术、设计和管理体制间所存在的制约问题，对进货、销售、库存展开了新的研究与探析。进销存一体化信息管理系统，是集多种管理方式于一体，实现信息的全程操控，为企业构建一个更高效的平台。进销存一体化管理信息系统能够使公司的整体能力得到最大的发挥，让企业真正实现信息管理上的高效化和科学化。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >61</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span>的<span style="background:#cbcbcb">重要</span>性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">化，<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span>作为数字化<span style="background:#cbcbcb">重要</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……万方数据电子科技大学硕士学位论文课题建设进销存管理信息<span class='green'>化，进销存管理信息系统作为数字化重要</span>组成，是实现进销存科学管理保障，涉及进……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《成都顺天食品有限公司冷食批发进销存管理信息系统的设计与实现》<br><b>作者：</b>贺伟<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>谢梅<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>冷食批发 进销存管理信息系统 软件开发 数据安全
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >60</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>重要性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">的</span>服装<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span>中。服装<span style="background:#cbcbcb">进</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……用程序开发周期短和易用性等优点，同时能真正做到资源共享，而广泛用于连锁经营<span class='green'>的服装进销存管理信息系统中。服装进</span>销存管理系统采用三层结构，将任务划分为用……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于B/S模式的服装进销存管理信息系统的设计与实现》<br><b>作者：</b>李逢玲 郑飞<br><b>作者单位：</b>佛山科学技术学院,广东,佛山,528000；佛山广播电视大学,广东,佛山,528000<br><b>参考文献：</b>4篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P74—P75,78<br><b>页数：</b>3页<br><b>分类号：</b>TP311<br><b>机标分类号：</b>F27 TS8<br><b>期刊名称：</b>《现代电子技术》<br><b>出版时间：</b>2007年8期<br><b>期刊级别：</b>ISTIC<br><b>ISSN：</b>1004-373X<br><b>关键词：</b>B/S模式 进销存管理 管理信息系统 服装<br><b>摘要：</b>通过对服装连锁企业各经营网点分布在同一城市的不同区域或不同城市的特点以及服装进销存管理信息系统的功能分析,设计了基于B/S模式的服装进销存管理信息系统的技术方案,详细讨论了系统的功能设计、实现方案以及关键技术.通过在连锁服装企业的实际使用,该系统能有效减少人员工作量,保证企业处于良好的销存状态,提高了管理水平和效益.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">9</div>
+<font color="#666666">相似度：</font><span class='orange' >60</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span>信息<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>重要性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">。三、<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>作用<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……大，并且上报的信息存在信息延迟和不准确的现象．严重影响到企业领导层的决策工作<span class='green'>。三、进销存管理系统的作用进销</span>存管理系统是基于先进的软件和高速、大容量……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《进销存管理系统的简析》<br><b>作者：</b>张娜 严键<br><b>作者单位：</b>山东交通职业学院 山东潍坊261206<br><b>页数：</b>1页<br><b>机标分类号：</b>TP3 TP2<br><b>期刊名称：</b>《大江周刊（论坛）》<br><b>出版时间：</b>2013年6期<br><b>ISSN：</b>1005-6564
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">10</div>
+<font color="#666666">相似度：</font><span class='orange' >59</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='red' >2.3<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span>信息<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span>性</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">合适<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>非常<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">重要</span>，<span style="background:#cbcbcb">进</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……进行仓库管理已经成为中小企业们“以快制慢”赢得竞争的重要手段，显然，引进<span class='green'>合适的进销存管理系统非常的重要，进</span>销存管理系统无疑有着非常光明的前景。据信息……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于Java语言的进销存管理系统》<br><b>作者：</b>马萌<br><b>作者单位：</b>中国电子科技集团公司第五十四研究所,河北石家庄,050081<br><b>参考文献：</b>9篇<br><b>页码：</b>P61—P64<br><b>页数：</b>4页<br><b>分类号：</b>TN312<br><b>期刊名称：</b>《计算机与网络》<br><b>出版时间：</b>2015年19期<br><b>ISSN：</b>1008-1739<br><b>关键词：</b>进销存管理系统 Java语言 数据库 软件设计<br><b>摘要：</b>针对企业进销存管理中账目混论、库存不准和信息反馈不及时等问题,采用Java开发设计集进货、销售he存储多个环节于一体化的移动进销存管理系统,详细介绍了该系统的功能、数据结构、模块和软件设计技术,给出了关键技术的具体方法,完美实现了"精准报价、清晰库存"的核心价值,凸显了该系统具有与传统进销存管理系统无法比拟的优越性.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

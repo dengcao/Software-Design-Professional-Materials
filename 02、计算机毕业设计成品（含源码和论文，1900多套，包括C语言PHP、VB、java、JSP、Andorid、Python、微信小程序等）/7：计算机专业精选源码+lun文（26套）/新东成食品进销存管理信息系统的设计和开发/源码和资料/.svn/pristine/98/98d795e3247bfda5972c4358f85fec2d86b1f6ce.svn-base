@@ -1,0 +1,50 @@
+package com.nemo.service;
+
+import com.nemo.pojo.Backuptime;
+import com.nemo.pojo.User;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * 用户功能的服务层实现接口
+ * @author Nemo
+ *
+ */
+public interface UserService{
+	public List<User> queryUserList() throws Exception;
+	
+	public boolean deleteUserById(int id);
+	
+	public boolean updateUser(User user);
+	
+	public boolean addUser(User user);
+	
+	public User getUserById(int id);
+
+	/**
+	 *@Author 刘宇飞
+	 *@Date 2016/04/05 10:19
+	 *检查登陆操作
+	 */
+	public User checkLogin(Map<String,String> map) throws Exception;
+
+	public boolean updatePSW(Map<String,String> map);
+
+	public List<User> findLimitList(int start,int end);
+
+	public int count();
+
+	public List<User> findFuzzyList(String condition);
+
+	public boolean backUp(int type) throws IOException;
+
+	public boolean updateTime(String time);
+
+	public List<Backuptime> findBackupTime();
+
+
+
+
+}

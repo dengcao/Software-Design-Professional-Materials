@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="202_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="202_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >新东成食品公司的入库流程又分为采购入库和退货入库。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >44</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >新东成食品公司<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">入库</span>流程又<span style="background:#cbcbcb">分为</span><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">和</span>退货<span style="background:#cbcbcb">入库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">的</span>原料<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">入库</span>一般<span style="background:#cbcbcb">分为</span>按<span style="background:#cbcbcb">采购</span>单<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">和</span>其他<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">入库</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，在库房中存储的详细位置信息不明确。（2）采购单入库和其他采购入库不区分。定制生产型企业<span class='green'>的原料采购入库一般分为按采购单入库和其他采购入库。</span>采购单入库要基于生产部门的要求，对特定的原料进行采购……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《定制生产模式下的库存管理信息平台研究》<br><b>作者：</b>吕慎敏 朱云飞<br><b>作者单位：</b>山东女子学院,山东 济南,250300；北京交通大学，北京 100081；天津政法管理干部学院，天津 300191<br><b>参考文献：</b>3篇<br><b>页码：</b>P433—P435<br><b>页数：</b>3页<br><b>分类号：</b>TP311.52<br><b>期刊名称：</b>《物流技术》<br><b>出版时间：</b>2014年8期<br><b>ISSN：</b>1005-152X<br><b>关键词：</b>定制生产模式 库存管理 信息平台<br><b>摘要：</b>建立适用于定制生产方式的库存管理信息系统。采用基于物料编码的动态库位信息管理、对不同性质物料实施区分管理、物料库龄分析管理等方法，实现定制生产库存管理的精确化、实时化，提高库存管理的效率，降低库存管理人员的劳动强度。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >新东成食品公司<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">入库</span>流程又<span style="background:#cbcbcb">分为</span><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">入库</span>和<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">入库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">批发商<span style="background:#cbcbcb">的</span>仓库。<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">分为</span>：<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">入库</span>、销售<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">入库</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……发货批次和发货仓库。货品出厂后根据销售合同中约定的发货批次和发货仓库来确定货品是发送到公司仓库还是<span class='green'>批发商的仓库。入库分为：采购入库、销售退货入库、</span>内部调拨入库2、物流和仓库管理是整个供应链的基础，……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《应用EAServer多层构架的ERP系统的设计与实现》<br><b>作者：</b>王向炜<br><b>分类号：</b>F270.7<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>杨文川<br><b>学位授予单位：</b>北京邮电大学<br><b>学位年度：</b>2008<br><b>关键词：</b>企业资源计划 企业运营 经营模式 业务模式 运营效率
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >新东成食品<span style="background:#cbcbcb">公司</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">入库</span>流程又分为采购<span style="background:#cbcbcb">入库</span>和<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">入库</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">终端内蒙分<span style="background:#cbcbcb">公司</span><span style="background:#cbcbcb">的</span>其他<span style="background:#cbcbcb">入库</span>主要<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">入库</span>。<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">入库</span>主要</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……合同中明确退货事宜，及时收回退货货款。对于涉及到符合索赔条件的退货，还应及时在索赔期内办理索赔。<span class='green'>终端内蒙分公司的其他入库主要退货入库。退货入库主要</span>是销售产品的退货。销售退货是由于产品质量或者型号不……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《移动终端内蒙分公司库存系统内部控制设计与实施》<br><b>作者：</b>高琳丽<br><b>分类号：</b>F626<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>米莉<br><b>学位授予单位：</b>内蒙古大学<br><b>学位年度：</b>2012<br><b>关键词：</b>库存系统 内部控制 移动终端企业 业务流程 战略管理
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+新东成食品公司的<span class="red">入库</span>流程又<span class="red">分为</span><span class="red">采购</span><span class="red">入库</span>和退货<span class="red">入库</span>。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">食品：</span><span class="green">食物 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

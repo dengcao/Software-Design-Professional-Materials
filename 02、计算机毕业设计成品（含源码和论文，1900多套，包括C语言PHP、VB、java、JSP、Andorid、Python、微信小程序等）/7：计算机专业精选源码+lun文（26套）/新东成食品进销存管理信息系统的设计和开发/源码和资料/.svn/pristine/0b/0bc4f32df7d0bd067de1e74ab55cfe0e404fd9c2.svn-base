@@ -1,0 +1,199 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>采购详细计划列表</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#submit").click(function(){
+				var option=$("#option").find("option:selected").val();
+				var approverOpinion=$("#approverOpinion").val();
+				if(approverOpinion==""){
+					alert("审核意见不能为空");
+					return false;
+				}
+				changeStatus(option,approverOpinion);
+			});
+			//完成计划提交操作
+			$("#finish").click(function(){
+				if(confirm("提交之后需要审批通过或失败才能修改")){
+					var option=3;
+					var approverOpinion=" ";
+					changeStatus(option,approverOpinion);
+				}
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		function changeStatus(option,approverOpinion){
+			var url="${ctx}/buyPlanDetail/status?propStatus="+option+"&option="+approverOpinion;
+			$.get(url,function(data,status){
+				if(status=="success"){
+					if(data=="true"){
+						alert("操作成功");
+						$("#approverOpinion").val("");
+						$("#finish").hide();
+						$("#check").hide();
+						var statu;
+						switch (Number(option)){
+							case 1:
+								statu="通过";
+								break;
+							case 2:
+								statu="不通过";
+								break;
+							case 3:
+								statu="审核中";
+								break;
+						}
+						$("#status").text(statu);
+					}else{
+						alert("操作失败");
+					}
+				}else{
+					alert("服务器错误");
+				}
+			});
+		}
+	</script>
+	<script type="text/javascript" src="${ctx}/js/page.js"></script>
+	<script type="text/javascript" src="${ctx}/js/search.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			getPartList();
+			//搜索
+			$("#find").click(function(){
+				var condition=$("#condition").val();
+				var url2="${ctx}/buyPlanDetail/getFList?condition="+condition;
+				if(condition==""){
+					getPartList();
+				}else{
+					search.cseatch(url2);
+				}
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		function getPartList(){
+			var url="${ctx}/buyPlanDetail/getLimitList";
+			var count=$("#count").val();
+			page.pagePart(url,count);
+		}
+		function   customPage(obj){
+			$("#table tr:gt(1)").remove();
+			for(var i=0;i<obj.length;i++){
+				var newRow = "<tr>" +
+						"<td>"+obj[i].buyPlanId+"</td><td>"+obj[i].foodName+"</td>" +
+						"<td>"+obj[i].foodPrice+"</td><td>"+obj[i].buyNum+"</td>" +
+						"<td>"+obj[i].buyTotalMoney+"</td><td>"+obj[i].remarks+"</td>" +
+
+						"<td>"+"<a href='${ctx}/buyPlanDetail/edit?id="+obj[i].foodId+"'>修改&nbsp;&nbsp;</a>"+
+						"<a href='${ctx}/buyPlanDetail/delete?id="+obj[i].foodId+"'>删除</a>"+"</td></tr>";
+				$("#table tr:last").after(newRow);
+
+			}
+
+			var power=Number(window.userPower);
+			var status=$("#status").text();
+			if(power==1){  //审批人操作
+
+				if(status=="审核中"){
+					$("#check").show();
+				}else{
+					$("#check").hide();
+				}
+
+				$("#add").hide();
+				$("#finish").hide();
+				hideTd();
+
+			}else if(power==14){  //申请人操作
+				$("#check").hide();
+				if(status=="未完成"||status=="不通过"){
+					$("#finish").show();
+					$("#add").show();
+				}else{
+					$("#finish").hide();
+					$("#add").hide();
+					hideTd();
+				}
+			}else{
+				$("#check").hide();
+				$("#finish").hide();
+				$("#add").hide();
+				hideTd();
+			}
+			if(power==0){
+				$("#finish").show();
+				$("#add").show();
+				$("#check").show();
+			}
+			//隐藏操作
+			function hideTd(){
+				for(var i=0;i<obj.length;i++){
+					$("#table tr th:eq(i)").hide();
+					$("#table tr td:nth-child(7)").hide();
+				}
+			}
+
+		}
+	</script>
+
+
+</head>
+
+<body>
+<input type="hidden" id="count" value="${count}">
+<div class="pagin">
+	<br/>
+	<a href="${ctx}/buyPlan/list">采购计划</a>
+	<a href="${ctx }/buyPlanDetail/add" id="add">新添采购详细计划</a>
+	<a style="margin-left: 50px">状态:</a><a id="status" style="color: red">${status}</a>
+	<br/>   <br/>
+	<input type="text" id="condition" placeholder="请输入ID或者名称"><button id="find">搜索</button>
+	<br/><br/>
+	<table id="table" class="t1">
+		<tr ><th colspan="7">采购详细计划列表</th></tr>
+		<tr>
+			<td>采购计划ID</td>
+			<td>食品名称</td>
+			<td>食品价格</td>
+			<td>计划采购数量</td>
+			<td>计划总金额</td>
+			<td>备注</td>
+			<td>操作</td>
+		</tr>
+	</table>
+	<br/>
+	<div id="Pagination" class="pagination"
+		 style=" width: -moz-fit-content;width:-webkit-fit-content;width: fit-content;margin-left: auto;margin-right: auto;" ></div>
+</div>
+
+<%--<a href='${ctx }/buyPlan/list' >返回采购计划列表</a>--%>
+<center>
+
+	<br/><br/>
+	<table id="check">
+		<tr>
+			<td><select id="option">
+				<option value="1">同意</option>
+				<option value="2">不同意</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>审核意见：</td>
+			<td><input type="text" name="approverOpinion" id="approverOpinion" style="width: 400px;height: 100px"></td>
+		</tr>
+		<tr>
+			<td><button id="submit">提交</button></td>
+
+		</tr>
+	</table>
+	<button id="finish" >完成</button>
+</center>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="77.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="77_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >进销存管理系统开始点是物流，然后进入采购管理系统、库存管理系统和销售管理系统，最终与生产系统、财务系统等合并。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >49</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：5个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >49</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>开始点是物流，然后进入<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>和<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，最终与生产<span style="background:#cbcbcb">系统</span>、财务<span style="background:#cbcbcb">系统</span>等合并。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">系统</span>。准确来说<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">系统</span>包括了<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>以及核算<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>四个模块。1.</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……由若干模块、数据库和会计软件文档组成，经济越发达，发展越迅速，会计软件的发展也由核算型软件发展为管理型软件，在核算管理的基础上，尤其是为财务管理提供工具和方法。ERP软件一个重要组成部分就是物流管理模块，即商品的<span class='green'>进销存系统。准确来说进销存系统包括了采购管理系统、销售管理系统、库存管理系统以及核算管理系统四个模块。1.</span>采购管理系统对进销存系统来说，采购管理系统是很重要的，管理的是采购业务的全部流程。采购模块的基本功能是进行采购……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《会计电算化进销存系统研究》<br><b>作者：</b>赵蓓蓓<br><b>作者单位：</b>河南省平顶山市工业学校<br><b>页码：</b>P192—P192<br><b>页数：</b>1页<br><b>分类号：</b>F230<br><b>期刊名称：</b>《现代经济信息》<br><b>出版时间：</b>2015年11期<br><b>ISSN：</b>1001-828X<br><b>关键词：</b>采购系统 销售系统 库存系统 核算系统<br><b>摘要：</b>随着现在信息技术的发展，会计电算化已经成为企业普遍运用会计信息处理方法，而会计电算化条件下对财务人员操作财务软件水平也越来越高，本文主要从软件的进销存系统出发，探讨有关的软件系统模式。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>开始点是物流，然后进入<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>和<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，最终与生产<span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">财务</span><span style="background:#cbcbcb">系统</span>等合并。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">订货<span style="background:#cbcbcb">系统</span>、内部<span style="background:#cbcbcb">销售</span>发货<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、对外<span style="background:#cbcbcb">采购</span>进货<span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">财务</span>会计<span style="background:#cbcbcb">系统</span>、运营业绩<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、决策支持<span style="background:#cbcbcb">系统</span>，等子<span style="background:#cbcbcb">系统</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……)，供应商(备件的源头)。这决定了备件采购系统主要实现的三类功能：给分厂提供一个订货平台；给供应商提供一个信息发布的平台：给备件集中采购中心提供一个物流陪送信息管理系统。3．1总体设计整个系统主要包括：分公司网上<span class='green'>订货系统、内部销售发货管理系统、对外采购进货系统、库存管理系统、财务会计系统、运营业绩管理系统、决策支持系统，等子系统</span>。3．2系统功能详细设计叙述3．2．1分公司网上订货系统备件集中采购系统订贷系管理系统票主毫关键备件售况……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《备件集中采购系统的设计》<br><b>作者：</b>王菊<br><b>作者单位：</b>辽宁省盘锦市职业技术学院,辽宁,盘锦,124010<br><b>参考文献：</b>3篇<br><b>页码：</b>P4127—P4129<br><b>分类号：</b>TP311<br><b>机标分类号：</b>TP2 F76<br><b>期刊名称：</b>《电脑知识与技术》<br><b>出版时间：</b>2010年15期<br><b>ISSN：</b>1009-3044<br><b>关键词：</b>备件管理 集中采购<br><b>摘要：</b>对于企业的备件管理来说,备件采购是活动的开始,是企业内部物流的第一个环节,它对后续环节以至对整个企业的备件管理活动.起着至关重要的作用.备件集中采购,它是集团企业充分利用、优化、分配、共享各种资源的必然要求.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>开始点<span style="background:#cbcbcb">是</span>物流，然后进入<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，最终与生产<span style="background:#cbcbcb">系统</span>、财务<span style="background:#cbcbcb">系统</span>等合并。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">(1)<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，包括<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>模块、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>模块<span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>模块。<span style="background:#cbcbcb">销售</span>模块<span style="background:#cbcbcb">是</span>整个<span style="background:#cbcbcb">系统</span>的入口，可以<span style="background:#cbcbcb">管理</span>订单、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……闲置资源。ERP软件包含许多模块，不同的软件系统所包含的模块数量和特点是不相同的。围绕企业的业务流程和实际情况，设计的ERP软件系统主要涵盖MRPII的模块，从功能上主要有进销存管理、生产管理和财务管理。其中模块划分如下说明：<span class='green'>(1)进销存管理系统，包括采购管理模块、库存管理模块和销售管理模块。销售模块是整个系统的入口，可以管理订单、</span>客户资料、存货信息和报价管理，同时提供销售统计分析等功能。采购管理模块确定合理的订货量、优秀的供应商和保持安全库存量……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《医疗器械进销存信息管理系统的设计与实现》<br><b>作者：</b>张健<br><b>分类号：</b>F425.5<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>于红<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2008<br><b>关键词：</b>医疗器械 进销存管理系统 J2EE 体系结构 功能模块
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>开始点是物流，然后进入<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>和<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，最终与生产<span style="background:#cbcbcb">系统</span>、财务<span style="background:#cbcbcb">系统</span>等合并。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">、配送<span style="background:#cbcbcb">管理</span>。因此，<span style="background:#cbcbcb">系统</span>的设计主要也是从<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>设计、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>设计、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>设计、配送<span style="background:#cbcbcb">管理</span>设计这四个方面来展开。1</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……对物流业务的重视，使得基于ERP的企业物流信息系统技术在国内的研究与开发已经得到重视，这为该系统的发展提供了广阔的背景环境。二、基于ERP的物流信息管理系统的开发基于ERP的物流管理系统的主要模块是库存管理、采购管理、销售管理<span class='green'>、配送管理。因此，系统的设计主要也是从采购管理设计、库存管理设计、销售管理设计、配送管理设计这四个方面来展开。1</span>、采购管理设计采购管理为采购人员提供采购作业的一系列的管理，包括从采购资料管理、采购申请、采购订单的下达及追踪到……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《刍议基于ERP的物流信息管理系统的开发》<br><b>作者：</b>王宝龙 兰昊<br><b>作者单位：</b>兖州亿金物资有限责任公司 山东兖州 272100<br><b>参考文献：</b>2篇<br><b>页码：</b>P125—P125<br><b>页数：</b>1页<br><b>机标分类号：</b>F27 F25<br><b>期刊名称：</b>《科技与企业》<br><b>出版时间：</b>2013年18期<br><b>ISSN：</b>1004-9207<br><b>关键词：</b>ERP系统 物流管理 信息系统<br><b>摘要：</b>目前比较流行的ERP系统，虽然集成了物料、财务、人事、生产、营销等功能，但是物流业务分散于各个ERP系统模块之中，本文试图在ERP系统之上建立的新型物流信息管理系统，从而可以合理利用人力资源和物流资源，进行集中化管理，降低成本，提高效率。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >进销存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>开始点是物流，然后进入采购<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、库存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>和销售<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，最终与<span style="background:#cbcbcb">生产</span><span style="background:#cbcbcb">系统</span>、财务<span style="background:#cbcbcb">系统</span>等合并。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">产技术<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，如磅房<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、机电设备<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">生产</span>调度<span style="background:#cbcbcb">系统</span>、地测<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">生产</span>辅助设计、通风<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……等子系统。③电子商务系统：包括客户关系管理系统、供应链管理系统、市场需求信息系统等子系统。④生产管理系统：包括掘进计划、采煤计划、生产调度、安全管理、设备综合信息管理、现场数据采集、生产日报、生产业务分析等。另外还包括一些生<span class='green'>产技术管理系统，如磅房管理系统、机电设备管理系统、生产调度系统、地测管理系统、生产辅助设计、通风管理系统</span>、供电设计系统等子系统。⑤物流管理模块：包括成本管理系统、物资供应系统、煤炭运销系统、计划统计系统以及传统ERP理论中的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《煤炭行业ERP管理思想探讨》<br><b>作者：</b>王栋 周鸿<br><b>作者单位：</b>中国传媒大学媒体管理学院<br><b>页码：</b>P40—P42<br><b>页数：</b>3页<br><b>分类号：</b>F4<br><b>机标分类号：</b>F12 V35<br><b>基金项目：</b>国家自然科学基金(70573012)<br><b>期刊名称：</b>《煤炭经济研究》<br><b>出版时间：</b>2008年6期<br><b>ISSN：</b>1002-9605
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/> <span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/> <span class="red">最终：</span><span class="green">终极 </span><br/> <span class="red">生产：</span><span class="green">临盆 出产 分娩 </span><br/> <span class="red">财务：</span><span class="green">财政 </span><br/> <span class="red">合并：</span><span class="green">归并 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

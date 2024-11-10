@@ -1,0 +1,136 @@
+package com.nemo.web.controller;
+
+import com.google.gson.Gson;
+import com.nemo.pojo.Food;
+import com.nemo.pojo.FoodClass;
+import com.nemo.pojo.Price;
+import com.nemo.service.FoodClassService;
+import com.nemo.service.FoodService;
+import com.nemo.service.PriceServer;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ *@Author 刘宇飞
+ *@Date 2016/04/13 17:09
+ *价格控制层
+ */
+@Controller
+@RequestMapping("/price")
+public class PriceController {
+    @Autowired
+    PriceServer priceServer;
+
+    @Autowired
+    FoodService foodService;
+
+    @Autowired
+    FoodClassService foodClassService;
+    private List<Price> list;
+
+    @RequestMapping("/list")
+    public String allList(Model model) throws Exception{
+      /*  List<Price> list = priceServer.findPriceList();
+        model.addAttribute("priceList",list);*/
+        int count = priceServer.count();
+        model.addAttribute("count",count);
+
+        return "price/priceList";
+    }
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<Price> list = priceServer.findLimitList(index * 5,5);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<Price> list = priceServer.findFuzzyList(CustomUtils.transcoding(condition));
+        return CustomUtils.toJson(list);
+    }
+
+
+    @RequestMapping("/add")
+    public String addPrice(Model model)throws Exception{
+        List<FoodClass> classList = foodClassService.queryClassList();
+        model.addAttribute("classList",classList);
+        if(classList!=null){
+            String className = classList.get(0).getClassName();
+            List<Food> foodList = foodService.findFoodByClass(className);
+            model.addAttribute("foodList",foodList);
+        }
+        list = priceServer.findPriceList();
+        return "price/addPrice";
+
+    }
+
+    @RequestMapping("save")
+    public String savePrice(@ModelAttribute Price price,Model model){
+        boolean has=false;
+        for(int i=0;i<list.size();i++){
+            if(list.get(i).getFoodName().equals(price.getFoodName())){
+                has=true;
+            }
+        }
+        if(has){
+            model.addAttribute("mess","该食品已经存在,不能重复定价");
+        }else {
+            boolean res = priceServer.addPrice(price);
+            if(res){
+                model.addAttribute("mess","添加食品价格成功");
+            }else {
+                model.addAttribute("mess","添加食品价格失败");
+            }
+        }
+
+        return "price/result";
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,Model model){
+        boolean res = priceServer.deletePriceById(id);
+        if(res){
+            model.addAttribute("mess", "删除食品价格成功");
+        }else{
+            model.addAttribute("mess", "删除食品价格失败");
+        }
+        return "price/result";
+    }
+
+    @RequestMapping(value = "editPrice")
+    public String editPrice(@RequestParam int id,Model model){
+        Price price = priceServer.findPriceById(id);
+        model.addAttribute("price",price);
+        return "price/editPrice";
+    }
+
+    @RequestMapping(value = "getPrice" ,produces = "plain/text; charset=UTF-8")
+    @ResponseBody
+    public String editPrice(@RequestParam int id){
+        Price price = priceServer.findPriceById(id);
+        Gson gson=new Gson();
+        return gson.toJson(price);
+    }
+
+    @RequestMapping("update")
+    public String updatePrice(@ModelAttribute Price price,Model model){
+        boolean res = priceServer.updatePrice(price);
+        if(res){
+            model.addAttribute("mess","修改食品价格成功");
+        }else {
+            model.addAttribute("mess","修改食品价格失败");
+        }
+        return "price/result";
+    }
+}

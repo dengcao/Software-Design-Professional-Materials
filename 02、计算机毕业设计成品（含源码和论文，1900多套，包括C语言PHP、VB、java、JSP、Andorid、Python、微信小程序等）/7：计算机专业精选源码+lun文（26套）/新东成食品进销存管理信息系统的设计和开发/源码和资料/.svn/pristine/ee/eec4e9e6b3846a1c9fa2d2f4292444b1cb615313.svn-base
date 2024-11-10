@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.OutStoreMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 出库列表 -->
+	<select id="findOutStoreList"
+		resultType="com.nemo.pojo.OutStore">
+		select * from store_out order by foodName DESC;
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.OutStore" parameterType="java.util.Map">
+		<![CDATA[select * from store_out  ${condition} ]]>
+	</select>
+	
+   <select id="analyzeSele" resultType="com.nemo.pojo.OutStore" parameterType="java.util.Map">
+      <![CDATA[SELECT foodId,foodName, SUM( foodOutNum ) AS foodOutNum,SUM(recAmount) AS recAmount,SUM(reaAmount) AS reaAmount
+	FROM store_out where storageOutType=2 and storageOutDate between #{start} and #{end}
+	GROUP BY foodName; ]]>
+   </select>
+
+	<!--SELECT foodName, SUM( foodOutNum ) AS foodOutNum,SUM(recAmount) AS recAmount,SUM(reaAmount) AS reaAmount
+	FROM store_out where storageOutType=2 and storageOutDate between '2016-04-01' and '2016-07-01'
+	GROUP BY foodName;-->
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.OutStore">
+		select * from store_out   limit ${start},${end};
+	</select>
+
+	<!-- 按出库类型分页查找 -->
+	<select id="findLimitTypeList"
+			resultType="com.nemo.pojo.OutStore">
+		select * from store_out where  storageOutType=#{type} limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(outStoreId) from store_out
+	</select>
+	<!-- 按出库类型查找总条数 -->
+	<select id="outTypeCount" resultType="int">
+		select COUNT(outStoreId) from store_out where storageOutType=#{type}
+	</select>
+
+
+	<!-- 根据id查找出库-->
+	<select id="findOutStoreById" resultType="com.nemo.pojo.OutStore">
+		select * from store_out where outStoreId=${outStoreId}
+	</select>
+
+
+<!-- 根据分类id删除分类 -->
+	<delete id="deleteOutStoreById" >
+		delete from store_out where outStoreId = ${outStoreId}
+	</delete>
+	
+
+	<!-- 增加分类-->
+	<insert id="addOutStore">
+      insert into store_out(storeId,foodId ,foodName,foodStandard,foodOutNum,classId,className,storageOutType,storageOutDate,overDate,remarks,recAmount,reaAmount,userName)
+			values(${storeId},${foodId},"${foodName}","${foodStandard}",${foodOutNum},${classId},"${className}",${storageOutType},"${storageOutDate}","${overDate}","${remarks}","${recAmount}","${reaAmount}","${userName}")
+	</insert>
+
+</mapper>

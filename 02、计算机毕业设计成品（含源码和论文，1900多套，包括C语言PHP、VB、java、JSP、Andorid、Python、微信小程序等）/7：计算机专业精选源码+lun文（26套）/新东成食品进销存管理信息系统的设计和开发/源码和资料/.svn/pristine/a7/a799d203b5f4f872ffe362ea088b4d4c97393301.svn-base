@@ -1,0 +1,58 @@
+
+body{ text-align:center;
+    background-color: #c9dae4;
+}
+
+.pagin{
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+
+}
+.t1
+{
+    clear: both;
+    border: 1px solid #c9dae4;
+    margin: auto;
+    text-align: center;
+}
+.t1 tr th
+{
+    color: #0d487b;
+    background: #f2f4f8 ;
+    line-height: 28px;
+    border-bottom: 1px solid #9cb6cf;
+    border-top: 1px solid #e9edf3;
+    font-weight: normal;
+    text-shadow: #e6ecf3 1px 1px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.t1 tr td
+{
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #444;
+    border-top: 1px solid #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    word-break: break-all;
+}
+/* white-space:nowrap; text-overflow:ellipsis; */
+tr.alt td
+{
+    background: #f9fcf7; /*这行将给所有奇数的tr加上背景色*/
+}
+tr.alb td
+{
+    background: #cdb9ff; /*这行将给所有偶数的tr加上背景色*/
+}
+tr.over td
+{
+    background: #b6e9ec; /*这个将是鼠标高亮行的背景色*/
+}
+
+a:link {
+    text-decoration: none;
+}

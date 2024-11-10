@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="207_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="207_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >然而整个食品入库流程涉及到多个部门的操作，包括采购部、收货部、质检部等。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >46</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：1个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >然而整个食品<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">涉及</span>到多个<span style="background:#cbcbcb">部门</span><span style="background:#cbcbcb">的</span>操作，包括<span style="background:#cbcbcb">采购</span>部、收货部、质检部等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">。(1)<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">流程</span><span style="background:#cbcbcb">涉及</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">部门</span>主要有<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">部门</span>、销售<span style="background:#cbcbcb">部门</span>、质量<span style="background:#cbcbcb">部门</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……库存现有量查询、库存报警、损益单查询统计和库存可承受量查询功能。4系统主要业务流程本系统的主要业务模型包括采购入库、采购退货、销售出库、销售退货入库、仓库盘点流程<span class='green'>。(1)采购入库流程采购入库流程涉及的部门主要有采购部门、销售部门、质量部门、</span>仓库。相关人员包括采购员、销售员、库房管理员、部门经理和验收检验员。采购单……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《板材企业进销存管理系统设计研究》<br><b>作者：</b>孙宝军<br><b>作者单位：</b>内蒙古财经学院计算机信息管理学院,内蒙古,呼和浩特,010070<br><b>参考文献：</b>3篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P58—P60<br><b>分类号：</b>TP311<br><b>机标分类号：</b>TP3 TP2<br><b>期刊名称：</b>《电脑与信息技术》<br><b>出版时间：</b>2011年2期<br><b>ISSN：</b>1005-1228<br><b>关键词：</b>进销存 系统框架 业务流程<br><b>摘要：</b>板材企业的板材种类繁多,对日常单据处理的及时性和准确性要求高,因此,开发针对板材企业的进销存管理系统尤为重要.文章给出了能够满足板材企业进销存管理系统的设计原则、逻辑结构和业务流程.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+然而整个食品<span class="red">入库</span><span class="red">流程</span><span class="red">涉及</span>到多个<span class="red">部门</span>的操作，包括<span class="red">采购</span>部、收货部、质检部等。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">部门：</span><span class="green">部分 </span><br/> <span class="red">包括：</span><span class="green">包含 包罗 搜罗 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

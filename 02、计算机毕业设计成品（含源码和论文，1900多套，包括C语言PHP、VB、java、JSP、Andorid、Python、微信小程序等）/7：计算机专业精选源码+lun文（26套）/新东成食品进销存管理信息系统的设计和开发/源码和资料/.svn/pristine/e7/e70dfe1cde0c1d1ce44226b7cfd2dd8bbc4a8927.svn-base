@@ -1,0 +1,30 @@
+package com.nemo.service;
+
+import com.nemo.pojo.Check;
+
+import java.util.List;
+
+/**
+ * 质检报告功能的服务层实现接口
+ *
+ */
+public interface CheckService {
+	public List<Check> queryCheckList() throws Exception;
+	
+	public boolean deleteCheckById(String id);
+	
+	public boolean updateCheck(Check Check);
+	
+	public boolean addCheck(Check Check);
+
+	public Check findCheckById(String id);
+
+	public List<Check> findCheckLimitList(int start, int end);
+
+	public int count();
+
+	public List<Check> findFuzzyList(String condition);
+	
+
+
+}

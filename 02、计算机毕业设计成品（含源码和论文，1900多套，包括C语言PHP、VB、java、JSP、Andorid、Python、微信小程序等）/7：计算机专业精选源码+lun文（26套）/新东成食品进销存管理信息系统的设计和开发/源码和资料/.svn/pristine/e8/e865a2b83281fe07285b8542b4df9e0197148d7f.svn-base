@@ -1,0 +1,47 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑销售详细计划</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#saleNum").change(function(){
+				var saleNum=$("#saleNum").val();
+				var foodPrice=$("#foodPrice").val();
+				$("#saleTotalMoney").val(Number(saleNum)*Number(foodPrice));
+			});
+		});
+	</script>
+</head>
+<body>
+<a href="${ctx}/salePlan/list?id=${salePlanId}">返回销售详细计划列表</a>
+<hr />
+<form action="${ctx }/salePlanDetail/update" method="post">
+    <input type="hidden" name="detailId" value="${salePlanDetail.detailId}">
+	<input type="hidden" name="foodPrice" id="foodPrice" value="${salePlanDetail.foodPrice}">
+<table class="t1">
+	<tr>
+		<td>计划销售数量</td>
+		<td><input type="text" name="saleNum" id="saleNum"  value="${salePlanDetail.saleNum}"/></td>
+	</tr>
+	<tr>
+		<td>计划销售总额</td>
+		<td><input type="text" name="saleTotalMoney" id="saleTotalMoney" readonly value="${salePlanDetail.saleTotalMoney}" ></td>
+	</tr>
+	<tr>
+		<td>备注</td>
+		<td><input type="text" name="remarks" id="remarks" value="${salePlanDetail.remarks}"/></td>
+	</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="保存">  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

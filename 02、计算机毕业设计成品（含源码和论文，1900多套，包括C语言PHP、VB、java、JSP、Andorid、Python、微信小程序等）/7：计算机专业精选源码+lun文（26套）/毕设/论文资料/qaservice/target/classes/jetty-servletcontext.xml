@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_3.dtd">
+<Configure id="Contexts" class="org.eclipse.jetty.server.handler.ContextHandlerCollection">
+    <New id="ServletContext" class="org.eclipse.jetty.servlet.ServletContextHandler">
+        <Arg></Arg>
+        <Arg><Property name="context_path"></Property></Arg>
+        <Call name="addServlet">
+            <Arg>com.mz.nlpservice.handler.QaHandler</Arg>
+            <Arg>/movie/qanlp/query</Arg>
+        </Call>
+    </New>
+    <Set name="handlers">
+        <Array type="org.eclipse.jetty.server.Handler">
+            <Item><Ref refid="ServletContext"></Ref></Item>
+        </Array>
+    </Set>
+</Configure>

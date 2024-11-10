@@ -1,0 +1,39 @@
+打成jar包
+mvn jar:jar
+打包成tar包
+mvn package
+
+
+
+对第三方的context为：thirdservice
+对自己的context为：meizuservice
+
+验证方法：
+url当中要添加一个参数salt， 他的值为一个随机字符串，最后的参数为secret。然后对url进行sha1计算得到摘要。
+发送请求时，将参数secret去掉，替换成签名值sign，例如发送语音或者文本请求：
+
+暂定partnerid 和 sercret如下：
+{ "_id" : "meizu", "secret" : "72ceae30596711e6aeb61866da143225", "type" : 1 }
+{ "_id" : "doss", "secret" : "a25b4de15d4811e6a6bf1866da143225", "type" : 1 }
+
+请求测试例子
+http://120.27.120.241/nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=%E6%B5%8B%E8%AF%95&salt=1473329993&sign=363e3e82a3ec27fe2151b990955afbb08f5dc5f7
+
+返回结果
+{
+status:0,
+domain:"",
+message:"",
+data:""
+}
+
+status:
+0 成功，
+1005 参数错误
+2000 不能处理请求
+2001 处理错误
+message：错误消息
+domain:
+news:新闻域
+unknow:未知
+data:字符串，如果返回正确，具体的数据

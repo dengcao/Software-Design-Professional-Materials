@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.PriceMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找分类 -->
+	<select id="findPriceList"
+		resultType="com.nemo.pojo.Price">
+		select * from price ;
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.Price" parameterType="java.util.Map">
+		<![CDATA[select * from price  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.Price">
+		select * from price limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(foodId) from price
+	</select>
+	<!-- 根据id查找分类-->
+	<select id="findPriceById" resultType="com.nemo.pojo.Price">
+		select * from price where foodId=${foodId}
+	</select>
+
+<!-- 根据分类id删除分类 -->
+	<delete id="deletePriceById" >
+		delete from price where foodId = ${foodId}
+	</delete>
+	
+	<!-- 更新分类 -->
+	<update id="updatePrice">
+		update price set foodName=#{foodName}, purchasePrice=${purchasePrice}, salePrice=${salePrice},remarks=#{remarks}
+		where foodId=${foodId};
+	</update>
+	<!-- 增加分类-->
+	<insert id="addPrice">
+		insert into price(foodId,foodName,purchasePrice,salePrice,remarks)
+			values(#{foodId},#{foodName},#{purchasePrice},#{salePrice},#{remarks})
+	</insert>
+
+
+	
+
+
+</mapper>

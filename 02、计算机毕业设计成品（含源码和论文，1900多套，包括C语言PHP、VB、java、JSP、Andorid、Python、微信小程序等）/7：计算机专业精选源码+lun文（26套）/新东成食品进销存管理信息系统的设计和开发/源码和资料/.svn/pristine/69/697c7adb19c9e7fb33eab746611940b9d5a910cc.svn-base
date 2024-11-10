@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>新增供应商</title>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+</head>
+<body>
+<a href='${ctx }/provider/list' >返回供应商列表</a>
+<hr />
+<form action="${ctx }/provider/save" method="post" id="jsFrom">
+<table class="t1">
+<tr>
+	<td>供应商名称</td>
+	<td><input type="text" name="providerName"  id="providerName" required /></td>
+</tr>
+	<tr>
+		<td>联系人</td>
+		<td><input type="text" name="linkman"  id="linkman"  required  /></td>
+	</tr>
+	<tr>
+		<td>联系人号码</td>
+		<td><input type="text" name="linkNumber" id="linkNumber" required /></td>
+	</tr>
+	<tr>
+		<td>联系人地址</td>
+		<td><input type="text" name="providerAdress"  id="providerAdress" required/></td>
+	</tr>
+	<tr>
+		<td>备注</td>
+		<td><input type="text" name="remarks" /></td>
+	</tr>
+	<tr>
+
+	<td></td>
+	<td><input type="submit" value="保存"> </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

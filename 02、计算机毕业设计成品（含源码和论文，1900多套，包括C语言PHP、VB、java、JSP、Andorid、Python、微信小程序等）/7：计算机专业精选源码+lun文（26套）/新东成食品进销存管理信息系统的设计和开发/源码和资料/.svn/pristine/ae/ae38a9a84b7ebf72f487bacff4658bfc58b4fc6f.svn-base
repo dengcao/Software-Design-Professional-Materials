@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.BuyPlanDetailMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找采购计划详细列表 -->
+	<select id="findDetailListByBuyPlanId"
+		resultType="com.nemo.pojo.BuyPlanDetail">
+		select * from buy_plan_detail where buyPlanId="${buyPlanId}";
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.BuyPlanDetail">
+		select * from buy_plan_detail where buyPlanId=#{planId} limit ${start},${end};
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.BuyPlanDetail" parameterType="java.util.Map">
+		<![CDATA[select * from buy_plan_detail  ${condition} ]]>
+	</select>
+
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(detailId) from buy_plan_detail
+	</select>
+	<!-- 根据id查找详细计划-->
+	<select id="findBuyPlanDetailById" resultType="com.nemo.pojo.BuyPlanDetail">
+		select * from buy_plan_detail where detailId=#{detailId}
+	</select>
+
+<!-- 根据分类id删除详细计划 -->
+	<delete id="deleteBuyPlanDetailById" >
+		delete from buy_plan_detail where detailId=#{detailId}
+	</delete>
+	
+	<!-- 更新详细计划 -->
+	<update id="updateBuyPlanDetail">
+		update buy_plan_detail set buyNum=#{buyNum}, buyTotalMoney=#{buyTotalMoney},remarks=#{remarks}
+		where detailId=#{detailId}
+	</update>
+	<!-- 增加详细计划-->
+	<insert id="addBuyPlanDetail">
+		insert into buy_plan_detail(buyPlanId,foodId,foodName,foodPrice,buyNum,buyTotalMoney,remarks)
+			values("${buyPlanId}","${foodId}","${foodName}","${foodPrice}",${buyNum},"${buyTotalMoney}","${remarks}")
+	</insert>
+
+
+	
+
+
+</mapper>

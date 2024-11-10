@@ -1,0 +1,98 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="/common/public.jsp" %>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>库存列表</title>
+    <script type="text/javascript" src="${ctx}/js/page.js"></script>
+    <script type="text/javascript" src="${ctx}/js/search.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            getPartList();
+            exportTable();
+            //搜索
+            $("#find").click(function(){
+                var condition=$("#condition").val();
+                var url2="${ctx}/intStore/getFList?condition="+condition;
+                if(condition==""){
+                    getPartList();
+                }else{
+                    search.cseatch(url2);
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        function getPartList(){
+            var url = "${ctx}/intStore/getLimitList";
+            var count = $("#count").val();
+            page.pagePart(url, count);
+        }
+        function customPage(obj) {
+            $("#table tr:gt(1)").remove();
+            for (var i = 0; i < obj.length; i++) {
+                var type=Number(obj.intType);
+                if(type==1){
+                    type="采购";
+                }else{
+                    type="退货";
+                }
+                var newRow = "<tr>" +
+                        "<td>" + type + "</td><td>" + obj[i].userName + "</td>" +
+                        "<td>" + obj[i].foodBarCode + "</td><td>" + obj[i].foodName + "</td>" +
+                        "<td>" + obj[i].foodStandard + "</td><td>" + obj[i].className + "</td>" +
+                        "<td>" + obj[i].qualifiedNum + "</td><td>" + obj[i].providerName +"</td>" +
+                        "<td>" + obj[i].remarks + "</td>"+ "<td>" ;
+                if(window.userPower==0||window.userPower==31){
+                    newRow=newRow+    "<a id='out" + i + "' href='${ctx}/intStore/putIntoStore?id=" + obj[i].intId + "'>入库&nbsp;&nbsp;</a>" +
+                    "</td></tr>";
+                }
+
+                $("#table tr:last").after(newRow);
+            }
+
+        }
+    </script>
+
+
+</head>
+
+<body>
+<input type="hidden" id="count" value="${count}">
+
+<div class="pagin">
+    <br/>
+    <input type="hidden" value="${type}" id="type">
+    <br/> <br/>
+    <input type="text" id="condition" placeholder="请输入ID或者名称等"><button id="find">搜索</button>
+    <button id="export">导出</button>
+    <br/><br/>
+    <table id="table" class="t1">
+        <tr>
+                <th colspan="10">待入库单</th>
+        </tr>
+
+        <tr>
+            <td>未入库类型</td>
+            <td>员工姓名</td>
+            <td>食品条码</td>
+            <td>食品名称</td>
+            <td>食品规格</td>
+            <td>食品分类</td>
+            <td>待入库量</td>
+            <td>供应商</td>
+            <td>备注</td>
+            <td>操作</td>
+        </tr>
+    </table>
+    <br/>
+
+    <div id="Pagination" class="pagination"
+         style=" width: -moz-fit-content;width:-webkit-fit-content;width: fit-content;margin-left: auto;margin-right: auto;"></div>
+</div>
+
+</body>
+</html>

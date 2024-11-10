@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="129_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="129_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >只需要懂得简单的计算机知识便能轻松掌握。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >43</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：4个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >只需要懂得简单<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span><span style="background:#cbcbcb">知识</span>便能轻松掌握。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">直接关系到学生<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span><span style="background:#cbcbcb">知识</span>结构。<span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……质量。计算机课程的设计直接影响到计算机学习和计算机教学，课程设置的合理与不合理<span class='green'>直接关系到学生的计算机知识结构。计算机</span>知识结构是计算机理论学习和实践教学的一个重要组成……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《浅谈如何搞好信息技术课教学》<br><b>作者：</b>张丙桂<br><b>作者单位：</b>河南省新密市第一高级中学,河南 新密,452370<br><b>页码：</b>P250—P250,251<br><b>页数：</b>2页<br><b>分类号：</b>G633.67<br><b>机标分类号：</b>G63 G84<br><b>期刊名称：</b>《教育教学论坛》<br><b>出版时间：</b>2013年12期<br><b>ISSN：</b>1674-9324<br><b>关键词：</b>计算机 信息技术 课堂教学<br><b>摘要：</b>随着计算机信息时代的到来，计算机多媒体技术已经在很多学校的课堂上广泛运用，很多中小学校都开设了信息技术课，那么作为教育工作者如何搞好信息技术的教学成了目前的重要课题，如何提高教学质量的问题，让计算机技术在教学上发挥更大的作用，就这个问题，笔者提出了一些自己的看法。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >只需要懂得简单<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span><span style="background:#cbcbcb">知识</span>便能轻松<span style="background:#cbcbcb">掌握</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">，从而更好<span style="background:#cbcbcb">的</span>理解<span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span>教学<span style="background:#cbcbcb">知识</span>，深入<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">掌握</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……也会感觉十分难教，针对这些问题，可以通过变更教学方法，挖掘计算机学习中的学与问<span class='green'>，从而更好的理解计算机教学知识，深入的掌握</span>计算机教学知识。本篇文章主要对计算机教学中的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《计算机学习中的学与问--关于学习计算机的几点思考及体会》<br><b>作者：</b>金宠宠<br><b>作者单位：</b>长兴县成人中等专业学校<br><b>参考文献：</b>4篇<br><b>页码：</b>P151—P151<br><b>页数：</b>1页<br><b>期刊名称：</b>《都市家教（下半月）》<br><b>出版时间：</b>2015年5期<br><b>ISSN：</b>1673-0410<br><b>关键词：</b>计算机学习 学与问 学习计算机 计算机实践技能<br><b>摘要：</b>计算机学习要讲究技巧，人们刚开始学习计算机的时候都会感觉计算机复杂而难懂，计算机教师在教学的时候也会感觉十分难教，针对这些问题，可以通过变更教学方法，挖掘计算机学习中的学与问，从而更好的理解计算机教学知识，深入的掌握计算机教学知识。本篇文章主要对计算机教学中的学与问进行分析，浅谈关于学习计算机的几点思考及体会，旨在更好的帮助学生学习计算机知识，掌握计算机技能操作方式。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >只需要懂得简单<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span><span style="background:#cbcbcb">知识</span>便能轻松<span style="background:#cbcbcb">掌握</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">，主动建构自己<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span>理论<span style="background:#cbcbcb">知识</span>，最终牢固<span style="background:#cbcbcb">掌握</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……情景，让学生反复经历从纸上谈兵到真刀真枪的实战过程。通过学生的主动探究、相互合作、互相促进<span class='green'>，主动建构自己的计算机理论知识，最终牢固掌握</span>计算机基础知识和技能。3.4学习目标分析教学……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《项目教学模式在中职计算机应用基础课中的应用研究》<br><b>作者：</b>刘红梅<br><b>分类号：</b>G633.67<br><b>学科专业：</b>现代教育技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>白成杰<br><b>学位授予单位：</b>山东师范大学<br><b>学位年度：</b>2012<br><b>关键词：</b>中职教育 《计算机应用基础》课 项目教学模式 教学设计 职业技能培养
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >只需要懂得简单<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span><span style="background:#cbcbcb">知识</span>便能轻松掌握。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">一下子学会所有<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span><span style="background:#cbcbcb">知识</span>，必须根据<span style="background:#cbcbcb">计算</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……则应该做好指导方面的工作。3、自学指导法计算机知识更新的速度非常的快，学生不可能<span class='green'>一下子学会所有的计算机知识，必须根据计算</span>机知识的更新进行新的学习。所以，老师在进行……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《国家开放大学计算机教学的特点和教学方法》<br><b>作者：</b>蒲盛忠<br><b>作者单位：</b>资阳广播电视大学<br><b>参考文献：</b>1篇<br><b>页码：</b>P59—P59<br><b>页数：</b>1页<br><b>机标分类号：</b>G72 G71<br><b>期刊名称：</b>《神州（中旬刊）》<br><b>出版时间：</b>2014年3期<br><b>ISSN：</b>1009-5071<br><b>关键词：</b>国家开放大学 信息技术 教学方法<br><b>摘要：</b>现如今的社会发展中，计算机起到了非常重要的作用，计算机本身是一门非常新的学科，其教学思想、教学设计以及学生的学习方式和其他科目也有着明显的区别。本文主要研究了国家开放大学计算机教学的特点，并找到了一些教学方法，希望能够提高计算机教学的效率，提高学生本身的计算机修养。
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+只需要懂得简单的<span class="red">计算</span>机<span class="red">知识</span>便能轻松掌握。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">需要：</span><span class="green">必要 须要 </span><br/> <span class="red">懂得：</span><span class="green">分明 大白 明白 </span><br/> <span class="red">知识：</span><span class="green">常识 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

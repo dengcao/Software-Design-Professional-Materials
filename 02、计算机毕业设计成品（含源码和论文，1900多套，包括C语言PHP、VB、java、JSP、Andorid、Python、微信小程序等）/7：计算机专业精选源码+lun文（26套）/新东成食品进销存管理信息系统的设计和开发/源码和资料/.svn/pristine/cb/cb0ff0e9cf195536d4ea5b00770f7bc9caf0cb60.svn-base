@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="74_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="74_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >库存管理、销售管理、销售计划的制定，为企业收集统计信息更加方便。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >45</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：5个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、销售<span style="background:#cbcbcb">管理</span>、销售计划的制定，为企业收集统计信息更加方便。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、物资<span style="background:#cbcbcb">管理</span>、人事<span style="background:#cbcbcb">管理</span>、质量<span style="background:#cbcbcb">管理</span>、财务<span style="background:#cbcbcb">管理</span>等许多子系统。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……生产控制的范畴，而企业经营管理部分的设计技术，目前还很少有应用和实施。经营管理部分包括了：生产预测、销售管理、生产计划、<span class='green'>库存管理、物资管理、人事管理、质量管理、财务管理等许多子系统。</span>在经营管理中，销售系统直接面对客户，是企业的窗口，企业形象的体现……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《流程企业销售管理信息系统的设计与实施》<br><b>作者：</b>沈晓波 潘刚 李平<br><b>被引次数：</b>4次（统计时间：2015年8月）<br><b>页数：</b>4页<br><b>机标分类号：</b>TP3<br><b>期刊名称：</b>《机电工程》<br><b>出版时间：</b>2000年2期<br><b>期刊级别：</b>ISTIC<br><b>ISSN：</b>1001-4551
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >库存<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">计划</span>的制定，为企业收集统计信息更加方便。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">管理</span>、价格<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span>合同<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span>申请<span style="background:#cbcbcb">管理</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……售等各种销售方式，建立规范化的销售流程，辅助集团管理营销中心的销售业务。销售管理主要功能包括：客户管理、经销商管理、竞争对手<span class='green'>管理、价格管理、销售计划管理、销售合同管理、销售申请管理、</span>销售订单管理、产品质量反馈管理、销售统计等功能。4．3分销管理……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(会议论文)：</font><br>
+<b>篇名：</b>《建材行业营销管理系统的研究与设计》<br><b>作者：</b>南琳 李凤霞 李瑞臻<br><b>作者单位：</b>中国科学院沈阳自动化研究所,辽宁,沈阳,110016；中国科学院研究生院,北京,100049<br><b>会议名称：</b>全国企业应用集成系统与技术学术研讨会(EAIST'05)<br><b>主办单位：</b>中国自动化学会<br><b>会议时间：</b>2005-11-01<br><b>会议地点：</b>北京<br><b>关键词：</b>J2EE体系结构 营销管理 B/S结构 建材行业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span>计划<span style="background:#cbcbcb">的</span>制定，为企业收集统计信息更加方便。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、出货<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span>发票<span style="background:#cbcbcb">管理</span>回款<span style="background:#cbcbcb">管理</span>于一体<span style="background:#cbcbcb">的</span>集成业务<span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……管理依稀打下坚实的基础。该系统是一套完全基于Web方案的企业级的销售管理应用系统。销售管理系统集进货管理、进货发票管理、付款管理<span class='green'>、库存管理、出货管理、销售发票管理回款管理于一体的集成业务管理</span>系统。软件采用先进的客户/服务体系，数据安全性好，并可运行在……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于Web服务的房地产销售管理系统的设计与实现》<br><b>作者：</b>阮刚锋<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张财星<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2010<br><b>关键词：</b>房地产销售 管理系统 数据库 B/S模式 ASP.NET
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >库存<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span>计划的制定，为企业收集统计<span style="background:#cbcbcb">信息</span>更加方便。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>、财务<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、市场活动<span style="background:#cbcbcb">管理</span>、报告<span style="background:#cbcbcb">管理</span>以及礼品<span style="background:#cbcbcb">管理</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……监督以及预测，使企业自身能够在竞争中处于有利地位。本文在对设计销售管理系统时要实现六个方面的功能模块，这个六个模块分别是客户<span class='green'>信息管理、财务管理、销售管理、市场活动管理、报告管理以及礼品管理。</span>下面笔者就分别介绍下六个方面的功能模块。1．客户信息管理模块。客户……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《销售管理系统在销售活动中的应用》<br><b>作者：</b>卢珍宏<br><b>作者单位：</b>湖北职业技术学院 432000<br><b>页码：</b>P84—P85<br><b>页数：</b>2页<br><b>机标分类号：</b>F71 F27<br><b>期刊名称：</b>《现代商业》<br><b>出版时间：</b>2013年15期<br><b>ISSN：</b>1673-5889<br><b>关键词：</b>销售 管理系统 有效性<br><b>摘要：</b>目前我国的市场经济发展相当迅速,再加上计算机技术的不断革新,传统的销售方式已经不能满足企业的日常需求了.在面对大量的数据和繁琐的经济业务下,保证销售管理系统的科学规范已经变得愈发重要.但是,现如今,企业在销售过程中遇到的问题越来越多,如何利用信息技术手段以及怎样加强改善销售管理成为了企业主要解决的问题.笔者就本文根据销售管理系统的发展趋势、功能要求以及作用等方面来表述销售管理系统的建立特点和应用.通过利用一些有效的手段来保证销售管理系统的可行性与有效性.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span>计划的制定，为企业收集统计信息更加方便。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、生产<span style="background:#cbcbcb">管理</span>、价格<span style="background:#cbcbcb">管理</span>、门面<span style="background:#cbcbcb">管理</span>等模块组成</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……．医药商业企业中ERP系统的结构从医药商业企业的行业特点出发，构建ERP系统的结构如图l所示，系统由系统管理、采购管理、<span class='green'>库存管理、销售管理、生产管理、价格管理、门面管理等模块组成</span>。(1)系统管理。系统管理主要是ERP系统管理员对ERP系统进行……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《医药商业企业ERP系统的应用分析》<br><b>作者：</b>张艳 周美琴<br><b>作者单位：</b>杭州市生产力促进中心<br><b>页码：</b>P56—P57<br><b>页数：</b>2页<br><b>分类号：</b>C93<br><b>机标分类号：</b>F27 TP3<br><b>期刊名称：</b>《杭州科技》<br><b>出版时间：</b>2005年3期<br><b>ISSN：</b>1004-2652
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+<span class="red">库存</span><span class="red">管理</span>、销售<span class="red">管理</span>、销售计划的制定，为企业收集统计信息更加方便。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/> <span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/> <span class="red">计划：</span><span class="green">打算 筹算 规划 </span><br/> <span class="red">制定：</span><span class="green">制订 拟定 </span><br/> <span class="red">收集：</span><span class="green">网络 </span><br/> <span class="red">更加：</span><span class="green">加倍 越发 </span><br/> <span class="red">方便：</span><span class="green">便利 便当 利便 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+package com.nemo.mapper;
+
+import com.nemo.pojo.Check;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/20 19:49
+ */
+public interface CheckMapper {
+    public List<Check> findCheckList();
+
+    public List<Check> findCheckLimitList(Map<String,String> map);
+
+    public Check findCheckById(Map<String,String> map);
+
+    public boolean deleteCheckById(Map<String,String> map);
+
+    public boolean updateCheck(Check check);
+
+    public boolean addCheck(Check check);
+
+    public int getCount();
+
+    public List<Check> findFuzzyList(Map<String,String> map);
+}

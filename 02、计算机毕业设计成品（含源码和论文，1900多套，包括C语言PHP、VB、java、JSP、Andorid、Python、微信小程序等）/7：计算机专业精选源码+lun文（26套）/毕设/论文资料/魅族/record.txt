@@ -1,0 +1,13 @@
+http://hdtest.meizu.com:9000/
+
+record 
+recordroot
+http://hdtest.meizu.com:9000/
+user userroot
+
+zhangxin
+123456
+
+http://ruyi.ai/base/login.html
+’À∫≈£∫panyaoxin@meizu.com
+√‹¬Î£∫meizumusic

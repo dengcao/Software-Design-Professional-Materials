@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.ProvideFoodMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找供应食品列表 -->
+	<select id="findProvideFoodListByProviderId"
+		resultType="com.nemo.pojo.ProvideFood">
+		select * from provide_food where providerId=${providerId};
+	</select>
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.ProvideFood" parameterType="java.util.Map">
+		<![CDATA[select * from provide_food  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.ProvideFood">
+		select * from provide_food where providerName=#{provideName} limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(id) from provide_food
+	</select>
+	<!-- 根据食品名称查找供应食品-->
+	<select id="findProvideFoodListByFoodName" resultType="com.nemo.pojo.ProvideFood">
+		select * from provide_food where foodName=#{foodName}
+	</select>
+
+	<!-- 根据id查找供应食品-->
+	<select id="findProvideFoodById" resultType="com.nemo.pojo.ProvideFood">
+		select * from provide_food where id=#{id}
+	</select>
+
+<!-- 根据id删除供应食品 -->
+	<delete id="deleteProvideFoodById" >
+		delete from provide_food where id=#{id}
+	</delete>
+	
+	<!-- 更新供应食品 -->
+	<update id="updateProvideFood">
+		update provide_food set foodId=#{foodId},foodName=#{foodName},purchasePrice=#{purchasePrice},remarks=#{remarks}
+		where id=#{id}
+	</update>
+	<!-- 增加供应食品-->
+	<insert id="addProvideFood">
+		insert into provide_food(providerId,providerName,foodId,foodName,purchasePrice,remarks)
+			values(${providerId},"${providerName}",${foodId},"${foodName}","${purchasePrice}","${remarks}")
+	</insert>
+
+
+	
+
+
+</mapper>

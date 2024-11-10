@@ -1,0 +1,170 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="/common/public.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+
+        body {
+            background: #fff;
+            color: #333;
+        }
+
+        a, a:visited, a:link, a:active {
+            color: #333;
+        }
+
+        a:hover {
+            color: #00f;
+        }
+
+        .charts_container {
+            width: 900px;
+            height: 420px;
+            margin: 10px auto;
+        }
+
+        .chart_container {
+            width: 400px;
+            height: 400px;
+            margin: 0px 25px;
+            float: left;
+        }
+
+    </style>
+    <script type="application/javascript" src="${ctx}/js/awesomechart.js"></script>
+    <title>数据分析</title>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#refer").click(function () {
+                var start = $("#date-input").val();
+                var end = $("#calendar").val();
+                if (start != "" && end != "") {
+                    var url = "${ctx}/analyze/analyzeSale?start=" + start + "&end=" + end;
+                    $.get(url, function (data, status) {
+                        if (status == "success") {
+                            if (data != null) {
+                                var obj = eval(data);
+
+
+
+                                var chart1 = new AwesomeChart('chartCanvas1');
+                                chart1.title = "销售量柱形图";
+                                chart1.data = obj[0].foodOutNum;
+                                chart1.labels = obj[0].foodName;
+                                chart1.colors = colorlist;
+                                chart1.randomColors = true;
+                                chart1.animate = true;
+                                chart1.animationFrames = 30;
+                                chart1.draw();
+
+                                var chart5 = new AwesomeChart('chartCanvas5');
+                                chart5.chartType = "pie";
+                                chart5.title = "实收比重饼图";
+                                chart5.data = obj[0].reaAmountB;
+                                chart5.labels = obj[0].foodName;
+                                chart5.colors = colorlist;
+                                chart5.animate = true;
+                                chart5.draw();
+
+
+                                var chart2 = new AwesomeChart('chartCanvas2');
+                                chart2.title = "应收比重柱形图";
+                                chart2.data = obj[0].recAmountB;
+                                chart2.labels = obj[0].foodName;
+                                chart2.barFillStyle = colorlist[0];
+                                chart2.labelFillStyle = colorlist[1];
+                                chart2.animate = true;
+                                chart2.animationFrames = 30;
+                                chart2.colors=colorlist;
+                                chart2.draw();
+
+
+                                var chart13 = new AwesomeChart('chartCanvas13');
+                                chart13.chartType = "pareto";
+                                chart13.title = "销售盈亏图";
+                                chart13.data = obj[0].profit;
+                                chart13.labels = obj[0].foodName;
+                                chart13.colors = colorlist;
+                                chart13.chartLineStrokeStyle = 'rgba(0, 0, 200, 0.5)';
+                                chart13.chartPointFillStyle = 'rgb(0, 0, 200)';
+                                chart13.draw();
+
+
+                            } else {
+                                alert("数据为空");
+                            }
+                        }
+                    });
+                } else {
+                    alert("开始时间和结束时间不能为空");
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+<br/><br/>
+开始时间：<input type="text" id="date-input" readonly> 结束时间：
+<input id="calendar" type="text" readonly>
+<button id="refer">分析</button>
+<br/><br/>
+
+<div class="charts_container">
+    <div class="chart_container">
+
+        <canvas id="chartCanvas1" width="400" height="400">
+            Your web-browser does not support the HTML 5 canvas element.
+        </canvas>
+
+    </div>
+</div>
+
+
+<div class="charts_container">
+    <div class="chart_container">
+
+        <canvas id="chartCanvas5" width="400" height="400">
+            Your web-browser does not support the HTML 5 canvas element.
+        </canvas>
+
+    </div>
+</div>
+
+<div class="charts_container">
+    <div class="chart_container">
+
+        <canvas id="chartCanvas2" width="400" height="400">
+            Your web-browser does not support the HTML 5 canvas element.
+        </canvas>
+
+    </div>
+</div>
+
+
+
+<div class="chart_container_centered">
+
+    <canvas id="chartCanvas13" width="600" height="400">
+        Your web-browser does not support the HTML 5 canvas element.
+    </canvas>
+
+</div>
+
+
+
+
+<script type="application/javascript">
+
+    colorlist = ['#006CFF', '#FF6600', '#34A038', '#945D59', '#93BBF4', '#F493B8'];
+
+
+
+
+</script>
+
+</body>
+</html>

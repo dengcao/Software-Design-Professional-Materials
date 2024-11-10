@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.UserMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找用户 -->
+	<select id="findUserList" 
+		resultType="user">
+		select * from user `user`
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.User" parameterType="java.util.Map">
+		<![CDATA[select * from user  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.User">
+		select * from user limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(id) from user
+	</select>
+	<!-- 根据用户名和密码判断是否可以登陆-->
+	<select id="checkLogin" parameterType="java.util.Map" resultType="com.nemo.pojo.User" >
+	select * from  user where username=#{username} and userPSW=#{userPSW}
+</select>
+
+<!-- 根据用户ID删除用户 -->
+	<delete id="deleteUserById" >
+		delete from user where id = ${id}
+	</delete>
+	
+	<!-- 更新用户 -->
+	<update id="updateUser">
+		update user set 
+			username=#{username},birthday=#{birthday},sex=${sex},address=#{address},userPower=${userPower}
+		where id=${id}
+	</update>
+
+	<!-- 根据用户名修改密码-->
+	<update id="updatePSW" parameterType="java.util.Map" >
+		update user set userPSW=#{userPSW} where username=#{username}
+	</update>
+	
+	<insert id="addUser">
+		insert into user(username,birthday,sex,address,userPSW,userPower)
+			values(#{username},#{birthday},${sex},#{address},${userPSW},${userPower})
+	</insert>
+	
+	<select id="getUserById" parameterType="java.util.Map" resultType="com.nemo.pojo.User">
+		select * from user where id=${id}
+	</select>
+
+
+	<update id="updatebackuptime" parameterType="java.util.Map" >
+			update backuptime set time=#{time} where id=1
+	</update>
+
+	<select id="findBackupTime" resultType="com.nemo.pojo.Backuptime">
+		select * from backuptime
+	</select>
+
+</mapper>

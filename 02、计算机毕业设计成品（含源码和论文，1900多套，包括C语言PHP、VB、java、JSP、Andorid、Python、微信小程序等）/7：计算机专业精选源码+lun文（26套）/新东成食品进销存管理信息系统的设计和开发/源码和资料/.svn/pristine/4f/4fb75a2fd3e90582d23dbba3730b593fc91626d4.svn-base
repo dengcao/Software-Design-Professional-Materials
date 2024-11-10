@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="9.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="9_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >为公司开发了一套符合我公司的进销存系统，该系统实现了公司的采购管理、库存管理和销售管理联合处理，</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >52</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：5个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >52</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >为公司<span style="background:#cbcbcb">开发</span><span style="background:#cbcbcb">了</span><span style="background:#cbcbcb">一套</span>符合我公司<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">系统</span>，该<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">实现</span><span style="background:#cbcbcb">了</span>公司<span style="background:#cbcbcb">的</span>采购<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>联合处理，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">设计<span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">开发</span><span style="background:#cbcbcb">一套</span>实用<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>，<span style="background:#cbcbcb">实现</span><span style="background:#cbcbcb">了</span>进货<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、商品<span style="background:#cbcbcb">管理</span>、客户<span style="background:#cbcbcb">管理</span>、查询</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……是一个典型的数据库应用程序，根据企业的需求，为解决企业账目混乱，库存不准确，信息反馈不及时等问题，采用先进的计算机技术而开发的，集进货、销售、存储多个环节于一体的信息系统。本文旨在为中小型企业<span class='green'>设计和开发一套实用的进销存管理系统，实现了进货管理、销售管理、库存管理、商品管理、客户管理、查询</span>统计、系统管理等功能。预期达到以下目标：1．业务管理信息化，可随时掌握商品的进销存情况。2．提供……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《中小型企业进销存管理系统设计与实现》<br><b>作者：</b>牛柏超<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>计算机应用<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>施化吉<br><b>学位授予单位：</b>江苏大学<br><b>学位年度：</b>2011<br><b>关键词：</b>进销存管理系统 库存控制 采购管理 销售管理 系统设计 中小型企业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >51</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >为公司<span style="background:#cbcbcb">开发</span><span style="background:#cbcbcb">了</span>一套符合我公司<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span>存<span style="background:#cbcbcb">系统</span>，该<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">实现</span><span style="background:#cbcbcb">了</span>公司<span style="background:#cbcbcb">的</span>采购<span style="background:#cbcbcb">管理</span>、库存<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>联合处理，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">设计<span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">开发</span>实用合用<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">管理</span>办理<span style="background:#cbcbcb">系统</span>，<span style="background:#cbcbcb">实现</span><span style="background:#cbcbcb">了</span><span style="background:#cbcbcb">管理</span>办理<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理、查询统计</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……是一个典型的数据库应用程序根据凭据企业的需求，解决办理企业混乱杂乱，库存不准，信息反馈不及时问题标题采用接纳先进的计算机技术而开发的，集进货销售发卖、存储多个环节于一体的信息系统。本文旨在为中小型企业<span class='green'>设计和开发实用合用的进销管理办理系统，实现了管理办理销售管理办理、管理办理、管理办理、管理办理、查询统计</span>、管理办理等功能。达到到达以下目标：1．管理办理信息化，可随时掌握商品的进销存情况。2提供供应快速……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《企业进销存管理系统的设计与实现》<br><b>作者：</b>王跃飞<br><b>分类号：</b>F270.7<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>赵合计<br><b>学位授予单位：</b>山东大学<br><b>学位年度：</b>2011<br><b>关键词：</b>进销存管理系统 库存控制 采购管理 销售管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">为</span>公司开发了一套符合我公司<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">系统</span>，该<span style="background:#cbcbcb">系统</span>实现了公司<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>和<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>联合处理，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">为</span>基础，以票据流<span style="background:#cbcbcb">为</span>主线<span style="background:#cbcbcb">的</span>关于<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">管理</span>信息<span style="background:#cbcbcb">系统</span>，包括资料<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……都是打印成文的纸张信息，所以造成相关信息查找、保存都极不方便、关键的商业信息不能及时得到共享的现状，因此迫切需要一套管理业务信息化的系统，以此来达到提高工作效率、改变工作管理混乱的目的。本系统是以货物流<span class='green'>为基础，以票据流为主线的关于进销存的管理信息系统，包括资料管理、采购管理、销售管理、库存管理、</span>系统管理五个功能模块，检索迅速，查找方便，可靠性强，存储量大，保密性好，能够极大的提高管理效率，使得……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《企业进销存管理系统的设计与实现》<br><b>作者：</b>于瑶瑶<br><b>分类号：</b>F270.7<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>史清华<br><b>学位授予单位：</b>山东大学<br><b>学位年度：</b>2009<br><b>关键词：</b>销存管理系统 权限设置 系统安全 产品需求 进货渠道 中小企业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >为<span style="background:#cbcbcb">公司</span>开发了一套符合我<span style="background:#cbcbcb">公司</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span>系统，该系统实现了<span style="background:#cbcbcb">公司</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>和<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>联合处理，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">框架1)<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span>H<span style="background:#cbcbcb">公司</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span>包括<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>。(1)<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，有效地利用公司现有的资金流；财务通过库房成本来统计、分析每个时间内的库存资金占用量，更大限度降低库存。4．5H公司ERP系统功能设计H公司ERP系统的功能结构如图4．8所示。图4．8ERP软件<span class='green'>框架1)进销存管理H公司的进销存管理包括采购管理、销售管理、库存管理。(1)采购管理采购管理</span>包括供应商管理、采购计划管理、采购询价管理、采购订单管理和采购接收管理五大子模块，主要使用部门为公司制造部……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《H公司ERP系统设计及实施关键问题研究》<br><b>作者：</b>袁宏伟<br><b>分类号：</b>F270.7<br><b>学科专业：</b>项目管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王舒宇<br><b>学位授予单位：</b>南京理工大学<br><b>学位年度：</b>2011<br><b>关键词：</b>公司企业 企业资源计划 信息系统 项目管理 业务流程 优化设计
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >为公司开发了一套符合我公司的<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">系统</span>，该<span style="background:#cbcbcb">系统</span>实现了公司的采购<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>和<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>联合处理，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">如图3-1所示，<span style="background:#cbcbcb">进</span><span style="background:#cbcbcb">销</span><span style="background:#cbcbcb">存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>包括基础信息<span style="background:#cbcbcb">管理</span>、调货<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、结账功能、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……查询和客户、供应商的基础资料管理等多项业务。除了采购、库存、销售三个供销管理系统的基本流程以外，还引入了系统管理、客户关系管理和财务管理。图3-1为系统功能结构图。图3-1系统功能结构图<span class='green'>如图3-1所示，进销存管理系统包括基础信息管理、调货管理、库存管理、销售管理、结账功能、</span>财务功能和系统管理六大主要功能，而各个功能有对应着基础信息进销存管理系统销售模块入库模块药品信息员工……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《中小型企业进销存管理系统设计与实现》<br><b>作者：</b>史葆轶<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王有起<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>进销存 C/S UML VC++
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">开发：</span><span class="green">开拓 开辟 斥地 </span><br/> <span class="red">符合：</span><span class="green">切合 合适 契合 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/> <span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/> <span class="red">联合：</span><span class="green">结合 连系 连络 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

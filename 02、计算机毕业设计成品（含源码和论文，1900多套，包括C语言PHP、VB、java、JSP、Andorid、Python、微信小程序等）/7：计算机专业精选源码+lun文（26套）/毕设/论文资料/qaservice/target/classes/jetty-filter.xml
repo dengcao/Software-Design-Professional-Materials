@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_3.dtd">
+<Configure id="ServletContext" class="org.eclipse.jetty.servlet.ServletContextHandler">
+
+    <Call name="addFilter">
+        <Arg>com.mz.nlpservice.filter.SlowCheckFilter</Arg>
+        <Arg>/*</Arg>
+        <Arg>
+            <Call class="java.util.EnumSet" name="of">
+                <Arg><Get class="javax.servlet.DispatcherType" name="REQUEST"></Get></Arg>
+            </Call>
+        </Arg>
+    </Call>
+    <Call name="addFilter">
+        <Arg>com.mz.nlpservice.filter.VerifyFilter</Arg>
+        <Arg>/*</Arg>
+        <Arg>
+            <Call class="java.util.EnumSet" name="of">
+                <Arg><Get class="javax.servlet.DispatcherType" name="REQUEST"></Get></Arg>
+                <Arg><Get class="javax.servlet.DispatcherType" name="INCLUDE"></Get></Arg>
+                <Arg><Get class="javax.servlet.DispatcherType" name="FORWARD"></Get></Arg>
+            </Call>
+        </Arg>
+    </Call>
+
+</Configure>

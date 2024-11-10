@@ -1,0 +1,75 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 15:46
+ * 食品实体类
+ */
+public class Food {
+    private int foodId;
+    private String foodName;
+    private String classId;
+    private String className;
+    private String foodStandard;
+    private String providerName;
+
+    private String remarks;
+
+    public int getFoodId() {
+        return foodId;
+    }
+
+    public void setFoodId(int foodId) {
+        this.foodId = foodId;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public String getFoodStandard() {
+        return foodStandard;
+    }
+
+    public void setFoodStandard(String foodStandard) {
+        this.foodStandard = foodStandard;
+    }
+
+    public String getProviderName() {
+        return providerName;
+    }
+
+    public void setProviderName(String providerName) {
+        this.providerName = providerName;
+    }
+
+
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public String getClassId() {
+        return classId;
+    }
+
+    public void setClassId(String classId) {
+        this.classId = classId;
+    }
+}

@@ -1,0 +1,673 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="348_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="348_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >系统主界面划分为食品基础信息管理、采购管理、销售管理、库存管理、系统管理五大模块。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >59</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：35个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >59</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >系统主界面划分为食品<span style="background:#cbcbcb">基础</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、系统<span style="background:#cbcbcb">管理</span>五大<span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">设计客户端包括：<span style="background:#cbcbcb">基础</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、往来<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……系统主界面设计如下图4.1所示：点击主界面下的启动服务器按钮或者点击管理员权限下的启动服务器，打开监听，等待接收客户端的请求信息。4.2客户端<span class='green'>设计客户端包括：基础信息模块、采购管理模块、销售管理模块、库存管理模块、往来管理模块</span>、查询统计模块、系统设置模块。4.2.1登录界面系统启动运行后，点击登录按钮，……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于C/S结构的企业进销存管理系统设计与实现》<br><b>作者：</b>王玉萍 付晓豹<br><b>作者单位：</b>郑州科技学院 信息工程学院 河南 郑州 450064<br><b>参考文献：</b>6篇<br><b>页码：</b>P120—P121,188<br><b>页数：</b>3页<br><b>机标分类号：</b>TP3 F76<br><b>期刊名称：</b>《福建电脑》<br><b>出版时间：</b>2014年5期<br><b>ISSN：</b>1673-2782<br><b>关键词：</b>进销存管理系统 Visual Studio 2008 SQL Server 2005数据库<br><b>摘要：</b>进销存管理可以把一些先进的企业管理方法利用信息化的方式引入到企业的实践中，可以为企业的管理改革提供一些有效的途径。该系统采用C/S结构，主要对商品的采购、销售和库存进行监控和管理，以实现企业商品进销存管理的科学化、信息化和自动化。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >59</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面<span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span>食品<span style="background:#cbcbcb">基础</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大<span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span><span style="background:#cbcbcb">基础</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、客户合同<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……数据第四章系统设计与实现第四章系统设计与实现4.1系统总体功能设计在对天通公司供销存管理系统进行可行性分析和需求分析的基础上，结合天通公司的实际情况，将<span class='green'>系统划分为基础信息管理模块、客户合同管理模块、采购管理模块、库存管理模块、销售管理模块</span>和系统管理模块六个主要功能模块。系统的每个功能模块之间可以进行数据交互，但自身又相互……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《天通公司供销存管理系统的设计与实现》<br><b>作者：</b>鲁瑞斌<br><b>分类号：</b>TP319<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>宁宁<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>公司制企业 供销存管理系统 软件设计 ASP.NET技术 B/S模式
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >58</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面划<span style="background:#cbcbcb">分为</span>食品基础<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大<span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>的主要功能<span style="background:#cbcbcb">模块</span>可以<span style="background:#cbcbcb">分为</span>基本<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……一个公共管理平台以满足药品零售企业与政府药监部门的需求是十分必要的。1系统分析与设计1.1系统功能分析通过对药店药品进销存等业务过程的了解和分析，本<span class='green'>系统的主要功能模块可以分为基本信息管理模块、采购管理模块、库存管理模块、销售管理模块、</span>用户管理模块、系统设置模块、统计分析模块这个六个大模块，系统主要功能模块图如图1所……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《药店药品销售管理系统的设计与实现》<br><b>作者：</b>韩晓威<br><b>作者单位：</b>同济大学软件学院,上海,200092<br><b>参考文献：</b>8篇<br><b>页码：</b>P6051—P6053<br><b>页数：</b>3页<br><b>分类号：</b>TP315<br><b>机标分类号：</b>R19 F71<br><b>期刊名称：</b>《电脑知识与技术》<br><b>出版时间：</b>2013年27期<br><b>ISSN：</b>1009-3044<br><b>关键词：</b>管理信息系统 C/S模式 数据库 SQL Server<br><b>摘要：</b>该文是以药店药品销售的需求为背景，设计和开发了基于C/S模式的药店药品销售管理系统，从而实现对药店药品销售的信息化管理。系统运用Microsoft Visual Studio2008技术作为开发平台，以C#作为系统的开发语言，以SQL Serv-er2005作为系统的后台数据库，并结合两层架构的设计思想对系统加以实现。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >58</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面划分为食品基础信息<span style="background:#cbcbcb">管理</span>、采购<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、库存<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>软件主要包括<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理等功能，<span style="background:#cbcbcb">系统</span>的</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……上面的系统分析和系统设计，利用VB6．语言措辞及SQLServer2000数据库系统平台[7]，以C/S结构进行举办了本系统的软件实施，开发出的中小企业管理办理<span class='green'>系统软件主要包括管理办理、管理办理销售管理办理、管理办理、管理办理等功能，系统的</span>主界面如图7所示[8]。万方数据最终实现的系统软件再简洁简便美观，符台用……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《中小企业物流管理系统的设计》<br><b>作者：</b>庞丽艳 王亚卓 李泓仪<br><b>作者单位：</b>吉林财经大学,管理科学与信息工程学院,吉林,长春,130117；吉林大学,中国国有经济研究中心,吉林,长春,130012；吉林大学,经济学院,吉林,长春,130012<br><b>参考文献：</b>8篇<br><b>被引次数：</b>3次（统计时间：2015年8月）<br><b>页码：</b>P200—P204<br><b>分类号：</b>C931.6<br><b>机标分类号：</b>F25 G25<br><b>基金项目：</b>吉林省社会科学基金(2009B029)<br><b>期刊名称：</b>《长春工业大学学报（自然科学版）》<br><b>出版时间：</b>2011年2期<br><b>ISSN：</b>1674-1374<br><b>关键词：</b>物流管理 中小企业 设计<br><b>摘要：</b>采用管理信息系统的结构化开发方法,设计了一套适合中小企业的物流管理系统,实现了采购管理、销售管理和库存管理等基本功能,符合中小企业物流管理的基本需求.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >56</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >系统主界面划分为食品基础信息<span style="background:#cbcbcb">管理</span>、采购<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、库存<span style="background:#cbcbcb">管理</span>、系统<span style="background:#cbcbcb">管理</span>五大<span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">用户登录、<span style="background:#cbcbcb">管理</span>办理、基本<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理主要<span style="background:#cbcbcb">模块</span>，这里生产</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……商品明细，进行入库。经调查与统计，任何一企事业的管理办理都要这样如许一个循环往复的业务过程。下面列举出与进销管理办理业务密切相关的功能模块，主要功能包括包含<span class='green'>用户登录、管理办理、基本管理办理、管理办理销售管理办理、管理办理主要模块，这里生产</span>管理办理模块作论述叙述，结构布局如图4．3所示。库存管理领域用户登录……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《领域工程方法在库存管理系统的研究与应用》<br><b>作者：</b>朱翠丽<br><b>分类号：</b>TP311.13<br><b>学科专业：</b>计算机科学与技术(计算机软件与理论)<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>谢益武<br><b>学位授予单位：</b>大连海事大学<br><b>学位年度：</b>2010<br><b>关键词：</b>软件开发 软件复用 软件构架 数据库技术
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >56</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面划分为食品基础信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大<span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>共有五个功能<span style="background:#cbcbcb">模块</span>，包括<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、客户<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>。4．</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……介绍，对公司现存主要问题的分析，提出管理信息系统的性能需求和功能需求，设计了系统功能模块，如图4—1所示。图4—1系统主要模块贸易公司销售管理信息<span class='green'>系统共有五个功能模块，包括销售管理、采购管理、库存管理、客户管理、系统管理。4．</span>1．1销售管理功能销售管理主要指销售过程中所要执行的操作，它是管理系统的核心业务模……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《贸易公司销售管理信息系统的设计与实现》<br><b>作者：</b>席振洲<br><b>分类号：</b>F721.8<br><b>学科专业：</b>计算机技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>赵林亮<br><b>学位授予单位：</b>东北大学<br><b>学位年度：</b>2009<br><b>关键词：</b>贸易公司 销售管理信息系统 设计方案 体系结构 Delphi技术 SQL Server技术
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >55</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面<span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span>食品基础信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、销售<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">，并将<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、制造<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、辅助决策<span style="background:#cbcbcb">管理</span>五个子<span style="background:#cbcbcb">系统</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……高等特点，提出A公司生产管理信息系统应符合实用性、通用性、可扩展性、可维护性、可移植性的设计目标和符合信息安全性、开放性、操作简便性等设计原则<span class='green'>，并将系统划分为系统管理、采购管理、制造管理、库存管理、辅助决策管理五个子系统</span>；选择B/S和c/S混合模式作为软件体系结构，WindowsSQLServer2000和IIS分别作为数据库……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《中小型饮料加工企业生产管理信息系统方案设计》<br><b>作者：</b>林云杰<br><b>分类号：</b>F426.82<br><b>学科专业：</b>食品工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>陈鹭平<br><b>学位授予单位：</b>福建农林大学<br><b>学位年度：</b>2010<br><b>关键词：</b>饮料加工企业 生产管理 管理信息系统
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面划分为食品基础信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>，有生产计划<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、质量<span style="background:#cbcbcb">管理</span>、财务<span style="background:#cbcbcb">管理</span>、成本</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……相关人员的操作，还要进行日常的数据维护和系统开发升级，保证ERP的快捷运行。(二)ER_P软件系统设置的思路I．ERP软件的模块系统。ERP软件系统包含许多模块<span class='green'>系统，有生产计划管理、销售管理、采购管理、库存管理、质量管理、财务管理、成本</span>管理、人力资源管理、设备管理、工作流管理、系统管理等。作为仓库库存控制管理使用的相关……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《ERP 系统在库存控制管理中的运用》<br><b>作者：</b>方飞虎<br><b>作者单位：</b>浙江经贸职业技术学院,浙江·杭州 310018<br><b>参考文献：</b>2篇<br><b>页码：</b>P137—P138<br><b>页数：</b>2页<br><b>机标分类号：</b>F27 TP3<br><b>期刊名称：</b>《行政事业资产与财务》<br><b>出版时间：</b>2012年16期<br><b>ISSN：</b>1674-585X<br><b>关键词：</b>ERP 库存管理 库存控制<br><b>摘要：</b>现代企业的激烈竞争,要求企业采用现代管理方式,彻底改变传统的思维方式和作业模式,实现企业从分散化向集约化管理的转变、从粗放型向精细化管理的转变、从个性化向标准化管理的转变.ERP作为一种先进的、适应现代竞争环境的管理哲理和方法论,其在库存控制管理中的运用,可以改变企业库存管理的落后状况,提高企业的管理水平和赢利能力,创造更多的社会财富.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">9</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面<span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span>食品<span style="background:#cbcbcb">基础</span>信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span>运营总览、<span style="background:#cbcbcb">基础</span>资料、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、生产<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……库存信息。物料需求计划生成后，即可按需求产生采购计划，并进行生产排产。3系统功能模块的划分及实现3．1功能模块的划分通过对企业相关人员进行需求调研，将<span class='green'>系统划分为运营总览、基础资料、销售管理、生产管理、库存管理、采购管理、系统管理</span>、帮助中心等模块，如图2所示。臣亟亟垂亟i迓t息览‘柚膏……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《B/S模式中小汽配企业管理信息系统的研究与实现》<br><b>作者：</b>杨年炯 李尚平 李晓萍<br><b>作者单位：</b>广西工学院,汽车系,柳州,545006；钦州学院,钦州,535000<br><b>参考文献：</b>5篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P44—P46<br><b>页数：</b>3页<br><b>分类号：</b>TP391<br><b>机标分类号：</b>TP3 U46<br><b>基金项目：</b>广西科技开发计划项目(桂科攻0428002-1);柳州市重点技术创新项目(柳经通[2006]86号);广西工学院青年基金(院科自0704210)<br><b>期刊名称：</b>《制造业自动化》<br><b>出版时间：</b>2009年4期<br><b>期刊级别：</b>ISTIC - PKU<br><b>ISSN：</b>1009-0134<br><b>关键词：</b>准时化(JIT) B/S模式 管理信息系统 汽车零部件 流程分析<br><b>摘要：</b>根据汽车整车厂精益生产,要求准时化供货的实际情况,阐述了建立B/S模式中小汽配企业管理信息系统的必要性.研究了系统的需求和目标,分析了汽配企业生产业务流程,据此提出了系统的功能模块,并实现了该系统.系统在柳州市某企业应用,效果较好.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">10</div>
+<font color="#666666">相似度：</font><span class='orange' >53</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面划分为食品基础<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">权限<span style="background:#cbcbcb">信息</span>包括用户名称、用户密码、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、报表<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……需求登陆取得系统管理人员权限。操作权限管理：用于系统管理人员为不同角色的操作用户分配不同的操作权限(总经理除外)，从而实现清洁用品信息管理系统数据的安全和稳定运行；操作<span class='green'>权限信息包括用户名称、用户密码、采购管理、销售管理、库存管理、报表管理、系统管理</span>信息。修改用户密码：用于操作清洁用品信息管理系统的当前用户修改自己的登录密码(总经理除外……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《高斯威清洁用品信息管理系统的设计与实现》<br><b>作者：</b>唐谦<br><b>分类号：</b>F426.7<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>蒋光远<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2008<br><b>关键词：</b>清洁用品 信息管理系统 企业管理 生产管理 库存管理 销售管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">11</div>
+<font color="#666666">相似度：</font><span class='orange' >53</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面划分为食品<span style="background:#cbcbcb">基础</span>信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>设置、<span style="background:#cbcbcb">基础</span>资料<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">采购</span>办理<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">销售</span>管理发卖办理、<span style="background:#cbcbcb">管理</span>务办理<span style="background:#cbcbcb">管理</span>报表办理、医药<span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……75顾问项目参谋系统培训实施工程师操作培训V2应用培训正式上线项目验收l总计：项目总周期：73工作日项目工作量；251人木日4．2LMS结构系统布局总体上LMS主要由<span class='green'>系统设置、基础资料管理采购办理管理库存销售管理发卖办理、管理务办理管理报表办理、医药管理</span>质量办理管理GSP办理)资源管理成本办理、管理投标办理自动办公管理化办理等几大模块。系统……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于V2平台进销存系统的研究与实现》<br><b>作者：</b>乔小东<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>杨宗源<br><b>学位授予单位：</b>华东师范大学<br><b>学位年度：</b>2005<br><b>关键词：</b>进销存系统 企业信息系统 V2平台 商业企业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">12</div>
+<font color="#666666">相似度：</font><span class='orange' >53</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >系统主界面划分为食品基础信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、系统<span style="background:#cbcbcb">管理</span>五大<span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">数据<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span>订单<span style="background:#cbcbcb">管理</span>、生产<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、人事<span style="background:#cbcbcb">管理</span>、客户关系<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">模块</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……由采购员安排采购，当原料采购好后．采购员又要制作原料入库通知单，接着库存管理中的仓库管理员制作原料入库单。23主要模块功能简介该纺织企业ERP系统主要包括基础<span class='green'>数据管理、销售订单管理、生产管理、采购管理、库存管理、人事管理、客户关系管理模块。</span>这些模块所有的功能概况如下：11基础数据管理：基础数据管理主要是对一些简单物料的维护、……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《纺织企业ERP系统的研究与开发》<br><b>作者：</b>熊涛 刘小明 李渤<br><b>作者单位：</b>江西理工大学理学院,江西,赣州,341000<br><b>参考文献：</b>5篇<br><b>页码：</b>P2253—P2254<br><b>页数：</b>2页<br><b>分类号：</b>TP311<br><b>机标分类号：</b>TP3 F71<br><b>基金项目：</b>浙江省重大科技专项项目(2008C11011)<br><b>期刊名称：</b>《电脑知识与技术》<br><b>出版时间：</b>2010年9期<br><b>ISSN：</b>1009-3044<br><b>关键词：</b>纺织企业 ERP 应用 管理信息系统<br><b>摘要：</b>针对目前我国纺织企业生产管理的实际情况,结合现代企业ERP先进的管理理念,为帮助其解决管理瓶颈问题,研究开发了一套适合纺织企业使用的管理信息系统.该系统包括订单、销售、生产、库存、设备、人事工资、客户关系等管理模块的纺织企业ERP管理信息系统.主要从系统设计、系统功能、系统应用三方面详细介绍此系统的实现方案,该系统在梦迪集团织造公司的应用得到了很好的效果,并具有广阔的应用前景.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">13</div>
+<font color="#666666">相似度：</font><span class='orange' >52</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >系统主界面划分为食品基础信息<span style="background:#cbcbcb">管理</span>、采购<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、系统<span style="background:#cbcbcb">管理</span>五大<span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">主要包含：<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">销售</span>办理<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">库存</span>办理、统计分析和<span style="background:#cbcbcb">管理</span>办理等<span style="background:#cbcbcb">模块</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……成本。4.2系统功能模块结果结合前一章的需求分析成效，以及特性当前进销存业务的具体特征管理整体设结构的进销存办理团体模块布局如包括4-管理所示管理<span class='green'>主要包含：管理办理、管理办理、销售办理管理库存办理、统计分析和管理办理等模块。</span>进销存办理系统资料管理采购管理销售管理库存管理统计分析……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于Web的进销存管理系统的设计和实现》<br><b>作者：</b>刘莎<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>左锋<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>进销存管理 信息管理系统 J2EE SSH
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">14</div>
+<font color="#666666">相似度：</font><span class='orange' >51</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面<span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span>食品<span style="background:#cbcbcb">基础</span>信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、销售<span style="background:#cbcbcb">管理</span>、库存<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span>五大模块。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">系统</span>被<span style="background:#cbcbcb">划</span><span style="background:#cbcbcb">分为</span><span style="background:#cbcbcb">基础</span>数据<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span>计划<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span>收货<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span>合同<span style="background:#cbcbcb">管理</span>、供应商<span style="background:#cbcbcb">管理</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……批量的权衡float4NULL4．4．4系统的功能结构设计根据采购业务流程和数据流程，划分采购管理子系统的各子模块，其系统结构如图4．7所示。采购管理子<span class='green'>系统被划分为基础数据管理、采购计划管理、采购收货管理、采购合同管理、供应商管理、</span>统计分析等六个部分。这样，经过分解，把一个相对复杂的系统分解为多个功能较单一的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《中小汽车制造企业物流信息系统的分析与设计》<br><b>作者：</b>陈荣梅<br><b>分类号：</b>F426.471<br><b>学科专业：</b>载运工具运用工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>黄银娣<br><b>学位授予单位：</b>南京林业大学<br><b>学位年度：</b>2006<br><b>关键词：</b>物流信息系统 MRP JIT 汽车制造企业 中小企业
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">15</div>
+<font color="#666666">相似度：</font><span class='orange' >51</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">系统</span>主界面划分为食品基础信息<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">五大</span><span style="background:#cbcbcb">模块</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">3<span style="background:#cbcbcb">系统</span>功能<span style="background:#cbcbcb">系统</span>主要包括<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">管理</span>、运输<span style="background:#cbcbcb">管理</span>、报表<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">五大</span>功能<span style="background:#cbcbcb">模块</span>，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……业务流程如图2所示。图2钢材销售流程图2．3系统架构本ERP系统基于．NET平台开发，采用C/S三层架构，即客户端，应用服务器，数据库服务器。<span class='green'>3系统功能系统主要包括采购管理、销售管理、库存管理、运输管理、报表管理五大功能模块，</span>用以实现企业物流、信息流、资金流的统一管理。各功能模块的特点如下。3．1采购……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《中小型钢材贸易企业ERP系统的设计与实现》<br><b>作者：</b>吴恩<br><b>作者单位：</b>杭州钢铁集团公司信息管理部,浙江杭州,310014<br><b>参考文献：</b>6篇<br><b>页码：</b>P47—P49<br><b>分类号：</b>TP319<br><b>机标分类号：</b>F40 F83<br><b>期刊名称：</b>《计算机时代》<br><b>出版时间：</b>2012年7期<br><b>ISSN：</b>1006-8228<br><b>关键词：</b>钢材 贸易 ERP 业务流程 组织结构<br><b>摘要：</b>分析了中小型钢材贸易企业的运作特点.介绍了设计和实现中小型钢材贸易企业ERP系统的整个过程.该系统基于.NET平台,使用C/S三层架构,实现了采购、销售、运输、库存和报表管理等五大功能.逐一阐述了实现ERP五大功能的技术过程.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+系统主界面划分为食品<span class="red">基础</span><span class="red">信息</span><span class="red">管理</span>、<span class="red">采购</span><span class="red">管理</span>、<span class="red">销售</span><span class="red">管理</span>、<span class="red">库存</span><span class="red">管理</span>、系统<span class="red">管理</span>五大<span class="red">模块</span>。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">基础：</span><span class="green">底子 根本 根柢 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/> <span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

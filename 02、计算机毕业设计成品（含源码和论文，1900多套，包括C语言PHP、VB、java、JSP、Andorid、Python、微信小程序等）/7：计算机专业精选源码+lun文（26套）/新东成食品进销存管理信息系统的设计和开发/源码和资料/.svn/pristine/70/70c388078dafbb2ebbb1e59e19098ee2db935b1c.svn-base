@@ -1,0 +1,63 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>采购计划列表</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".t1 tr").mouseover(function () {
+				//如果鼠标移到class为stripe的表格的tr上时，执行函数
+				$(this).addClass("over");
+			}).mouseout(function () {
+				//给这行添加class值为over，并且当鼠标一出该行时执行函数
+				$(this).removeClass("over");
+			}) //移除该行的class
+			//更替显示颜色
+			$(".t1 tr:odd").addClass("alt");
+			$(".t1 tr:even").addClass("alb");
+		});
+	</script>
+</head>
+
+<body>
+<input type="hidden" id="count" value="${count}">
+
+<div class="pagin">
+	<br/>
+	<br/>   <br/>
+	<table id="table" class="t1" style="width: 80%">
+		<tr ><th colspan="11">采购计划列表</th></tr>
+		<tr>
+			<td>采购计划ID</td>
+			<td>销售计划ID</td>
+			<td>创建时间</td>
+			<td>申请人</td>
+			<td>审批人</td>
+			<td>计划总金额</td>
+			<td>审批状态</td>
+			<td>审批意见</td>
+			<td>备注</td>
+			<td>操作</td>
+		</tr>
+		<c:forEach items="${buyPlanList}" var="buyPlan">
+			<tr>
+				<td>${buyPlan.buyPlanId}</td>
+				<td>${buyPlan.salePlanId}</td>
+				<td>${buyPlan.createTime}</td>
+				<td>${buyPlan.proposer}</td>
+				<td>${buyPlan.approver}</td>
+				<td>${buyPlan.planSumMoney}</td>
+				<td>审核中</td>
+				<td>${buyPlan.approverOpinion}</td>
+				<td>${buyPlan.remarks}</td>
+				<td><a href="${ctx}/buyPlanDetail/list?id=${buyPlan.buyPlanId}&status=审核中">去审核</a></td>
+			</tr>
+		</c:forEach>
+	</table>
+	</div>
+
+</body>
+</html>

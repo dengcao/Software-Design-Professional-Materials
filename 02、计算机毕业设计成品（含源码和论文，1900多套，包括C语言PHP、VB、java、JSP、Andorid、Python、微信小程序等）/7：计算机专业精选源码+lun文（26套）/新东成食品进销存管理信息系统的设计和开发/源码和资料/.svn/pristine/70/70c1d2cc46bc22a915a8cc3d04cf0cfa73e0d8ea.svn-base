@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="117.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="117_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >随着计算机科学技术的发展和管理信息系统技术的成熟，开发出一套经济又实用的管理系统已经不是难事。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >41</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：2个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">随着</span>计算机<span style="background:#cbcbcb">科学</span><span style="background:#cbcbcb">技术</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">发展</span>和<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">技术</span><span style="background:#cbcbcb">的</span>成熟，开发出一套经济又实用<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">系统</span>已经不是难事。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">随着</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">科学</span>，<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">技术</span>等<span style="background:#cbcbcb">发展</span>，<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">的</span>应用水平也在不断<span style="background:#cbcbcb">的</span>深入，将<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">系统</span>引入到更</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……功能，更侧重于企业外部信息的收集、综合数据库、模型库、方法库和其他人工智能工具，这就出现了更智能化的管理信息系统美国的企业走在企业信息化的前列，从20世纪70年代开始，<span class='green'>随着管理科学，信息技术等发展，管理信息系统的应用水平也在不断的深入，将管理信息系统引入到更</span>高层次的应用，如决策支持系统(DSS)，办公自动化系统(OA)等。R本企业虽然落后于美国……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《装备管理信息系统的设计与实现》<br><b>作者：</b>吴金栋<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>机械制造及其自动化<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张家泰<br><b>学位授予单位：</b>哈尔滨工程大学<br><b>学位年度：</b>2007<br><b>关键词：</b>装备管理 管理信息系统 数据库 面向对象 系统设计 系统开发
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >随着<span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span>科学<span style="background:#cbcbcb">技术</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">发展</span><span style="background:#cbcbcb">和</span>管理<span style="background:#cbcbcb">信息</span>系统<span style="background:#cbcbcb">技术</span><span style="background:#cbcbcb">的</span>成熟，<span style="background:#cbcbcb">开发</span>出一套经济又实用<span style="background:#cbcbcb">的</span>管理系统已经不是难事。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span>软件<span style="background:#cbcbcb">技术</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">开发</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">发展</span>推动了<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">技术</span><span style="background:#cbcbcb">的</span>不断向前<span style="background:#cbcbcb">发展</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span>网络<span style="background:#cbcbcb">的</span>浅论新时期<span style="background:#cbcbcb">计算</span><span style="background:#cbcbcb">机</span>软件</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……的兴起和增长。产业链的迅速扩张，导致对相关人才的需求增大，所以近年来我国从事软件工作的人才，从本科生到研究生的比例都在逐渐上升。2.2计算机软件开发技术的重要性。<span class='green'>计算机软件技术的开发和发展推动了信息技术的不断向前发展和计算机网络的浅论新时期计算机软件</span>开发技术的应用及发展趋势范伟/成都师范学院摘要：计算机软件技术的开发和发展推动了信息技术的不断向前……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《浅论新时期计算机软件开发技术的应用及发展趋势》<br><b>作者：</b>范伟<br><b>作者单位：</b>成都师范学院,成都,610030<br><b>参考文献：</b>5篇<br><b>页码：</b>P80—P80,82<br><b>页数：</b>2页<br><b>分类号：</b>TP311.52<br><b>期刊名称：</b>《计算机光盘软件与应用》<br><b>出版时间：</b>2014年13期<br><b>ISSN：</b>1007-9599<br><b>关键词：</b>计算机软件 开发技术 应用 趋势<br><b>摘要：</b>计算机软件技术的开发和发展推动了信息技术的不断向前发展和计算机网络的发展，可以说计算机软件技术是推动信息时代的主要力量。本文主要从计算机软件开发技术概述、计算机软件开发技术的现状及重要性、计算机软件开发技术的主要方式、计算机软件开发技术的应用和对计算机软件开发技术的展望五个方面详细论述了计算机软件开发技术的应用与发展趋势。
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">随着：</span><span class="green">跟着 </span><br/> <span class="red">发展：</span><span class="green">成长 生长 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/> <span class="red">开发：</span><span class="green">开拓 开辟 斥地 </span><br/> <span class="red">实用：</span><span class="green">合用 适用 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+package com.nemo.service;
+
+import com.nemo.pojo.Store;
+
+import java.util.List;
+
+/**
+ * 库存功能的服务层实现接口
+ *
+ */
+public interface StoreService {
+	public List<Store> queryStoreList() throws Exception;
+	
+	public boolean deleteStoreById(int id);
+	
+	public boolean updateStore(Store store);
+	
+	public boolean addStore(Store store);
+
+	public Store findStoreById(int id);
+
+	public List<Store> findStoreByFoodName(String foodName) throws Exception;
+
+	public boolean setTotalZero(int id);
+
+	public boolean setFoodNum(Store store);
+
+	public boolean setStoreTotal(Store store);
+
+	public List<Store> findLimitList(int start,int end,int type);
+
+	public int count();
+
+	public List<Store> findFuzzyList(String condition);
+
+	List<Store> findId();
+}

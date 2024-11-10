@@ -1,0 +1,80 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑质检报告</title>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#checkNum").change(function(){
+				var check=	$("#checkNum").val();
+				var qualified=$("#qualifiedNum").val();
+				if(check>0){
+					if(qualified!=""){
+						if(check>=qualified){
+							var rate=Number(qualified)/Number(check);
+							$("#qualifiedRate").val(rate);
+						}else{
+							alert("合格量不能大于抽检量");
+							$("#qualifiedNum").val(1);
+						}
+					}
+				}else{
+					alert("抽检量不小于0")
+				}
+
+			});
+			$("#qualifiedNum").change(function(){
+				var qualifiedNum=$("#qualifiedNum").val();
+				var checkNum=	$("#checkNum").val();
+				if(checkNum>0){
+					if(checkNum!=""){
+						if(checkNum>=qualifiedNum){
+							var rate=Number(qualifiedNum)/Number(checkNum);
+							$("#qualifiedRate").val(rate);
+						}else{
+							alert("合格量不能大于抽检量");
+							$("#qualifiedNum").val(1);
+						}
+					}
+				}else{
+					alert("抽检量不小于0")
+				}
+
+			});
+		});
+	</script>
+</head>
+<body>
+<a href="${ctx}/check/list">返回质检列表</a>
+<hr />
+<form action="${ctx }/check/update" method="post">
+<input type="hidden" name="checkId" value="${check.checkId}">
+<table class="t1">
+	<tr>
+		<td>抽取量</td>
+		<td><input type="text" name="checkNum" id="checkNum" required value="${check.checkNum}"/></td>
+	</tr>
+	<tr>
+		<td>合格量</td>
+		<td><input type="text" name="qualifiedNum" id="qualifiedNum" required value="${check.qualifiedNum}"/></td>
+	</tr><tr>
+	<td>合格率</td>
+	<td><input type="text" name="qualifiedRate" id="qualifiedRate" required readonly value="${check.qualifiedRate}"/></td>
+</tr><tr>
+	<td>质检意见</td>
+	<td><input type="text" name="opinion" id="opinion"  /></td>
+
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="保存">  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

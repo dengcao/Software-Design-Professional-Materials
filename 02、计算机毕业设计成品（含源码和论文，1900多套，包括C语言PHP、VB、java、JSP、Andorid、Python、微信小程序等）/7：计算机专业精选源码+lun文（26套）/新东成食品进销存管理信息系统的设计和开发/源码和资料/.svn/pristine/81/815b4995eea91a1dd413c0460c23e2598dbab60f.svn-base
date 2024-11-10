@@ -1,0 +1,28 @@
+package com.nemo.service;
+
+import com.nemo.pojo.Price;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/13 16:38
+ * 价格服务层实现接口
+ */
+public interface PriceServer {
+    public List<Price> findPriceList();
+    public boolean deletePriceById(int id);
+
+    public boolean updatePrice(Price price);
+
+    public boolean addPrice(Price price);
+
+    public Price findPriceById(int id);
+
+    public List<Price> findLimitList(int start,int end);
+
+    public int count();
+
+    public List<Price> findFuzzyList(String condition);
+
+}

@@ -1,0 +1,172 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 15:46
+ * 采购单和退货入库单实体类
+ */
+public class IntStore {
+    private String intId;
+    private String preIntId;
+    private String userName;
+    private String foodBarCode;
+    private int foodId;
+    private String foodName;
+    private String foodStandard;
+    private int foodNum;
+    private int qualifiedNum;
+    private int classId;
+    private String className;
+    private String providerName;
+    private int intType;
+    private String intDate;
+    private String overDate;
+    private String reason;
+    private String remarks;
+    private int status;
+
+
+    public String getIntId() {
+        return intId;
+    }
+
+    public void setIntId(String intId) {
+        this.intId = intId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getFoodBarCode() {
+        return foodBarCode;
+    }
+
+    public void setFoodBarCode(String foodBarCode) {
+        this.foodBarCode = foodBarCode;
+    }
+
+    public int getFoodId() {
+        return foodId;
+    }
+
+    public void setFoodId(int foodId) {
+        this.foodId = foodId;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public String getFoodStandard() {
+        return foodStandard;
+    }
+
+    public void setFoodStandard(String foodStandard) {
+        this.foodStandard = foodStandard;
+    }
+
+    public int getFoodNum() {
+        return foodNum;
+    }
+
+    public void setFoodNum(int foodNum) {
+        this.foodNum = foodNum;
+    }
+
+    public int getQualifiedNum() {
+        return qualifiedNum;
+    }
+
+    public void setQualifiedNum(int qualifiedNum) {
+        this.qualifiedNum = qualifiedNum;
+    }
+
+    public int getClassId() {
+        return classId;
+    }
+
+    public void setClassId(int classId) {
+        this.classId = classId;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public String getProviderName() {
+        return providerName;
+    }
+
+    public void setProviderName(String providerName) {
+        this.providerName = providerName;
+    }
+
+    public int getIntType() {
+        return intType;
+    }
+
+    public void setIntType(int intType) {
+        this.intType = intType;
+    }
+
+    public String getIntDate() {
+        return intDate;
+    }
+
+    public void setIntDate(String intDate) {
+        this.intDate = intDate;
+    }
+
+    public String getOverDate() {
+        return overDate;
+    }
+
+    public void setOverDate(String overDate) {
+        this.overDate = overDate;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public String getPreIntId() {
+        return preIntId;
+    }
+
+    public void setPreIntId(String preIntId) {
+        this.preIntId = preIntId;
+    }
+}

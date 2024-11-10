@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.IntStoreMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 入库列表 -->
+	<select id="findIntStoreList" resultType="com.nemo.pojo.IntStore">
+		select * from store_int
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.IntStore" parameterType="java.util.Map">
+		<![CDATA[select * from store_int  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findAllLimitList" resultType="com.nemo.pojo.IntStore">
+		select * from store_int where status=2 limit ${start},${end};
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList" resultType="com.nemo.pojo.IntStore">
+		select * from store_int where intType=${type} AND preIntId=#{preIntId} limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="com.nemo.pojo.IntStore">
+		select * from store_int where intType=${type} and preIntId=#{preIntId}
+	</select>
+	<!-- 根据id查找库存商品-->
+	<select id="findIntStoreById" resultType="com.nemo.pojo.IntStore">
+		select * from store_int where intId=#{intId}
+	</select>
+
+
+<!-- 根据分类id删除分类 -->
+	<delete id="deleteIntStoreById" >
+		delete from store_int where intId = #{intId}
+	</delete>
+
+	<!-- 更新分类 -->
+	<update id="updateIntStore">
+		update store_int set foodNum=#{foodNum},qualifiedNum=#{qualifiedNum},reason=#{reason},remarks=#{remarks}
+		 where intId=${intId};
+	</update>
+
+	<!-- 根据id修改入库状态 -->
+	<update id="updateStatus">
+		update store_int set status="1"
+		where intId=#{intId};
+	</update>
+
+	<!-- 增加分类-->
+	<insert id="addIntStore">
+		insert into store_int(intId,preIntId,userName,foodBarCode,foodId,foodName,foodStandard,foodNum,qualifiedNum,classId,className,
+		providerName,intType,overDate,remarks,status)
+		values(#{intId},#{preIntId},#{userName},#{foodBarCode},#{foodId},#{foodName},#{foodStandard},#{foodNum},#{qualifiedNum},#{classId},#{className},
+			#{providerName},#{intType},#{overDate},#{remarks},#{status})
+	</insert>
+
+</mapper>

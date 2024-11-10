@@ -1,0 +1,33 @@
+package com.nemo.service;
+
+import com.nemo.pojo.ProvideFood;
+
+import java.util.List;
+
+/**
+ * 供应商食品的服务层实现接口
+ *
+ */
+public interface ProvideFoodService {
+	public List<ProvideFood> queryProvideFoodListByProviderId(int id) ;
+
+	public List<ProvideFood> queryProvideFoodListByFoodName(String foodName);
+	
+	public boolean deleteProvideFoodById(int id);
+	
+	public boolean updateProvideFood(ProvideFood provideFood);
+	
+	public boolean addProvideFood(ProvideFood provideFood);
+
+	public ProvideFood findProvideFoodById(int id);
+
+	public List<ProvideFood> findLimitList(int start,int end,String provideName);
+
+	public int count();
+
+	public List<ProvideFood> findFuzzyList(String condition,String provideName);
+
+
+
+
+}

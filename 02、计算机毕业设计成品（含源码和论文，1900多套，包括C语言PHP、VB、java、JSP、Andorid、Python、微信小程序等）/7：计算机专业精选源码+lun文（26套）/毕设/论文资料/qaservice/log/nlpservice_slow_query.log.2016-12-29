@@ -1,0 +1,4 @@
+2016-12-29 09:39:31 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=我想听王菲的歌&salt=1482975570&sign=425f99868c690f052acb84594f3f1c14a0f3e931 occur:1527ms
+2016-12-29 09:39:37 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=播放跑步时的歌&salt=1482975577&sign=c274d88102836d1df2a5bff0fc0acf2ea31517c4 occur:112ms
+2016-12-29 09:40:02 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=播放张学友的一生一火花&salt=1482975602&sign=8850e3ab4c91cc29ae6f178083479b7fc93874ba occur:113ms
+2016-12-29 09:40:24 [ WARN ] (SlowCheckFilter.java:31) - /nlp/meizu/qanlp/query?deviceID=meizu-speaker-A8&partnerID=meizu&question=我想听王菲的歌&salt=1482975624&sign=092801efcb043e8094b747635d2703db81a2db55 occur:92ms

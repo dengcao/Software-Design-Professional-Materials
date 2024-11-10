@@ -1,0 +1,150 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.ProvideFood;
+import com.nemo.service.ProvideFoodService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 采购详细计划操作类
+ */
+@Controller
+@RequestMapping("/provideFood")
+public class ProvideFoodController {
+    
+   @Autowired
+    ProvideFoodService provideFoodService;
+    
+    private String  providerId;
+    private String  providerName;
+    private List<ProvideFood> provideFoodList;
+
+    @RequestMapping("/list")
+    public String allList(@RequestParam int id,String providerName,Model model) throws Exception{
+        providerId=id+"";
+        this.providerName= CustomUtils.transcoding(providerName);
+        model.addAttribute("providerId",providerId);
+        model.addAttribute("providerName",providerName);
+        provideFoodList = provideFoodService.queryProvideFoodListByProviderId(id);
+      /*   model.addAttribute("provideFoodList",provideFoodList);*/
+        int count = provideFoodService.count();
+        model.addAttribute("count",count);
+        return "provideFood/provideFoodList";
+    }
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<ProvideFood> list = provideFoodService.findLimitList(index * 5,5,providerName);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<ProvideFood> list = provideFoodService.findFuzzyList(CustomUtils.transcoding(condition),providerName);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value = "/getList" ,produces = "plain/text ;charset=UTF-8" )
+    @ResponseBody
+    public String getList() throws Exception{
+
+        List<ProvideFood> provideFoodList = provideFoodService.queryProvideFoodListByProviderId(Integer.parseInt(providerId));
+
+        return CustomUtils.toJson(provideFoodList);
+    }
+
+    @RequestMapping(value = "/getList2" ,produces = "plain/text ;charset=UTF-8" )
+    @ResponseBody
+    public String getList(String foodName) throws Exception{
+
+        List<ProvideFood> provideFoodList = provideFoodService.queryProvideFoodListByFoodName(CustomUtils.transcoding(foodName));
+
+        return CustomUtils.toJson(provideFoodList);
+    }
+
+    @RequestMapping("/add")
+    public String add(Model model)throws Exception{
+        model.addAttribute("providerId",providerId);
+        model.addAttribute("providerName",providerName);
+        return "provideFood/addProvideFood";
+    }
+
+
+
+    @RequestMapping("save")
+    public String save(@ModelAttribute ProvideFood provideFood,Model model){
+        model.addAttribute("providerId",provideFood.getProviderId());
+        model.addAttribute("providerName",provideFood.getProviderName());
+        boolean has=false;
+        for(int i=0;i<provideFoodList.size();i++){
+            if(provideFoodList.get(i).getFoodName().equals(provideFood.getFoodName())){
+                has=true;
+            }
+        }
+        if(has){
+            model.addAttribute("mess","该食品已经存在，不能重复添加");
+        }else {
+            boolean res = provideFoodService.addProvideFood(provideFood);
+            if(res){
+                model.addAttribute("mess","添加供应商食品成功");
+            }else {
+                model.addAttribute("mess","添加供应商食品失败");
+            }
+        }
+
+
+
+        return "provideFood/result";
+    }
+
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,Model model){
+        model.addAttribute("providerId",providerId);
+        model.addAttribute("providerName",providerName);
+        boolean res = provideFoodService.deleteProvideFoodById(id);
+        if(res){
+            model.addAttribute("mess", "删除供应商食品成功");
+        }else{
+            model.addAttribute("mess", "删除供应商食品失败");
+        }
+
+        return "provideFood/result";
+    }
+
+    @RequestMapping(value = "/edit")
+    public String edit(@RequestParam int id,Model model)throws Exception{
+        model.addAttribute("providerId",providerId);
+        model.addAttribute("providerName",providerName);
+        ProvideFood provideFood = provideFoodService.findProvideFoodById(id);
+        model.addAttribute("provideFood",provideFood);
+
+        return "provideFood/editProvideFood";
+    }
+
+    @RequestMapping("update")
+    public String update(@ModelAttribute ProvideFood provideFood,Model model){
+        model.addAttribute("providerId",provideFood.getProviderId());
+        model.addAttribute("providerName",provideFood.getProviderName());
+        boolean res = provideFoodService.updateProvideFood(provideFood);
+        if(res){
+            model.addAttribute("mess","修改供应商食品成功");
+        }else {
+            model.addAttribute("mess","修改供应商食品失败");
+        }
+
+        return "provideFood/result";
+    }
+}

@@ -1,0 +1,121 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/14 15:52
+ * 采购计划实体
+ */
+public class BuyPlan {
+    private int id;
+    private String buyPlanId;
+    private String salePlanId;
+    private String createTime;
+    private int proposerId;
+    private String proposer;
+    private int approverId;
+    private String approver;
+    private String planSumMoney;
+    private int propStatus;
+    private String approverOpinion;
+    private String remarks;
+
+    public String getSalePlanId() {
+        return salePlanId;
+    }
+
+    public void setSalePlanId(String salePlanId) {
+        this.salePlanId = salePlanId;
+    }
+
+    public String getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
+    }
+
+
+
+    public int getProposerId() {
+        return proposerId;
+    }
+
+    public void setProposerId(int proposerId) {
+        this.proposerId = proposerId;
+    }
+
+    public String getProposer() {
+        return proposer;
+    }
+
+    public void setProposer(String proposer) {
+        this.proposer = proposer;
+    }
+
+    public int getApproverId() {
+        return approverId;
+    }
+
+    public void setApproverId(int approverId) {
+        this.approverId = approverId;
+    }
+
+    public String getApprover() {
+        return approver;
+    }
+
+    public void setApprover(String approver) {
+        this.approver = approver;
+    }
+
+    public String getPlanSumMoney() {
+        return planSumMoney;
+    }
+
+    public void setPlanSumMoney(String planSumMoney) {
+        this.planSumMoney = planSumMoney;
+    }
+
+    public int getPropStatus() {
+        return propStatus;
+    }
+
+    public void setPropStatus(int propStatus) {
+        this.propStatus = propStatus;
+    }
+
+    public String getApproverOpinion() {
+        return approverOpinion;
+    }
+
+    public void setApproverOpinion(String approverOpinion) {
+        this.approverOpinion = approverOpinion;
+    }
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public String getBuyPlanId() {
+        return buyPlanId;
+    }
+
+    public void setBuyPlanId(String buyPlanId) {
+        this.buyPlanId = buyPlanId;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}
+
+

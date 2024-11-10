@@ -1,0 +1,141 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="/common/comonFoodSelect.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <script type="text/javascript" src="${ctx}/js/time.js"></script>
+    <script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+    <title>入库</title>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            if(window.userPower==0||window.userPower==34){
+            }else{
+                $("#save").hide();
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        function custom(obj) {
+            var r=Math.floor(Math.random()*5+1);
+            for(var i=0;i<11;i++){
+                r=r+""+Math.floor(Math.random()*9+1);
+            }
+            var type=Number($("#intType").val());
+            var intId;
+            if(type==1){
+                intId="jh"+getTimeString();
+            }else{
+                intId="th"+getTimeString();
+            }
+            $("#intId").val(intId);
+            //食品条码
+            $("#foodBarCode").val(r);
+            $("#userName").val(window.username);
+            $("#foodId").val(obj.foodId);
+            $("#classId").val(obj.classId);
+            $("#foodName").val(obj.foodName);
+            $("#className").val(obj.className);
+            $("#foodStandard").val(obj.foodStandard);
+          getProvider(obj.foodName)
+
+
+
+        }
+    </script>
+    <script type="text/javascript">
+        function 	getProvider(obj){
+            $("#providerName").empty();
+            var url="${ctx}/provideFood/getList2?foodName="+obj;
+            $.get(url,function(data,status){
+                if(status=="success"){
+                    var obj=eval(data);
+
+                    for(var i=0;i<obj.length;i++){
+                        $("#providerName").append("<option >"+obj[i].providerName+"</option>");
+                    }
+                }
+            });
+
+
+            $("#foodNum").change(function(){
+                $("#qualifiedNum").val( $("#foodNum").val());
+            });
+        }
+    </script>
+</head>
+<body>
+<form action="${ctx}/intStore/save" method="post">
+    <input type="hidden" name="intId" id="intId">
+    <input type="hidden" name="userName" id="userName">
+    <input type="hidden" name="foodId" id="foodId">
+    <input type="hidden" name="classId" id="classId">
+    <input type="hidden" name="intType" id="intType" value="${type}">
+    <input type="hidden" name="status" id="status" value="2">
+    <input type="hidden" name="preIntId" id="preIntId" value="${preIntId}">
+    <table style="width: 300px;margin: auto;">
+        <tr>
+            <c:if test="${type==1}">
+                <th colspan="2">添加进货单</th>
+            </c:if>
+            <c:if test="${type==2}">
+                <th colspan="2">添加退货单</th>
+            </c:if>
+        </tr>
+        <tr>
+            <td>食品条码</td>
+            <td><input type="text" name="foodBarCode" id="foodBarCode" readonly></td>
+        </tr>
+        <tr>
+            <td>食品名称</td>
+            <td><input type="text" name="foodName" id="foodName" required readonly></td>
+        </tr>
+        <tr>
+            <td>食品分类</td>
+            <td><input type="text" name="className" id="className" required readonly></td>
+        </tr>
+        <tr>
+            <td>食品规格</td>
+            <td><input type="text" name="foodStandard" id="foodStandard" readonly></td>
+        </tr>
+        <tr>
+            <c:if test="${type==1}">
+                <td>进货量</td>
+            </c:if>
+            <c:if test="${type==2}">
+                <td>退货量</td>
+            </c:if>
+            <td><input type="text" name="foodNum" required id="foodNum"></td>
+        </tr>
+
+            <input type="hidden" name="qualifiedNum" required id="qualifiedNum" >
+
+        <tr>
+            <td>供应商</td>
+            <td><select name="providerName" required id="providerName"></select>
+                <%--<input type="text" name="providerName" id="providerName" readonly></td>--%>
+        </tr>
+
+
+        <tr>
+            <td>过期时间</td>
+            <td><input type="text" name="overDate" required id="date-input" readonly></td>
+        </tr>
+
+        <tr>
+            <td>备注</td>
+            <td><input type="text" name="remarks" id="remarks" ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="save"><input type="submit"  value="保存"></td>
+        </tr>
+
+
+    </table>
+</form>
+</body>
+
+</html>

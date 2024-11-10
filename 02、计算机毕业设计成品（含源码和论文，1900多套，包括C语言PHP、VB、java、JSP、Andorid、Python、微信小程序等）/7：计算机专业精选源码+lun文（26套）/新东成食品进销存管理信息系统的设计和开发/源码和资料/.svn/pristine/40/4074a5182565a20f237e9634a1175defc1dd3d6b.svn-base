@@ -1,0 +1,17 @@
+package com.nemo.service;
+
+import com.nemo.pojo.PreIntStore;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * 食品分类功能的服务层实现接口
+ *
+ */
+public interface PreIntStoreService {
+	List<PreIntStore> findFuzzyList(Map<String,String> map, int type);
+	boolean deleteProIntStore(String id);
+	boolean addPreIntStore(PreIntStore preIntStore);
+	boolean finish(String preIntId);
+}

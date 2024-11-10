@@ -1,0 +1,605 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="315_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="315_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >包括用户管理、数据分析、系统维护、系统参数设置。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >54</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：13个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >54</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">数据</span>分析、系统维护、系统<span style="background:#cbcbcb">参数</span>设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">、<span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">数据</span>、权限<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">数据</span>、模板<span style="background:#cbcbcb">参数</span><span style="background:#cbcbcb">数据</span>等。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，在此简述如下：l、系统维护数据系统运行所需的基础数据，包括数据字典数据、数据源参数数据<span class='green'>、用户管理数据、权限管理数据、模板参数数据等。</span>2、地图导航数据包括GIS导航所需的地理信息即地图……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《江苏油田地震勘探信息平台可视化系统开发应用研究》<br><b>作者：</b>倪宁晖<br><b>分类号：</b>P631.4<br><b>学科专业：</b>地球探测与信息技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>吴国忱<br><b>学位授予单位：</b>中国石油大学(华东)<br><b>学位年度：</b>2008<br><b>关键词：</b>地震勘探 信息平台 可视化系统 油田勘探 管理信息系统
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >53</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括用户<span style="background:#cbcbcb">管理</span>、数据分析、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">维护</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">参数</span>设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">论文<span style="background:#cbcbcb">管理</span>、学会工作<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span>权限<span style="background:#cbcbcb">维护</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">参数</span><span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……维护、公告发布、数据分页显示、批量导出等功能。2．4．1系统划分为人员管理、科研管理、<span class='green'>论文管理、学会工作管理、系统权限维护、系统参数管理</span>、公告管理等模块。2．4．2系统参数管理可以……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于B/S模式下医院科研管理信息系统的开发与应用》<br><b>作者：</b>徐水珠 王德丰 姚登福 何俊凤<br><b>作者单位：</b>南通大学附属医院 南通市 226001<br><b>参考文献：</b>2篇<br><b>页码：</b>P94—P95<br><b>分类号：</b>R197.324<br><b>机标分类号：</b>TP3 TN9<br><b>基金项目：</b>南通市应用研究计划项目(K2009011)<br><b>期刊名称：</b>《江苏卫生事业管理》<br><b>出版时间：</b>2012年5期<br><b>ISSN：</b>1005-7803<br><b>关键词：</b>B/S模式 科研管理<br><b>摘要：</b>主要介绍医院科研管理信息系统B/S模式的设计与实现,系统功能模块的维护与管理,实时地了解相关信息,为决策提供依据,对科研活动进行宏观的动态管理.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >49</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">数据</span>分析、系统<span style="background:#cbcbcb">维护</span>、系统参数设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">用户</span>权限<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">数据</span>备份、<span style="background:#cbcbcb">数据</span>安全性<span style="background:#cbcbcb">维护</span>、<span style="background:#cbcbcb">数据</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……用户输入的检索条件检索数据库中是否存在相应的数据，输出数据文件的元数据信息；(4)系统维护<span class='green'>包括用户权限管理、数据备份、数据安全性维护、数据</span>一致性维护等功能：(5)数据更新包括数据库更新……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(会议论文)：</font><br>
+<b>篇名：</b>《数字区域空间信息管理与分发系统设计与实现》<br><b>作者：</b>王艳东 龚健雅 李京伟 金均强<br><b>作者单位：</b>武汉大学测绘遥感信息工程国家重点实验室(武汉)；国家基础地理信息中心(北京)<br><b>会议名称：</b>中国地理信息系统协会第八届年会<br><b>主办单位：</b>中国地理信息系统协会<br><b>会议时间：</b>2004-11-01<br><b>会议地点：</b>北京<br><b>关键词：</b>数字区域 空间信息 SIMD 数据库设计
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >49</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括用户<span style="background:#cbcbcb">管理</span>、数据分析、<span style="background:#cbcbcb">系统</span>维护、<span style="background:#cbcbcb">系统</span>参数<span style="background:#cbcbcb">设置</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">管理</span>办理角色<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">设置</span>、实验演示、在交流</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……数据；安全宁静中的权管理办理功能也服务供职器层，主要控制角色脚色对不同功能模块访问会见。而<span class='green'>管理办理角色管理办理、系统设置、实验演示、在交流</span>互换、数据导入、院说明声名、数据维护功能位于客户层……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于服务器推技术的物理实验实时演示系统的设计与实现》<br><b>作者：</b>薛宁静<br><b>分类号：</b>TP393.09<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张贞<br><b>学位授予单位：</b>西安电子科技大学<br><b>学位年度：</b>2010<br><b>关键词：</b>高等教育 物理实验 网络交流 程序设计 服务器推技术 实时演示系统
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >48</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、数据分析、<span style="background:#cbcbcb">系统</span>维护、<span style="background:#cbcbcb">系统</span>参数设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span>：<span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、部门<span style="background:#cbcbcb">管理</span>、应用<span style="background:#cbcbcb">系统</span>权限<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……管理和单点登录分开设计，其功能详细设计如下：3．6．1统一用户管理平台统一用户管理平台主要功能<span class='green'>包括：用户管理、部门管理、应用系统权限管理、系统</span>维护管理、日志管理、数据同步。1．用户管理：系统……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于J2EE架构统一用户管理系统的设计与实现》<br><b>作者：</b>程珂<br><b>分类号：</b>F832.1<br><b>学科专业：</b>计算机技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>赵合计<br><b>学位授予单位：</b>山东大学<br><b>学位年度：</b>2012<br><b>关键词：</b>J2EE架构 B/S系统结构 MVC设计模式 统一用户管理 单点登录 面向对象 银监系统
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >48</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、数据分析、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">维护</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">参数</span>设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">维护</span>、菜单<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">参数</span>。在<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">维护</span>中，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……主要涉及到指标维护、信息维护和汇率维护。而系统管理维护包括的内容主要有机构管理、角色维护、<span class='green'>用户维护、菜单管理、系统参数。在系统维护中，</span>其中机构管理又包括机构维护、机构生成和机构刷新；角色……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《莱芜农信社财务报表管理系统的设计与实现》<br><b>作者：</b>范康宁<br><b>分类号：</b>TP319<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>栾峻峰<br><b>学位授予单位：</b>山东大学<br><b>学位年度：</b>2014<br><b>关键词：</b>农村信用社 财务报表管理系统 设计模式 软件开发 核心竞争力
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、数据分析、系统维护、系统参数设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span>：<span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、角色<span style="background:#cbcbcb">管理</span>、权限<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">用户</span>组</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……的错误，协调整个系统工作保持有序、一致。本文主要讨论的教学平台权限管理子系统，系统功能模块部分主要<span class='green'>包括：用户管理、角色管理、权限管理、用户组</span>管理、用户/用户组关系维护、权限分配、角色分配、……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《扩展RBAC模型在WEB应用中的研究与实现》<br><b>作者：</b>张雷<br><b>分类号：</b>TP393.08<br><b>学科专业：</b>计算机应用技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>朱卫东<br><b>学位授予单位：</b>北京交通大学<br><b>学位年度：</b>2008<br><b>关键词：</b>访问控制 扩展RBAC模型 权限控制 网络安全
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、数据分析、系统<span style="background:#cbcbcb">维护</span>、系统参数设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">统计、<span style="background:#cbcbcb">用户</span><span style="background:#cbcbcb">管理</span>、日志<span style="background:#cbcbcb">管理</span>、字典<span style="background:#cbcbcb">维护</span>六个功能模块。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……安全和保密。*保证系统具有良好的可扩充性。2功能模块划分系统划分为数据维护、车辆查询、车辆<span class='green'>统计、用户管理、日志管理、字典维护六个功能模块。</span>其中数据维护包含数据录入、数据修改子模块，车辆统计包含……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《广州市公安局警务车辆信息管理系统的建立》<br><b>作者：</b>李莉<br><b>作者单位：</b>广州市公安局科技处<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P60—P62<br><b>页数：</b>3页<br><b>分类号：</b>D9<br><b>机标分类号：</b>TP3 D9<br><b>期刊名称：</b>《广东公安科技》<br><b>出版时间：</b>2002年3期
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">9</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span>用户管理、数据分析、<span style="background:#cbcbcb">系统</span>维护、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">参数</span><span style="background:#cbcbcb">设置</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span>：<span style="background:#cbcbcb">系统</span>核心<span style="background:#cbcbcb">参数</span>的<span style="background:#cbcbcb">设置</span>、<span style="background:#cbcbcb">系统</span>时间、时区<span style="background:#cbcbcb">设置</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……计算机在现代科学技术领域应用学术会议论文集任务执行时间的管理等。9．系统环境设置系统环境没置<span class='green'>包括：系统核心参数的设置、系统时间、时区设置、</span>许可证设置、语言环境设置等。10．进程和子……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(会议论文)：</font><br>
+<b>篇名：</b>《大型主机系统维护管理的体会》<br><b>作者：</b>耿磊 刘守义 曹晓敏<br><b>作者单位：</b>空军工程大学电讯工程学院四系,陕西省,西安市,710077<br><b>会议名称：</b>第12届全国计算机与网络在现代科学技术领域应用学术会议<br><b>主办单位：</b>中国核学会<br><b>会议时间：</b>2005-08-22<br><b>会议地点：</b>湖北襄樊<br><b>关键词：</b>主机操作系统 UNIX系统 系统维护
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">10</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括用户<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">数据</span>分析、系统维护、系统参数<span style="background:#cbcbcb">设置</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">管理</span>、字典<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">数据</span>备份、<span style="background:#cbcbcb">数据</span>恢复、年审<span style="background:#cbcbcb">设置</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……了灵活性和可扩展性。系统管理系统管理功能是本系统的相关设置和日常维护等工作，包括组织机构<span class='green'>管理、字典管理、数据备份、数据恢复、年审设置、</span>打印设置等功能。其中：组织机构管理单位内部的组织结构……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《2014年中级电子信息工程江苏新羽信息技术有限公司孙昊18》<br><b>作者单位：</b>苏州职称评定中心<br><b>期刊名称：</b>《未知》
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">11</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括用户<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">数据</span>分析、系统<span style="background:#cbcbcb">维护</span>、系统参数设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">包含<span style="background:#cbcbcb">管理</span>办理角色<span style="background:#cbcbcb">管理</span>办理、<span style="background:#cbcbcb">管理</span>办理和基础<span style="background:#cbcbcb">数据</span><span style="background:#cbcbcb">维护</span>;</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+…….角色管理角色管理办理是系统区别不同用户不同权限的主要手段。本系统将系统的权限分为功能权限包括<span class='green'>包含管理办理角色管理办理、管理办理和基础数据维护;</span>和报表权限包括包含报表专业范围、报表范围相应响应的填报……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《统计报表网上报送系统设计与开发》<br><b>作者：</b>李明明<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>杨丹<br><b>学位授予单位：</b>重庆大学<br><b>学位年度：</b>2008<br><b>关键词：</b>统计数据 网上报送 系统设计
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">12</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括用户<span style="background:#cbcbcb">管理</span>、数据分析、<span style="background:#cbcbcb">系统</span>维护、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">参数</span>设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">确保非签约SP无法接入<span style="background:#cbcbcb">系统</span>。2、<span style="background:#cbcbcb">系统</span><span style="background:#cbcbcb">参数</span><span style="background:#cbcbcb">管理</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……服务不同，在SP应用向用户发送信息时，SP网关需要调用该服务对SP进行身份认证，查询签约记录，<span class='green'>确保非签约SP无法接入系统。2、系统参数管理</span>系统参数包括地区代码、公告栏管理、手机号段、热门……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《面向3G移动数据业务管理研究》<br><b>作者：</b>赵永耀<br><b>分类号：</b>F713.36<br><b>学科专业：</b>管理科学与工程<br><b>授予学位：</b>博士<br><b>导师姓名：</b>秦志光<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2008<br><b>关键词：</b>3G移动通信 数据业务管理 价值链 网络平台支撑 电子商务 DSMP模型
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">13</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">用户</span>管理、<span style="background:#cbcbcb">数据</span>分析、<span style="background:#cbcbcb">系统</span>维护、<span style="background:#cbcbcb">系统</span>参数设置。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">、<span style="background:#cbcbcb">用户</span>子<span style="background:#cbcbcb">系统</span>、<span style="background:#cbcbcb">数据</span>子<span style="background:#cbcbcb">系统</span>。<span style="background:#cbcbcb">系统</span>结构图如图</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……以及鉴别准确度高的特点。2系统的设计与实现整个系统主要由以下几个部分组成：信息搜索子系统<span class='green'>、用户子系统、数据子系统。系统结构图如图</span>1。2.1系统的工作流程系统采用浏览器/服务……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《个性化Web主题信息监控系统的实现》<br><b>作者：</b>肖展飞 洪流 蔡庆生<br><b>作者单位：</b>中国科学技术大学,计算机科学与技术系,安徽,合肥,230027<br><b>参考文献：</b>3篇<br><b>页码：</b>P94—P96<br><b>页数：</b>3页<br><b>分类号：</b>TP393.07<br><b>机标分类号：</b>TP3 U46<br><b>基金项目：</b>国家自然科学基金(60075015,90104030)<br><b>期刊名称：</b>《计算机应用》<br><b>出版时间：</b>2004年4期<br><b>期刊级别：</b>ISTIC - PKU<br><b>ISSN：</b>1001-9081<br><b>关键词：</b>Web 主题信息 用户建模 机器学习<br><b>摘要：</b>针对联网信息的有效利用问题,介绍了一个个性化Web主题信息监控系统,该系统根据用户设定的主题对指定的网站进行监控,实时性好,鉴别准确度高.论述了系统的设计思想和相关实现技术.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+包括<span class="red">用户</span><span class="red">管理</span>、<span class="red">数据</span>分析、系统维护、系统<span class="red">参数</span>设置。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">包括：</span><span class="green">包含 包罗 搜罗 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

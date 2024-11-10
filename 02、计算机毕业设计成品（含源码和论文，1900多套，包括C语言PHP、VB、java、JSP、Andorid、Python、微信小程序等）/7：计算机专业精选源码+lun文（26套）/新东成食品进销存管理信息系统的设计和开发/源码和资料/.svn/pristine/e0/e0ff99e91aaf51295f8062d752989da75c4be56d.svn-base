@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="154_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="154_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >根据以上的经济可行性分析、操作可行性分析、软件可行性分析和硬件可行性分析，开发出本系统并不难，可以进行开发。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >47</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：4个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >47</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >根据以上<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">经济</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、操作<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、软件<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span><span style="background:#cbcbcb">和</span>硬件<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>，开发出本<span style="background:#cbcbcb">系统</span>并不难，可以<span style="background:#cbcbcb">进行</span>开发。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">性</span>、<span style="background:#cbcbcb">经济</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span>、社会<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">和</span>法律<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span>等方面<span style="background:#cbcbcb">进行</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>：1.技术<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span>首先，学校为我们<span style="background:#cbcbcb">系统</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，则可以对其任课教师进行评教。1在线考试系统的主要技术实现一、可行性分析可行性分析对系统的开发至关重要，可以大幅减少不必要的损失，保证系统开发的顺利进行。因此对系统进行技术可行性、系统运行可行性、开发环境的可行<span class='green'>性、经济的可行性、社会的可行性和法律的可行性等方面进行可行性分析：1.技术可行性首先，学校为我们系统</span>的开发与运用提供了良好的硬件环境。其次，身为计算机系的学生，通晓一些软件知识是肯定的，运用软件编程能力也是必需的。……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《网上学评教系统》<br><b>作者：</b>汪钰斌<br><b>作者单位：</b>330044,江西农业大学南昌商学院 江西 南昌<br><b>参考文献：</b>3篇<br><b>页码：</b>P166—P166<br><b>页数：</b>1页<br><b>机标分类号：</b>TP3 G47<br><b>期刊名称：</b>《山西青年（下半月）》<br><b>出版时间：</b>2013年12期<br><b>关键词：</b>网上学评教系统 JSP 数据库 B/S结构 评分<br><b>摘要：</b>本系统以江西农业大学南昌商学院为研究对象，实施江西农业大学南昌商学院网上评教活动。学生可以在互联网对教师，课程，及班级打分，管理者可以对教师信息管理，学生信息管理，课程信息管理进行操查询与统计，查询可根据查询条件来实现不同的查询结果，同时也可以根据统计要求显示不同结果，本系统采用MYEclipse+mysql+tomcat6.0为开发工具，将WEB中的成熟的评分系统，及留言系统和数据库完整性结合起来，实现学生在互联网上的投票与留言功能，实现学生评教网上打分。本系统特色，管理员可以发布评分评价内容及新闻公告，可以进行数据库里面信息档案管理，教师登入可以进入自己的管理页面进行查看自己的评分及留言，不允许教师进行评分及留言。管理员，学生，教师各进入自己管理页面进行相应操作。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >根据以上的经济<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、操作<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、软件<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span><span style="background:#cbcbcb">和</span>硬件<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>，开发出本系统并不难，可以进行开发。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">]认为：GIS<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span>研究是财务<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、技术<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span><span style="background:#cbcbcb">和</span>组织<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>。财务<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span>包括预计项目费用、投资回报</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……对可行性研究的定义略有不同。据北京大学GIS课程讲义"，可行性研究是根据社会、经济和技术条件确定系统开发的必要性和可能性，进行效益分析、经费估算、进度预测、技术水平的支持能力和有关部门支持程度的分析等。Huxhold等[1<span class='green'>]认为：GIS可行性研究是财务可行性分析、技术可行性分析和组织可行性分析。财务可行性包括预计项目费用、投资回报</span>、组织运行、管理、决策方面的可度量指标；技术可行性包括技术的可获得性、所使用技术的复杂程度、现有员工掌握新技术……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《GIS应用项目可行性研究初探》<br><b>作者：</b>孔云峰<br><b>作者单位：</b>河南大学环境与规划学院,河南,开封,475001<br><b>参考文献：</b>14篇<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>页码：</b>P35—P39<br><b>页数：</b>5页<br><b>分类号：</b>P208<br><b>机标分类号：</b>F27 X70<br><b>基金项目：</b>河南省教育厅创新人才基金(2004-2009)<br><b>期刊名称：</b>《地理与地理信息科学》<br><b>出版时间：</b>2006年1期<br><b>期刊级别：</b>ISTIC - CSSCI - PKU<br><b>ISSN：</b>1672-0504<br><b>关键词：</b>GIS 应用项目 可行性研究<br><b>摘要：</b>总结GIS应用项目可行性研究的基本理念、主要内容和工作步骤,认为全面的GIS项目可行性研究是在战略层次上分析组织环境,在战术层次上全面评估技术、财务、组织与实施方面的可行性,并撰写研究报告、论证报告建议.技术可行性分析包括产品的成熟程度评估、系统集成方案复杂程度评估和招聘技术人员的难易程度评估;财务可行性分析是识别项目成本和收益的类别和细目、估算成本并预期收益、计算财务指标;组织与实施可行性分析是组织对组织变革的适应性、接受程度做出判断.建议采用案例研究的方法,总结国内可行性研究的经验与教训,编制更实用的研究指南.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >根据以上的<span style="background:#cbcbcb">经济</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、操作<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、软件<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>和硬件<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>，开发出本系统并不难，可以进行开发。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">件项目中<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>涉及到技术<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>，<span style="background:#cbcbcb">经济</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>，人力<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>以及社会环境<span style="background:#cbcbcb">分析</span>翻。2．1<span style="background:#cbcbcb">经济</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……图1展示了软件需求管理中的可行性分析。可行性研究说明要迸行的软件开发项目的实现在技术上、经济上和社会因素上的可行性．评述为了合理地达到开发目标可供选择的各动可能实施方案。论证所选定实施方案的理由。在软<span class='green'>件项目中可行性分析涉及到技术可行性分析，经济可行性分析，人力可行性分析以及社会环境分析翻。2．1经济可行性</span>分析成本效益分析从经济角度评价开发一个新的软件项目是否可行．它主要包括：”成本一收益“分析和”短期一长远利益”分析……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《软件项目中的可行性分析方法研究》<br><b>作者：</b>余法红 崔华 杨开英<br><b>作者单位：</b>长江大学计算机科学学院,湖北,荆州,434023；武汉理工大学计算机科学与技术学院,湖北,武汉,430063<br><b>参考文献：</b>5篇<br><b>页码：</b>P65—P66<br><b>页数：</b>2页<br><b>分类号：</b>TP3<br><b>机标分类号：</b>R62<br><b>期刊名称：</b>《福建电脑》<br><b>出版时间：</b>2007年3期<br><b>ISSN：</b>1673-2782<br><b>关键词：</b>可行性分析 功能点分析 规模识别<br><b>摘要：</b>可行性分析是软件开发过程的一个重要阶段也是项目决策的依据.本文首先从工程的角度分析了可行性研究的作用和内容,然后提出一个引入规模识别的可行性分析方法,并将这种方法融入到可行性分析的各个阶段.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >根据以上<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">经济</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、操作<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>、<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span><span style="background:#cbcbcb">和</span>硬件<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>，<span style="background:#cbcbcb">开发</span>出本系统并不难，可以进行<span style="background:#cbcbcb">开发</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">开发</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>论证工作。1<span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span><span style="background:#cbcbcb">的</span>内窖<span style="background:#cbcbcb">软件</span><span style="background:#cbcbcb">开发</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">可行</span><span style="background:#cbcbcb">性</span><span style="background:#cbcbcb">分析</span>，通常从<span style="background:#cbcbcb">开发</span>技术，<span style="background:#cbcbcb">经济</span>效益<span style="background:#cbcbcb">和</span>组织管理三个</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……可行性分析、开发技术、经济效益、组织管理软件开发的可行性分析是指在企业当前条件下，对是否开发某个软件系统进行论证，以决定是否进一步开发。实践表明未经认真可行性论证的开发项目，或者是困难重重，或者是半途而废，因此应该十分重视<span class='green'>软件开发的可行性分析论证工作。1可行性分析的内窖软件开发的可行性分析，通常从开发技术，经济效益和组织管理三个</span>方面进行。1．1技术上的可行性一般从设备条件和技术力量等方面来论证系统在技术上实现的可行性。(1)现有……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(会议论文)：</font><br>
+<b>篇名：</b>《试述软件开发的可行性分析》<br><b>作者：</b>刘树安<br><b>作者单位：</b>东北财经大学信息系<br><b>会议名称：</b>2001全国软件技术研讨会<br><b>主办单位：</b>中国计算机学会<br><b>会议时间：</b>2001-07-05<br><b>会议地点：</b>大连<br><b>关键词：</b>可行性分析 开发技术 经济效益 组织管理 软件开发
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+根据以上的<span class="red">经济</span><span class="red">可行</span>性<span class="red">分析</span>、操作<span class="red">可行</span>性<span class="red">分析</span>、软件<span class="red">可行</span>性<span class="red">分析</span>和硬件<span class="red">可行</span>性<span class="red">分析</span>，开发出本<span class="red">系统</span>并不难，可以<span class="red">进行</span>开发。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">根据：</span><span class="green">凭据 凭证 按照 </span><br/> <span class="red">开发：</span><span class="green">开拓 开辟 斥地 </span><br/> <span class="red">进行：</span><span class="green">举办 举行 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="352.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="352_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >新添加采购计划时会读取销售计划ID和审批人列表。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >46</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >新添加<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>时会读取销售<span style="background:#cbcbcb">计划</span>ID和审批人<span style="background:#cbcbcb">列表</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">子系统<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>管理提交<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>展示<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">列表</span>修改<span style="background:#cbcbcb">采购</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……图如图4-3图4-3采购计划管理模块活动图是否通过审批登录电子化采购平台进入申报管理<span class='green'>子系统采购计划管理提交采购计划展示采购计划列表修改采购</span>计划删除采购计划采购计划审批通过审批选择采购计划浏览采购计划……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基础教育系统电子化采购平台实证研究》<br><b>作者：</b>万翾<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>何戆<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2010<br><b>关键词：</b>电子政务 政府采购 C#语言 安全性
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >新添加<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>时会读取销售<span style="background:#cbcbcb">计划</span>ID和<span style="background:#cbcbcb">审批</span>人列表。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">l结果<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">审批</span>表<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>明细IDINTEGER结果C姒R</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……审批人ID审批人审批意见<span class='green'>l结果采购计划审批表采购计划明细IDINTEGER结果C姒R</span>(1)采购结果审批表采购结果明细IDINTEGER审批意见结果0……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《石油化工企业物资采购系统的设计与实现》<br><b>作者：</b>刘旸<br><b>分类号：</b>F426.22<br><b>学科专业：</b>计算机应用技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张斌<br><b>学位授予单位：</b>东北大学<br><b>学位年度：</b>2008<br><b>关键词：</b>石油化工企业 物资管理 采购管理 管理信息系统 Web数据库
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >新添加<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>时会读取销售<span style="background:#cbcbcb">计划</span>ID<span style="background:#cbcbcb">和</span>审批人列表。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">生成年<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>、季度<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span><span style="background:#cbcbcb">和</span>月<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">计划</span>。(</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……的物品的采购计划。MRP计划在系统中可包括年生产计划、季度生产计划和月生产计划，相应的<span class='green'>生成年采购计划、季度采购计划和月采购计划。(</span>2)计划员根据实际情况，在计划员工作台中手工修改……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《黎明物资管理系统设计与实现》<br><b>作者：</b>石微<br><b>分类号：</b>TP311.56<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>朴勇<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2006<br><b>关键词：</b>ERP软件 企业物资管理系统 采购管理 库存管理 面向对象 二次开发 数据库服务器
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">计划：</span><span class="green">打算 筹算 规划 </span><br/> <span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

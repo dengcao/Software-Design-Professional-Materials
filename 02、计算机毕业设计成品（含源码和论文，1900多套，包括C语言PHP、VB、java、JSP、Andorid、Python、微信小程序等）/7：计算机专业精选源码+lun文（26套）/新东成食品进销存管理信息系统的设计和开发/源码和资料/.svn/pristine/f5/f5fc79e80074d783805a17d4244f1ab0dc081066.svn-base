@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="309.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="309_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >库存报警引发条件有两个，第一食品在一个星期内过期，第二在库数量低于设定的最低库存量。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >41</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：2个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">库存</span>报警引发条件有两个，第一食品在一个星期内过期，第二在库<span style="background:#cbcbcb">数量</span><span style="background:#cbcbcb">低于</span><span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">最低</span><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span><span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span>基础上，当<span style="background:#cbcbcb">库存</span>商品<span style="background:#cbcbcb">数量</span>高于<span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span>最高<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span>或<span style="background:#cbcbcb">低于</span><span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">最低</span><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……的商品库存预警单和自动补货处理单，提供给管理者作为进行补货和下一次进货量的参考。西安理工大学工商管理硕士(MBA)学位论文4．4．3商品自动补货处理设计在库存商品的最高最低<span class='green'>库存量设定的基础上，当库存商品数量高于设定的最高库存量或低于设定的最低库存量</span>时，系统将自动产生商品库存预警单和自动补货处理单。下面将以自动补货处理单为例子，……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《华飞公司物流管理系统的研究》<br><b>作者：</b>郭晓辉<br><b>分类号：</b>F279.246<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>崔俊凯<br><b>学位授予单位：</b>西安理工大学<br><b>学位年度：</b>2002<br><b>关键词：</b>华飞公司 物流管理 供应链管理 电子订货
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">库存</span>报警引发条件有两个，第一食品在一个星期内过期，第二在库<span style="background:#cbcbcb">数量</span><span style="background:#cbcbcb">低于</span><span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">最低</span><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span><span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span>基础上，当<span style="background:#cbcbcb">库存</span>商品<span style="background:#cbcbcb">数量</span>高于<span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span>最高<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span>或<span style="background:#cbcbcb">低于</span><span style="background:#cbcbcb">设定</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">最低</span><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……限量与库存当前量的差值确定。产生的商品库存预警单和自动补货处理单，提供给管理者作为进行补货和下一次进货量的参考。4．3．6商品自动补货处理设计在库存商品的最高最低<span class='green'>库存量设定的基础上，当库存商品数量高于设定的最高库存量或低于设定的最低库存量</span>时，系统将自动产生商品库存预警单和自动补货处理单。下面将以自动补货处理单为例子，……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于供应链管理的商业连锁企业物流管理信息系统的分析与研究》<br><b>作者：</b>葛岩<br><b>分类号：</b>F259.22<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王一平<br><b>学位授予单位：</b>西安理工大学<br><b>学位年度：</b>2002<br><b>关键词：</b>商业连锁 物流管理 场占有率 成本降低
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">引发：</span><span class="green">激发 </span><br/> <span class="red">条件：</span><span class="green">前提 </span><br/> <span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">星期：</span><span class="green">礼拜 </span><br/> <span class="red">过期：</span><span class="green">过时 逾期 </span><br/> <span class="red">数量：</span><span class="green">数目 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

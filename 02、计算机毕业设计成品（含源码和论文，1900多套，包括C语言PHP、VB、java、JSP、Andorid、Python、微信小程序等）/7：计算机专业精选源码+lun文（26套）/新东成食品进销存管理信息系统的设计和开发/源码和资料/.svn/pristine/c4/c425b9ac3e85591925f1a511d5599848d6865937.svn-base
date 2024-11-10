@@ -1,0 +1,34 @@
+package com.nemo.mapper;
+
+import com.nemo.pojo.BuyPlanDetail;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ *@Author 刘宇飞
+ *@Date 2016/04/15 09:11
+ *采购计划详细
+ */
+public interface BuyPlanDetailMapper {
+    public boolean deleteBuyPlanDetailById(Map<String, String> map);
+
+    public boolean updateBuyPlanDetail(BuyPlanDetail buyPlanDetail);
+
+    public boolean addBuyPlanDetail(BuyPlanDetail buyPlanDetail);
+
+    public List<BuyPlanDetail> findDetailListByBuyPlanId(Map<String, String> map);
+
+    public BuyPlanDetail findBuyPlanDetailById(Map<String, String> map);
+
+    public List<BuyPlanDetail> findLimitList(Map<String, String> map);
+
+    public int count();
+
+    public List<BuyPlanDetail> findFuzzyList(Map<String,String> map);
+
+
+
+
+
+}

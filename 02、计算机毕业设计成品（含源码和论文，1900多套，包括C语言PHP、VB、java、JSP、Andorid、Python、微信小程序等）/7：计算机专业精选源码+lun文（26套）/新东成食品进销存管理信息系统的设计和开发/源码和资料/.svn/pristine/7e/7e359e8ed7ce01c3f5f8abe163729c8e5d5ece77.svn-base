@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="341_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="341_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >员工表{员工编号，员工姓名，员工密码，员工性别，员工生日，员工地址，员工权限}</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >44</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：4个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">员工</span>表{<span style="background:#cbcbcb">员工</span>编号，<span style="background:#cbcbcb">员工</span>姓名，<span style="background:#cbcbcb">员工</span>密码，<span style="background:#cbcbcb">员工</span>性别，<span style="background:#cbcbcb">员工</span>生日，<span style="background:#cbcbcb">员工</span>地址，<span style="background:#cbcbcb">员工</span>权限}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">员工</span>，修改<span style="background:#cbcbcb">员工</span>，查询<span style="background:#cbcbcb">员工</span>信录入新<span style="background:#cbcbcb">员工</span>，删除<span style="background:#cbcbcb">员工</span>，修改<span style="background:#cbcbcb">员工</span>，管理<span style="background:#cbcbcb">员工</span>调动办理<span style="background:#cbcbcb">员工</span>变动</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……李红名添加类，及时刷新表格)AddAction04．4．2系统详细设计(1管理需求所有办理在职全数员工信息，息管理离职所有办理去职全数员工信息，息等操作。录入新员工，删除<span class='green'>员工，修改员工，查询员工信录入新员工，删除员工，修改员工，管理员工调动办理员工变动</span>信息的增加，修改，删除调动查询员工变动信息等操作。进行对记录举办包括纪录，记录上请假……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《企业人事信息管理系统开发与设计》<br><b>作者：</b>徐琳<br><b>分类号：</b>TP391.78<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孙凤池<br><b>学位授予单位：</b>南开大学<br><b>学位年度：</b>2012<br><b>关键词：</b>小中型企业 人事信息 管理系统 工作原理 数据更新
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">员工</span>表{<span style="background:#cbcbcb">员工</span>编号，<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">姓名</span>，<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">密码</span>，<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">性别</span>，<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">生日</span>，<span style="background:#cbcbcb">员工</span>地址，<span style="background:#cbcbcb">员工</span>权限}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">员工</span>信息（ID，<span style="background:#cbcbcb">密码</span>，类型，<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">姓名</span>，<span style="background:#cbcbcb">性别</span>，<span style="background:#cbcbcb">生日</span>，部门，工作职位，学历，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……关系模型转换的结果如下所示：其中下划线为主键，波浪线为外键。1．单位信息（名称，法人，电话，邮编，执照，范围，地址，邮件，官网）。2．<span class='green'>员工信息（ID，密码，类型，员工姓名，性别，生日，部门，工作职位，学历，</span>专业，地址，电话，Email，状态，说明，录用日期，身份证号，性别）。3．……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于统一开发过程的人事管理系统的设计与实现》<br><b>作者：</b>韩俊启<br><b>分类号：</b>TP319<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>薛义<br><b>学位授予单位：</b>天津大学<br><b>学位年度：</b>2012<br><b>关键词：</b>人事管理系统 统一建模语言 企业信息化 概念设计 数据库
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">员工</span>表{<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">姓名</span>，<span style="background:#cbcbcb">员工</span>密码，<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">性别</span>，<span style="background:#cbcbcb">员工</span>生日，<span style="background:#cbcbcb">员工</span>地址，<span style="background:#cbcbcb">员工</span>权限}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">信息(<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">编号</span>、<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">姓名</span>、<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">性别</span>，基本工资<span style="background:#cbcbcb">编号</span>、部门<span style="background:#cbcbcb">编号</span>，岗位<span style="background:#cbcbcb">编号</span>，工龄<span style="background:#cbcbcb">编号</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……。@岗位工资信|息(岗位编号、岗位类型，薪水)。o工龄工资信息(工龄编号、工龄类型、薪水)。@登陆权限信息(片{户名、密码、权限)。@员工资料<span class='green'>信息(员工编号、员工姓名、员工性别，基本工资编号、部门编号，岗位编号，工龄编号</span>，住房补贴、生活补贴、奖金、缺勤扣款、开始工作时间、离职时间、状态)。⑦……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《基于PowerBuilder开发的工资管理系统》<br><b>作者：</b>邓林生<br><b>作者单位：</b>南昌航空大学计算机学院,江西,南昌,330063<br><b>参考文献：</b>6篇<br><b>页码：</b>P213—P216<br><b>页数：</b>4页<br><b>分类号：</b>TP315<br><b>机标分类号：</b>TP3 F24<br><b>期刊名称：</b>《科技广场》<br><b>出版时间：</b>2007年6期<br><b>ISSN：</b>1671-4792<br><b>关键词：</b>工资管理系统 报表<br><b>摘要：</b>本系统是介绍以PowerBuilder为前台开发工具和SOL server 2000为后台数据库开发的一个工资管理系统,其中含有员工基本信息、工资设定标准、员工月工资生成、系统权限管理、帮助等功能模块.采用该工资管理系统不仅解决了以往人力处理方面所带来的浪费问题,更主要的是能及时了解工资管理中各个环节信息的变更,从而能大大地提高工资管理的效率及数据的准确性,最终基本满足中小型企业员工工资信息管理的需要.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">员工</span>表{<span style="background:#cbcbcb">员工</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">员工</span>姓名，<span style="background:#cbcbcb">员工</span>密码，<span style="background:#cbcbcb">员工</span>性别，<span style="background:#cbcbcb">员工</span>生日，<span style="background:#cbcbcb">员工</span>地址，<span style="background:#cbcbcb">员工</span>权限}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">帐号，职务<span style="background:#cbcbcb">编号</span>，部门<span style="background:#cbcbcb">编号</span>，岗位<span style="background:#cbcbcb">编号</span>，职称<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">员工</span>基本工资，<span style="background:#cbcbcb">员工</span>照片，<span style="background:#cbcbcb">员工</span>报到日期</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，籍贯，身份证号，民族，政治面貌，婚否，学历，户口所在地，紧急状况联系人，联系电话，电子邮件，家庭住址，健康状况，社保个人帐号，公积金帐号，医疗保险<span class='green'>帐号，职务编号，部门编号，岗位编号，职称编号，员工基本工资，员工照片，员工报到日期</span>(2)履历信息——记录员工离开学校后的信息情况数据库字段如下：履历编号，员工编号……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《人力资源管理系统的设计与实现》<br><b>作者：</b>陈曦<br><b>分类号：</b>F272.92<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>林晓惠<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2006<br><b>关键词：</b>人力资源管理 管理系统 三层体系结构 程序开发 企业管理
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+<span class="red">员工</span>表{<span class="red">员工</span>编号，<span class="red">员工</span>姓名，<span class="red">员工</span>密码，<span class="red">员工</span>性别，<span class="red">员工</span>生日，<span class="red">员工</span>地址，<span class="red">员工</span>权限}
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">密码：</span><span class="green">暗码 </span><br/> <span class="red">地址：</span><span class="green">地点 所在 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

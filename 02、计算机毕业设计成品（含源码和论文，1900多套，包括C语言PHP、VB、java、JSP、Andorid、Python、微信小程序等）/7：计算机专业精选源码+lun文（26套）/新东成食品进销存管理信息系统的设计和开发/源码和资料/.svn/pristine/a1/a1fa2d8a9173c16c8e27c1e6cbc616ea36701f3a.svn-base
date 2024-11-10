@@ -1,0 +1,52 @@
+package com.nemo.mapper;
+
+import com.nemo.pojo.Backuptime;
+import com.nemo.pojo.User;
+
+import java.util.List;
+import java.util.Map;
+/**
+ * 
+ * 用户操作的Mapper,需要注意的是，这里的方法如果需要操作到数据库，那么在Mapper.xml文件中也要有对应ID（名字相同）的具体操作
+ * @author Nemo
+ *
+ */
+public interface UserMapper {
+	
+	public List<User> findUserList();
+
+	public List<User> findLimitList(Map<String, String> map);
+
+	public int count();
+
+	
+	public List<Map<String,Object>> query(Map<String,Object> inputParam);
+	
+	public int deleteUserById(Map<String, String> map);
+	
+	public int updateUser(User user);
+	
+	public int addUser(User user);
+	
+	public User getUserById(Map<String, String> map);
+     /**
+      *@Author 刘宇飞
+      *@Date 2016/04/05 10:25
+      *登陆操作
+      */
+	public User checkLogin(Map<String, String> map);
+	/**
+	 *@Author 刘宇飞
+	 *@Date 2016/04/05 10:25
+	 *修改密码
+	 */
+	public boolean updatePSW(Map<String, String> map);
+
+	public List<User> findFuzzyList(Map<String,String> map);
+
+
+
+  public List<Backuptime> findBackupTime();
+
+	public boolean updatebackuptime(Map<String,String> map);
+}

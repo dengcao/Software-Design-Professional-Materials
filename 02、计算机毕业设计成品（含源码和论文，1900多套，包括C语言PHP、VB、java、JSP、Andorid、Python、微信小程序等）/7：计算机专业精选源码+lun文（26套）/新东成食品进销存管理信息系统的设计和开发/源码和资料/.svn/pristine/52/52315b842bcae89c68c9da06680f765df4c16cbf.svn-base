@@ -1,0 +1,69 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.ProviderMapper;
+import com.nemo.pojo.Provider;
+import com.nemo.service.ProviderService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ */
+@Service
+public class ProviderImpl implements ProviderService {
+    @Autowired
+    ProviderMapper providerMapper;
+    @Override
+    public List<Provider> queryProviderList() throws Exception {
+        return providerMapper.findProviderList();
+    }
+
+    @Override
+    public boolean deleteProviderById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("providerId",id+"");
+        return providerMapper.deleteProviderById(map)>0?true:false;
+    }
+
+    @Override
+    public boolean updateProvider(Provider provider) {
+        return providerMapper.updateProvider(provider)>0?true:false;
+    }
+
+    @Override
+    public boolean addProvider(Provider provider) {
+        return providerMapper.addProvider(provider)>0?true:false;
+    }
+
+    @Override
+    public Provider findProviderById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("providerId",id+"");
+        return providerMapper.findProviderById(map);
+    }
+
+    @Override
+    public List<Provider> findLimitList(int start, int end) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        return providerMapper.findLimitList(map);
+    }
+
+    @Override
+    public int count() {
+        return providerMapper.count();
+    }
+
+    @Override
+    public List<Provider> findFuzzyList(String condition) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where concat(providerId,providerName,linkman,linkNumber,providerAdress) like "+"'%"+condition+"%'");
+        return providerMapper.findFuzzyList(map);
+    }
+}

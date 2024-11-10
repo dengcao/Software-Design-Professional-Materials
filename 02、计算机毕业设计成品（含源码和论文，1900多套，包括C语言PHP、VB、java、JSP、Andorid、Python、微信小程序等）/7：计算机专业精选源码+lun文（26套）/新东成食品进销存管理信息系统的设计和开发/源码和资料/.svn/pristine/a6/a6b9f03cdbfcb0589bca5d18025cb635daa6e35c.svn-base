@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="338.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="338_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >采购申请表{采购申请编号，销售计划编号，创建时间，申请人编号，申请人名称，审批人编号，审批人名称，计划总金额，申请状态，申请原因，备注}</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >46</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：2个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">申请</span>表{<span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">编号</span>，销售计划<span style="background:#cbcbcb">编号</span>，创建时间，<span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">人</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">申请</span>人名称，<span style="background:#cbcbcb">审批</span><span style="background:#cbcbcb">人</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">审批</span>人名称，计划总金额，<span style="background:#cbcbcb">申请</span>状态，<span style="background:#cbcbcb">申请</span>原因，<span style="background:#cbcbcb">备注</span>}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">采购</span><span style="background:#cbcbcb">申请</span>（<span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">编号</span>，物料<span style="background:#cbcbcb">编号</span>，数量，<span style="background:#cbcbcb">申请</span>部门，<span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">审批</span><span style="background:#cbcbcb">人</span>，<span style="background:#cbcbcb">审批</span>日期，<span style="background:#cbcbcb">申请</span>日期，<span style="background:#cbcbcb">备注</span>）工票（工票<span style="background:#cbcbcb">编号</span>，工单<span style="background:#cbcbcb">编号</span>，职工<span style="background:#cbcbcb">编号</span>，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，计划人，计划日期，备注）维修外包（外包编号，工单编号，维修商编号，维修结果，外包费用，申请人，申请日期，审批人，审批日期，验收人，验收日期，备注）工单领料申请（序号，工单编号，物料编号，数量，申领部门，申领人，申领日期，审批人，审批日期，备注）物料<span class='green'>采购申请（申请编号，物料编号，数量，申请部门，申请人，审批人，审批日期，申请日期，备注）工票（工票编号，工单编号，职工编号，</span>工时，工种，备注）工单实用物料记录（序号，工单编号，物料编号，数量，备注）工单成本核算（工单编号，物料成本，人工成本，其它成本，核算……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《铸造企业EAM系统的研究与开发》<br><b>作者：</b>陈永聪<br><b>分类号：</b>F426.4<br><b>学科专业：</b>材料加工工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>周建新<br><b>学位授予单位：</b>华中科技大学<br><b>学位年度：</b>2011<br><b>关键词：</b>EAM系统 铸造企业 企业信息化 设备管理 企业资产管理
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >采购<span style="background:#cbcbcb">申请</span>表{采购<span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">编号</span>，销售计划<span style="background:#cbcbcb">编号</span>，创建<span style="background:#cbcbcb">时间</span>，<span style="background:#cbcbcb">申请</span>人<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">人名</span>称，审批人<span style="background:#cbcbcb">编号</span>，审批<span style="background:#cbcbcb">人名</span>称，计划总金额，<span style="background:#cbcbcb">申请</span>状态，<span style="background:#cbcbcb">申请</span>原因，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">数据。数据输入：订单<span style="background:#cbcbcb">编号</span>描述订单形貌，订单类型，业务代码，<span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">申请</span><span style="background:#cbcbcb">人名</span>所在部门地址部分中心成本中央名称<span style="background:#cbcbcb">时间</span><span style="background:#cbcbcb">申请</span>时候，设备名称理由<span style="background:#cbcbcb">申请</span>出处，资产分类，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……编码宰/=@购置·购买描述功能形貌购置当购买申请购置通过购买审批阶段后，相应由响应的所属部门会计部分予以拨款并下订单，购置设备购买。在本功根据将凭据通过购置的生成信息天生订单编号，订单类型描述订单形貌等数据提供并供应订单数据的打印考虑并思量可扩展性提供相应供应响应的接口，以便接收系统吸收<span class='green'>数据。数据输入：订单编号描述订单形貌，订单类型，业务代码，申请编号，申请人名所在部门地址部分中心成本中央名称时间申请时候，设备名称理由申请出处，资产分类，</span>数量，数目，单价，金额，申请原因，供货商，审批单位时间审批时候，审批通过。基TRFID的烟草管理资产办理研究表4购置13购买订单订单设备数最订单订单业务……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于RFID的烟草公司资产管理研究》<br><b>作者：</b>李少红<br><b>分类号：</b>TP391.44<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>刘献忠<br><b>学位授予单位：</b>华东师范大学<br><b>学位年度：</b>2009<br><b>关键词：</b>射频识别 无线网络技术 资产管理 烟草公司 内部管理
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/> <span class="red">计划：</span><span class="green">打算 筹算 规划 </span><br/> <span class="red">时间：</span><span class="green">时候 时刻 时辰 </span><br/> <span class="red">状态：</span><span class="green">状况 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

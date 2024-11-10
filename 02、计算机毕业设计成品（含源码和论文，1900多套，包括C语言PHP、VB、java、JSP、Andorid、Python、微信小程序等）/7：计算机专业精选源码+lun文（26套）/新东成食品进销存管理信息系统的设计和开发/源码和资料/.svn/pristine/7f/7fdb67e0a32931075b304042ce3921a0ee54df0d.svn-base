@@ -1,0 +1,66 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 11:53
+ * 供应商表实体
+ */
+public class Provider {
+    private int providerId;
+    private String providerName;
+    private String linkman;
+    private String linkNumber;
+    private String providerAdress;
+    private String remarks;
+
+    public int getProviderId() {
+        return providerId;
+    }
+
+    public void setProviderId(int providerId) {
+        this.providerId = providerId;
+    }
+
+
+
+    public String getLinkman() {
+        return linkman;
+    }
+
+    public void setLinkman(String linkman) {
+        this.linkman = linkman;
+    }
+
+    public String getLinkNumber() {
+        return linkNumber;
+    }
+
+    public void setLinkNumber(String linkNumber) {
+        this.linkNumber = linkNumber;
+    }
+
+    public String getProviderAdress() {
+        return providerAdress;
+    }
+
+    public void setProviderAdress(String providerAdress) {
+        this.providerAdress = providerAdress;
+    }
+
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public String getProviderName() {
+        return providerName;
+    }
+
+    public void setProviderName(String providerName) {
+        this.providerName = providerName;
+    }
+}

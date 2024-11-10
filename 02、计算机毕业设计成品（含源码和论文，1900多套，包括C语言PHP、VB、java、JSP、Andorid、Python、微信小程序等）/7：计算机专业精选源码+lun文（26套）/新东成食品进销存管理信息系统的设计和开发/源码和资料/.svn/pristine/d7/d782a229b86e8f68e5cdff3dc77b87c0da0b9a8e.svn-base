@@ -1,0 +1,137 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.Food;
+import com.nemo.pojo.FoodClass;
+import com.nemo.service.FoodClassService;
+import com.nemo.service.FoodService;
+import com.nemo.service.ProviderService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 食品分类操作类
+ */
+@Controller
+@RequestMapping("/food")
+public class FoodController {
+    @Autowired
+    FoodService foodService;
+
+    @Autowired
+    FoodClassService foodClassService;
+
+    @Autowired
+    ProviderService providerService;
+    private List<Food> foodList;
+
+    @RequestMapping("/list")
+    public String allList(Model model) throws Exception{
+     /*   List<Food> list = foodService.queryFoodList();
+        model.addAttribute("foodlist",list);*/
+        int count = foodService.count();
+        model.addAttribute("count",count);
+
+
+        return "food/foodList";
+    }
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<Food> list = foodService.findLimitList(index * 5,5);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<Food> list = foodService.findFuzzyList(CustomUtils.transcoding(condition));
+        return CustomUtils.toJson(list);
+    }
+
+
+
+    @RequestMapping(value = "/getList",produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String allList() throws Exception{
+        List<Food> list = foodService.queryFoodList();
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping("/add")
+    public String addFood(Model model) throws Exception{
+        List<FoodClass> list = foodClassService.queryClassList();
+        model.addAttribute("classlist",list);
+        foodList = foodService.queryFoodList();
+        return "food/addFood";
+    }
+
+    @RequestMapping("save")
+    public String saveFood(@ModelAttribute Food food,Model model){
+        boolean has=false;
+        for(int i=0;i<foodList.size();i++){
+            if(foodList.get(i).getFoodName().equals(food.getFoodName())){
+                has=true;
+            }
+        }
+        if(has){
+            model.addAttribute("mess","已经存在，不能重复添加");
+        }else {
+            boolean res = foodService.addFood(food);
+            if(res){
+                model.addAttribute("mess","添加食品成功");
+            }else {
+                model.addAttribute("mess","添加食品失败");
+            }
+        }
+
+        return "food/result";
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,Model model){
+        boolean res = foodService.deleteFoodById(id);
+        if(res){
+            model.addAttribute("mess", "删除食品成功");
+        }else{
+            model.addAttribute("mess", "删除食品失败");
+        }
+        return "food/result";
+    }
+
+    @RequestMapping(value = "editFood")
+    public String editFood(@RequestParam int id,Model model)throws Exception{
+        Food food = foodService.findFoodById(id);
+        model.addAttribute("food",food);
+
+        List<FoodClass> list = foodClassService.queryClassList();
+        model.addAttribute("classlist",list);
+
+        return "food/editFood";
+    }
+
+    @RequestMapping("update")
+    public String updateFood(@ModelAttribute Food food,Model model){
+
+
+            boolean res = foodService.updateFood(food);
+            if(res){
+                model.addAttribute("mess","修改食品成功");
+            }else {
+                model.addAttribute("mess","修改食品失败");
+            }
+
+
+        return "food/result";
+    }
+}

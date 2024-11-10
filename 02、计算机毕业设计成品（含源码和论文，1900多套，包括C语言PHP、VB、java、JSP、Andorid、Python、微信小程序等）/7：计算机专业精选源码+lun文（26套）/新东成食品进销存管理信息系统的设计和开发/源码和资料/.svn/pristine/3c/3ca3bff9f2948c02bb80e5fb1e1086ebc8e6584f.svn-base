@@ -1,0 +1,97 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.OutStoreMapper;
+import com.nemo.pojo.OutStore;
+import com.nemo.service.OutStoreService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ *
+ */
+@Service
+public class OutStoreImpl implements OutStoreService {
+    @Autowired
+    OutStoreMapper outStoreMapper;
+    @Override
+    public List<OutStore> findOutStoreList() throws Exception {
+        return outStoreMapper.findOutStoreList();
+    }
+
+    @Override
+    public boolean deleteOutStoreById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("outStoreId",id+"");
+        return outStoreMapper.deleteOutStoreById(map);
+    }
+
+
+    @Override
+    public boolean addOutStore(OutStore outStore) {
+        return outStoreMapper.addOutStore(outStore);
+    }
+
+    @Override
+    public OutStore findOutStoreById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("outStoreId",id+"");
+        return outStoreMapper.findOutStoreById(map);
+    }
+
+    @Override
+    public List<OutStore> findLimitList(int start, int end) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        return outStoreMapper.findLimitList(map);
+    }
+
+    @Override
+    public int count() {
+        return outStoreMapper.count();
+    }
+
+    @Override
+    public int outTypeCount(int type) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("type",type+"");
+        return outStoreMapper.outTypeCount(map);
+    }
+
+    @Override
+    public List<OutStore> findLimitTypeList(int start, int end, int type) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        map.put("type",type+"");
+        return outStoreMapper.findLimitTypeList(map);
+    }
+
+    @Override
+    public List<OutStore> findFuzzyList(String condition,int type) {
+        Map<String,String> map=new HashMap<String, String>();
+        if(type==0){
+            map.put("condition","where order by foodName DESC  concat(outStoreId,foodName,foodStandard,className,storageOutDate,overDate,reaAmount) like "+"'%"+condition+"%'");
+        }else {
+            map.put("condition","where storageOutType="+type+" and  concat(outStoreId,foodName,foodStandard,className,storageOutDate,overDate,reaAmount) like "+"'%"+condition+"%'");
+        }
+
+        return outStoreMapper.findFuzzyList(map);
+    }
+
+    @Override
+    public List<OutStore> analyzeSele(String start, String end) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start);
+        map.put("end",end);
+        return outStoreMapper.analyzeSele(map);
+    }
+
+
+}

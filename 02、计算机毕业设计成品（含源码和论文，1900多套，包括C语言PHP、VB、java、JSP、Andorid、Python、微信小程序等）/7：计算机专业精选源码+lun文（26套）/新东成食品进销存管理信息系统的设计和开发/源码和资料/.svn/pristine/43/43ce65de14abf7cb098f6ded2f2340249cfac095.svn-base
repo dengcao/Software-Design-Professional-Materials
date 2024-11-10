@@ -1,0 +1,435 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="312.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="312_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >包括销售计划申请和审批、退货单的录入和查询、销售记录的查询。</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >46</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：8个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">销售</span>计划申请和审批、<span style="background:#cbcbcb">退货</span>单的录入和<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>记录的<span style="background:#cbcbcb">查询</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">退货</span>管理、入库<span style="background:#cbcbcb">查询</span>、入库<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">查询</span>八</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……支持分析和决策的功能。(D系统销售模块与查询模块的设计与实现。该模块主要包括图书销售信息录入、图书销售管理、销售退货信息录入、<span class='green'>销售退货管理、入库查询、入库退货查询、销售查询、销售退货查询八</span>大功能。②系统库存与价格管理模块的设计与实现。该模块主要包括……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《图书进销存管理系统的设计与实现》<br><b>作者：</b>毕庆文<br><b>作者单位：</b>同济大学天津市政建设集团有限公司<br><b>参考文献：</b>4篇<br><b>页码：</b>P210—P211<br><b>页数：</b>2页<br><b>机标分类号：</b>G35 F71<br><b>期刊名称：</b>《中小企业管理与科技》<br><b>出版时间：</b>2013年1期<br><b>ISSN：</b>1673-1069<br><b>关键词：</b>图书进销存管理系统 B/S JSP MySQL<br><b>摘要：</b>本文详细介绍了图书管理系统库存与价格管理模块和系统销售模块与查询模块的设计与实现.根据图书管理的实际需要,使用JSP,MySQL等工具,开发完成了图书进销存管理软件.该系统开发的主体任务是实现图书仓库物资信息的系统化、规范化和自动化.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">销售</span>计划申请和审批、<span style="background:#cbcbcb">退货</span>单的录入和<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>记录的<span style="background:#cbcbcb">查询</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">销售</span>信息<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">查询</span>、商品入库<span style="background:#cbcbcb">查询</span>、入库<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">查询</span>、商品销</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……销售退货2个部分。查询统计。实现对进、销商品信息的查询汇总，并实现按销售商品进行排行和对年销售额进行分析等功能。主要<span class='green'>包括销售信息查询、销售退货查询、商品入库查询、入库退货查询、商品销</span>售排行和年销售额分析6个部分。往来管理。实现在线的个人与……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《企业进存销管理系统的设计》<br><b>作者：</b>李亚霞 王国宏<br><b>作者单位：</b>黄河水利委员会信息中心<br><b>页码：</b>P58—P59<br><b>分类号：</b>TP3<br><b>机标分类号：</b>F27 TP3<br><b>期刊名称：</b>《河南科技》<br><b>出版时间：</b>2010年7期<br><b>ISSN：</b>1003-5168
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">销售</span>计划申请和审批、<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">单</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">录入</span>和<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>记录<span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">查询</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">销售</span>)管理<span style="background:#cbcbcb">退货</span>办理<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">单</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">录入</span>、修改、删除。<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">单</span><span style="background:#cbcbcb">的</span><span style="background:#cbcbcb">查询</span>方法</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……货物数量货品数目可以满足发货要求，则对进行单举办确认后组织发货。不能库存不克满足出库要求，则审核发货结果的成效不能“不克出库"。<span class='green'>销售)管理退货办理退货单的录入、修改、删除。退货单的查询方法</span>查询方式有：按退货单编号查询、按订单编号查询、按客户、联系人……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《某制造企业销售管理系统设计与实现》<br><b>作者：</b>伍毅<br><b>分类号：</b>TP317.1<br><b>学科专业：</b>软件工程(金融信息管理)<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>任曙明<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2009<br><b>关键词：</b>汽车工业 企业管理 信息化建设 办公自动化
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">销售</span>计划申请和审批、退货<span style="background:#cbcbcb">单</span>的录入和查询、<span style="background:#cbcbcb">销售</span>记录的查询。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">销售</span>合同、<span style="background:#cbcbcb">销售</span>签<span style="background:#cbcbcb">单</span>、提货<span style="background:#cbcbcb">单</span>打印、码<span style="background:#cbcbcb">单</span>、<span style="background:#cbcbcb">销售</span>开票、货</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……市场信息化建设的主要组成部分。通过需求调研、系统分析、系统设计，开发了宁波分公司钢材销售、库存、结算一体化系统。系统主要<span class='green'>包括销售合同、销售签单、提货单打印、码单、销售开票、货</span>款结算、物代码维护等功能，本系统除可以提高企业运作效率，还可以……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《宁波分公司销售、库存、结算一体化系统》<br><b>作者：</b>杨洁<br><b>作者单位：</b>苏州职称评定中心<br><b>期刊名称：</b>《未知》
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">销售</span>计划申请和审批、退货单的录入和<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>记录的<span style="background:#cbcbcb">查询</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">该功能主要<span style="background:#cbcbcb">包括</span>了<span style="background:#cbcbcb">销售</span>订单单据<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>单据<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>收款单据<span style="background:#cbcbcb">查询</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……、删除、查询图书销售企业销售部门的图书销售退货退款信息，图4．34为某个销售退货退款的信息显示。4．6．7相关单据查询<span class='green'>该功能主要包括了销售订单单据查询、销售单据查询、销售收款单据查询、</span>销售退货退款单据查询。销售订单单据查询：通过该功能用户可以查询图书销售企业……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《图书进销存管理系统的设计与实现》<br><b>作者：</b>张家明<br><b>分类号：</b>F270.7<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李忠伟<br><b>学位授予单位：</b>南开大学<br><b>学位年度：</b>2011<br><b>关键词：</b>图书销售企业 图书进销存管理系统 系统设计 数据交互
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">销售</span>计划申请和审批、退货<span style="background:#cbcbcb">单</span>的录入和<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>记录的<span style="background:#cbcbcb">查询</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">货品<span style="background:#cbcbcb">查询</span>：接货单<span style="background:#cbcbcb">查询</span>、配货单<span style="background:#cbcbcb">查询</span>盘点清点<span style="background:#cbcbcb">单</span><span style="background:#cbcbcb">查询</span><span style="background:#cbcbcb">销售</span>发卖<span style="background:#cbcbcb">单</span><span style="background:#cbcbcb">查询</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……单预录入销售发卖单维护销售发卖单发送；3)串管理办理：货分配分拨信息预录入、货分配分拨信息维护、货分配分拨信息发送；4货物<span class='green'>货品查询：接货单查询、配货单查询盘点清点单查询销售发卖单查询、</span>串货查询、调货单/调货申请单查询、退货单/退货申请单查询……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于ASP的中小物流企业信息平台的研究与实现》<br><b>作者：</b>赵平平<br><b>分类号：</b>TP391.78<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>曲家文<br><b>学位授予单位：</b>哈尔滨工程大学<br><b>学位年度：</b>2007<br><b>关键词：</b>中小物流企业 物流信息平台 供应链服务 虚拟企业联盟
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">销售</span>计划申请和审批、<span style="background:#cbcbcb">退货</span>单的录入和<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>记录的<span style="background:#cbcbcb">查询</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">查询</span>(<span style="background:#cbcbcb">销售</span>信息<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">查询</span>、商品入库<span style="background:#cbcbcb">查询</span>、入库<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">查询</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……菜单；4．系统响应操作员的事件，把相关的2．在页面中选择相应的商品类型：数据统计信息呈现在页面上3．选择相应的<span class='green'>查询(销售信息查询、销售退货查询、商品入库查询、入库退货查询、</span>商品销售排行、年销售额分析)异常事件流：找不到对应的商品类型后置……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于Web的销售管理系统的设计与实现》<br><b>作者：</b>黄婵<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>吴卓华<br><b>学位授予单位：</b>西安电子科技大学<br><b>学位年度：</b>2013
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">销售</span>计划申请和审批、<span style="background:#cbcbcb">退货</span>单的录入和<span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">销售</span>记录的<span style="background:#cbcbcb">查询</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">)发卖办理<span style="background:#cbcbcb">销售</span>登记由<span style="background:#cbcbcb">销售</span>挂号、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">退货</span>、<span style="background:#cbcbcb">销售</span><span style="background:#cbcbcb">查询</span>、发卖<span style="background:#cbcbcb">退货</span><span style="background:#cbcbcb">查询</span>组成</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……及记录人；纪录客户银行账户信息；按不同条件、不同前提查询客户基础信息。中小型医药企业管理销存办理信息系统的设计与实现销售管理<span class='green'>)发卖办理销售登记由销售挂号、销售退货、销售查询、发卖退货查询组成</span>个其中构成销售登记，发卖销售完成药品发卖工作自动生成功能主动天生销售登记的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《中小型医药企业进销存管理信息系统的分析与设计》<br><b>作者：</b>常彬<br><b>分类号：</b>TP311.52<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>董槐林<br><b>学位授予单位：</b>厦门大学<br><b>学位年度：</b>2012<br><b>关键词：</b>医药企业 进销存管理信息系统 C/S架构 信息化建设
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">包括：</span><span class="green">包含 包罗 搜罗 </span><br/> <span class="red">销售：</span><span class="green">发卖 贩卖 </span><br/> <span class="red">计划：</span><span class="green">打算 筹算 规划 </span><br/> <span class="red">查询：</span><span class="green">查问 盘问 究诘 </span><br/> <span class="red">记录：</span><span class="green">纪录 记实 记载 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

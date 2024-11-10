@@ -1,0 +1,81 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.ProvideFoodMapper;
+import com.nemo.pojo.ProvideFood;
+import com.nemo.service.ProvideFoodService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ *@Author 刘宇飞
+ *@Date 2016/04/16 15:06
+ *
+ */
+@Service
+public class ProvideFoodImpl implements ProvideFoodService {
+    @Autowired
+     ProvideFoodMapper provideFoodMapper;
+
+    @Override
+    public List<ProvideFood> queryProvideFoodListByProviderId(int id) {
+        Map<String ,String> map=new HashMap<String, String>();
+        map.put("providerId",id+"");
+        return provideFoodMapper.findProvideFoodListByProviderId(map);
+    }
+
+    @Override
+    public List<ProvideFood> queryProvideFoodListByFoodName(String foodName) {
+        Map<String ,String> map=new HashMap<String, String>();
+        map.put("foodName",foodName);
+        return provideFoodMapper.findProvideFoodListByFoodName(map);
+    }
+
+    @Override
+    public boolean deleteProvideFoodById(int id) {
+        Map<String ,String> map=new HashMap<String, String>();
+        map.put("id",id+"");
+        return provideFoodMapper.deleteProvideFoodById(map);
+    }
+
+    @Override
+    public boolean updateProvideFood(ProvideFood provideFood) {
+        return provideFoodMapper.updateProvideFood(provideFood);
+    }
+
+    @Override
+    public boolean addProvideFood(ProvideFood provideFood) {
+        return provideFoodMapper.addProvideFood(provideFood);
+    }
+
+    @Override
+    public ProvideFood findProvideFoodById(int id) {
+        Map<String ,String> map=new HashMap<String, String>();
+        map.put("id",id+"");
+        return provideFoodMapper.findProvideFoodById(map);
+    }
+
+    @Override
+    public List<ProvideFood> findLimitList(int start, int end,String provideName) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        map.put("provideName",provideName);
+        return provideFoodMapper.findLimitList(map);
+    }
+
+    @Override
+    public int count() {
+        return provideFoodMapper.count();
+    }
+
+    @Override
+    public List<ProvideFood> findFuzzyList(String condition,String provideName) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where providerName='"+provideName+"' and concat(providerId,providerName,foodName,purchasePrice) like "+"'%"+condition+"%'");
+        return provideFoodMapper.findFuzzyList(map);
+    }
+}

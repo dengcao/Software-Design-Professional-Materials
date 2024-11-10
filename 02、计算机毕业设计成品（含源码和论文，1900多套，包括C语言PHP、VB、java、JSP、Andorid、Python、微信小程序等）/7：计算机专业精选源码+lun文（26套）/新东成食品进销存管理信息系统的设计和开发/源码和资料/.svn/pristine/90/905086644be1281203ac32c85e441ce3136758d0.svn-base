@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="308_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="308_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >包括库存报警、库存查询、食品入库与出库，食品出库查询功能。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >47</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：5个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >47</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">库存</span>报警、<span style="background:#cbcbcb">库存</span>查询、食品<span style="background:#cbcbcb">入库</span>与<span style="background:#cbcbcb">出库</span>，食品<span style="background:#cbcbcb">出库</span>查询功能。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">包含<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">入库</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">出库</span>、<span style="background:#cbcbcb">库存</span>盘点、<span style="background:#cbcbcb">库存</span>清点、<span style="background:#cbcbcb">库存</span>审核等</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……信息维护：客户信息的添加、删除、修改操作。6．4．4库存基本操作模块库存管理操作是库存组成的必要包括构成部分，<span class='green'>包含库存入库、库存出库、库存盘点、库存清点、库存审核等</span>四大功能模块。1)库存入库包括库存入库单据包含入库单单子信息的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《基于ASP平台的库存管理系统的研究与开发》<br><b>作者：</b>叶雪琴<br><b>分类号：</b>F406.5<br><b>学科专业：</b>机械制造及其自动化<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>吉卫喜<br><b>学位授予单位：</b>江南大学<br><b>学位年度：</b>2007<br><b>关键词：</b>ASP平台 中小企业 库存管理系统 访问控制 ABC分类
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括库存报警、库存<span style="background:#cbcbcb">查询</span>、食品<span style="background:#cbcbcb">入库</span>与<span style="background:#cbcbcb">出库</span>，食品<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">查询</span><span style="background:#cbcbcb">功能</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">查询</span>同<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">查询</span>的<span style="background:#cbcbcb">功能</span>。!<span style="background:#cbcbcb">入库</span>退货<span style="background:#cbcbcb">查询</span>同<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">查询</span>的<span style="background:#cbcbcb">功能</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……“”，其他时候为不可用；然后输入要查询的信息，可以输入完整或不完整的信息来进行精确查询或模糊查询。!<span class='green'>出库查询同入库查询的功能。!入库退货查询同入库查询的功能。</span>!出库退货查询同入库查询的功能。（）代码设计本系统有……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《汽车配件管理系统的设计与实现》<br><b>作者：</b>王竹云<br><b>作者单位：</b>浙江财经学院<br><b>页码：</b>P117—P119<br><b>页数：</b>3页<br><b>分类号：</b>U4<br><b>机标分类号：</b>C93 TP3<br><b>期刊名称：</b>《管理科学文摘》<br><b>出版时间：</b>2007年11期<br><b>ISSN：</b>1002-7106<br><b>关键词：</b>汽车配件 入库 出库 库存管理<br><b>摘要：</b>汽车配件管理系统以汽配企业日常的汽车配件进销存业务为基础,利用现代化的软件技术和网络技术,吸收企业资源计划等先进的管理理念,设计出一套适合普通中小型汽车配件企业的局域网系统,对加强企业的进销存管理,提高运营水平;建立高效率的供销链,减少库存,降低成本;提高客户服务水平等提供强有力的工具,同时为经营决策分析提供科学的依据.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">报警</span>、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">查询</span>、食品入库与出库，食品出库<span style="background:#cbcbcb">查询</span>功能。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">查询</span>、<span style="background:#cbcbcb">库存</span>调拨、调拨记录<span style="background:#cbcbcb">查询</span>及<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">报警</span>；其中<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">查询</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……、物品出入库价格、规格型号、最低库存报警数量、经办人、供应商选择、以及物品类型、物品备注等。3．4库存管理<span class='green'>包括库存查询、库存调拨、调拨记录查询及库存报警；其中库存查询</span>及分类筛选可对所属仓库、所有大类、所有小类以及单个物品名或者……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《顺和选煤厂物资供应管理系统的自主设计分析》<br><b>作者：</b>蒋志远<br><b>作者单位：</b>永煤股份有限公司顺和选煤厂,河南 永城,476600<br><b>页码：</b>P61—P62<br><b>页数：</b>2页<br><b>分类号：</b>TP315<br><b>期刊名称：</b>《中国管理信息化》<br><b>出版时间：</b>2015年2期<br><b>ISSN：</b>1673-0194<br><b>关键词：</b>物资管理 流程 Web 数据库<br><b>摘要：</b>随着现代工业信息化的发展,中小型企业对物资管理系统也逐渐重视,而物资管理系统也是典型的信息管理系统(MIS),其开发主要包括后台数据库的建立和维护以及前端应用程序的开发两个方面.该系统主要对单据,库存、进货、出入库记录及库存明细的统计和汇总以及供应商管理、合同管理于一体,基本上覆盖了单位“进销存”业务相关的各个流程,减少手工作业造成的失误;加快工作效率和资金核算,降低生产运营成本.系统根据该单位实际物资采购及出入库管理流程,整合管理过程中的所有信息资源,完成数据库设计、总体设计,并着重论述了系统的登录设计、界面设计和功能信息的实现和应用.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >包括<span style="background:#cbcbcb">库存</span>报警、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">查询</span>、食品入库<span style="background:#cbcbcb">与</span>出库，食品出库<span style="background:#cbcbcb">查询</span><span style="background:#cbcbcb">功能</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">特殊业务处理、<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">查询</span>、统计<span style="background:#cbcbcb">与</span>分析、<span style="background:#cbcbcb">库存</span>预警等<span style="background:#cbcbcb">功能</span>。2</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……与汇总。6。4．2库存管理系统1)实现目的确保各库区合理的库存保有量，实现货物准确、高效的盘点以及<span class='green'>特殊业务处理、库存查询、统计与分析、库存预警等功能。2</span>)功能(1)跟踪库存供货商的商品及收货批次：可跟踪客户……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《关于医药物流实训中心的设计和规划》<br><b>作者：</b>王晓梅<br><b>分类号：</b>F763<br><b>学科专业：</b>物流工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>龚国华<br><b>学位授予单位：</b>复旦大学<br><b>学位年度：</b>2007<br><b>关键词：</b>医药物流实训中心 医药配送中心 职业教育 规划设计 电子商务
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">包括</span><span style="background:#cbcbcb">库存</span>报警、<span style="background:#cbcbcb">库存</span>查询、食品<span style="background:#cbcbcb">入库</span>与<span style="background:#cbcbcb">出库</span>，食品<span style="background:#cbcbcb">出库</span>查询功能。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">包括</span>仓库设置、管理<span style="background:#cbcbcb">库存</span>物料、<span style="background:#cbcbcb">入库</span>、<span style="background:#cbcbcb">出库</span>、移库、<span style="background:#cbcbcb">库存</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……半成品仓库用来存放半成品，成品仓库用来存放印刷品，危险品仓库用来存放化学药剂、易燃、易爆品。印刷企业库存管理一般<span class='green'>包括仓库设置、管理库存物料、入库、出库、移库、库存</span>盘点、库存报警以及库存报表等业务。入库包括采购入库、车间退……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《印刷企业供应物流信息系统中库存子系统的分析与设计》<br><b>作者：</b>李翔 王长浩 邓鲲鹏<br><b>作者单位：</b>陕西科技大学,西安,710016<br><b>参考文献：</b>6篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P28—P31<br><b>页数：</b>4页<br><b>分类号：</b>F253.9<br><b>机标分类号：</b>TP3 U49<br><b>期刊名称：</b>《包装工程》<br><b>出版时间：</b>2007年5期<br><b>期刊级别：</b>PKU<br><b>ISSN：</b>1001-3563<br><b>关键词：</b>印刷企业 库存管理 UML建模<br><b>摘要：</b>利用UML建模工具对印刷企业供应物流信息系统中库存管理子系统进行了分析与设计.采用用例和用例图进行系统分析,采用顺序图和活动图进行系统动态建模,通过定义类和类图进行了系统静态建模,分析了数据的存储结构并通过定义SQL SERVER数据库中的过程存储进行数据库的设计.
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+包括<span class="red">库存</span>报警、<span class="red">库存</span>查询、食品<span class="red">入库</span>与<span class="red">出库</span>，食品<span class="red">出库</span>查询功能。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">包括：</span><span class="green">包含 包罗 搜罗 </span><br/> <span class="red">查询：</span><span class="green">查问 盘问 究诘 </span><br/> <span class="red">食品：</span><span class="green">食物 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

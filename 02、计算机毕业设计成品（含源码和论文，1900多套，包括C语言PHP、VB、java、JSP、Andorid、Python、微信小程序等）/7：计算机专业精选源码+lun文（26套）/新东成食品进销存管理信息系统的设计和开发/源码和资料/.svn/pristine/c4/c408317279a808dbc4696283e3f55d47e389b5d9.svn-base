@@ -1,0 +1,609 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:auto;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+p{
+margin-bottom:10px;
+}
+demo_padding {
+line-height: 30px;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom:100px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px solid #999999;
+padding-right: 10px;
+padding-left: 10px;
+margin-top:10px;
+margin-left:25px;
+width:300px;
+}
+.shubu{
+height: 20px;
+width: 20px;
+margin-left:25px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+color: #666666;
+}
+a.red:link {color:#FF0000}
+a.red:visited {color:#FF0000}
+a.red:hover {color:#000000}
+a.red:active {color:#000000}
+
+a.orange:link {color:#FF6600}
+a.orange:visited {color:#FF6600}
+a.orange:hover {color:#000000}
+a.orange:active {color:#000000}
+
+a.dark:link {color:#666666}
+a.dark:visited {color:#666666}
+a.dark:hover {color:#000000}
+a.dark:active {color:#000000}
+
+a.pagelink:hover {color:#000000}
+a.pagelink:active {color:#000000}
+
+.green{color:#008000}
+.gray{color:#666666}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+
+
+<div class="zhengwen">
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="#">上一页</a>
+<a class="pagelink" href="paper_2.htm">下一页</a>
+<a class="pagelink" href="paper_5.htm">尾页</a>
+页码：1/5页
+]
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">1</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>摘要</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">2</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>新东成食品公司经过多年的摸索与探讨，不断的创新使得公司得到了空前的发展，经销网络遍布全国多省，</span><span class='green'>在食品市场上具有相当的份额，由于管理模式相对落后，现有的管理模式已经无法满足现在企业的现状，</span><span class='green'>严重的拖了企业的后腿，使得公司管理上越来越吃力，更为严重的一个问题是公司经过多年的发展，</span><span class='green'>并没有注重进销存的实时处理等相关研究与开发，导致公司这方面的技术相对落后。</span><span class='green'>公司目前最需要解决的问题是，如何处理好庞大的食品数据，如何能够让管理人员快速得到公司的最前沿销售情况和轻松获取到相关数据支持，</span><span class='green'>进而支持管理人员做出最快速的战略调整，提高公司的食品销售效率，加速食品周转，全面提高公司利润，</span><a href='../sentence_detail/7.htm' target='right' class='orange' >为进一步提升整个食品销售的服务质量和水平。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">3</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>正是因为以上种种原因，我认真的分析和研究了我公司的进货、销售，库存等业务流程，并利用相关工具理清了整个进销存的业务处理，</span><a href='../sentence_detail/9.htm' target='right' class='orange' >为公司开发了一套符合我公司的进销存系统，该系统实现了公司的采购管理、库存管理和销售管理联合处理，</a><span class='green'>解决了公司目前存在的多个弊端，资源浪费严重等问题。</span><span class='green'>本系统的设计与开发，使用的JavaWeb技术，系统用户为公司各部门的相关管理人员。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">4</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/12.htm' target='right' class='orange' >本系统总共有五大模块，分别是食品基础信息管理，采购管理、库存管理、销售管理和系统管理。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">5</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>关键词:</span><a href='../sentence_detail/14.htm' target='right' class='orange' > JavaWeb技术，新东成食品公司，进销存系统，数据库。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">6</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>Abstract</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">7</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>Xindong into food company after years of exploration and study，</span><span class='green'>continuous innovation allows the company obtained the unprecedented development，</span><span class='green'>distribution network throughout the province， in the food market has a considerable share，</span><span class='green'>due to the relatively backward management mode， the existing management mode has been unable to meet the current situation of the enterprise， serious dragged the hind legs of an enterprise，</span><span class='green'>makes the company management more and more difficult，</span><span class='green'>more a serious problem is the company after years of development，</span><span class='green'>and pay no attention to invoicing real- time processing and other related research and development，</span><span class='green'>leading to this technology is relatively backward.</span><span class='green'>Company is the most need to solve the problem is how to deal with the large food data，</span><span class='green'>how can we allow managers to quickly get the forefront of sales and easy access to relevant data support，</span><span class='green'>and support managers to make strategic adjustment of the most rapid， improve the company’ s food sales efficiency， accelerate the turnover of the food，</span><span class='green'>and comprehensively improve the profits of the company， to further</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">8</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>enhance the service quality and level of the sale of the entire food.</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">9</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>It is because of the above reasons， I carefully analysis and research the company purchase，</span><span class='green'>sales， inventory and other business processes， and make use of relevant tools to sort out the Invoicing business process，</span><span class='green'>for the company to develop the a meet our Invoicing system， the system realizes the company’ s procurement management， inventory management and sales management combined treatment，</span><span class='green'>to solve the drawbacks of existing， serious waste of resources etc..</span><span class='green'>The design and development of the system， the use of JavaWeb technology， system users for the company’s various departments of the relevant management.</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">10</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>There are five modules in this system， which are basic information management， purchasing management， inventory management， sales management and system management.</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">11</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>Keywords:</span><span class='green'>B/S architecture， new food company， Invoicing system， database.</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">12</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/37.htm' target='right' class='orange' >新东成食品商贸有限公司2005年4月在柳州成立。</a><span class='green'>公司成立至今已经十多年，公司不断的壮大和发展，并且获得了广大用户的认可和信任，公司在全国多地设立有分部，目前公司人员已经有3000多人。</span><span class='green'>公司主要是代理各种食品产品，经过几年的市场拓展：</span><span class='green'>目前主要销售的外国产品有：</span><a href='../sentence_detail/41.htm' target='right' class='orange' >法国著名葡萄酒、丹麦啤酒、伏特加和白兰地等。</a><span class='green'>国内产品有：</span><span class='green'>饼干、糖果、特色小吃等。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">13</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>1.2 公司组织结构</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">14</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/45.htm' target='right' class='orange' >新东成食品商贸有限公司的组织结构图如下图所示。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">15</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>图1-1 公司组织结构图</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">16</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>1.3 公司信息系统现状分析</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">17</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>1.3.1 信息化现状概况</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">18</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>（1）在硬件方面</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">19</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>目前公司内部具有自己的局域网，无线路由器10台，大部分人都有自己的办公电脑，办公电脑有些旧，</span><span class='green'>配置不是很高，基本上是安装 xp系统，无法安装现在流行的 win7和 win8系统。</span><a href='../sentence_detail/52.htm' target='right' class='orange' >每个部门都配备有自己的打印机，满足各部门的业务需要。</a><span class='green'>公司每个人都拥有自己的智能手机，公司内部通话使用阿里钉盯进行交流。</span><span class='green'>每个办公室也配备有电话，方便沟通。</span><span class='green'>公司目前具有一个100平方的大型会议室，会议室配备投影仪，公司大小会议都在这里开展。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">20</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>（2）在软件方面</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">21</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>新东成食品商贸有限公司建立由自己的网站，公司拥有自己的OA办公平台，办公平台的使用使得公司管理更加规范，保证了公司日常运作和管理。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">22</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>（3）在人员管理及技术方</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">23</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>我们公司属于销售公司，不大分属于年轻人，年轻人信息技术水平相对比较高，但是大部分还停留在一般应用计算机水平。</span><span class='green'>专业技术人员比较缺乏，整个公司仅有3名，技术人员的缺少，不利于公司信息化的建设。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">24</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>1.3.2 信息化问题分析</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">25</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>新东成食品贸易有限公司，目前我们公司没有自己专门的信息化管理部门，也没有拥有一套完整的进销存管理系统。</span><a href='../sentence_detail/63.htm' target='right' class='orange' >公司信息化建设迫不及待，主要是公司对信息化的投入几乎没有，公司领导对信息化的建设意识并不是很强。</a><span class='green'>公司的信息化建设落后，有待提高。</span><span class='green'>我所在的实习部门是市场部，该部门很多管理上的操作还是很原始的手工操作，这样就引发了很多问题，比如账本丢失和字迹的模糊等都会导致公司受很大的损失，不论是时间还是效率上都是很不友好的。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">26</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/66.htm' target='right' class='orange' >随着信息技术的发展和普及，信息技术和信息系统在企业已经是不可或缺的，信息技术为企业带来良好的经济效益和提高了管理水平。</a><span class='green'>公司实施了信息系统后，就可以利用信息系统进行决策分析，以便于公司决策。</span><span class='green'>对信息系统的进行运行于维护，并且根据后期的实际需求，需要进行一定的修改与扩充，以便满足公司的需要。</span><span class='green'>一套成熟的管理信息系统，就会为公司节省大量的资源，不仅节省工作时间，还会为公司节省大量的开支等。</span><a href='../sentence_detail/70.htm' target='right' class='orange' >总之，公司想要增强竞争力，必须进行管理信息系统的管理与开发。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">27</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/71.htm' target='right' class='orange' >第2章 进销存管理信息系统理论概述</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">28</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/72.htm' target='right' class='red' >2.1 进销存管理信息系统的基本概念</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">29</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>企业进销存管理系统是指企业利用信息技术对产品进行采购、库存和销售的全程处理的工具，有效的帮助企业解决一系列的问题，比如：</span><a href='../sentence_detail/74.htm' target='right' class='orange' >库存管理、销售管理、销售计划的制定，为企业收集统计信息更加方便。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">30</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>可以说，进销存管理系统的运作是否成功和效率是否高影响企业的经济效益。</span><a href='../sentence_detail/76.htm' target='right' class='orange' >企业的各项生产经营，都是物料的转换和资金流动的过程。</a><a href='../sentence_detail/77.htm' target='right' class='orange' >进销存管理系统开始点是物流，然后进入采购管理系统、库存管理系统和销售管理系统，最终与生产系统、财务系统等合并。</a><a href='../sentence_detail/78.htm' target='right' class='orange' >进销存管理系统给企业产生了良好的经济效益，主要体现在，一是它保障了生产经营的有效供给，提高了物料的周转效益，从而降低了采购和销售成本；</a><span class='green'>二是它可以帮助企业优化物料资源配置，动态监控物料流向，压缩了库存资金的占用。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">31</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/80.htm' target='right' class='orange' >采购管理、库存管理、销售管理等共同组成了进销存管理系统。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">32</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/81.htm' target='right' class='orange' >2.2 进销存管理信息系统国内外研究概况性</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">33</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>2.2.1 国外现状研究</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">34</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/83.htm' target='right' class='orange' >企业供销管理体系是由哈佛商学院教授迈克尔•波特在1980年提出的，他提倡使用价值链对企业进行管理和策划，以此建设企业核心竞争力。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">35</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>二十世纪九十年代以后供应链管理( SCM)逐渐进入各个行业领域，随着技术创新的快速跟进，</span><span class='green'>全球化市场的形成和全球化信息网络广泛的建设，从而致使社会生产力得到快速上升，</span><span class='green'>竞争日趋激烈，众多企业的管理模式和生产方式不得不改变，以适应发展，最普遍的是，</span><a href='../sentence_detail/87.htm' target='right' class='orange' >大多数的企业从“纵向一体化”逐渐向“横向一体化”的战略转变。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">36</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/88.htm' target='right' class='orange' >发达国家在二十世纪以来，对供应链系统的研究，主要在供应链的组成、供应链的财务和多级库存等方面，研究如何解决供应链上的处理效率问题。</a><a href='../sentence_detail/89.htm' target='right' class='orange' >而将供应链管理作为一种战略管理体系，逐步扩展到其加盟企业的长期合作关系方向上是近年来的研究方向，也就形成后来的进销存管理系统。</a>
+</p>
+</div>
+
+
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="#">上一页</a>
+<a class="pagelink" href="paper_2.htm">下一页</a>
+<a class="pagelink" href="paper_5.htm">尾页</a>
+页码：1/5页
+]
+</div>
+
+<br>
+<div style="margin-left:8px">
+
+<div style="text-align:center;background-color:#CA122C;margin-top:30px;overflow:hidden;">
+<a href="http://www.paperpass.com/publish/index?from=ppreport_banner" target="_blank" style="display:block;"><img height="180" src="http://file.paperpass.com/images/fabiao.jpg"></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:400px"></div>
+</body>
+</html>

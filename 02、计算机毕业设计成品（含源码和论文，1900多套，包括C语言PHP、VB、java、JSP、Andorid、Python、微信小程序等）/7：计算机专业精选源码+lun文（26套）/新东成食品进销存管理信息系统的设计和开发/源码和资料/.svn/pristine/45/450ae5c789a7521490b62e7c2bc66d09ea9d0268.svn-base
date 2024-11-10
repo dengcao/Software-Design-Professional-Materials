@@ -1,0 +1,236 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.OutStore;
+import com.nemo.pojo.Store;
+import com.nemo.service.OutStoreService;
+import com.nemo.service.StoreService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 库存操作类
+ */
+@Controller
+@RequestMapping("/outStore")
+public class OutStoreController {
+    private int storegeTotal=0;
+    private int foodNum=0;
+    private int outStoreType=0;
+
+    @Autowired
+    OutStoreService outStoreService;
+
+    @Autowired
+    StoreService storeService;
+
+    @RequestMapping("/list")
+    public String allList(Model model) throws Exception{
+      /*  List<OutStore> list = outStoreService.findOutStoreList();
+        model.addAttribute("outStoreList",list);*/
+        int count = outStoreService.count();
+        model.addAttribute("count",count);
+        return "outStore/outStoreList";
+    }
+
+    @RequestMapping("/saleList")
+    public String saleList(@RequestParam int type,Model model) throws Exception{
+        outStoreType=type;
+      /*  int count = outStoreService.outTypeCount(type);
+        model.addAttribute("count",count);*/
+        return "outStore/saleList";
+    }
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<OutStore> list = outStoreService.findFuzzyList(CustomUtils.transcoding(condition),outStoreType);
+        return CustomUtils.toJson(list);
+    }
+
+
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<OutStore> list = outStoreService.findLimitList(index * 5,5);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getLimitOutTypeList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String outTypeList(@RequestParam int index) throws Exception{
+        List<OutStore> list = outStoreService.findLimitTypeList(index * 5, 5, outStoreType);
+
+        return CustomUtils.toJson(list);
+    }
+
+
+    @RequestMapping("save")
+    public String savStore(@ModelAttribute OutStore outStore,Model model) throws Exception{
+       boolean res = outStoreService.addOutStore(outStore);
+        if(res){
+            model.addAttribute("mess","添加出库成功");
+            operationStore(outStore);
+        }else {
+            model.addAttribute("mess","添加出库失败");
+        }
+
+        return "outStore/result";
+    }
+    /**
+     *@Author 刘宇飞
+     *@Date 2016/04/13 11:42
+     * 出库成功后需要对库存列表进行响应的操作
+     */
+    private void operationStore(OutStore outStore)throws Exception{
+        String outType = outStore.getStorageOutType();
+        //配送出库 库存量不变 不做任何处理
+       if(outType.equals("1")){
+               ;
+        //销售出库和耗损出库 库存量改变
+       }else {
+           //分库存中出库 从对应的食品库存减去
+           if(storegeTotal==0){
+               reduceStorePart(outStore);
+           //总库存中出库  从总库存食品减去  默认从最近的过期时间出库
+           }else {
+                 //是否循环
+               boolean recle=true;
+               List<Store> list = storeService.findStoreByFoodName(outStore.getFoodName());
+               int foodOutNum = outStore.getFoodOutNum();
+               int size = list.size();
+               while (recle){
+                   int foodNum = list.get(size - 1).getFoodNum();
+                   //如果最近过期的库存大于或等于出库量  从最近过期的库存出库 跳出循环
+                   if(foodNum>=foodOutNum){
+                       //剩余量
+                       int remain = foodNum - foodOutNum;
+                       //修改剩余量
+                    /*  if(remain==0){
+                          storeService.deleteStoreById(list.get(size - 1).getStoreId());
+                      }else {*/
+                          setStoreFoodNum(list.get(size - 1).getStoreId(), remain);
+//                      }
+                       recle=false;
+                       //如果最近过期的库存小于出库量  继续循环
+                   }else {
+                       //修改库存量为0
+                       //  storeService.deleteStoreById(list.get(size - 1).getStoreId());
+                       setStoreFoodNum(list.get(size - 1).getStoreId(), 0);
+
+                       int c = foodOutNum - foodNum;
+                       foodOutNum=c;
+                       size--;
+
+                       recle=true;
+                   }
+
+               }
+           }
+
+           //重新计算总库存
+           countTotal(outStore);
+
+       }
+
+
+        //操作完成回复全局变量
+        storegeTotal=0;
+        foodNum=0;
+
+    }
+     /**
+      *@Author 刘宇飞
+      *@Date 2016/04/13 13:01
+      *计算总库存
+      * @param outStore
+      */
+    private void countTotal(OutStore outStore)throws Exception{
+        List<Store> storeList = storeService.findStoreByFoodName(outStore.getFoodName());
+           int total=0;
+        for(int i=0;i<=storeList.size()-1;i++){
+            //将所有的库存总量归零
+            storeService.setTotalZero(storeList.get(i).getStoreId());
+            //计算总库存量
+           total=total+storeList.get(i).getFoodNum();
+        }
+        if(storeList.size()>0){
+            //设置总库存
+            Store store=new Store();
+            store.setStoreId(storeList.get(0).getStoreId());
+            store.setStoregeTotal(total);
+            storeService.setStoreTotal(store);
+        }
+
+    }
+
+    /**
+     *@Author 刘宇飞
+     *@Date 2016/04/13 12:21
+     *从分库存减去出库的商品
+     * @param outStore
+     */
+    private void reduceStorePart(OutStore outStore) {
+        //剩余库存量
+        int res=foodNum-outStore.getFoodOutNum();
+        //
+        if(res==0){
+            setStoreFoodNum(outStore.getStoreId(), 0);
+        }else {
+
+            setStoreFoodNum(outStore.getStoreId(), res);
+
+        }
+    }
+/**
+ *@Author 刘宇飞
+ *@Date 2016/04/13 14:20
+ * 根据id修改库存量
+ */
+    private void setStoreFoodNum(int storeId, int num) {
+        Store store=new Store();
+        store.setStoreId(storeId);
+        store.setFoodNum(num);
+        storeService.setFoodNum(store);
+    }
+
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,Model model){
+        boolean res = outStoreService.deleteOutStoreById(id);
+        if(res){
+            model.addAttribute("mess", "删除出库食品成功");
+        }else{
+            model.addAttribute("mess", "删除出库食品失败");
+        }
+        return "outStore/result";
+    }
+
+    @RequestMapping(value = "findStore")
+    public String findStore(@RequestParam int id,Model model)throws Exception{
+        Store store = storeService.findStoreById(id);
+        model.addAttribute("store",store);
+        Date date=new Date();
+        DateFormat format=new SimpleDateFormat("yyyy-MM-dd");
+        String time=format.format(date);
+        model.addAttribute("time",time);
+        storegeTotal=store.getStoregeTotal();
+        foodNum=store.getFoodNum();
+        return "outStore/addOutStore";
+    }
+
+
+
+}

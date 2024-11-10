@@ -1,0 +1,144 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.Backuptime;
+import com.nemo.pojo.OutStore;
+import com.nemo.service.OutStoreService;
+import com.nemo.service.PriceServer;
+import com.nemo.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 库存操作类
+ */
+@Controller
+@RequestMapping("/analyze")
+public class AnalyzeController {
+
+
+    @Autowired
+    OutStoreService outStoreService;
+
+    @Autowired
+    PriceServer priceServer;
+
+
+    @Autowired
+    UserService userService;
+
+
+    @RequestMapping("/init")
+    public String addStore() throws Exception{
+        return "user/analyze";
+    }
+    @ResponseBody
+    @RequestMapping(value={"/analyzeSale",""},produces = "plain/text;charset=UTF-8")
+    public String analyzeSale(@RequestParam String start,String end){
+        List<OutStore> list = outStoreService.analyzeSele(start, end);
+        String json = transformJson(list);
+        return json;
+    }
+   /**
+    *@Author 刘宇飞
+    *@Date 2016/04/26 19:17
+    *转化图形需要的json
+    */
+    private String transformJson(List<OutStore> list) {
+       String foodName="";
+        String  foodOutNum="";
+        String recAmount="";
+        String reaAmount="";
+        String  foodOutNumB="";
+        String recAmountB="";
+        String reaAmountB="";
+        DecimalFormat df   = new DecimalFormat("######0.00");
+        double foodOutNumT=0;
+        double recAmountT=0;
+        double reaAmountT=0;
+        //利润数组
+        String profit="";
+        for(int i=0;i<list.size();i++){
+            foodOutNumT=foodOutNumT+list.get(i).getFoodOutNum();
+            recAmountT=recAmountT+list.get(i).getRecAmount();
+            reaAmountT=reaAmountT+list.get(i).getReaAmount();
+            Double purchasePrice = priceServer.findPriceById(list.get(i).getFoodId()).getPurchasePrice();
+            profit=profit+(list.get(i).getReaAmount()-purchasePrice*list.get(i).getFoodOutNum())+",";
+        }
+
+        for(int i=0;i<list.size();i++){
+            foodName=foodName+"'"+list.get(i).getFoodName()+"',";
+            foodOutNum=foodOutNum+list.get(i).getFoodOutNum()+",";
+            recAmount=recAmount+list.get(i).getRecAmount()+",";
+            reaAmount=reaAmount+list.get(i).getReaAmount()+",";
+            foodOutNumB=foodOutNumB+df.format(list.get(i).getFoodOutNum() *100/ foodOutNumT)+",";
+            recAmountB=recAmountB+df.format(list.get(i).getRecAmount()*100/recAmountT)+",";
+            reaAmountB=reaAmountB+df.format(list.get(i).getReaAmount()*100/reaAmountT)+",";
+        }
+        foodName="["+foodName.substring(0,foodName.length()-1)+"]";
+        foodOutNum="["+foodOutNum.substring(0,foodOutNum.length()-1)+"]";
+        recAmount="["+recAmount.substring(0,recAmount.length()-1)+"]";
+        reaAmount="["+reaAmount.substring(0,reaAmount.length()-1)+"]";
+
+        foodOutNumB="["+foodOutNumB.substring(0,foodOutNumB.length()-1)+"]";
+        recAmountB="["+recAmountB.substring(0,recAmountB.length()-1)+"]";
+        reaAmountB="["+reaAmountB.substring(0,reaAmountB.length()-1)+"]";
+
+        profit="["+profit.substring(0,profit.length()-1)+"]";
+
+        String json="[{"+"foodName:"+foodName+",foodOutNum:"+foodOutNum+",recAmount:"+recAmount+",reaAmount:"+reaAmount+
+                ",foodOutNumB:"+foodOutNumB+",recAmountB:"+recAmountB+",reaAmountB:"+reaAmountB+",profit:"+profit+"}]";
+        System.out.println("-------------------" + foodName + "-----------------" + foodOutNum +
+                "---------------------" + recAmount + "-------------" + reaAmount);
+        System.out.println(json);
+        return json;
+
+    }
+
+    @RequestMapping("/backup")
+    public String backup(Model model) throws Exception{
+        List<Backuptime> list = userService.findBackupTime();
+        String time=list.get(0).getTime().substring(0,list.get(0).getTime().length()-2);
+        model.addAttribute("time",time);
+        System.out.print("----------------"+time);
+        return "user/backup";
+    }
+
+    @RequestMapping(value={"/dbBackup",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String backStart(@RequestParam int type) throws Exception{
+        String c="";
+        if(type==1){
+            c="备份";
+        }else {
+            c="还原";
+        }
+
+        boolean res = userService.backUp(type);
+        if(res){
+            Date date= new Date();//创建一个时间对象，获取到当前的时间
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置时间显示格式
+            String str = sdf.format(date);//将当前时间格式化为需要的类型
+          userService.updateTime(str);
+
+            return c+"成功";
+
+        }else {
+            return c+"失败";
+        }
+
+    }
+
+
+
+}

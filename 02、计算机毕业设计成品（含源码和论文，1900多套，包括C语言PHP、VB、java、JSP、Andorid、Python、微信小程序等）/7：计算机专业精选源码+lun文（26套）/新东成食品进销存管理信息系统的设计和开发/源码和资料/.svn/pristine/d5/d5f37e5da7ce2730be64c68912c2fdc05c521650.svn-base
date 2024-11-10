@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="331_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="331_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >出库单{出库编号，库存编号，食品编号，食品名称，食品单位，出库数量，分类编号，</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >48</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >48</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">出库</span>单{<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">编号</span>，库存<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">编号</span>，食品名称，食品单位，<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">数量</span>，分类<span style="background:#cbcbcb">编号</span>，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">）<span style="background:#cbcbcb">出库</span>表（<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">编号</span>，货品<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">数量</span>，出货单价，合计，<span style="background:#cbcbcb">出库</span>时间，<span style="background:#cbcbcb">出库</span>部门，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……名称，生产厂家，规格，型号，数量，库存数量）；（3）入库表（入库编号，货品编号，入库数量，进货单价，合计，入库时间，入库部门，采购人名称）；（4<span class='green'>）出库表（出库编号，货品编号，出库数量，出货单价，合计，出库时间，出库部门，</span>客户名称）；（5）采购员表（UID，Uname，采购的货品类别，Tel）；（6……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《企业库存管理系统的设计与实现》<br><b>作者：</b>张弘<br><b>作者单位：</b>浙江省科技信息研究院,杭州 310006<br><b>分类号：</b>TH164<br><b>期刊名称：</b>《计算机光盘软件与应用》<br><b>出版时间：</b>2013年1期<br><b>ISSN：</b>1007-9599<br><b>关键词：</b>库存管理 数据库 ASP SQL SERVER<br><b>摘要：</b>库存管理是企业管理的重要组成部分,它不仅影响生产车间对原材料零部件需求,还直接影响采购销售部门的购销活动.本文首先给出的企业库存管理系统的总体设计方案,包括系统需求分析、系统架构、功能划分、系统设计等.然后,基于B/S模式,采用ASP.NET和SQL SERVER 2005实现了一个具体的企业库存管理系统.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' ><span style="background:#cbcbcb">出库</span>单{<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">编号</span>，库存<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">名称</span>，食品单位，<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">数量</span>，分类<span style="background:#cbcbcb">编号</span>，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">名称</span>，合同<span style="background:#cbcbcb">编号</span>，合同<span style="background:#cbcbcb">名称</span>，设备<span style="background:#cbcbcb">名称</span>，规格型号，单价，<span style="background:#cbcbcb">数量</span>，<span style="background:#cbcbcb">出库</span><span style="background:#cbcbcb">数量</span>，<span style="background:#cbcbcb">出库</span>单价，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……库总价、出库数量、出库总价，机组号，领用单位，物资大类，仓库，仓库保管员等。③自动形成月份明细台账。其字段有：出库单编号，出库日期，工程编码，项目<span class='green'>名称，合同编号，合同名称，设备名称，规格型号，单价，数量，出库数量，出库单价，</span>出库总价，入库数量，入库总计，供货单位，合同总价，出库总价，机组号，领用单位，……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《电力基建物资仓储信息管理浅析》<br><b>作者：</b>古今胜<br><b>作者单位：</b>惠州博罗供电局罗阳供电所,广东惠州,516000<br><b>页码：</b>P101—P101<br><b>页数：</b>1页<br><b>分类号：</b>TU271.1<br><b>机标分类号：</b>G47 F5<br><b>期刊名称：</b>《黑龙江科技信息》<br><b>出版时间：</b>2012年19期<br><b>ISSN：</b>1673-1328<br><b>关键词：</b>基建物资 物资信息管理 计算机<br><b>摘要：</b>电力系统的相关工程管理对于整个电力系统的工程施工和运行来说都是非常重要的，尤其是基础的建设物资，更要求我们的管理人员做到精细和系统化的管理，才能保证其更好的应用于电力系统的建设，本文中笔者将就此谈谈如何利用现代的计算机技术和手段加强电力基建物资的仓库信息的管理工作。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >42</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >出库单{出库<span style="background:#cbcbcb">编号</span>，库存<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">编号</span>，食品<span style="background:#cbcbcb">名称</span>，食品<span style="background:#cbcbcb">单位</span>，出库数量，分类<span style="background:#cbcbcb">编号</span>，</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">)；货物信息表(货物<span style="background:#cbcbcb">编号</span>，货物<span style="background:#cbcbcb">名称</span>，货物类别<span style="background:#cbcbcb">编号</span>，<span style="background:#cbcbcb">单位</span>，<span style="background:#cbcbcb">单位</span>重量，<span style="background:#cbcbcb">单位</span>体积，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……管理。(1)基本信息管理数据库主要数据表客户基本信息表(客户编号，客户名称，地址，城市，邮编，电话，传真，邮件，网址，行业，上级客户，负责人，备注<span class='green'>)；货物信息表(货物编号，货物名称，货物类别编号，单位，单位重量，单位体积，</span>单位数量，净重，毛重，货物单价，总金额，产地，创建时间，创建人，备注)；货物……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《生产企业仓储管理系统分析与设计》<br><b>作者：</b>马婷<br><b>分类号：</b>F224<br><b>学科专业：</b>物流工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>靳志宏<br><b>学位授予单位：</b>大连海事大学<br><b>学位年度：</b>2011<br><b>关键词：</b>仓储管理系统 UML建模 流程设计 物流服务 供应链管理
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+<span class="red">出库</span>单{<span class="red">出库</span><span class="red">编号</span>，库存<span class="red">编号</span>，食品<span class="red">编号</span>，食品名称，食品单位，<span class="red">出库</span><span class="red">数量</span>，分类<span class="red">编号</span>，
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">单位：</span><span class="green">单元 </span><br/> <span class="red">数量：</span><span class="green">数目 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

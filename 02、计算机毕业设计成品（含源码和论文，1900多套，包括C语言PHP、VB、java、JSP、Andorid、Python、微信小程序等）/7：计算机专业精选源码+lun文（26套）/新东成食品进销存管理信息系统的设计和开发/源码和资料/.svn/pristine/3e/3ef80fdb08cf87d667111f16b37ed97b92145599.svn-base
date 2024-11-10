@@ -1,0 +1,107 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<c:set var="ctx" value="${pageContext.request.contextPath}"/>
+<link rel="stylesheet" href="${ctx}/css/calendar.css">
+<link rel="stylesheet" href="${ctx}/css/pagination.css" />
+<link rel="stylesheet" href="${ctx}/css/common.css">
+<script type="text/javascript" src="${ctx}/js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="${ctx}/js/jquery.pagination.js"></script>
+<script type="text/javascript" src="${ctx}/js/calendar.js"></script>
+<script type="text/javascript" src="${ctx}/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="${ctx}/js/jquery.validate.js"></script>
+<script type="text/javascript" src="${ctx}/js/messages_zh_TW.js"></script>
+
+<script type="text/javascript" src="${ctx}/js/jquery.table2excel.js"></script>
+
+
+
+<script type="text/javascript" >
+  window.userId=$.cookie("userId");
+  window.username= $.cookie("username");
+  window.userPSW= $.cookie("userPSW");
+  window.userPower= Number($.cookie("userPower"));
+</script>
+
+
+<script type="text/javascript">
+ function manageCheck(p){
+   var manage;
+   switch (Number(p)){
+     case 0:
+       manage="系统管理员";
+       break;
+     case 1:
+       manage="运营总监";
+       break
+     case 11:
+       manage="市场负责员";
+       break
+     case 12:
+       manage="物价负责员";
+       break
+     case 13:
+       manage="收银负责员";
+       break
+     case 13:
+       manage="采购部负责员";
+       break
+     case 2:
+       manage="财务总监";
+       break
+     case 3:
+       manage="物流总监";
+       break
+     case 31:
+       manage="采购负责员";
+       break
+     case 32:
+       manage="仓储负责员";
+       break
+     case 33:
+       manage="配送负责员";
+       break
+     case 34:
+       manage="质检负责员";
+       break
+     default: manage="未设定";
+ }
+   return manage;
+
+  }
+</script>
+
+
+<script type="text/javascript">
+  function exportTable(){
+    //导出表格
+    $("#export").click(function() {
+      $("#table").table2excel({
+        // 不被导出的表格行的CSS class类
+        exclude: ".noExl",
+        // 导出的Excel文档的名称
+        name: "Excel Document Name",
+        // Excel文件的名称
+        filename: "myExcelTable"
+
+      });
+    })
+  };
+
+
+
+</script>
+
+<script type="text/javascript">
+  function checkNumber(id){
+    $("#"+id).change(function(){
+      if(Number($("#"+id).val())>0){
+      }else {
+        $("#"+id).val("");
+        alert("请输入大于零的数字");
+      }
+    });
+  }
+</script>

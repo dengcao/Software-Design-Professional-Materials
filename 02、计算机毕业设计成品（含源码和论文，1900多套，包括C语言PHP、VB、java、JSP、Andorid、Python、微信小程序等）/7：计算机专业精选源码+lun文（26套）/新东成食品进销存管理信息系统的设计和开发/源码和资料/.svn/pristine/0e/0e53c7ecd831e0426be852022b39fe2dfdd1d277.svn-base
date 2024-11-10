@@ -1,0 +1,30 @@
+package com.nemo.mapper;
+
+import com.nemo.pojo.Price;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ *@Author 刘宇飞
+ *@Date 2016/04/13 16:26
+ *价格操作mapper
+ */
+public interface PriceMapper {
+    public List<Price> findPriceList();
+
+    public List<Price> findLimitList(Map<String, String> map);
+
+    public int count();
+
+    public boolean deletePriceById(Map<String, String> map);
+
+    public boolean updatePrice(Price price);
+
+    public boolean addPrice(Price price);
+
+    public Price findPriceById(Map<String, String> map);
+
+    public List<Price> findFuzzyList(Map<String,String> map);
+
+}

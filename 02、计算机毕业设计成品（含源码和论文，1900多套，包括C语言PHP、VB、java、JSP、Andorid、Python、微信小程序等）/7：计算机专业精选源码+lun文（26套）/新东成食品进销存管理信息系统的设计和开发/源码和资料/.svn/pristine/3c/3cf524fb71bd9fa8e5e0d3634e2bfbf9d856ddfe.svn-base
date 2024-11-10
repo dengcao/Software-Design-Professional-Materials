@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@include file="/common/public.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>数据备份</title>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#back").click(function () {
+             var url="${ctx}/analyze/dbBackup?type=1";
+                $.get(url,function(data,status){
+                    if(status=="success"){
+                        alert(data);
+                    }
+                });
+            });
+            $("#restore").click(function () {
+                var url="${ctx}/analyze/dbBackup?type=2";
+                $.get(url,function(data,status){
+                    if(status=="success"){
+                        alert(data);
+                    }
+                });
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+
+<a>上次备份时间：${time}</a>
+<br/><br/>
+<button id="back">数据库备份</button>
+<br/><br/>
+<button id="restore">数据库还原</button>
+
+
+</body>
+</html>

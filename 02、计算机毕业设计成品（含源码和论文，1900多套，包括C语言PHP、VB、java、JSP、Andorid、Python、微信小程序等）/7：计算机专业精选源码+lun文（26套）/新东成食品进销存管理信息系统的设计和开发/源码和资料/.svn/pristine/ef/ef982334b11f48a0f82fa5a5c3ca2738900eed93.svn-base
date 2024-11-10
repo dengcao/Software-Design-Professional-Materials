@@ -1,0 +1,50 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑销售详细计划</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#buyNum").change(function(){
+				var buyNum=$("#buyNum").val();
+				var foodPrice=$("#foodPrice").val();
+				$("#buyTotalMoney").val(Number(buyNum)*Number(foodPrice));
+			});
+		});
+	</script>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+</head>
+<body>
+<a href="${ctx}/buyPlan/list?id=${buyPlanId}">返回销售详细计划列表</a>
+<hr />
+
+<form action="${ctx }/buyPlanDetail/update" method="post">
+    <input type="hidden" name="detailId" value="${buyPlanDetail.detailId}">
+	<input type="hidden" name="foodPrice" id="foodPrice" value="${buyPlanDetail.foodPrice}">
+<table class="t1">
+	<tr>
+		<td>计划销售数量</td>
+		<td><input type="text" name="buyNum" id="buyNum" required value="${buyPlanDetail.buyNum}"/></td>
+	</tr>
+	<tr>
+		<td>计划销售总额</td>
+		<td><input type="text" name="buyTotalMoney" id="buyTotalMoney" readonly value="${buyPlanDetail.buyTotalMoney}" ></td>
+	</tr>
+	<tr>
+		<td>备注</td>
+		<td><input type="text" name="remarks" id="remarks" value="${buyPlanDetail.remarks}"/></td>
+	</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="保存">  </td>
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>

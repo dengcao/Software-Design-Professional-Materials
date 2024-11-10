@@ -1,0 +1,104 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.Check;
+import com.nemo.service.CheckService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 质检报告操作类
+ */
+@Controller
+@RequestMapping("/check")
+public class CheckController {
+    @Autowired
+    CheckService checkService;
+
+    @RequestMapping("/list")
+    public String allList(Model model) throws Exception{
+       /* List<FoodClass> list = foodClassService.queryClassList();
+        model.addAttribute("classlist",list);*/
+
+        int count = checkService.count();
+        model.addAttribute("count",count);
+        return "check/checkList";
+    }
+
+
+    @RequestMapping(value={"/getList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<Check> list = checkService.findCheckLimitList(index * 5, 5);
+        return CustomUtils.toJson(list);
+    }
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<Check> list = checkService.findFuzzyList(CustomUtils.transcoding(condition));
+        return CustomUtils.toJson(list);
+    }
+
+
+    @RequestMapping("/add")
+    public String add()throws Exception{
+        return "check/addCheck";
+    }
+
+    @RequestMapping("save")
+    public String save(@ModelAttribute Check check,Model model){
+
+         boolean res=checkService.addCheck(check);
+          if(res){
+              model.addAttribute("mess","添加质检报告成功");
+          }else {
+              model.addAttribute("mess","添加质检报告失败");
+          }
+
+
+
+        return "check/result";
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam String id,Model model){
+        boolean res = checkService.deleteCheckById(id);
+        if(res){
+            model.addAttribute("mess", "删除质检报告成功");
+        }else{
+            model.addAttribute("mess", "删除质检报告失败");
+        }
+        return "check/result";
+    }
+
+    @RequestMapping(value = "edit")
+    public String edit(@RequestParam String id,Model model)throws Exception{
+        Check check = checkService.findCheckById(id);
+        model.addAttribute("check",check);
+        return "check/editCheck";
+    }
+
+    @RequestMapping("update")
+    public String updateClass(@ModelAttribute Check check,Model model){
+        boolean has=false;
+
+            boolean res = checkService.updateCheck(check);
+            if(res){
+                model.addAttribute("mess","修改分类成功");
+            }else {
+                model.addAttribute("mess","修改分类失败");
+            }
+
+
+        return "check/result";
+    }
+}

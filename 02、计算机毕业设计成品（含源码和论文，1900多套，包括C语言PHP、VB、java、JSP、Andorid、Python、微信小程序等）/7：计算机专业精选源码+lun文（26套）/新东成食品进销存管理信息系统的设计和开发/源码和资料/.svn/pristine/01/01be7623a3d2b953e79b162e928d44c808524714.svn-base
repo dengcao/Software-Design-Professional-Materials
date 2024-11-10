@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.SalePlanMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找分类 -->
+	<select id="findSalePlanList"
+		resultType="com.nemo.pojo.SalePlan">
+		select * from sale_plan;
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.SalePlan" parameterType="java.util.Map">
+		<![CDATA[select * from sale_plan  ${condition} ]]>
+	</select>
+
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.SalePlan">
+		select * from sale_plan limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(salePlanId) from sale_plan
+	</select>
+	<!-- 根据id查找分类-->
+	<select id="findSalePlanById" resultType="com.nemo.pojo.SalePlan">
+		select * from sale_plan where salePlanId=#{salePlanId}
+	</select>
+
+<!-- 根据分类id删除分类 -->
+	<delete id="deleteSalePlanById" >
+		delete from sale_plan where salePlanId=#{salePlanId}
+	</delete>
+	
+	<!-- 更新销售计划 -->
+	<update id="updateSalePlan">
+		update sale_plan set startTime=#{startTime}, endTime=#{endTime},approverId=#{approverId},approver=#{approver},remarks=#{remarks}
+		where salePlanId=#{salePlanId}
+	</update>
+
+	<!-- 修改总金额 -->
+	<update id="editSumMoney">
+		update sale_plan set planSumMoney=#{planSumMoney}
+		where salePlanId=#{salePlanId}
+	</update>
+
+	<!-- 增加分类-->
+	<insert id="addSalePlan">
+		insert into sale_plan(salePlanId,createTime,startTime,endTime,proposerId,proposer,approverId,approver,planSumMoney,propStatus,approverOpinion,remarks)
+			values("${salePlanId}","${createTime}","${startTime}","${endTime}",${proposerId},"${proposer}",${approverId},"${approver}","${planSumMoney}","${propStatus}","${approverOpinion}","${remarks}")
+	</insert>
+
+
+	<!-- 修改审批状态 -->
+	<update id="editPropStatus" >
+		update sale_plan set propStatus=#{propStatus},approverOpinion=#{approverOpinion}
+		where salePlanId=#{salePlanId}
+	</update>
+
+
+
+</mapper>

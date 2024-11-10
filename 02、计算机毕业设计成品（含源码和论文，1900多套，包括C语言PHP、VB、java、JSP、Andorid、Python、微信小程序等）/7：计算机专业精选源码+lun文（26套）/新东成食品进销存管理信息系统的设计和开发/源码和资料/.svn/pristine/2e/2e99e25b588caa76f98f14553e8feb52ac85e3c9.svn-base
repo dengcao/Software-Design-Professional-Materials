@@ -1,0 +1,40 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑食品价格</title>
+</head>
+<body>
+<a href="${ctx}/price/list">返回食品价格列表</a>
+<hr />
+<form action="${ctx }/price/update" method="post">
+<input type="hidden" name="foodId" value="${price.foodId}">
+<table class="t1">
+<tr>
+	<td>食品名称</td>
+	<td><input type="text" name="foodName" value="${price.foodName }" readonly/></td>
+</tr>
+	<tr>
+		<td>采购价格</td>
+		<td><input type="text" name="purchasePrice" required value="${price.purchasePrice }"/></td>
+	</tr>
+	<tr>
+		<td>销售价格</td>
+		<td><input type="text" name="salePrice" required value="${price.salePrice }"/></td>
+	</tr>
+	<tr>
+		<td>备注</td>
+		<td><input type="text" name="remarks" value="${price.remarks }"/></td>
+	</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="保存">  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

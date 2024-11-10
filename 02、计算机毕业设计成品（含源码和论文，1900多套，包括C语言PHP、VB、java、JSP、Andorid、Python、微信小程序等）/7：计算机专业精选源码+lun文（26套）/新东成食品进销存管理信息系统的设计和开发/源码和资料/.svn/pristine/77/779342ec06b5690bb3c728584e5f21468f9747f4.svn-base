@@ -1,0 +1,81 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>新增食品</title>
+	<script type="text/javascript" src="${ctx}/js/checkFrom.js"></script>
+</head>
+<body>
+<script  language="JavaScript">
+	var   tt   =   1;
+	function changeClassValue(it)
+	{
+		tt   =   tt?0:1;
+		if(tt)
+		{
+			document.myform.classId.value = document.myform.s1.options[document.myform.s1.selectedIndex].value;
+			document.myform.className.value = document.myform.s1.options[document.myform.s1.selectedIndex].text;
+		}
+
+	}
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#foodName").change(function(){
+			var url="${ctx}/food/getList"
+			$.get(url,function(data,status){
+				if(status=="success"){
+				var foodName=$("#foodName").val();
+					var obj=eval(data);
+					for(var i=0;i<obj.length;i++){
+						if(obj[i].foodName==foodName){
+							alert(foodName+"已经存在不能重复添加");
+							$("#foodName").val("");
+						}
+					}
+				}
+			});
+		});
+	});
+</script>
+<a href="${ctx}/food/list">返回食品列表</a>
+<hr />
+<form action="${ctx }/food/save" method="post" name="myform" >
+<table class="t1">
+<tr>
+	<td>食品名称</td>
+	<td><input type="text" name="foodName" id="foodName" required/></td>
+</tr>
+	<tr>
+		<td>分类名称</td>
+		<input type="hidden" name="classId"  id="classId"/>
+		<td><input type="text" name="className" required readonly id="className" /></td>
+		<td><select name="s1"  onclick="changeClassValue(this)" >
+			<c:forEach items="${classlist}" var="foodclass">
+				<option value=${foodclass.classId}>${foodclass.className}</option>
+			</c:forEach>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td>单位</td>
+		<td><input type="text" name="foodStandard" required/></td>
+	</tr>
+
+	<tr>
+		<td>备注</td>
+		<td><input type="text" name="remarks" /></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td><input type="submit" value="保存"> </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+package com.nemo.service;
+
+import com.nemo.pojo.Provider;
+
+import java.util.List;
+
+/**
+ * 供应商功能的服务层实现接口
+ *
+ */
+public interface ProviderService {
+	public List<Provider> queryProviderList() throws Exception;
+	
+	public boolean deleteProviderById(int id);
+	
+	public boolean updateProvider(Provider provider);
+	
+	public boolean addProvider(Provider provider);
+
+	public Provider findProviderById(int id);
+
+	public List<Provider> findLimitList(int start,int end);
+
+	public int count();
+
+	public List<Provider> findFuzzyList(String condition);
+
+
+}

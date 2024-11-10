@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.CheckMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找质检报告列表 -->
+	<select id="findCheckList"
+		resultType="com.nemo.pojo.Check">
+		select * from qcheck;
+	</select>
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.Check" parameterType="java.util.Map">
+		<![CDATA[select * from qcheck  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findCheckLimitList"
+			resultType="com.nemo.pojo.Check">
+		select * from qcheck limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="getCount" resultType="int">
+	select COUNT(checkId) from qcheck
+	</select>
+
+	<!-- 根据id查找质检报告-->
+	<select id="findCheckById" resultType="com.nemo.pojo.Check">
+		select * from qcheck where checkId=#{checkId}
+	</select>
+
+<!-- 根据分类id删除质检报告 -->
+	<delete id="deleteCheckById" >
+		delete from qcheck where checkId = #{checkId}
+	</delete>
+	
+	<!-- 更新质检报告 -->
+	<update id="updateCheck">
+		update qcheck set checkNum=#{checkNum},qualifiedNum=#{qualifiedNum},qualifiedRate=#{qualifiedRate},opinion=#{opinion}
+		 where checkId=#{checkId};
+	</update>
+	<!-- 增加质检报告-->
+	<insert id="addCheck">
+		insert into qcheck(checkId,userId,userName,foodId,foodName,checkNum,qualifiedNum,qualifiedRate,opinion)
+			values(#{checkId},#{userId},#{userName},#{foodId},#{foodName},#{checkNum},#{qualifiedNum},#{qualifiedRate},#{opinion})
+	</insert>
+
+
+	
+
+
+</mapper>

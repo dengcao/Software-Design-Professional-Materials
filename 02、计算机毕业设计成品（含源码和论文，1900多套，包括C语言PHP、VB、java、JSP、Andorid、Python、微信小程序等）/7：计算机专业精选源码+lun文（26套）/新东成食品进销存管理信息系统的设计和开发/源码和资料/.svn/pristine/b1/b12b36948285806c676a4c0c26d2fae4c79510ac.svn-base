@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.FoodClassMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找分类 -->
+	<select id="findClassList"
+		resultType="com.nemo.pojo.FoodClass">
+		select * from foodclass;
+	</select>
+
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.FoodClass" parameterType="java.util.Map">
+		<![CDATA[select * from foodclass  ${condition} ]]>
+	</select>
+
+	<!-- 分页查找 -->
+	<select id="findClassLimitListBy"
+			resultType="com.nemo.pojo.FoodClass">
+		select * from foodclass limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+	select COUNT(classId) from foodclass
+	</select>
+
+	<!-- 根据id查找分类-->
+	<select id="findClassById" resultType="com.nemo.pojo.FoodClass">
+		select * from foodclass where classId=${classId}
+	</select>
+
+<!-- 根据分类id删除分类 -->
+	<delete id="deleteClassById" >
+		delete from foodclass where classId = ${classId}
+	</delete>
+	
+	<!-- 更新分类 -->
+	<update id="updateClass">
+		update foodclass set className=#{className} where classId=#{classId};
+	</update>
+	<!-- 增加分类-->
+	<insert id="addClass">
+		insert into foodclass(className)
+			values(#{className})
+	</insert>
+
+
+	
+
+
+</mapper>

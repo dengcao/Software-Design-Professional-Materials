@@ -1,0 +1,114 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@include file="/common/public.jsp" %>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>供应商食品列表</title>
+	<script type="text/javascript" src="${ctx}/js/page.js"></script>
+	<script type="text/javascript" src="${ctx}/js/search.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			getPartList();
+			exportTable();
+			//搜索
+			$("#find").click(function(){
+				var condition=$("#condition").val();
+				var url2="${ctx}/provideFood/getFList?condition="+condition;
+				if(condition==""){
+					getPartList();
+				}else{
+					search.cseatch(url2);
+				}
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		function getPartList(){
+			var url="${ctx}/provideFood/getLimitList";
+			var count=$("#count").val();
+			page.pagePart(url,count);
+		}
+		function   customPage(obj){
+			$("#table tr:gt(1)").remove();
+			for(var i=0;i<obj.length;i++){
+				var newRow = "<tr>" +
+						"<td>"+obj[i].providerId+"</td><td>"+obj[i].providerName+"</td>" +
+						"<td>"+obj[i].foodName+"</td><td>"+obj[i].purchasePrice+"</td>" +
+						"<td>"+obj[i].remarks+"</td>" +"<td>";
+				if(window.userPower==0||window.userPower==14){
+					newRow=newRow+	"<a href='${ctx}/provideFood/edit?id="+obj[i].id+"'>修改&nbsp;&nbsp;</a>"+
+					"<a href='${ctx}/provideFood/delete?id="+obj[i].id+"'>删除</a>"+"</td></tr>";
+				}else{
+					$("#add").hide();
+				}
+
+
+				$("#table tr:last").after(newRow);
+
+			}
+
+		}
+	</script>
+
+
+</head>
+
+<body>
+<input type="hidden" id="count" value="${count}">
+<div class="pagin">
+	<br/>
+	<a id="add" href="${ctx }/provideFood/add">新添供应商食品</a>
+	<br/>   <br/>
+	<input type="text" id="condition" placeholder="请输入ID或者名称"><button id="find">搜索</button><button id="export">导出</button>
+	<br/><br/>
+	<table id="table" class="t1" style="width: 80%">
+		<tr ><th colspan="6">食品列表</th></tr>
+		<tr>
+			<td>供应商ID</td>
+			<td>供应商名称</td>
+			<td>食品名称</td>
+			<td>报价</td>
+			<td>备注</td>
+			<td>操作</td>
+		</tr>
+	</table>
+	<br/>
+	<div id="Pagination" class="pagination"
+		 style=" width: -moz-fit-content;width:-webkit-fit-content;width: fit-content;margin-left: auto;margin-right: auto;" ></div>
+</div>
+<%--<a href='${ctx }/provideFood/list?providerId=${providerId}&providerName=${providerName}' >返回供应商食品列表</a>
+<center>
+	<form action="${ctx }}/class/users">
+		<a href="${ctx }/provideFood/add">新添供应商食品</a>
+		<hr>
+		供应商食品列表：
+		<table border='1'>
+			<tr>
+				<td>供应商ID</td>
+				<td>供应商名称</td>
+				<td>食品名称</td>
+				<td>报价</td>
+				<td>备注</td>
+				<td>操作</td>
+			</tr>
+			<c:forEach items="${provideFoodList}" var="provideFood">
+				<tr>
+					<td>${provideFood.providerId }</td>
+					<td>${provideFood.providerName}</td>
+					<td>${provideFood.foodName }</td>
+					<td>${provideFood.purchasePrice}</td>
+					<td>${provideFood.remarks}</td>
+					<td>
+						<a href="${ctx}/provideFood/edit?id=${provideFood.id}">修改</a>
+						<a href="${ctx}/provideFood/delete?id=${provideFood.id}">删除</a>
+					</td>
+				</tr>
+			</c:forEach>
+		</table>
+	</form>
+</center>--%>
+</body>
+</html>

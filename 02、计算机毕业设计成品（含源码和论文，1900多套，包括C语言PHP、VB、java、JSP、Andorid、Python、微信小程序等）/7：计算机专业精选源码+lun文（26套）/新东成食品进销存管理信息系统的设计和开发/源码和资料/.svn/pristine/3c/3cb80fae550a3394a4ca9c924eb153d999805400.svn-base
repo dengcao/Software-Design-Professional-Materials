@@ -1,0 +1,177 @@
+package com.nemo.web.controller;
+
+import com.google.gson.Gson;
+import com.nemo.pojo.User;
+import com.nemo.service.UserService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * 用户操作的控制器
+ * @author Nemo
+ */
+@Controller
+@RequestMapping("/user") //这里定义这个控制器的访问空间，要访问这个控制器，必须添加/user 如： http://localhost:8080/webos/user/list,list是这个控制器里面的具体功能
+public class UserController {
+	@Autowired
+	private UserService userService;
+	
+	/**
+	 *  @RequestMapping(value="/list")这里定义了这个方法的访问空间，访问地址必须拼接 /list  
+	 *  加上控制器的访问，完整地址是： /user/list
+	 *  当然，这里的访问空间可以是多个：
+	 *  @RequestMapping(value={"/list",""})
+	 * @param model
+	 * @return
+	 * @throws Exception
+	 */
+	@RequestMapping(value={"/list",""}) 
+	public String listAllUser(Model model) throws Exception{
+	/*	List<User> list = userService.queryUserList();
+		
+		//这里用Spring定义的model进行传值，传值的方式很多，这只是其中一种
+		model.addAttribute("userList", list);*/
+
+		int count = userService.count();
+		model.addAttribute("count",count);
+		return "user/userList";
+	}
+
+	@RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+	@ResponseBody
+	public String list(@RequestParam int index) throws Exception{
+		List<User> list = userService.findLimitList(index * 5,5);
+		return CustomUtils.toJson(list);
+	}
+
+	@RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+	@ResponseBody
+	public String getFList(@RequestParam String condition) throws Exception{
+		List<User> list = userService.findFuzzyList(CustomUtils.transcoding(condition));
+		return CustomUtils.toJson(list);
+	}
+
+
+	@RequestMapping(value="/delete")
+	public String delete(@RequestParam int id,Model model){
+
+		boolean res = userService.deleteUserById(id);
+		if(res){
+			model.addAttribute("mess", "删除用户成功");
+		}else{
+			model.addAttribute("mess", "删除用户失败");
+		}
+		return "user/result";
+	}
+	
+	
+	@RequestMapping(value="/update",method=RequestMethod.POST)
+	public String update(@ModelAttribute User user,Model model){
+		boolean res = userService.updateUser(user);
+		if(res){
+			model.addAttribute("mess", "更新用户成功");
+		}else{
+			model.addAttribute("mess", "更新用户失败");
+		}
+		return "user/result";
+	}
+	
+	@RequestMapping(value="/save",method=RequestMethod.POST)
+	public String add(@ModelAttribute User user,Model model)throws Exception{
+		List<User> list = userService.queryUserList();
+		boolean isHave=false;
+		for(int i=0;i<list.size();i++){
+			if(list.get(i).getUsername().equals(user.getUsername())){
+				isHave=true;
+			}
+		}
+		if(isHave){
+			model.addAttribute("mess", "用户已经存在，不能重复添加");
+		}else {
+			boolean res = userService.addUser(user);
+			if(res){
+				model.addAttribute("mess", "新添用户成功");
+			}else{
+				model.addAttribute("mess", "新添用户失败");
+			}
+		}
+
+		return "user/result";
+	}
+	
+	@RequestMapping(value="/add")
+	public String toAdd(){
+		return "user/addUser";
+	}
+	@RequestMapping(value="/updatePSW" ,method=RequestMethod.GET)
+	public String toUpdatePSW(@RequestParam String username,Model model) throws Exception{
+		String name=CustomUtils.transcoding(username);
+		model.addAttribute("name",name);
+		return "user/editPSW";
+	}
+	
+	@RequestMapping(value="/editUser")
+	public String editUser(@RequestParam int id,Model model){
+		User user = userService.getUserById(id);
+		model.addAttribute("user",user);
+		return "user/editUser";
+	}
+
+	@RequestMapping(value = "login", produces = "plain/text; charset=UTF-8")
+	@ResponseBody
+	public String checkLogin(@RequestParam String username,String userPSW,Model model) throws Exception{
+		Map<String,String> map=new HashMap<String, String>();
+		map.put("username",username);
+		map.put("userPSW",userPSW);
+		User users = userService.checkLogin(map);
+		if(users!=null){
+			model.addAttribute("mess", "登陆成功");
+			model.addAttribute("username","欢迎"+username);
+
+
+
+		}else {
+			model.addAttribute("mess", "用户名或密码错误");
+
+		}
+		Gson gson=new Gson();
+		String json = gson.toJson(users);
+		return json;
+	}
+
+	@RequestMapping(value = "editPSW")
+	public String editPSW(@RequestParam String username,String userPSW,Model model){
+		Map<String,String> map=new HashMap<String, String>();
+		map.put("username",username);
+		map.put("userPSW",userPSW);
+		boolean res = userService.updatePSW(map);
+		if(res){
+			model.addAttribute("mess","修改成功");
+		}else {
+			model.addAttribute("mess","修改失败");
+		}
+
+		return "user/result";
+	}
+
+	@RequestMapping(value = "editpsw" ,produces = "plain/text;charset=UTF-8")
+	@ResponseBody
+	public String enterMain(@RequestParam String username,String userPSW){
+		Map<String,String> map=new HashMap<String, String>();
+		map.put("username",username);
+		map.put("userPSW",userPSW);
+		boolean res = userService.updatePSW(map);
+		if(res){
+			return "修改成功";
+		}else {
+			return "修改失败";
+		}
+	}
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="301_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="301_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >分别为食品类别管理、食品基本信息管理、供应商管理和食品价格管理。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >45</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >分别为<span style="background:#cbcbcb">食品</span>类别<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">食品</span>基本信息<span style="background:#cbcbcb">管理</span>、供应商<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">食品</span>价格<span style="background:#cbcbcb">管理</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">安全生产<span style="background:#cbcbcb">和</span>加工<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">食品</span>安全配送<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">食品</span>安全销售<span style="background:#cbcbcb">管理</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">食品</span>安全售后</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……研究。赵林度【10】在《零售企业食品供应链管理》中全面分析了食品供应链概论、食品安全冷藏链管理、食品安全采购管理、食品<span class='green'>安全生产和加工管理、食品安全配送管理、食品安全销售管理和食品安全售后</span>服务管理。(3)食品供应链中的食品安全研究张卫斌、顾振字……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《集成化食品冷链物流的绩效评价研究》<br><b>作者：</b>黄锋权<br><b>分类号：</b>F252.24<br><b>学科专业：</b>物流管理与工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>兰洪杰<br><b>学位授予单位：</b>北京交通大学<br><b>学位年度：</b>2009<br><b>关键词：</b>食品冷链物流 集成化运作 绩效评价 BP神经网络模型 指标体系
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >分别为食品类别<span style="background:#cbcbcb">管理</span>、食品基本<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>、供应商<span style="background:#cbcbcb">管理</span>和食品价格<span style="background:#cbcbcb">管理</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">管理</span>首选、商品<span style="background:#cbcbcb">管理</span>、财务<span style="background:#cbcbcb">管理</span>、销售<span style="background:#cbcbcb">管理</span>、用户<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>。每</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，在输入正确的管理账号和密码后放可进入后台。进入后台后，管理员可在后台中进行各种操作。在后台管理模块中有如下几个模块。<span class='green'>管理首选、商品管理、财务管理、销售管理、用户管理、信息管理。每</span>一个模块都有相应的功能。在管理首选中，管理员可以进入前台和后台……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《在线美食订餐系统》<br><b>作者：</b>吴怡<br><b>作者单位：</b>苏州职称评定中心<br><b>期刊名称：</b>《未知》
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >分别为食品类别<span style="background:#cbcbcb">管理</span>、食品基本<span style="background:#cbcbcb">信息</span><span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">管理</span>和食品价格<span style="background:#cbcbcb">管理</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">先进软件，推进<span style="background:#cbcbcb">信息</span>技术尤其是销售<span style="background:#cbcbcb">管理</span>、<span style="background:#cbcbcb">供应</span><span style="background:#cbcbcb">商</span><span style="background:#cbcbcb">管理</span>、生产<span style="background:#cbcbcb">管理</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……。由于食品饮料行业，特别是食品行业的产品保质期短，销售渠道复杂，市场变化大，因此，那些基础较好的企业，积极开发、引进<span class='green'>先进软件，推进信息技术尤其是销售管理、供应商管理、生产管理、</span>财务管理和办公自动化系统的应用，加快企业管理模式变革，引导和带动……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《食品饮料行业信息化探寻未来发展之路》<br><b>作者：</b>谢世诚<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>页码：</b>P60—P61<br><b>页数：</b>2页<br><b>机标分类号：</b>TS2 TB4<br><b>期刊名称：</b>《微型机与应用》<br><b>出版时间：</b>2007年9期<br><b>ISSN：</b>1001-1927
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+分别为<span class="red">食品</span>类别<span class="red">管理</span>、<span class="red">食品</span>基本信息<span class="red">管理</span>、供应商<span class="red">管理</span>和<span class="red">食品</span>价格<span class="red">管理</span>。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">分别：</span><span class="green">分袂 划分 别离 </span><br/> <span class="red">食品：</span><span class="green">食物 </span><br/> <span class="red">类别：</span><span class="green">种别 </span><br/> <span class="red">管理：</span><span class="green">办理 打点 解决 </span><br/> <span class="red">供应：</span><span class="green">供给 提供 </span><br/> <span class="red">价格：</span><span class="green">代价 价值 价钱 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

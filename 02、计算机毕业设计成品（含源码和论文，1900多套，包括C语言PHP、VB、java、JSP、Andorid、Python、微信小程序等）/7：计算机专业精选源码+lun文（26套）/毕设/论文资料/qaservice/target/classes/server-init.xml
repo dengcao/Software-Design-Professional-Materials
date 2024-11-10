@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_3.dtd">
+<Configure id="Contexts" class="org.eclipse.jetty.server.handler.ContextHandlerCollection">
+    <!--<Call name="addModule" class="com.mz.nlpservice.module.ModuleManager">-->
+        <!--<Arg><New class="com.mz.nlpservice.module.NewsModule"></New></Arg>-->
+    <!--</Call>-->
+    <!--<Call name="addModule" class="com.mz.nlpservice.module.ModuleManager">-->
+        <!--<Arg><New class="com.mz.nlpservice.module.MusicModule"></New></Arg>-->
+    <!--</Call>-->
+    <Call name="addModule" class="com.mz.nlpservice.module.ModuleManager">
+        <Arg><New class="com.mz.nlpservice.module.MovieModule"></New></Arg>
+    </Call>
+</Configure>

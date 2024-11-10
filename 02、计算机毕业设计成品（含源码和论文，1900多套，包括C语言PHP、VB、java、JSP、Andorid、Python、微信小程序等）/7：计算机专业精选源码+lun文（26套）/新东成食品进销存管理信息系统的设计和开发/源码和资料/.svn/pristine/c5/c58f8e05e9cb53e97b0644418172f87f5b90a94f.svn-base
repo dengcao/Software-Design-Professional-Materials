@@ -1,0 +1,69 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.CheckMapper;
+import com.nemo.pojo.Check;
+import com.nemo.service.CheckService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ */
+@Service
+public class CheckImpl implements CheckService {
+    @Autowired
+    CheckMapper checkMapper;
+    @Override
+    public List<Check> queryCheckList() throws Exception {
+        return checkMapper.findCheckList();
+    }
+
+    @Override
+    public boolean deleteCheckById(String id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("checkId",id+"");
+        return checkMapper.deleteCheckById(map);
+    }
+
+    @Override
+    public boolean updateCheck(Check Check) {
+        return checkMapper.updateCheck(Check);
+    }
+
+    @Override
+    public boolean addCheck(Check Check) {
+        return checkMapper.addCheck(Check);
+    }
+
+    @Override
+    public Check findCheckById(String id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("checkId",id);
+        return checkMapper.findCheckById(map);
+    }
+
+    @Override
+    public List<Check> findCheckLimitList(int start, int end) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        return checkMapper.findCheckLimitList(map);
+    }
+
+    @Override
+    public int count() {
+        return checkMapper.getCount();
+    }
+
+    @Override
+    public List<Check> findFuzzyList(String condition) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where concat(checkId,userName,foodName,checkNum,qualifiedRate) like "+"'%"+condition+"%'");
+        return checkMapper.findFuzzyList(map);
+    }
+}

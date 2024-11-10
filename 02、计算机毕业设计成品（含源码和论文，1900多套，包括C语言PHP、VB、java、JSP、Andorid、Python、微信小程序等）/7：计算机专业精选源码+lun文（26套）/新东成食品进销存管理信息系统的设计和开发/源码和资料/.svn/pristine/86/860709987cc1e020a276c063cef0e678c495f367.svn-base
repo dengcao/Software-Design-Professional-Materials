@@ -1,0 +1,387 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : localhost_3306
+Source Server Version : 50541
+Source Host           : localhost:3306
+Source Database       : sms
+
+Target Server Type    : MYSQL
+Target Server Version : 50541
+File Encoding         : 65001
+
+Date: 2016-05-05 15:49:26
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for backuptime
+-- ----------------------------
+DROP TABLE IF EXISTS `backuptime`;
+CREATE TABLE `backuptime` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `time` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of backuptime
+-- ----------------------------
+INSERT INTO `backuptime` VALUES ('1', '2016-05-05 15:07:38');
+
+-- ----------------------------
+-- Table structure for buy_plan
+-- ----------------------------
+DROP TABLE IF EXISTS `buy_plan`;
+CREATE TABLE `buy_plan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `buyPlanId` varchar(100) NOT NULL,
+  `salePlanId` varchar(50) NOT NULL,
+  `createTime` date NOT NULL,
+  `proposerId` int(11) NOT NULL,
+  `proposer` varchar(50) NOT NULL,
+  `approverId` int(11) NOT NULL,
+  `approver` varchar(50) NOT NULL,
+  `planSumMoney` varchar(50) DEFAULT NULL,
+  `propStatus` int(11) NOT NULL,
+  `approverOpinion` text,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of buy_plan
+-- ----------------------------
+INSERT INTO `buy_plan` VALUES ('5', 'BP20160505142541001', 'SP20160505142358001', '2016-05-05', '7', '刘宇飞', '8', '坑货', '9100.0', '3', '', '');
+
+-- ----------------------------
+-- Table structure for buy_plan_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `buy_plan_detail`;
+CREATE TABLE `buy_plan_detail` (
+  `detailId` int(11) NOT NULL AUTO_INCREMENT,
+  `buyPlanId` varchar(255) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `foodPrice` double(10,3) NOT NULL,
+  `buyNum` int(11) NOT NULL,
+  `buyTotalMoney` double(10,3) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`detailId`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of buy_plan_detail
+-- ----------------------------
+INSERT INTO `buy_plan_detail` VALUES ('13', 'BP20160505142541001', '31', '小麦', '8.000', '200', '1600.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('14', 'BP20160505142541001', '33', '冰红茶', '25.000', '60', '1500.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('15', 'BP20160505142541001', '37', '喜之郎果冻', '300.000', '20', '6000.000', '');
+
+-- ----------------------------
+-- Table structure for food
+-- ----------------------------
+DROP TABLE IF EXISTS `food`;
+CREATE TABLE `food` (
+  `foodId` int(11) NOT NULL AUTO_INCREMENT,
+  `foodName` varchar(100) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`foodId`)
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of food
+-- ----------------------------
+INSERT INTO `food` VALUES ('31', '小麦', '37', '杂粮', 'kg', '东北小麦');
+INSERT INTO `food` VALUES ('32', '大豆', '37', '杂粮', 'kg', '');
+INSERT INTO `food` VALUES ('33', '冰红茶', '38', '饮料', '箱', '');
+INSERT INTO `food` VALUES ('34', '绿茶', '38', '饮料', '箱', '');
+INSERT INTO `food` VALUES ('35', '哈尔滨啤酒', '39', '名酒', '箱', '');
+INSERT INTO `food` VALUES ('36', '法国葡萄酒', '39', '名酒', '箱', '');
+INSERT INTO `food` VALUES ('37', '喜之郎果冻', '40', '糖果', '包', '');
+INSERT INTO `food` VALUES ('38', '艾弗巧克力', '40', '糖果', '盒', '');
+
+-- ----------------------------
+-- Table structure for foodclass
+-- ----------------------------
+DROP TABLE IF EXISTS `foodclass`;
+CREATE TABLE `foodclass` (
+  `classId` int(11) NOT NULL AUTO_INCREMENT,
+  `className` varchar(100) NOT NULL,
+  PRIMARY KEY (`classId`)
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of foodclass
+-- ----------------------------
+INSERT INTO `foodclass` VALUES ('37', '杂粮');
+INSERT INTO `foodclass` VALUES ('38', '饮料');
+INSERT INTO `foodclass` VALUES ('39', '名酒');
+INSERT INTO `foodclass` VALUES ('40', '糖果');
+
+-- ----------------------------
+-- Table structure for price
+-- ----------------------------
+DROP TABLE IF EXISTS `price`;
+CREATE TABLE `price` (
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `purchasePrice` double(10,3) NOT NULL,
+  `salePrice` double(10,3) NOT NULL,
+  `remarks` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`foodId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of price
+-- ----------------------------
+INSERT INTO `price` VALUES ('31', '小麦', '5.000', '8.000', '东北小麦');
+INSERT INTO `price` VALUES ('32', '大豆', '4.000', '7.000', '');
+INSERT INTO `price` VALUES ('33', '冰红茶', '20.000', '25.000', '');
+INSERT INTO `price` VALUES ('34', '绿茶', '33.000', '44.000', '');
+INSERT INTO `price` VALUES ('35', '哈尔滨啤酒', '300.000', '500.000', '');
+INSERT INTO `price` VALUES ('36', '法国葡萄酒', '600.000', '1000.000', '');
+INSERT INTO `price` VALUES ('37', '喜之郎果冻', '200.000', '300.000', '');
+INSERT INTO `price` VALUES ('38', '艾弗巧克力', '100.000', '200.000', '');
+
+-- ----------------------------
+-- Table structure for provider
+-- ----------------------------
+DROP TABLE IF EXISTS `provider`;
+CREATE TABLE `provider` (
+  `providerId` int(11) NOT NULL AUTO_INCREMENT,
+  `providerName` varchar(100) NOT NULL,
+  `linkman` varchar(100) NOT NULL,
+  `linkNumber` varchar(100) NOT NULL,
+  `providerAdress` text,
+  `remarks` text,
+  PRIMARY KEY (`providerId`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of provider
+-- ----------------------------
+INSERT INTO `provider` VALUES ('17', '阿里巴巴', '马云', '111111', '杭州', '');
+INSERT INTO `provider` VALUES ('18', '京东商城', '刘强东', '2222222', '北京', '');
+
+-- ----------------------------
+-- Table structure for provide_food
+-- ----------------------------
+DROP TABLE IF EXISTS `provide_food`;
+CREATE TABLE `provide_food` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `providerId` int(11) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `purchasePrice` double(100,0) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of provide_food
+-- ----------------------------
+INSERT INTO `provide_food` VALUES ('23', '17', '阿里巴巴', '31', '小麦', '5', '');
+INSERT INTO `provide_food` VALUES ('24', '17', '阿里巴巴', '32', '大豆', '4', '');
+INSERT INTO `provide_food` VALUES ('25', '17', '阿里巴巴', '33', '冰红茶', '19', '');
+INSERT INTO `provide_food` VALUES ('26', '17', '阿里巴巴', '34', '绿茶', '30', '');
+INSERT INTO `provide_food` VALUES ('27', '17', '阿里巴巴', '35', '哈尔滨啤酒', '290', '');
+INSERT INTO `provide_food` VALUES ('28', '17', '阿里巴巴', '36', '法国葡萄酒', '630', '');
+INSERT INTO `provide_food` VALUES ('29', '17', '阿里巴巴', '37', '喜之郎果冻', '180', '');
+INSERT INTO `provide_food` VALUES ('30', '17', '阿里巴巴', '38', '艾弗巧克力', '120', '');
+INSERT INTO `provide_food` VALUES ('31', '18', '京东商城', '31', '小麦', '6', '');
+INSERT INTO `provide_food` VALUES ('32', '18', '京东商城', '32', '大豆', '5', '');
+INSERT INTO `provide_food` VALUES ('33', '18', '京东商城', '33', '冰红茶', '22', '');
+INSERT INTO `provide_food` VALUES ('34', '18', '京东商城', '34', '绿茶', '33', '');
+INSERT INTO `provide_food` VALUES ('35', '18', '京东商城', '37', '喜之郎果冻', '230', '');
+INSERT INTO `provide_food` VALUES ('36', '18', '京东商城', '38', '艾弗巧克力', '230', '');
+INSERT INTO `provide_food` VALUES ('37', '18', '京东商城', '35', '哈尔滨啤酒', '350', '');
+INSERT INTO `provide_food` VALUES ('38', '18', '京东商城', '36', '法国葡萄酒', '690', '');
+
+-- ----------------------------
+-- Table structure for qcheck
+-- ----------------------------
+DROP TABLE IF EXISTS `qcheck`;
+CREATE TABLE `qcheck` (
+  `checkId` varchar(50) NOT NULL,
+  `userId` int(11) NOT NULL,
+  `userName` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `checkNum` double(11,4) NOT NULL,
+  `qualifiedNum` double(11,4) NOT NULL,
+  `qualifiedRate` double(11,4) NOT NULL,
+  `opinion` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of qcheck
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for sale_plan
+-- ----------------------------
+DROP TABLE IF EXISTS `sale_plan`;
+CREATE TABLE `sale_plan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `salePlanId` varchar(50) NOT NULL,
+  `createTime` date NOT NULL,
+  `startTime` date NOT NULL,
+  `endTime` date NOT NULL,
+  `proposerId` int(11) NOT NULL,
+  `proposer` varchar(50) NOT NULL,
+  `approverId` int(11) NOT NULL,
+  `approver` varchar(50) NOT NULL,
+  `planSumMoney` varchar(50) DEFAULT NULL,
+  `propStatus` int(11) NOT NULL,
+  `approverOpinion` text,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of sale_plan
+-- ----------------------------
+INSERT INTO `sale_plan` VALUES ('6', 'SP20160505152332006', '2016-05-05', '2016-05-07', '2016-08-26', '7', '刘宇飞', '8', '坑货', '1600.0', '3', '', '');
+
+-- ----------------------------
+-- Table structure for sale_plan_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `sale_plan_detail`;
+CREATE TABLE `sale_plan_detail` (
+  `detailId` int(11) NOT NULL AUTO_INCREMENT,
+  `salePlanId` varchar(255) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `foodPrice` double(10,3) NOT NULL,
+  `saleNum` int(11) NOT NULL,
+  `saleTotalMoney` double(10,3) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`detailId`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of sale_plan_detail
+-- ----------------------------
+INSERT INTO `sale_plan_detail` VALUES ('17', 'SP20160505142358001', '31', '小麦', '8.000', '200', '1600.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('18', 'SP20160505142358001', '34', '绿茶', '44.000', '30', '1320.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('19', 'SP20160505142358001', '37', '喜之郎果冻', '300.000', '100', '30000.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('20', 'SP20160505152332006', '31', '小麦', '8.000', '200', '1600.000', '');
+
+-- ----------------------------
+-- Table structure for store
+-- ----------------------------
+DROP TABLE IF EXISTS `store`;
+CREATE TABLE `store` (
+  `id` varchar(255) NOT NULL,
+  `storeId` int(11) NOT NULL AUTO_INCREMENT,
+  `intId` varchar(255) NOT NULL,
+  `foodBarCode` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodNum` int(10) NOT NULL,
+  `inputNum` int(11) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `storageType` varchar(10) NOT NULL,
+  `storageDate` date NOT NULL,
+  `overDate` date NOT NULL,
+  `storegeTotal` int(10) NOT NULL,
+  `storegeMin` int(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`storeId`)
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store
+-- ----------------------------
+INSERT INTO `store` VALUES ('KC20160505144645001', '25', 'cg20160505143114', '598664183446', '31', '小麦', 'kg', '500', '1000', '37', '杂粮', '京东商城', '1', '2016-05-05', '2016-05-08', '500', '20', '');
+INSERT INTO `store` VALUES ('KC201605051501400026', '26', 'cg20160505150100', '373718766857', '37', '喜之郎果冻', '包', '100', '200', '40', '糖果', '阿里巴巴', '1', '2016-05-05', '2018-05-17', '100', '20', '');
+
+-- ----------------------------
+-- Table structure for store_int
+-- ----------------------------
+DROP TABLE IF EXISTS `store_int`;
+CREATE TABLE `store_int` (
+  `intId` varchar(20) NOT NULL,
+  `userName` varchar(50) NOT NULL,
+  `foodBarCode` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodNum` int(10) NOT NULL,
+  `qualifiedNum` int(11) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `intType` int(10) NOT NULL,
+  `intDate` date NOT NULL,
+  `overDate` date NOT NULL,
+  `status` int(10) NOT NULL,
+  `reason` text,
+  `remarks` text,
+  PRIMARY KEY (`intId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_int
+-- ----------------------------
+INSERT INTO `store_int` VALUES ('cg20160505143114', '刘宇飞', '598664183446', '31', '小麦', 'kg', '1000', '1000', '37', '杂粮', '京东商城', '1', '2016-05-05', '2016-11-30', '2', '吃啊', '');
+INSERT INTO `store_int` VALUES ('cg20160505150100', '刘宇飞', '373718766857', '37', '喜之郎果冻', '包', '200', '200', '40', '糖果', '阿里巴巴', '1', '2016-05-05', '2018-05-17', '1', '呵呵呵', '');
+
+-- ----------------------------
+-- Table structure for store_out
+-- ----------------------------
+DROP TABLE IF EXISTS `store_out`;
+CREATE TABLE `store_out` (
+  `outStoreId` int(11) NOT NULL AUTO_INCREMENT,
+  `storeId` int(11) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodOutNum` int(10) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `storageOutType` varchar(10) NOT NULL,
+  `storageOutDate` date NOT NULL,
+  `overDate` date NOT NULL,
+  `remarks` text,
+  `recAmount` double(50,3) DEFAULT NULL,
+  `reaAmount` double(50,3) DEFAULT NULL,
+  `userName` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`outStoreId`)
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_out
+-- ----------------------------
+INSERT INTO `store_out` VALUES ('36', '25', '31', '小麦', 'kg', '200', '37', '杂粮', '2', '2016-05-05', '2016-11-30', '', '1600.000', '1500.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('37', '26', '37', '喜之郎果冻', '包', '100', '40', '糖果', '2', '2016-05-05', '2018-05-17', '', '30000.000', '30000.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('38', '25', '31', '小麦', 'kg', '300', '37', '杂粮', '2', '2016-05-05', '2016-11-30', '', '2400.000', '3000.000', '刘宇飞');
+
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `birthday` varchar(50) NOT NULL,
+  `sex` varchar(10) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `userPSW` varchar(10) NOT NULL,
+  `userPower` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------
+INSERT INTO `user` VALUES ('7', '刘宇飞', '1992-5-5', '1', '哈尔滨', '1', '0');
+INSERT INTO `user` VALUES ('8', '坑货', '2016-2-1', '2', '哈哈', '123', '4');

@@ -1,0 +1,91 @@
+package com.nemo.pojo;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/20 19:43
+ * 质检报告实体
+ */
+public class Check {
+    private String checkId;
+    private int userId;
+    private String userName;
+    private int foodId;
+    private String foodName;
+    private double checkNum;
+    private double qualifiedNum;
+    private double qualifiedRate;
+    private String opinion;
+
+
+    public String getCheckId() {
+        return checkId;
+    }
+
+    public void setCheckId(String checkId) {
+        this.checkId = checkId;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public int getFoodId() {
+        return foodId;
+    }
+
+    public void setFoodId(int foodId) {
+        this.foodId = foodId;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public double getCheckNum() {
+        return checkNum;
+    }
+
+    public void setCheckNum(double checkNum) {
+        this.checkNum = checkNum;
+    }
+
+    public double getQualifiedNum() {
+        return qualifiedNum;
+    }
+
+    public void setQualifiedNum(double qualifiedNum) {
+        this.qualifiedNum = qualifiedNum;
+    }
+
+    public double getQualifiedRate() {
+        return qualifiedRate;
+    }
+
+    public void setQualifiedRate(double qualifiedRate) {
+        this.qualifiedRate = qualifiedRate;
+    }
+
+    public String getOpinion() {
+        return opinion;
+    }
+
+    public void setOpinion(String opinion) {
+        this.opinion = opinion;
+    }
+}

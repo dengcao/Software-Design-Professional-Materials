@@ -1,0 +1,639 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen">综合&nbsp;&nbsp;|&nbsp;&nbsp;<a href="41_local.htm">本地库</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="41_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >法国著名葡萄酒、丹麦啤酒、伏特加和白兰地等。</span><br><br>
+<div style="display:block;">该句相似度：<span class='orange' >62</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（轻度相似，请酌情修改）</b><br><br></div>
+在本地库和互联网共找出相似内容：14个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >62</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦<span style="background:#cbcbcb">啤酒</span>、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">白酒、<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">啤酒</span>、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>、威士忌<span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……足球出线、入世的收藏纪念酒。4．2不同酒的消费人群和产品特色现在市场上最常见的主流消费酒类有<span class='green'>白酒、葡萄酒、啤酒、伏特加、威士忌和白兰地。</span>这几种酒在消费群、品牌、产品特色和市场的占有……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《酒包装设计研究》<br><b>作者：</b>陈茜<br><b>分类号：</b>TS206.2<br><b>学科专业：</b>设计艺术学<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>吕淑梅<br><b>学位授予单位：</b>湖北工业大学<br><b>学位年度：</b>2007<br><b>关键词：</b>酒包装 包装设计 设计艺术
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦<span style="background:#cbcbcb">啤酒</span>、伏特加和<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">啤酒</span>、<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>、伏特加酒的各式专用</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……粮液”这样的中国名国也就不难理解了。俄人喝酒对酒杯较为讲究，普通老百姓家里也都备有饮用<span class='green'>啤酒、葡萄酒、白兰地、伏特加酒的各式专用</span>酒杯。伏特加酒杯大多是!""—$""毫升的……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《俄罗斯人的伏特加情结》<br><b>作者：</b>丹枫<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>页码：</b>P94—P95<br><b>页数：</b>2页<br><b>分类号：</b>TS262.3+8<br><b>机标分类号：</b>TS2 G64<br><b>期刊名称：</b>《酿酒》<br><b>出版时间：</b>2000年4期<br><b>ISSN：</b>1002-8110
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名葡萄<span style="background:#cbcbcb">酒</span>、丹麦啤酒、伏特加和<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span><span style="background:#cbcbcb">等</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">、甜型<span style="background:#cbcbcb">酒</span>、特种<span style="background:#cbcbcb">酒</span>、冰<span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span><span style="background:#cbcbcb">等</span>几</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……原料基地化，生产标准化的庄园式葡萄酒生产，成为中国西部地区葡萄酒产业的龙头企业，拥有干红，干白<span class='green'>、甜型酒、特种酒、冰酒、白兰地等几</span>大系列200多个产品。2009年，莫高牌葡萄酒被国家工商……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(会议论文)：</font><br>
+<b>篇名：</b>《“八个坚持”托出高端葡萄酒之星莫高公司铸造名牌的实践》<br><b>作者：</b>赵国柱<br><b>作者单位：</b>甘肃莫高实业发展股份有限公司<br><b>会议名称：</b>2011中国国际妇幼婴童产业展览会暨创新与消费升级论坛<br><b>主办单位：</b>中国轻工业协会<br><b>会议时间：</b>2011-08-12<br><b>会议地点：</b>北京
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">4</div>
+<font color="#666666">相似度：</font><span class='orange' >46</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名葡萄<span style="background:#cbcbcb">酒</span>、丹麦啤酒、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>和白兰地等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">烧酒、利口<span style="background:#cbcbcb">酒</span>、金<span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>、朗姆<span style="background:#cbcbcb">酒</span>、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，最低的阿斯蒂从5%起步，雪利酒和波特酒等加烈酒到21%打住。其它酒类包括啤酒、清酒、<span class='green'>烧酒、利口酒、金酒、伏特加、朗姆酒、</span>威士忌……4.最理想的酒杯，杯口是朝内的，……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《那些与葡萄酒有关的故事》<br><b>页码：</b>P110—P113<br><b>页数：</b>4页<br><b>机标分类号：</b>B01 A81<br><b>期刊名称：</b>《走向世界》<br><b>出版时间：</b>2014年9期<br><b>ISSN：</b>1005-393X<br><b>摘要：</b>葡萄酒在人类的历史长河中扮演着重要的角色，那些华美的酒庄，精品的器具，腹香的葡萄酒，翠绿的葡萄园……盘绕在不同时代，不同国度，不同种族人的记忆中。如今，葡萄酒已随处可见了，可是关于葡萄酒的味道、知识、故事等等，你又了解多少呢。让我们一起，去品味它的点点滴滴。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">5</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦啤酒、伏特<span style="background:#cbcbcb">加</span>和白兰地等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">起泡<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、强化<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">加</span>香<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>4种。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……)半甜黄酒塘分在5—10%之间。如绍兴的善酿酒、无葡萄酒叉可分为无泡葡萄酒、<span class='green'>起泡葡萄酒、强化葡萄酒、加香葡萄酒4种。</span>配制酒u丁分为开胃酒、餐后锡的惠泉洒等；(……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《你会喝酒吗?》<br><b>作者：</b>徐杰 王茂忠<br><b>作者单位：</b>辽宁省质检院、辽宁省质监稽查局<br><b>页码：</b>P45—P49<br><b>页数：</b>5页<br><b>机标分类号：</b>TS2 O65<br><b>期刊名称：</b>《品牌与标准化》<br><b>出版时间：</b>2009年9期<br><b>ISSN：</b>1004-5678
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">6</div>
+<font color="#666666">相似度：</font><span class='orange' >44</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦<span style="background:#cbcbcb">啤酒</span>、伏特加和<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">饮用<span style="background:#cbcbcb">啤酒</span>、<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>、伏特加酒的各式专用酒杯。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……酒类饮料在政府控制下销售，因而成为俄罗斯人每日生活的必选。俄罗斯人喝酒较为讲究酒杯，普通老百姓家里也都备有<span class='green'>饮用啤酒、葡萄酒、白兰地、伏特加酒的各式专用酒杯。</span>伏特加酒杯大多是200～300毫升的大杯子。在家庭宴会……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《俄罗斯酒文化探索》<br><b>作者：</b>田丽<br><b>作者单位：</b>绥化学院外国语学院,黑龙江绥化,152000<br><b>页码：</b>P105—P105<br><b>分类号：</b>D737.70<br><b>机标分类号：</b>J02 TV7<br><b>期刊名称：</b>《民营科技》<br><b>出版时间：</b>2011年11期<br><b>ISSN：</b>1673-4033<br><b>关键词：</b>酒文化 俄罗斯 伏特加<br><b>摘要：</b>酒，离不开俄罗斯，而俄罗斯更离不开酒。作为横跨欧亚两大洲，领土面积居世界第一的国家，它淋漓尽致的向世界展现出本民族对酒文化的狂热追逐。这个在世界上曾占有举足轻重地位的国家与“酒”有着密不可分的联系。存在着一种被称为“北部风格”的，纯粹寻求酒精麻痹的高调的讲究的酗酒文化。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">7</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦<span style="background:#cbcbcb">啤酒</span>、伏特加和白兰地<span style="background:#cbcbcb">等</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">性小。如黄酒、<span style="background:#cbcbcb">啤酒</span>、果酒、<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span><span style="background:#cbcbcb">等</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……取或用压榨法而取得的酒叫酿造酒。这类酒的度数较低，而固形物的含量较多，刺激<span class='green'>性小。如黄酒、啤酒、果酒、葡萄酒等。</span>配制酒：用白酒或食用酒精与一定比例的糖料、香料……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《中外酒精饮料分类研究》<br><b>作者：</b>杨柳<br><b>作者单位：</b>四川省社会科学院,四川 成都,610071<br><b>参考文献：</b>6篇<br><b>页码：</b>P7—P9<br><b>页数：</b>3页<br><b>分类号：</b>TS262<br><b>期刊名称：</b>《酿酒》<br><b>出版时间：</b>2015年6期<br><b>ISSN：</b>1002-8110<br><b>关键词：</b>酒精饮料 分类 食品添加剂 卫生标准<br><b>摘要：</b>介绍了国内外酒精饮料的分类情况,指出,所谓"红黄果啤白"的分类常识是不符合现行国家标准的,此外,现行分类标准也存在分类不完善、配套标准不协调等不足之处,提出了相应的改进建议.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">8</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦啤酒、伏特加和白兰地<span style="background:#cbcbcb">等</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">有<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、山<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、苹果<span style="background:#cbcbcb">酒</span>、山楂<span style="background:#cbcbcb">酒</span><span style="background:#cbcbcb">等</span>，</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……符合《葡萄酒及果酒生产许可证审查细则》的要求。“葡萄酒及果酒"的申证单元为一个，主要品种<span class='green'>有葡萄酒、山葡萄酒、苹果酒、山楂酒等，</span>但以浸泡或者蒸馏工艺生产的果酒暂不纳入。获证产品……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《蓬莱葡萄酒庄建设项目可行性研究》<br><b>作者：</b>林凯<br><b>分类号：</b>F424.4<br><b>学科专业：</b>项目管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>孙景文<br><b>学位授予单位：</b>中国海洋大学<br><b>学位年度：</b>2009<br><b>关键词：</b>葡萄酒庄 市场定位 建设项目 投资决策 可行性分析
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">9</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名葡萄<span style="background:#cbcbcb">酒</span>、丹麦啤酒、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">、威士忌、朗姆<span style="background:#cbcbcb">酒</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>。而<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>则以</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……产品及发展现状1．2。1国外白兰地产品及现状一目前国际上蒸馏酒产品中主要有白兰地、中国白酒<span class='green'>、威士忌、朗姆酒和伏特加。而白兰地则以</span>法国最为著名，代表着世界的最高技术和质量水平【1．……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《白兰地酿造工艺及质量评价指标研究》<br><b>作者：</b>姜忠军<br><b>分类号：</b>TS262.38<br><b>学科专业：</b>发酵工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李记明<br><b>学位授予单位：</b>江南大学<br><b>学位年度：</b>2006<br><b>关键词：</b>白兰地 酿造工艺 香气成分 多酚类物质 主成分分析 聚类分析 酒龄
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">10</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名葡萄<span style="background:#cbcbcb">酒</span>、丹麦啤酒、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">、威士忌、朗姆<span style="background:#cbcbcb">酒</span><span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>。而<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>则以</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……白兰地产销量趋势2．1．1白兰地国内外的发展目前国际上蒸馏酒产品中主要有白兰地、中国白酒<span class='green'>、威士忌、朗姆酒和伏特加。而白兰地则以</span>法国最为著名，代表着世界的最高技术和质量水平。除了法国……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《银杏白兰地的研究》<br><b>作者：</b>陈志炎<br><b>分类号：</b>TS262.38<br><b>学科专业：</b>食品科学(烹饪科学)<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张素华<br><b>学位授予单位：</b>扬州大学<br><b>学位年度：</b>2010<br><b>关键词：</b>银杏白兰地 陈酿 果酒酵母 香气成分
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">11</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名葡萄<span style="background:#cbcbcb">酒</span>、丹麦啤酒、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>和<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>、威士忌、荷兰金<span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>、朗收稿日期</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……把上述发酵原酒或发酵醪以及酒醅等通过蒸馏而得的高度蒸馏酒液，包括中国的白酒、法国的<span class='green'>白兰地、威士忌、荷兰金酒、伏特加、朗收稿日期</span>：2010一12—29作者简介：董晓宇(1975一)，女……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《酒的种类》<br><b>作者：</b>董晓宇<br><b>作者单位：</b>黑龙江省轻工业联合会,黑龙江,哈尔滨,150001<br><b>页码：</b>P84—P85<br><b>分类号：</b>TS261.4<br><b>机标分类号：</b>TS2 O65<br><b>期刊名称：</b>《酿酒》<br><b>出版时间：</b>2011年2期<br><b>ISSN：</b>1002-8110<br><b>关键词：</b>酒 分类 发酵酒 蒸馏酒 配制酒<br><b>摘要：</b>白酒的种类按照制造工艺基本上可分为三大类,即发酵酒(酿造酒)、蒸馏酒与配制饮料酒(简称配制酒).发酵酒是指用谷物、果汁等为原料,经发酵而得的低度酒;蒸馏酒是指把上述发酵原酒或发酵醪以及酒醅等通过蒸馏而得的高度蒸馏酒液;配制饮料酒主要是以发酵原酒或蒸馏酒为酒基,配以一定的物料呈色,香、味,经过规定的工艺过程调配而成.
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">12</div>
+<font color="#666666">相似度：</font><span class='orange' >43</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦啤酒、<span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>和白兰地等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">伏特</span><span style="background:#cbcbcb">加</span>、<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、梨子<span style="background:#cbcbcb">酒</span>、苹果<span style="background:#cbcbcb">酒</span>、各类果汁、</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……敲门声。开门时，见那俄罗斯女同学背个大包压弯了腰，忍者神龟般杀进来。拉开包拉链：<span class='green'>伏特加、葡萄酒、梨子酒、苹果酒、各类果汁、</span>啤酒、杜松子酒、朗姆酒，还有一包波兰菜馅大……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《与俄罗斯人喝酒》<br><b>作者：</b>张佳玮<br><b>页码：</b>P87—P87<br><b>页数：</b>1页<br><b>机标分类号：</b>R16 R15<br><b>期刊名称：</b>《世界博览》<br><b>出版时间：</b>2014年3期<br><b>ISSN：</b>1003-0271
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">13</div>
+<font color="#666666">相似度：</font><span class='orange' >41</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名葡萄<span style="background:#cbcbcb">酒</span>、丹麦啤酒、伏特加<span style="background:#cbcbcb">和</span>白兰地<span style="background:#cbcbcb">等</span>。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">包括年份<span style="background:#cbcbcb">酒</span>、产区<span style="background:#cbcbcb">酒</span>、陈酿<span style="background:#cbcbcb">酒</span><span style="background:#cbcbcb">和</span>庄园<span style="background:#cbcbcb">酒</span><span style="background:#cbcbcb">等</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……型王朝葡萄酒公司营销战略案例研究向100%的全汁型转变，品种上以干红、干白、干挑红为代表，这些品种形式<span class='green'>包括年份酒、产区酒、陈酿酒和庄园酒等。</span>据中国酿酒工业协会根据国家统计局(对全部国有及销售收入……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《王朝葡萄酒公司营销战略案例研究》<br><b>作者：</b>曲宏伟<br><b>分类号：</b>F721<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>杨德权<br><b>学位授予单位：</b>大连理工大学<br><b>学位年度：</b>2007<br><b>关键词：</b>酒业企业 营销战略 市场竞争
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">14</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >法国著名<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、丹麦啤酒、伏特加<span style="background:#cbcbcb">和</span><span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>等。</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">为原料的<span style="background:#cbcbcb">葡萄</span><span style="background:#cbcbcb">酒</span>、<span style="background:#cbcbcb">白兰</span><span style="background:#cbcbcb">地</span>、香槟<span style="background:#cbcbcb">酒</span><span style="background:#cbcbcb">和</span>保健<span style="background:#cbcbcb">酒</span>的</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……和B股同时上市的企业，成长为中国葡萄酒行业的龙头。目前，烟台张裕葡萄酿酒股份有限公司从事以葡萄<span class='green'>为原料的葡萄酒、白兰地、香槟酒和保健酒的</span>酿制、生产与销售。主要产品有：干红、干白葡萄酒，XO……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《我国葡萄酒行业国际化经营策略研究--以张裕葡萄酒为例》<br><b>作者：</b>陈览月<br><b>学科专业：</b>工商管理<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王文武<br><b>学位授予单位：</b>东南大学<br><b>学位年度：</b>2013
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:block;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（轻度相似，请酌情修改）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+法国著名<span class="red">葡萄</span>酒、丹麦<span class="red">啤酒</span>、<span class="red">伏特</span>加和<span class="red">白兰</span>地等。
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+无
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

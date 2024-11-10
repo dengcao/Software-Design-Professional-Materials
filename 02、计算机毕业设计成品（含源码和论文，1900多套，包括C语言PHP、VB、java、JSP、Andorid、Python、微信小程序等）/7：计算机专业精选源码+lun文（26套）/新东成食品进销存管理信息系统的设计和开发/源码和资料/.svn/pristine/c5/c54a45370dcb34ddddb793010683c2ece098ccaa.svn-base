@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+demo_padding {
+line-height: 30px;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.liebiao {
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+height: 0px;
+margin-top:10px;
+margin-bottom:10px;
+float: left;
+width: 90%;
+}
+.liebiao ul {
+list-style-type: none;
+display: block;
+margin: 0px;
+clear: none;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px dashed #999999;
+padding-right: 10px;
+padding-left: 10px;
+}
+.shubu{
+float: left;
+height: 15px;
+width: 15px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+font-size: 13px;
+}
+.kuang {
+border: 1px solid #999999;
+}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+.green{color:#008000}
+
+a:hover {color:#000000}
+a:active {color:#000000}
+
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+<div class="zhengwen"><a href="330.htm">综合</a>&nbsp;&nbsp;|&nbsp;&nbsp;本地库&nbsp;&nbsp;|&nbsp;&nbsp;<a href="330_net.htm">互联网</a><br /></div>
+<div class="zhengwen">
+语句：<span class='orange' >分类名称，入库类型，入库时间，过期时间，库存总量，最低库存量，供应商名称，备注}</span><br><br>
+<div style="display:none;">该句相似度：<span class='orange' >45</span>%<a href='#xiugaijianyi' style='padding-left:30px;'>查看该句修改建议</a><b>（ChaoXidudutishiTorpalces87sbqwopahasw4）</b><br><br></div>
+在本地库共找出相似内容：3个
+</div>
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">1</div>
+<font color="#666666">相似度：</font><span class='orange' >45</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >分类名称，<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">类型</span>，<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">时间</span>，过期<span style="background:#cbcbcb">时间</span>，库存总量，最低库存量，供应商名称，<span style="background:#cbcbcb">备注</span>}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">建单时问，<span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">类型</span>，完成<span style="background:#cbcbcb">时间</span>，<span style="background:#cbcbcb">入库</span>综述，<span style="background:#cbcbcb">入库</span>总价，采购单号，送货单号，<span style="background:#cbcbcb">备注</span>。</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……，送货单洋细信息表。表名：senddetail。送货单号，序号，产品编号，单价，数量，备注。第十，入库单概要信息表。表名：inbill。入库单号，入库库房号，操作员，<span class='green'>建单时问，入库类型，完成时间，入库综述，入库总价，采购单号，送货单号，备注。</span>第十一．入库单详细信息企业导报2012年第o3期177万方数据肂萡企业信息化基于电子商务……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《物流中心精益管理信息系统分析与设计》<br><b>作者：</b>黄成维<br><b>作者单位：</b>武汉大学信息管理学院,湖北武汉,430072<br><b>页码：</b>P176—P178<br><b>页数：</b>3页<br><b>分类号：</b>F252<br><b>机标分类号：</b>F25 F27<br><b>期刊名称：</b>《企业导报》<br><b>出版时间：</b>2012年3期<br><b>ISSN：</b>1671-1599<br><b>关键词：</b>物流中心 供应链 信息系统设计<br><b>摘要：</b>随着企业组织结构形式的不断发展,物流中心信息系统的建设对企业联盟建立其竞争优势的作用越来越得到凸显。本文在分析物流中心相关理论的基础上,主要做了以下研究：根据物流中心的业务需求及内部管理需求,构建了物流中心的精益管理信息系统;对物流中心管理信息系统进行分析,设计了物流中心管理信息系统的仓储管理信息系统子系统和运输管理系统子系统。
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">2</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >分类名称，入库类型，入库<span style="background:#cbcbcb">时间</span>，过期<span style="background:#cbcbcb">时间</span>，<span style="background:#cbcbcb">库存</span>总量，最低<span style="background:#cbcbcb">库存</span>量，供应商名称，<span style="background:#cbcbcb">备注</span>}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green">价，售价，规格，作者，出版社，出版<span style="background:#cbcbcb">时间</span>，<span style="background:#cbcbcb">库存</span>数量，<span style="background:#cbcbcb">库存</span>上限，<span style="background:#cbcbcb">库存</span>下限，<span style="background:#cbcbcb">备注</span>）</span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……手机，总消费，积分，开卡日期，最近消费日期，生日，备注）(5)图书类别（类别编号，类别名称，上级类别编号）(6)图书信息（商品编号，商品名称，类别编号，成本<span class='green'>价，售价，规格，作者，出版社，出版时间，库存数量，库存上限，库存下限，备注）</span>(7)采购进货（进货单号，进货日期，供应商编号，图书编号，进货价，采购数量，商品……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学位论文)：</font><br>
+<b>篇名：</b>《图书销售进销存系统的设计与实现》<br><b>作者：</b>白麟<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>李迅波<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2014<br><b>关键词：</b>图书销售 进销存系统 管理信息系统 面向对象 业务流程
+</td>
+</tr>
+</table>
+
+
+<table width="100%" cellspacing="3" style="margin-bottom:15px;border: 1px solid #C0C0C0" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="3">
+<tr>
+<td align="right" width="100%">
+<div class="shubu">3</div>
+<font color="#666666">相似度：</font><span class='orange' >40</a><font color="#666">%</font>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">您的句子（灰色背景是与相似句子重合的部分）：</font><br>
+<span class='orange' >分类名称，<span style="background:#cbcbcb">入库</span>类型，<span style="background:#cbcbcb">入库</span>时间，过期时间，<span style="background:#cbcbcb">库存</span>总量，最低<span style="background:#cbcbcb">库存</span><span style="background:#cbcbcb">量</span>，供应商名称，备注}</span><br>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子：</font><br>
+<span class="green"><span style="background:#cbcbcb">入库</span><span style="background:#cbcbcb">量</span>，<span style="background:#cbcbcb">入库</span>额，出库<span style="background:#cbcbcb">量</span>，出库额，预零售额，本<span style="background:#cbcbcb">库存</span>，退货<span style="background:#cbcbcb">量</span>，报损<span style="background:#cbcbcb">量</span></span>
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">相似句子原文片段：</font><br>
+……-，现价格项目)*现供价，现批价，现零售-。/0"报表结构布局’!(药品汇总库)*帐页+，号-.*帐页项目-.*上库存，<span class='green'>入库量，入库额，出库量，出库额，预零售额，本库存，退货量，报损量</span>，报损额，退药量，调价量-.*工号-；’#(入库汇总库)*帐……
+</td>
+</tr>
+<tr>
+<td align="left" width="100%">
+<font color="#666666">来源(学术期刊)：</font><br>
+<b>篇名：</b>《医院药品管理信息系统的研究与实践》<br><b>作者：</b>陈石平 陈传亮 段瑜<br><b>作者单位：</b>河南省人民医院,<br><b>被引次数：</b>1次（统计时间：2015年8月）<br><b>页码：</b>P13—P15<br><b>页数：</b>3页<br><b>分类号：</b>R197.324<br><b>机标分类号：</b>R95 R19<br><b>期刊名称：</b>《医疗设备信息》<br><b>出版时间：</b>2001年6期<br><b>期刊级别：</b>ISTIC<br><b>ISSN：</b>1007-7510<br><b>关键词：</b>药品管理 物流 信息流 数据库 网络
+</td>
+</tr>
+</table>
+
+
+
+
+<div style="display:none;">
+<table id="xiugaijianyi" width="100%" cellpadding="3" cellspacing="3" style="margin-bottom:15px;margin-top:15px;border: 1px solid #C0C0C0;"
+bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+<tbody>
+<tr>
+<td width="100%">
+<div class="green" style="font-size:17px;padding-left:5px;">
+该句修改建议（ChaoXidudutishiTorpalces87sbqwopahasw4）
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+1
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+原句与相似内容重合部分（重点修改标红部分）：
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<font class="green">
+
+</font>
+</td>
+</tr>
+<tr>
+<td>
+<div class="shubu">
+2
+</div>
+<span style="  padding-left:10px;font-size:15px;">
+同义词：
+</span>
+</td>
+</tr>
+<tr>
+<td width="100%" align="left">
+<span class="red">时间：</span><span class="green">时候 时刻 时辰 </span><br/> <span class="red">过期：</span><span class="green">过时 逾期 </span><br/> <span class="red">供应：</span><span class="green">供给 提供 </span><br/>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="display:block;">
+<a href="#">回到顶部</a>
+</div>
+
+<div style="margin-bottom:100px"></div>
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:700px"></div>
+</body>
+</html>

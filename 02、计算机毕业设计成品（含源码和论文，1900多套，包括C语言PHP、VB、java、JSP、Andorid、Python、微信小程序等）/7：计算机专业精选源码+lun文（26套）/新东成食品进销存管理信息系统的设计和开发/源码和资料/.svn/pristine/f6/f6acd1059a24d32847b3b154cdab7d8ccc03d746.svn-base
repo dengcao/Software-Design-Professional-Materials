@@ -1,0 +1,136 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.BuyPlan;
+import com.nemo.pojo.SalePlan;
+import com.nemo.pojo.User;
+import com.nemo.service.BuyPlanService;
+import com.nemo.service.SalePlanService;
+import com.nemo.service.UserService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 销售计划操作类
+ */
+@Controller
+@RequestMapping("/buyPlan")
+public class BuyPlanController {
+    @Autowired
+    BuyPlanService buyPlanService;
+
+    @Autowired
+    private UserService userService;
+
+    @Autowired
+    SalePlanService salePlanService;
+
+    @RequestMapping("/list")
+    public String allList(Model model) throws Exception{
+      /*  List<BuyPlan> list = buyPlanService.queryBuyPlanList();
+        model.addAttribute("buyPlanList",list);*/
+        int count = buyPlanService.count();
+        model.addAttribute("count",count);
+
+        return "buyPlan/buyPlanList";
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<BuyPlan> list = buyPlanService.findFuzzyList(CustomUtils.transcoding(condition));
+        return CustomUtils.toJson(list);
+    }
+
+
+
+    @RequestMapping("/exlist")
+    public String exList(Model model) throws Exception{
+        List<BuyPlan> list = buyPlanService.queryBuyPlanList();
+        List<BuyPlan> exList=new ArrayList<BuyPlan>();
+        exList.clear();
+        for(int i=0;i<list.size();i++){
+            if(list.get(i).getPropStatus()==3){
+                exList.add(list.get(i));
+            }
+        }
+        model.addAttribute("buyPlanList",exList);
+        return "buyPlan/buyPlanEXList";
+    }
+
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<BuyPlan> list = buyPlanService.findLimitList(index * 5,5);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping("/add")
+    public String addBuyPlan(Model model)throws Exception{
+        List<User> list = userService.queryUserList();
+        model.addAttribute("userList", list);
+        List<SalePlan> salePlanListlist = salePlanService.querySalePlanList();
+        model.addAttribute("salePlanList",salePlanListlist);
+
+
+        List<BuyPlan> blist = buyPlanService.findId();
+        if(blist.size()>0){
+            model.addAttribute("id","00"+(blist.get(0).getId()+1)+"");
+        }else {
+            model.addAttribute("id","001");
+        }
+        return "buyPlan/addBuyPlan";
+    }
+
+    @RequestMapping("save")
+    public String saveBuyPlan(@ModelAttribute BuyPlan buyPlan,Model model){
+       boolean res = buyPlanService.addBuyPlan(buyPlan);
+        if(res){
+            model.addAttribute("mess","添加销售计划成功");
+        }else {
+            model.addAttribute("mess","添加销售计划失败");
+        }
+        return "buyPlan/result";
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam String id,Model model){
+        boolean res = buyPlanService.deleteBuyPlanById(id);
+        if(res){
+            model.addAttribute("mess", "删除销售计划成功");
+        }else{
+            model.addAttribute("mess", "删除销售计划失败");
+        }
+        return "buyPlan/result";
+    }
+
+    @RequestMapping(value = "/edit")
+    public String edit(@RequestParam String id,Model model)throws Exception{
+        BuyPlan buyPlan = buyPlanService.findBuyPlanById(id);
+        model.addAttribute("buyPlan",buyPlan);
+        List<User> list = userService.queryUserList();
+        model.addAttribute("userList", list);
+        return "buyPlan/editBuyPlan";
+    }
+
+    @RequestMapping("update")
+    public String update(@ModelAttribute BuyPlan buyPlan,Model model){
+        boolean res = buyPlanService.updateBuyPlan(buyPlan);
+        if(res){
+            model.addAttribute("mess","修改销售计划成功");
+        }else {
+            model.addAttribute("mess","修改销售计划失败");
+        }
+        return "buyPlan/result";
+    }
+}

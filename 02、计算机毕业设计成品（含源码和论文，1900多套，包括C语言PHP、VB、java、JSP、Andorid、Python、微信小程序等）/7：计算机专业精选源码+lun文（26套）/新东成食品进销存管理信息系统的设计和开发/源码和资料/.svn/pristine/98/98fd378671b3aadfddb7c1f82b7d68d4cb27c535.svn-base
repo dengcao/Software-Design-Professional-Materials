@@ -1,0 +1,171 @@
+package com.nemo.web.controller;
+
+import com.nemo.pojo.BuyPlan;
+import com.nemo.pojo.BuyPlanDetail;
+import com.nemo.service.BuyPlanDetailService;
+import com.nemo.service.BuyPlanService;
+import com.nemo.utils.CustomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/09 07:34
+ * 采购详细计划操作类
+ */
+@Controller
+@RequestMapping("/buyPlanDetail")
+public class BuyPlanDetailController {
+    @Autowired
+    BuyPlanDetailService buyPlanDetailService;
+
+    @Autowired
+    BuyPlanService buyPlanService;
+
+
+
+    private String planId;
+    private String status;
+
+    @RequestMapping("/list")
+    public String allList(@RequestParam String id,String status,Model model) throws Exception{
+        planId=id;
+        this.status=status;
+        model.addAttribute("buyPlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+     /*   List<BuyPlanDetail> list = buyPlanDetailService.queryBuyPlanDetailList(id);
+        model.addAttribute("buyPlanDetailList",list);*/
+        int count = buyPlanDetailService.count();
+        model.addAttribute("count",count);
+        return "buyPlanDetail/buyPlanDetailList";
+    }
+    @RequestMapping(value={"/getLimitList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String list(@RequestParam int index) throws Exception{
+        List<BuyPlanDetail> list = buyPlanDetailService.findLimitList(index * 5,5,planId);
+        return CustomUtils.toJson(list);
+    }
+
+    @RequestMapping(value={"/getFList",""},produces = "plain/text;charset=UTF-8")
+    @ResponseBody
+    public String getFList(@RequestParam String condition) throws Exception{
+        List<BuyPlanDetail> list = buyPlanDetailService.findFuzzyList(CustomUtils.transcoding(condition),planId);
+        return CustomUtils.toJson(list);
+    }
+
+
+    @RequestMapping("/add")
+    public String add(Model model)throws Exception{
+        model.addAttribute("buyPlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        return "buyPlanDetail/addBuyPlanDetail";
+    }
+
+    @RequestMapping("/check")
+    @ResponseBody
+    public String checkFood(@RequestParam String foodName)throws Exception{
+        boolean isExist=false;
+        List<BuyPlanDetail> list = buyPlanDetailService.queryBuyPlanDetailList(planId);
+        String name = CustomUtils.transcoding(foodName);
+        for(int i=0;i<list.size();i++){
+         if(list.get(i).getFoodName().equals(name)){
+             isExist=true;
+         }
+    }
+        if(isExist){
+            return "true";
+        }else {
+            return "false";
+        }
+
+    }
+
+
+    @RequestMapping(value = "/status",produces = "plain/text; charset=UTF-8")
+    @ResponseBody
+    public String editStatus(@RequestParam int propStatus, String option)throws Exception{
+        BuyPlan buyPlan=new BuyPlan();
+        buyPlan.setBuyPlanId(planId);
+        buyPlan.setPropStatus(propStatus);
+        buyPlan.setApproverOpinion(CustomUtils.transcoding(option));
+        boolean su = buyPlanService.editPropStatus(buyPlan);
+        if(su){
+            return "true";
+        }else {
+            return "false";
+        }
+
+    }
+
+    @RequestMapping("save")
+    public String saveBuyPlan(@ModelAttribute BuyPlanDetail buyPlanDetail,Model model)throws Exception{
+        model.addAttribute("buyPlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+       boolean res = buyPlanDetailService.addBuyPlanDetail(buyPlanDetail);
+        if(res){
+            model.addAttribute("mess","添加采购详细计划成功");
+        }else {
+            model.addAttribute("mess","添加采购详细计划失败");
+        }
+        sumMoney();
+        return "buyPlanDetail/result";
+    }
+    /**
+     *@Author 刘宇飞
+     *@Date 2016/04/15 13:28
+     *计算计划总金额
+     */
+    private void sumMoney() {
+        List<BuyPlanDetail> list = buyPlanDetailService.queryBuyPlanDetailList(planId);
+        double sum=0;
+        for(int i=0;i<list.size();i++){
+            sum=sum+list.get(i).getBuyTotalMoney();
+        }
+        buyPlanService.editSumMoney(planId,sum+"");
+    }
+
+    @RequestMapping(value="/delete")
+    public String delete(@RequestParam int id,Model model)throws Exception{
+        model.addAttribute("buyPlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        boolean res = buyPlanDetailService.deleteBuyPlanDetailById(id);
+        if(res){
+            model.addAttribute("mess", "删除采购详细计划成功");
+        }else{
+            model.addAttribute("mess", "删除采购详细计划失败");
+        }
+        sumMoney();
+        return "buyPlanDetail/result";
+    }
+
+    @RequestMapping(value = "/edit")
+    public String edit(@RequestParam int id,Model model)throws Exception{
+        model.addAttribute("buyPlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        BuyPlanDetail buyPlanDetail = buyPlanDetailService.findBuyPlanDetailById(id);
+        model.addAttribute("buyPlanDetail",buyPlanDetail);
+
+        return "buyPlanDetail/editBuyPlanDetail";
+    }
+
+    @RequestMapping("update")
+    public String update(@ModelAttribute BuyPlanDetail buyPlanDetail,Model model)throws Exception{
+        model.addAttribute("buyPlanId",planId);
+        model.addAttribute("status",CustomUtils.transcoding(status));
+        boolean res = buyPlanDetailService.updateBuyPlanDetail(buyPlanDetail);
+        if(res){
+            model.addAttribute("mess","修改采购详细计划成功");
+        }else {
+            model.addAttribute("mess","修改采购详细计划失败");
+        }
+        sumMoney();
+        return "buyPlanDetail/result";
+    }
+}

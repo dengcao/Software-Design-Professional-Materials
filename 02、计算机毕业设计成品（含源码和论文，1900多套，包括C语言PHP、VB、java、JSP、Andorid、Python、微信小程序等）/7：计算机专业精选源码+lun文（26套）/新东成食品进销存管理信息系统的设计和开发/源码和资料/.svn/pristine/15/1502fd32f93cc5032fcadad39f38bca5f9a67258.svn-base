@@ -1,0 +1,518 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : localhost_3306
+Source Server Version : 50517
+Source Host           : localhost:3306
+Source Database       : sms
+
+Target Server Type    : MYSQL
+Target Server Version : 50517
+File Encoding         : 65001
+
+Date: 2016-05-19 13:52:41
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for backuptime
+-- ----------------------------
+DROP TABLE IF EXISTS `backuptime`;
+CREATE TABLE `backuptime` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `time` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of backuptime
+-- ----------------------------
+INSERT INTO `backuptime` VALUES ('1', '2016-05-19 13:51:53');
+
+-- ----------------------------
+-- Table structure for buy_plan
+-- ----------------------------
+DROP TABLE IF EXISTS `buy_plan`;
+CREATE TABLE `buy_plan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `buyPlanId` varchar(100) NOT NULL,
+  `salePlanId` varchar(50) NOT NULL,
+  `createTime` date NOT NULL,
+  `proposerId` int(11) NOT NULL,
+  `proposer` varchar(50) NOT NULL,
+  `approverId` int(11) NOT NULL,
+  `approver` varchar(50) NOT NULL,
+  `planSumMoney` varchar(50) DEFAULT NULL,
+  `propStatus` int(11) NOT NULL,
+  `approverOpinion` text,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of buy_plan
+-- ----------------------------
+INSERT INTO `buy_plan` VALUES ('1', 'BP20160519124432001', 'SP20160519110420001', '2016-05-19', '1', '刘宇飞', '3', '周彦恒', '3200.0', '1', '同意', '');
+INSERT INTO `buy_plan` VALUES ('2', 'BP20160519124455002', 'SP20160519110420001', '2016-05-19', '1', '刘宇飞', '3', '周彦恒', '930.0', '2', '不同意', '');
+INSERT INTO `buy_plan` VALUES ('3', 'BP20160519124516003', 'SP20160519110445002', '2016-05-19', '1', '刘宇飞', '2', '卢荣佳', '2000.0', '3', '', '');
+INSERT INTO `buy_plan` VALUES ('4', 'BP20160519124530004', 'SP20160519110445002', '2016-05-19', '1', '刘宇飞', '2', '卢荣佳', '1750.0', '3', '', '');
+INSERT INTO `buy_plan` VALUES ('5', 'BP20160519124542005', 'SP20160519110459003', '2016-05-19', '1', '刘宇飞', '4', '钟广泽', '20000.0', '4', '', '');
+INSERT INTO `buy_plan` VALUES ('6', 'BP20160519124600006', 'SP20160519110748009', '2016-05-19', '1', '刘宇飞', '4', '钟广泽', '0', '4', '', '');
+INSERT INTO `buy_plan` VALUES ('7', 'BP20160519125832007', 'SP20160519110647005', '2016-05-19', '1', '刘宇飞', '2', '卢荣佳', '0', '4', '', '');
+INSERT INTO `buy_plan` VALUES ('8', 'BP20160519125848008', 'SP20160519110634004', '2016-05-19', '1', '刘宇飞', '3', '周彦恒', '0', '4', '', '');
+INSERT INTO `buy_plan` VALUES ('9', 'BP20160519125909009', 'SP20160519110736008', '2016-05-19', '1', '刘宇飞', '3', '周彦恒', '0', '4', '', '');
+
+-- ----------------------------
+-- Table structure for buy_plan_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `buy_plan_detail`;
+CREATE TABLE `buy_plan_detail` (
+  `detailId` int(11) NOT NULL AUTO_INCREMENT,
+  `buyPlanId` varchar(255) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `foodPrice` double(10,3) NOT NULL,
+  `buyNum` int(11) NOT NULL,
+  `buyTotalMoney` double(10,3) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`detailId`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of buy_plan_detail
+-- ----------------------------
+INSERT INTO `buy_plan_detail` VALUES ('1', 'BP20160519124432001', '1', '小麦', '6.000', '100', '600.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('2', 'BP20160519124432001', '5', '大闸蟹', '13.000', '200', '2600.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('3', 'BP20160519124455002', '11', '冰红茶', '40.000', '20', '800.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('4', 'BP20160519124455002', '3', '番茄', '1.300', '100', '130.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('5', 'BP20160519124516003', '7', '牛肉', '18.000', '100', '1800.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('6', 'BP20160519124516003', '8', '鸡肉', '10.000', '20', '200.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('7', 'BP20160519124530004', '2', '小米', '3.500', '500', '1750.000', '');
+INSERT INTO `buy_plan_detail` VALUES ('8', 'BP20160519124542005', '13', '葡萄酒', '400.000', '50', '20000.000', '');
+
+-- ----------------------------
+-- Table structure for food
+-- ----------------------------
+DROP TABLE IF EXISTS `food`;
+CREATE TABLE `food` (
+  `foodId` int(11) NOT NULL AUTO_INCREMENT,
+  `foodName` varchar(100) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`foodId`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of food
+-- ----------------------------
+INSERT INTO `food` VALUES ('1', '小麦', '1', '谷物类', '千克', '东北小麦');
+INSERT INTO `food` VALUES ('2', '小米', '1', '谷物类', '千克', '广西优良');
+INSERT INTO `food` VALUES ('3', '番茄', '2', '果蔬类', '千克', '');
+INSERT INTO `food` VALUES ('4', '西瓜', '2', '果蔬类', '千克', '');
+INSERT INTO `food` VALUES ('5', '大闸蟹', '3', '水产类', '千克', '');
+INSERT INTO `food` VALUES ('6', '罗非鱼', '3', '水产类', '千克', '');
+INSERT INTO `food` VALUES ('7', '牛肉', '4', '肉类', '千克', '');
+INSERT INTO `food` VALUES ('8', '鸡肉', '4', '肉类', '千克', '');
+INSERT INTO `food` VALUES ('9', '鸡蛋', '5', '蛋类', '千克', '');
+INSERT INTO `food` VALUES ('10', '鸽蛋', '5', '蛋类', '千克', '');
+INSERT INTO `food` VALUES ('11', '冰红茶', '6', '饮料类', '箱', '');
+INSERT INTO `food` VALUES ('12', '王老吉', '6', '饮料类', '箱', '');
+INSERT INTO `food` VALUES ('13', '葡萄酒', '7', '酒类', '箱', '');
+INSERT INTO `food` VALUES ('14', '啤酒', '7', '酒类', '箱', '');
+
+-- ----------------------------
+-- Table structure for foodclass
+-- ----------------------------
+DROP TABLE IF EXISTS `foodclass`;
+CREATE TABLE `foodclass` (
+  `classId` int(11) NOT NULL AUTO_INCREMENT,
+  `className` varchar(100) NOT NULL,
+  PRIMARY KEY (`classId`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of foodclass
+-- ----------------------------
+INSERT INTO `foodclass` VALUES ('1', '谷物类');
+INSERT INTO `foodclass` VALUES ('2', '果蔬类');
+INSERT INTO `foodclass` VALUES ('3', '水产类');
+INSERT INTO `foodclass` VALUES ('4', '肉类');
+INSERT INTO `foodclass` VALUES ('5', '蛋类');
+INSERT INTO `foodclass` VALUES ('6', '饮料类');
+INSERT INTO `foodclass` VALUES ('7', '酒类');
+
+-- ----------------------------
+-- Table structure for price
+-- ----------------------------
+DROP TABLE IF EXISTS `price`;
+CREATE TABLE `price` (
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `purchasePrice` double(10,3) NOT NULL,
+  `salePrice` double(10,3) NOT NULL,
+  `remarks` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`foodId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of price
+-- ----------------------------
+INSERT INTO `price` VALUES ('1', '小麦', '5.000', '6.000', '东北小麦');
+INSERT INTO `price` VALUES ('2', '小米', '3.000', '3.500', '广西优良');
+INSERT INTO `price` VALUES ('3', '番茄', '1.000', '1.300', '');
+INSERT INTO `price` VALUES ('4', '西瓜', '2.000', '2.300', '');
+INSERT INTO `price` VALUES ('5', '大闸蟹', '10.000', '13.000', '');
+INSERT INTO `price` VALUES ('6', '罗非鱼', '6.000', '7.000', '');
+INSERT INTO `price` VALUES ('7', '牛肉', '15.000', '18.000', '');
+INSERT INTO `price` VALUES ('8', '鸡肉', '8.000', '10.000', '');
+INSERT INTO `price` VALUES ('9', '鸡蛋', '3.000', '5.000', '');
+INSERT INTO `price` VALUES ('10', '鸽蛋', '5.000', '7.000', '');
+INSERT INTO `price` VALUES ('11', '冰红茶', '30.000', '40.000', '');
+INSERT INTO `price` VALUES ('12', '王老吉', '40.000', '50.000', '');
+INSERT INTO `price` VALUES ('13', '葡萄酒', '200.000', '400.000', '');
+INSERT INTO `price` VALUES ('14', '啤酒', '100.000', '200.000', '哈哈');
+
+-- ----------------------------
+-- Table structure for provider
+-- ----------------------------
+DROP TABLE IF EXISTS `provider`;
+CREATE TABLE `provider` (
+  `providerId` int(11) NOT NULL AUTO_INCREMENT,
+  `providerName` varchar(100) NOT NULL,
+  `linkman` varchar(100) NOT NULL,
+  `linkNumber` varchar(100) NOT NULL,
+  `providerAdress` text,
+  `remarks` text,
+  PRIMARY KEY (`providerId`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of provider
+-- ----------------------------
+INSERT INTO `provider` VALUES ('1', '阿里巴巴', '陈知伟', '15678047828', '广西南宁', '');
+INSERT INTO `provider` VALUES ('2', '中国能源网', '李爵兴', '13737241880', '广西白色', '');
+
+-- ----------------------------
+-- Table structure for provide_food
+-- ----------------------------
+DROP TABLE IF EXISTS `provide_food`;
+CREATE TABLE `provide_food` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `providerId` int(11) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `purchasePrice` double(100,0) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of provide_food
+-- ----------------------------
+INSERT INTO `provide_food` VALUES ('1', '1', '阿里巴巴', '1', '小麦', '5', '');
+INSERT INTO `provide_food` VALUES ('2', '1', '阿里巴巴', '2', '小米', '3', '');
+INSERT INTO `provide_food` VALUES ('3', '1', '阿里巴巴', '3', '番茄', '1', '');
+INSERT INTO `provide_food` VALUES ('4', '1', '阿里巴巴', '4', '西瓜', '2', '');
+INSERT INTO `provide_food` VALUES ('5', '1', '阿里巴巴', '5', '大闸蟹', '10', '');
+INSERT INTO `provide_food` VALUES ('6', '1', '阿里巴巴', '6', '罗非鱼', '6', '');
+INSERT INTO `provide_food` VALUES ('7', '1', '阿里巴巴', '7', '牛肉', '15', '');
+INSERT INTO `provide_food` VALUES ('8', '1', '阿里巴巴', '8', '鸡肉', '8', '');
+INSERT INTO `provide_food` VALUES ('9', '1', '阿里巴巴', '9', '鸡蛋', '3', '');
+INSERT INTO `provide_food` VALUES ('10', '1', '阿里巴巴', '10', '鸽蛋', '5', '');
+INSERT INTO `provide_food` VALUES ('11', '1', '阿里巴巴', '11', '冰红茶', '30', '');
+INSERT INTO `provide_food` VALUES ('12', '1', '阿里巴巴', '12', '王老吉', '40', '');
+INSERT INTO `provide_food` VALUES ('13', '1', '阿里巴巴', '13', '葡萄酒', '200', '');
+INSERT INTO `provide_food` VALUES ('14', '1', '阿里巴巴', '14', '啤酒', '100', '');
+INSERT INTO `provide_food` VALUES ('15', '2', '中国能源网', '1', '小麦', '5', '');
+INSERT INTO `provide_food` VALUES ('16', '2', '中国能源网', '2', '小米', '3', '');
+INSERT INTO `provide_food` VALUES ('17', '2', '中国能源网', '3', '番茄', '1', '');
+INSERT INTO `provide_food` VALUES ('18', '2', '中国能源网', '4', '西瓜', '2', '');
+INSERT INTO `provide_food` VALUES ('19', '2', '中国能源网', '5', '大闸蟹', '10', '');
+INSERT INTO `provide_food` VALUES ('20', '2', '中国能源网', '6', '罗非鱼', '6', '');
+INSERT INTO `provide_food` VALUES ('21', '2', '中国能源网', '7', '牛肉', '15', '');
+INSERT INTO `provide_food` VALUES ('22', '2', '中国能源网', '13', '葡萄酒', '200', '');
+
+-- ----------------------------
+-- Table structure for qcheck
+-- ----------------------------
+DROP TABLE IF EXISTS `qcheck`;
+CREATE TABLE `qcheck` (
+  `checkId` varchar(50) NOT NULL,
+  `userId` int(11) NOT NULL,
+  `userName` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `checkNum` double(11,4) NOT NULL,
+  `qualifiedNum` double(11,4) NOT NULL,
+  `qualifiedRate` double(11,4) NOT NULL,
+  `opinion` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of qcheck
+-- ----------------------------
+INSERT INTO `qcheck` VALUES ('QC20160519130039', '1', '刘宇飞', '1', '小麦', '100.0000', '100.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130155', '1', '刘宇飞', '4', '西瓜', '400.0000', '400.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130213', '1', '刘宇飞', '7', '牛肉', '300.0000', '300.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130245', '1', '刘宇飞', '6', '罗非鱼', '300.0000', '300.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130308', '1', '刘宇飞', '14', '啤酒', '300.0000', '300.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130321', '1', '刘宇飞', '3', '番茄', '300.0000', '300.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130342', '1', '刘宇飞', '8', '鸡肉', '300.0000', '300.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130405', '1', '刘宇飞', '14', '啤酒', '300.0000', '300.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130419', '1', '刘宇飞', '12', '王老吉', '300.0000', '300.0000', '1.0000', '');
+INSERT INTO `qcheck` VALUES ('QC20160519130442', '1', '刘宇飞', '6', '罗非鱼', '300.0000', '300.0000', '1.0000', '');
+
+-- ----------------------------
+-- Table structure for sale_plan
+-- ----------------------------
+DROP TABLE IF EXISTS `sale_plan`;
+CREATE TABLE `sale_plan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `salePlanId` varchar(50) NOT NULL,
+  `createTime` date NOT NULL,
+  `startTime` date NOT NULL,
+  `endTime` date NOT NULL,
+  `proposerId` int(11) NOT NULL,
+  `proposer` varchar(50) NOT NULL,
+  `approverId` int(11) NOT NULL,
+  `approver` varchar(50) NOT NULL,
+  `planSumMoney` varchar(50) DEFAULT NULL,
+  `propStatus` int(11) NOT NULL,
+  `approverOpinion` text,
+  `remarks` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of sale_plan
+-- ----------------------------
+INSERT INTO `sale_plan` VALUES ('1', 'SP20160519110420001', '2016-05-19', '2016-05-01', '2016-09-15', '1', '刘宇飞', '2', '卢荣佳', '190.0', '1', '广告歌', '');
+INSERT INTO `sale_plan` VALUES ('2', 'SP20160519110445002', '2016-05-19', '2016-06-05', '2016-08-10', '1', '刘宇飞', '2', '卢荣佳', '165.0', '3', '', '');
+INSERT INTO `sale_plan` VALUES ('3', 'SP20160519110459003', '2016-05-19', '2016-02-15', '2016-09-20', '1', '刘宇飞', '2', '卢荣佳', '8000.0', '4', '', '');
+INSERT INTO `sale_plan` VALUES ('4', 'SP20160519110634004', '2016-05-19', '2016-05-01', '2016-09-01', '1', '刘宇飞', '3', '周彦恒', '930.0', '2', '太多', '');
+INSERT INTO `sale_plan` VALUES ('5', 'SP20160519110647005', '2016-05-19', '2016-05-21', '2016-12-01', '1', '刘宇飞', '3', '周彦恒', '0', '4', '', '');
+INSERT INTO `sale_plan` VALUES ('6', 'SP20160519110659006', '2016-05-19', '2016-05-06', '2016-05-19', '1', '刘宇飞', '4', '钟广泽', '41400.0', '1', '解决', '');
+INSERT INTO `sale_plan` VALUES ('7', 'SP20160519110716007', '2016-05-19', '2016-05-04', '2018-05-09', '1', '刘宇飞', '4', '钟广泽', '0', '4', '', '');
+INSERT INTO `sale_plan` VALUES ('8', 'SP20160519110736008', '2016-05-19', '2016-05-10', '2016-11-16', '1', '刘宇飞', '3', '周彦恒', '0', '4', '', '');
+INSERT INTO `sale_plan` VALUES ('9', 'SP20160519110748009', '2016-05-19', '2016-05-09', '2018-05-09', '1', '刘宇飞', '4', '钟广泽', '0', '4', '', '');
+
+-- ----------------------------
+-- Table structure for sale_plan_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `sale_plan_detail`;
+CREATE TABLE `sale_plan_detail` (
+  `detailId` int(11) NOT NULL AUTO_INCREMENT,
+  `salePlanId` varchar(255) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(50) NOT NULL,
+  `foodPrice` double(10,3) NOT NULL,
+  `saleNum` int(11) NOT NULL,
+  `saleTotalMoney` double(10,3) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`detailId`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of sale_plan_detail
+-- ----------------------------
+INSERT INTO `sale_plan_detail` VALUES ('1', 'SP20160519110420001', '1', '小麦', '6.000', '20', '120.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('2', 'SP20160519110420001', '2', '小米', '3.500', '20', '70.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('3', 'SP20160519110445002', '3', '番茄', '1.300', '50', '65.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('4', 'SP20160519110445002', '9', '鸡蛋', '5.000', '20', '100.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('5', 'SP20160519110459003', '13', '葡萄酒', '400.000', '10', '4000.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('6', 'SP20160519110459003', '14', '啤酒', '200.000', '20', '4000.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('7', 'SP20160519110634004', '7', '牛肉', '18.000', '35', '630.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('8', 'SP20160519110634004', '8', '鸡肉', '10.000', '30', '300.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('9', 'SP20160519110659006', '13', '葡萄酒', '400.000', '100', '40000.000', '');
+INSERT INTO `sale_plan_detail` VALUES ('10', 'SP20160519110659006', '10', '鸽蛋', '7.000', '200', '1400.000', '');
+
+-- ----------------------------
+-- Table structure for store
+-- ----------------------------
+DROP TABLE IF EXISTS `store`;
+CREATE TABLE `store` (
+  `id` varchar(255) NOT NULL,
+  `storeId` int(11) NOT NULL AUTO_INCREMENT,
+  `intId` varchar(255) NOT NULL,
+  `foodBarCode` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodNum` int(10) NOT NULL,
+  `inputNum` int(11) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `storageType` varchar(10) NOT NULL,
+  `storageDate` date NOT NULL,
+  `overDate` date NOT NULL,
+  `storegeTotal` int(10) NOT NULL,
+  `storegeMin` int(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`storeId`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store
+-- ----------------------------
+INSERT INTO `store` VALUES ('KC20160519134205001', '1', 'jh20160519133103', '271172676948', '1', '小麦', '千克', '400', '500', '1', '谷物类', '阿里巴巴', '1', '2016-05-19', '2016-03-08', '0', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134220002', '2', 'jh20160519133249', '457861353651', '3', '番茄', '千克', '500', '500', '2', '果蔬类', '中国能源网', '1', '2016-05-19', '2016-07-01', '1000', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134231003', '3', 'jh20160519133200', '335528742762', '2', '小米', '千克', '500', '500', '1', '谷物类', '阿里巴巴', '1', '2016-05-19', '2016-05-27', '980', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134239004', '4', 'jh20160519133311', '461891993636', '4', '西瓜', '千克', '500', '500', '2', '果蔬类', '中国能源网', '1', '2016-05-19', '2016-05-31', '990', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134248005', '5', 'jh20160519133617', '569178545275', '11', '冰红茶', '箱', '500', '500', '6', '饮料类', '阿里巴巴', '1', '2016-05-19', '2016-05-12', '500', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134300006', '6', 'jh20160519133354', '465287382952', '5', '大闸蟹', '千克', '500', '500', '3', '水产类', '阿里巴巴', '1', '2016-05-19', '2016-07-04', '1000', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134311007', '7', 'jh20160519133413', '182661146796', '6', '罗非鱼', '千克', '500', '500', '3', '水产类', '阿里巴巴', '1', '2016-05-19', '2016-05-23', '980', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134318008', '8', 'jh20160519133504', '415556724184', '7', '牛肉', '千克', '500', '500', '4', '肉类', '阿里巴巴', '1', '2016-05-19', '2016-05-30', '500', '20', '');
+INSERT INTO `store` VALUES ('KC20160519134325009', '9', 'jh20160519133520', '251611396352', '8', '鸡肉', '千克', '480', '500', '4', '肉类', '阿里巴巴', '1', '2016-05-19', '2016-05-23', '480', '20', '');
+INSERT INTO `store` VALUES ('KC201605191344020010', '10', 'th20160519133801', '126728459376', '3', '番茄', '千克', '500', '500', '2', '果蔬类', '中国能源网', '2', '2016-05-19', '2016-05-28', '0', '20', '');
+INSERT INTO `store` VALUES ('KC201605191344080011', '11', 'th20160519133651', '426737565459', '1', '小麦', '千克', '500', '500', '1', '谷物类', '中国能源网', '2', '2016-05-19', '2016-05-26', '900', '20', '');
+INSERT INTO `store` VALUES ('KC201605191344140012', '12', 'th20160519133718', '546722495957', '2', '小米', '千克', '480', '500', '1', '谷物类', '中国能源网', '2', '2016-05-19', '2016-05-16', '0', '20', '');
+INSERT INTO `store` VALUES ('KC201605191344200013', '13', 'th20160519133823', '444993466424', '4', '西瓜', '千克', '490', '500', '2', '果蔬类', '阿里巴巴', '2', '2016-05-19', '2016-05-31', '0', '20', '');
+INSERT INTO `store` VALUES ('KC201605191344240014', '14', 'th20160519133849', '579212485971', '5', '大闸蟹', '千克', '500', '500', '3', '水产类', '阿里巴巴', '2', '2016-05-19', '2016-05-29', '0', '20', '');
+INSERT INTO `store` VALUES ('KC201605191344310015', '15', 'th20160519133903', '524151843149', '6', '罗非鱼', '千克', '480', '500', '3', '水产类', '中国能源网', '2', '2016-05-19', '2016-05-16', '0', '20', '');
+INSERT INTO `store` VALUES ('KC201605191344400016', '16', 'th20160519133943', '558716438699', '9', '鸡蛋', '千克', '480', '500', '5', '蛋类', '阿里巴巴', '2', '2016-05-19', '2016-06-09', '480', '20', '');
+INSERT INTO `store` VALUES ('KC201605191346100017', '17', 'th20160519134054', '425735244821', '13', '葡萄酒', '箱', '490', '500', '7', '酒类', '中国能源网', '2', '2016-05-19', '2016-08-31', '490', '20', '');
+
+-- ----------------------------
+-- Table structure for store_int
+-- ----------------------------
+DROP TABLE IF EXISTS `store_int`;
+CREATE TABLE `store_int` (
+  `intId` varchar(20) NOT NULL,
+  `preIntId` varchar(50) DEFAULT NULL,
+  `userName` varchar(50) NOT NULL,
+  `foodBarCode` varchar(50) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodNum` int(10) NOT NULL,
+  `qualifiedNum` int(11) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `providerName` varchar(100) NOT NULL,
+  `intType` int(10) NOT NULL,
+  `overDate` date NOT NULL,
+  `status` int(10) NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`intId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_int
+-- ----------------------------
+INSERT INTO `store_int` VALUES ('jh20160519133103', 'JH20160519130651001', '刘宇飞', '271172676948', '1', '小麦', '千克', '500', '500', '1', '谷物类', '阿里巴巴', '1', '2016-03-08', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133200', 'JH20160519130651001', '刘宇飞', '335528742762', '2', '小米', '千克', '500', '500', '1', '谷物类', '阿里巴巴', '1', '2016-05-27', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133249', 'JH20160519130725002', '刘宇飞', '457861353651', '3', '番茄', '千克', '500', '500', '2', '果蔬类', '中国能源网', '1', '2016-07-01', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133311', 'JH20160519130725002', '刘宇飞', '461891993636', '4', '西瓜', '千克', '500', '500', '2', '果蔬类', '中国能源网', '1', '2016-05-31', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133354', 'JH20160519131007003', '刘宇飞', '465287382952', '5', '大闸蟹', '千克', '500', '500', '3', '水产类', '阿里巴巴', '1', '2016-07-04', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133413', 'JH20160519131007003', '刘宇飞', '182661146796', '6', '罗非鱼', '千克', '500', '500', '3', '水产类', '阿里巴巴', '1', '2016-05-23', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133504', 'JH20160519131135004', '刘宇飞', '415556724184', '7', '牛肉', '千克', '500', '500', '4', '肉类', '阿里巴巴', '1', '2016-05-30', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133520', 'JH20160519131135004', '刘宇飞', '251611396352', '8', '鸡肉', '千克', '500', '500', '4', '肉类', '阿里巴巴', '1', '2016-05-23', '1', '');
+INSERT INTO `store_int` VALUES ('jh20160519133617', 'JH20160519131146005', '刘宇飞', '569178545275', '11', '冰红茶', '箱', '500', '500', '6', '饮料类', '阿里巴巴', '1', '2016-05-12', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519133651', 'TH20160519131311001', '刘宇飞', '426737565459', '1', '小麦', '千克', '500', '500', '1', '谷物类', '中国能源网', '2', '2016-05-26', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519133718', 'TH20160519131311001', '刘宇飞', '546722495957', '2', '小米', '千克', '500', '500', '1', '谷物类', '中国能源网', '2', '2016-05-16', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519133801', 'TH20160519131332002', '刘宇飞', '126728459376', '3', '番茄', '千克', '500', '500', '2', '果蔬类', '中国能源网', '2', '2016-05-28', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519133823', 'TH20160519131332002', '刘宇飞', '444993466424', '4', '西瓜', '千克', '500', '500', '2', '果蔬类', '阿里巴巴', '2', '2016-05-31', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519133849', 'TH20160519131352003', '刘宇飞', '579212485971', '5', '大闸蟹', '千克', '500', '500', '3', '水产类', '阿里巴巴', '2', '2016-05-29', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519133903', 'TH20160519131352003', '刘宇飞', '524151843149', '6', '罗非鱼', '千克', '500', '500', '3', '水产类', '中国能源网', '2', '2016-05-16', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519133943', 'TH20160519131400004', '刘宇飞', '558716438699', '9', '鸡蛋', '千克', '500', '500', '5', '蛋类', '阿里巴巴', '2', '2016-06-09', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519134003', 'TH20160519131400004', '刘宇飞', '111598724953', '9', '鸡蛋', '千克', '500', '500', '5', '蛋类', '阿里巴巴', '2', '2016-05-22', '2', '');
+INSERT INTO `store_int` VALUES ('th20160519134024', 'TH20160519131400004', '刘宇飞', '494593938443', '8', '鸡肉', '千克', '500', '500', '4', '肉类', '阿里巴巴', '2', '2017-05-15', '2', '');
+INSERT INTO `store_int` VALUES ('th20160519134054', 'TH20160519131411005', '刘宇飞', '425735244821', '13', '葡萄酒', '箱', '500', '500', '7', '酒类', '中国能源网', '2', '2016-08-31', '1', '');
+INSERT INTO `store_int` VALUES ('th20160519134126', 'TH20160519131411005', '刘宇飞', '358976938838', '13', '葡萄酒', '箱', '500', '500', '7', '酒类', '阿里巴巴', '2', '2016-11-23', '2', '');
+
+-- ----------------------------
+-- Table structure for store_out
+-- ----------------------------
+DROP TABLE IF EXISTS `store_out`;
+CREATE TABLE `store_out` (
+  `outStoreId` int(11) NOT NULL AUTO_INCREMENT,
+  `storeId` int(11) NOT NULL,
+  `foodId` int(11) NOT NULL,
+  `foodName` varchar(100) NOT NULL,
+  `foodStandard` varchar(10) NOT NULL,
+  `foodOutNum` int(10) NOT NULL,
+  `classId` int(11) NOT NULL,
+  `className` varchar(100) NOT NULL,
+  `storageOutType` varchar(10) NOT NULL,
+  `storageOutDate` date NOT NULL,
+  `overDate` date NOT NULL,
+  `remarks` text,
+  `recAmount` double(50,3) DEFAULT NULL,
+  `reaAmount` double(50,3) DEFAULT NULL,
+  `userName` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`outStoreId`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_out
+-- ----------------------------
+INSERT INTO `store_out` VALUES ('1', '4', '4', '西瓜', '千克', '10', '2', '果蔬类', '2', '2016-05-19', '2016-05-31', '', '23.000', '23.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('2', '16', '9', '鸡蛋', '千克', '20', '5', '蛋类', '1', '2016-05-19', '2016-06-09', '', '100.000', '0.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('3', '16', '9', '鸡蛋', '千克', '20', '5', '蛋类', '2', '2016-05-19', '2016-06-09', '', '100.000', '100.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('4', '17', '13', '葡萄酒', '箱', '10', '7', '酒类', '3', '2016-05-19', '2016-08-31', '', '4000.000', '0.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('5', '7', '6', '罗非鱼', '千克', '20', '3', '水产类', '2', '2016-05-19', '2016-05-23', '10', '140.000', '140.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('6', '9', '8', '鸡肉', '千克', '20', '4', '肉类', '2', '2016-05-19', '2016-05-23', '20', '200.000', '200.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('7', '11', '1', '小麦', '千克', '100', '1', '谷物类', '2', '2016-05-19', '2016-05-26', '', '600.000', '600.000', '刘宇飞');
+INSERT INTO `store_out` VALUES ('8', '3', '2', '小米', '千克', '20', '1', '谷物类', '2', '2016-05-19', '2016-05-27', '', '70.000', '70.000', '刘宇飞');
+
+-- ----------------------------
+-- Table structure for store_pre_int
+-- ----------------------------
+DROP TABLE IF EXISTS `store_pre_int`;
+CREATE TABLE `store_pre_int` (
+  `preIntId` varchar(20) NOT NULL,
+  `userId` int(11) NOT NULL,
+  `userName` varchar(50) NOT NULL,
+  `intType` int(10) NOT NULL,
+  `createTime` date NOT NULL,
+  `intDate` date NOT NULL,
+  `status` int(10) NOT NULL,
+  `reason` text NOT NULL,
+  `remarks` text,
+  PRIMARY KEY (`preIntId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of store_pre_int
+-- ----------------------------
+INSERT INTO `store_pre_int` VALUES ('JH20160519130651001', '1', '刘宇飞', '1', '2016-05-19', '2016-05-27', '1', '食品销售', '');
+INSERT INTO `store_pre_int` VALUES ('JH20160519130725002', '1', '刘宇飞', '1', '2016-05-19', '2016-05-31', '1', '食品销售', '');
+INSERT INTO `store_pre_int` VALUES ('JH20160519131007003', '1', '刘宇飞', '1', '2016-05-19', '2016-05-28', '1', '食品销售', '');
+INSERT INTO `store_pre_int` VALUES ('JH20160519131135004', '1', '刘宇飞', '1', '2016-05-19', '2016-03-07', '1', '食品销售', '');
+INSERT INTO `store_pre_int` VALUES ('JH20160519131146005', '1', '刘宇飞', '1', '2016-05-19', '2015-05-13', '0', '食品销售', '');
+INSERT INTO `store_pre_int` VALUES ('JH20160519131156006', '1', '刘宇飞', '1', '2016-05-19', '2016-05-14', '0', '食品销售', '');
+INSERT INTO `store_pre_int` VALUES ('JH20160519131218007', '1', '刘宇飞', '1', '2016-05-19', '2016-07-05', '0', '食品销售', '');
+INSERT INTO `store_pre_int` VALUES ('TH20160519131311001', '1', '刘宇飞', '2', '2016-05-19', '2016-05-03', '1', '不好吃', '');
+INSERT INTO `store_pre_int` VALUES ('TH20160519131332002', '1', '刘宇飞', '2', '2016-05-19', '2016-06-03', '1', '不好吃', '');
+INSERT INTO `store_pre_int` VALUES ('TH20160519131352003', '1', '刘宇飞', '2', '2016-05-19', '2016-07-05', '1', '不好吃', '');
+INSERT INTO `store_pre_int` VALUES ('TH20160519131400004', '1', '刘宇飞', '2', '2016-05-19', '2016-03-07', '1', '不好吃', '');
+INSERT INTO `store_pre_int` VALUES ('TH20160519131411005', '1', '刘宇飞', '2', '2016-05-19', '2016-02-01', '0', '不好吃', '');
+INSERT INTO `store_pre_int` VALUES ('TH20160519131431006', '1', '刘宇飞', '2', '2016-05-19', '2014-05-05', '0', '不好吃', '');
+
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `birthday` varchar(50) NOT NULL,
+  `sex` varchar(10) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `userPSW` varchar(10) NOT NULL,
+  `userPower` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------
+INSERT INTO `user` VALUES ('1', '刘宇飞', '1993-05-15', '1', '广西玉林', '1', '0');
+INSERT INTO `user` VALUES ('2', '卢荣佳', '1991-5-1', '1', '广西北海', '1', '1');
+INSERT INTO `user` VALUES ('3', '周彦恒', '1990-5-1', '2', '宁夏', '1', '3');
+INSERT INTO `user` VALUES ('4', '钟广泽', '1989-5-7', '2', '广西防城港', '1', '2');

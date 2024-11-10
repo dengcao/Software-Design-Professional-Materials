@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.PreIntStoreMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+
+	<!-- 查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.PreIntStore" parameterType="java.util.Map">
+		<![CDATA[select * from store_pre_int  ${condition} ]]>
+	</select>
+
+<!-- 根据分类id删除进货单 -->
+	<delete id="deletePreIntStore" >
+		delete from store_pre_int where preIntId = ${preIntId}
+	</delete>
+
+	<!-- 增加进货单-->
+	<insert id="addPreIntStore">
+		insert into store_pre_int(preIntId,userId,userName,intType,createTime,intDate,status,reason,remarks)
+			values(#{preIntId},#{userId},#{userName},#{intType},#{createTime},#{intDate},#{status},#{reason},#{remarks})
+	</insert>
+
+
+	<!-- 完成-->
+	<update id="finish" >
+		UPDATE store_pre_int SET status=1 WHERE preIntId=#{preIntId}
+	</update>
+
+</mapper>

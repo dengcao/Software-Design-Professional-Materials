@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Pagination分页插件demo</title>
+	<link rel="stylesheet" type="text/css"  href="css/grcss/basic.css"/>
+	<script type="text/javascript" src="js/grjs/enhance.js"></script>
+	<script type="text/javascript">
+		enhance({
+			loadScripts: [
+				{src: 'js/grjs/excanvas.js', iecondition: 'all'},
+				'js/jquery-2.1.1.js',
+				'js/grjs/visualize.jQuery.js',
+				'js/grjs/example.js'
+			],
+			loadStyles: [
+				'css/grcss/visualize.css',
+				'css/grcss/visualize-dark.css'
+			]
+		});
+	</script>
+</head>
+<body>
+
+<table >
+	<caption>2009 Employee Sales by Department</caption>
+	<thead>
+	<tr>
+		<td></td>
+		<th scope="col">food</th>
+		<th scope="col">auto</th>
+		<th scope="col">household</th>
+		<th scope="col">furniture</th>
+		<th scope="col">kitchen</th>
+		<th scope="col">bath</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th scope="row">Mary</th>
+		<td>190</td>
+		<td>160</td>
+		<td>40</td>
+		<td>120</td>
+		<td>30</td>
+		<td>70</td>
+	</tr>
+	<tr>
+		<th scope="row">Tom</th>
+		<td>3</td>
+		<td>40</td>
+		<td>30</td>
+		<td>45</td>
+		<td>35</td>
+		<td>49</td>
+	</tr>
+	<tr>
+		<th scope="row">Brad</th>
+		<td>10</td>
+		<td>180</td>
+		<td>10</td>
+		<td>85</td>
+		<td>25</td>
+		<td>79</td>
+	</tr>
+	<tr>
+		<th scope="row">Kate</th>
+		<td>40</td>
+		<td>80</td>
+		<td>90</td>
+		<td>25</td>
+		<td>15</td>
+		<td>119</td>
+	</tr>
+	</tbody>
+</table>
+</body>
+</html>

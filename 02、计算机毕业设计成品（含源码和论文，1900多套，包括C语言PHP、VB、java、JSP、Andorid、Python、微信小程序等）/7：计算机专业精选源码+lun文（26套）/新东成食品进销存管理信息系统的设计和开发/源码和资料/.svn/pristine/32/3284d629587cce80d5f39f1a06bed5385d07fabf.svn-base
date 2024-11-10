@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nemo.mapper.SalePlanDetailMapper">
+
+<!-- 用户操作的Mapper文件，所有sql都写在这里 -->
+
+	<!-- 查找销售计划详细列表 -->
+	<select id="findDetailListBySalePlanId"
+		resultType="com.nemo.pojo.SalePlanDetail">
+		select * from sale_plan_detail where salePlanId="${salePlanId}";
+	</select>
+	<!-- 模糊查询 -->
+	<select id="findFuzzyList"
+			resultType="com.nemo.pojo.SalePlanDetail" parameterType="java.util.Map">
+		<![CDATA[select * from sale_plan_detail  ${condition} ]]>
+	</select>
+	<!-- 分页查找 -->
+	<select id="findLimitList"
+			resultType="com.nemo.pojo.SalePlanDetail">
+		select * from sale_plan_detail where salePlanId=#{salePlanId} limit ${start},${end};
+	</select>
+	<!-- 查找总条数 -->
+	<select id="count" resultType="int">
+		select COUNT(detailId) from sale_plan_detail
+	</select>
+	<!-- 根据id查找详细计划-->
+	<select id="findSalePlanDetailById" resultType="com.nemo.pojo.SalePlanDetail">
+		select * from sale_plan_detail where detailId=#{detailId}
+	</select>
+
+<!-- 根据分类id删除详细计划 -->
+	<delete id="deleteSalePlanDetailById" >
+		delete from sale_plan_detail where detailId=#{detailId}
+	</delete>
+	
+	<!-- 更新详细计划 -->
+	<update id="updateSalePlanDetail">
+		update sale_plan_detail set saleNum=#{saleNum}, saleTotalMoney=#{saleTotalMoney},remarks=#{remarks}
+		where detailId=#{detailId}
+	</update>
+	<!-- 增加详细计划-->
+	<insert id="addSalePlanDetail">
+		insert into sale_plan_detail(salePlanId,foodId,foodName,foodPrice,saleNum,saleTotalMoney,remarks)
+			values("${salePlanId}","${foodId}","${foodName}","${foodPrice}",${saleNum},"${saleTotalMoney}","${remarks}")
+	</insert>
+
+
+	
+
+
+</mapper>

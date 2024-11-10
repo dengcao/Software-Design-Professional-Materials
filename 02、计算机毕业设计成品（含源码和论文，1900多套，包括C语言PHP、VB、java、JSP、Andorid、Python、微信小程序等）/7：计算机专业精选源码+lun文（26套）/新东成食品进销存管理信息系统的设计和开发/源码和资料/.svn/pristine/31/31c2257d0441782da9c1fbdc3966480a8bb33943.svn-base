@@ -1,0 +1,19 @@
+//搜索
+
+search=function(){
+    function cseatch(url){
+        $.get(url,function(data,status){
+            if(status=="success"){
+                var obj=eval(data);
+                if(obj.length>0){
+                    customPage(obj)
+                    tableDiv();
+                }else{
+                    alert("搜索结果为空")
+                }
+            }
+        });
+
+    }
+    return {cseatch:cseatch};
+}();

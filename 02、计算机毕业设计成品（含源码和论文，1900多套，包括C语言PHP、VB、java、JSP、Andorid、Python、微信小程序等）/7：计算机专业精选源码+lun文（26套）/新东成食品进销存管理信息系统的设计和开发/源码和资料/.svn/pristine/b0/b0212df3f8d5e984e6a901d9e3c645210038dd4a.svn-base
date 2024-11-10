@@ -1,0 +1,77 @@
+package com.nemo.service.impl;
+
+import com.nemo.mapper.FoodMapper;
+import com.nemo.pojo.Food;
+import com.nemo.service.FoodService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @Author 刘宇飞
+ * @Date 2016/04/08 22:42
+ */
+@Service
+public class FoodImpl implements FoodService {
+    @Autowired
+    FoodMapper foodMapper;
+    @Override
+    public List<Food> queryFoodList() throws Exception {
+        return foodMapper.findFoodList();
+    }
+
+    @Override
+    public List<Food> findFoodByClass(String className) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("className",className);
+
+        return foodMapper.findFoodList2(map);
+    }
+
+    @Override
+    public boolean deleteFoodById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("foodId",id+"");
+        return foodMapper.deleteFoodById(map);
+    }
+
+    @Override
+    public boolean updateFood(Food food) {
+        return foodMapper.updateFood(food);
+    }
+
+    @Override
+    public boolean addFood(Food food) {
+        return foodMapper.addFood(food);
+    }
+
+    @Override
+    public Food findFoodById(int id) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("foodId",id+"");
+        return foodMapper.findFoodById(map);
+    }
+
+    @Override
+    public List<Food> findLimitList(int start, int end) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("start",start+"");
+        map.put("end",end+"");
+        return foodMapper.findLimitList(map);
+    }
+
+    @Override
+    public int count() {
+        return foodMapper.count();
+    }
+
+    @Override
+    public List<Food> findFuzzyList(String condition) {
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("condition","where concat(foodId,className,foodName) like "+"'%"+condition+"%'");
+        return foodMapper.findFuzzyList(map);
+    }
+}

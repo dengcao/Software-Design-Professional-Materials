@@ -1,0 +1,33 @@
+package com.nemo.service;
+
+import com.nemo.pojo.Food;
+
+import java.util.List;
+
+/**
+ * 食品分类功能的服务层实现接口
+ *
+ */
+public interface FoodService {
+	public List<Food> queryFoodList() throws Exception;
+
+	public List<Food> findFoodByClass(String className);
+	
+	public boolean deleteFoodById(int id);
+	
+	public boolean updateFood(Food food);
+	
+	public boolean addFood(Food food);
+
+	public Food findFoodById(int id);
+
+	public List<Food> findLimitList(int start,int end);
+
+	public int count();
+
+	public List<Food> findFuzzyList(String condition);
+
+
+
+
+}

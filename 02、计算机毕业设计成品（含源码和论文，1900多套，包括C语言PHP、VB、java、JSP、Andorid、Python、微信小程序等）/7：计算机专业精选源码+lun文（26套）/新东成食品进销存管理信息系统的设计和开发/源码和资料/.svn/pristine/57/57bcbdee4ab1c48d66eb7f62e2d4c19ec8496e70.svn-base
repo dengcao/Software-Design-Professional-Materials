@@ -1,0 +1,593 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:auto;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+p{
+margin-bottom:10px;
+}
+demo_padding {
+line-height: 30px;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom:100px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px solid #999999;
+padding-right: 10px;
+padding-left: 10px;
+margin-top:10px;
+margin-left:25px;
+width:300px;
+}
+.shubu{
+height: 20px;
+width: 20px;
+margin-left:25px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+color: #666666;
+}
+a.red:link {color:#FF0000}
+a.red:visited {color:#FF0000}
+a.red:hover {color:#000000}
+a.red:active {color:#000000}
+
+a.orange:link {color:#FF6600}
+a.orange:visited {color:#FF6600}
+a.orange:hover {color:#000000}
+a.orange:active {color:#000000}
+
+a.dark:link {color:#666666}
+a.dark:visited {color:#666666}
+a.dark:hover {color:#000000}
+a.dark:active {color:#000000}
+
+a.pagelink:hover {color:#000000}
+a.pagelink:active {color:#000000}
+
+.green{color:#008000}
+.gray{color:#666666}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+
+
+<div class="zhengwen">
+
+<span style="margin-left:25px"></span><font size=3 color=red>蓝色文字是系统自动修改的结果，仅供参考，如需使用请加工润色！</font><br><br><span style="margin-left:25px"></span>摘要新东成食品公司经过多年的摸索与探讨，不断的创新使得公司得到了空前的发展，经销网络遍布全国多省，
+<br><br>
+<span style="margin-left:25px"></span>在食品市场上具有相当的份额，由于管理模式相对落后，现有的管理模式已经无法满足现在企业的现状，严重的拖了企业的后腿，使得公司管理上越来越吃力，更为严重的一个问题是公司经过多年的发展，并没有注重进销存的实时处理等相关研究与开发，导致公司这方面的技术相对落后。公司目前最需要解决的问题是，如何处理好庞大的食品数据，如何能够让管理人员快速得到公司的最前沿销售情况和轻松获取到相关数据支持，进而支持管理人员做出最快速的战略调整，提高公司的食品销售效率，加速食品周转，全面提高公司利润，为进一步提升整个食品销售的服务质量和水平。正是因为以上种种原因，我认真的分析和研究了我公司的进货、销售，库存等业务流程，并利用相关工具理清了整个进销存的业务处理，
+<br><br>
+<span style="margin-left:25px"></span>为公司开发了一套符合我公司的进销存系统，该系统实现了公司的采购管理、库存管理和销售管理联合处理，解决了公司目前存在的多个弊端，资源浪费严重等问题。本系统的设计与开发，使用的JavaWeb技术，系统用户为公司各部门的相关管理人员。本系统总共有五大模块，分别是食品基础信息管理，采购管理、库存管理、销售管理和系统管理。
+<br><br>
+<span style="margin-left:25px"></span>关键词:
+<br><br>
+<span style="margin-left:25px"></span> JavaWeb技术，新东成食品公司，进销存系统，数据库。Abstract
+<br><br>
+<span style="margin-left:25px"></span> Xindong into food company after years of exploration and study，
+<br><br>
+<span style="margin-left:25px"></span> continuous innovation allows the company obtained the unprecedented development， distribution network throughout the province， in the food market has a considerable share， due to the relatively backward management mode， the existing management mode has been unable to meet the current situation of the enterprise， serious dragged the hind legs of an enterprise， makes the company management more and more difficult， more a serious problem is the company after years of development， and pay no attention to invoicing real- time processing and other related research and development， leading to this technology is relatively backward. Company is the most need to solve the problem is how to deal with the large food data， how can we allow managers to quickly get the forefront of sales and easy access to relevant data support， and support managers to make strategic adjustment of the most rapid， improve the company’ s food sales efficiency， accelerate the turnover of the food， and comprehensively improve the profits of the company， to furtherenhance the service quality and level of the sale of the entire food.
+<br><br>
+<span style="margin-left:25px"></span> It is because of the above reasons， I carefully analysis and research the company purchase，
+<br><br>
+<span style="margin-left:25px"></span> sales， inventory and other business processes， and make use of relevant tools to sort out the Invoicing business process， for the company to develop the a meet our Invoicing system， the system realizes the company’ s procurement management， inventory management and sales management combined treatment， to solve the drawbacks of existing， serious waste of resources etc.. The design and development of the system， the use of JavaWeb technology， system users for the company’s various departments of the relevant management.There are five modules in this system， which are basic information management， purchasing management， inventory management， sales management and system management.
+<br><br>
+<span style="margin-left:25px"></span>Keywords:
+<br><br>
+<span style="margin-left:25px"></span> B/S architecture， new food company， Invoicing system， database.新东成食品商贸有限公司2005年4月在柳州成立。
+<br><br>
+<span style="margin-left:25px"></span>公司成立至今已经十多年，公司不断的壮大和发展，并且获得了广大用户的认可和信任，公司在全国多地设立有分部，目前公司人员已经有3000多人。公司主要是代理各种食品产品，经过几年的市场拓展： 目前主要销售的外国产品有：法国著名葡萄酒、丹麦啤酒、伏特加和白兰地等。国内产品有：饼干、糖果、特色小吃等。1.2 公司组织结构
+<br><br>
+<span style="margin-left:25px"></span>新东成食品商贸有限公司的组织结构图如下图所示。
+<br><br>
+<span style="margin-left:25px"></span>图1-1 公司组织结构图
+<br><br>
+<span style="margin-left:25px"></span>1.3 公司信息系统现状分析
+<br><br>
+<span style="margin-left:25px"></span>1.3.1 信息化现状概况
+<br><br>
+<span style="margin-left:25px"></span>（1）在硬件方面
+<br><br>
+<span style="margin-left:25px"></span>目前公司内部具有自己的局域网，无线路由器10台，大部分人都有自己的办公电脑，办公电脑有些旧，
+<br><br>
+<span style="margin-left:25px"></span>配置不是很高，基本上是安装 xp系统，无法安装现在流行的 win7和 win8系统。每个部门都配备有自己的打印机，满足各部门的业务需要。公司每个人都拥有自己的智能手机，公司内部通话使用阿里钉盯进行交流。每个办公室也配备有电话，方便沟通。公司目前具有一个100平方的大型会议室，会议室配备投影仪，公司大小会议都在这里开展。（2）在软件方面
+<br><br>
+<span style="margin-left:25px"></span>新东成食品商贸有限公司建立由自己的网站，公司拥有自己的OA办公平台，办公平台的使用使得公司管理更加规范，保证了公司日常运作和管理。
+<br><br>
+<span style="margin-left:25px"></span>（3）在人员管理及技术方
+<br><br>
+<span style="margin-left:25px"></span>我们公司属于销售公司，不大分属于年轻人，年轻人信息技术水平相对比较高，但是大部分还停留在一般应用计算机水平。
+<br><br>
+<span style="margin-left:25px"></span>专业技术人员比较缺乏，整个公司仅有3名，技术人员的缺少，不利于公司信息化的建设。1.3.2 信息化问题分析
+<br><br>
+<span style="margin-left:25px"></span>新东成食品贸易有限公司，目前我们公司没有自己专门的信息化管理部门，也没有拥有一套完整的进销存管理系统。
+<br><br>
+<span style="margin-left:25px"></span>公司信息化建设迫不及待，主要是公司对信息化的投入几乎没有，公司领导对信息化的建设意识并不是很强。公司的信息化建设落后，有待提高。我所在的实习部门是市场部，该部门很多管理上的操作还是很原始的手工操作，这样就引发了很多问题，比如账本丢失和字迹的模糊等都会导致公司受很大的损失，不论是时间还是效率上都是很不友好的。随着信息技术的发展和普及，信息技术和信息系统在企业已经是不可或缺的，信息技术为企业带来良好的经济效益和提高了管理水平。
+<br><br>
+<span style="margin-left:25px"></span>公司实施了信息系统后，就可以利用信息系统进行决策分析，以便于公司决策。对信息系统的进行运行于维护，并且根据后期的实际需求，需要进行一定的修改与扩充，以便满足公司的需要。一套成熟的管理信息系统，就会为公司节省大量的资源，不仅节省工作时间，还会为公司节省大量的开支等。总之，公司想要增强竞争力，必须进行管理信息系统的管理与开发。第2章 进销存管理信息系统理论概述
+<br><br>
+<span style="margin-left:25px"></span>2.1 进销存管理信息系统的基本概念
+<br><br>
+<span style="margin-left:25px"></span>企业进销存管理系统是指企业利用信息技术对产品进行采购、库存和销售的全程处理的工具，有效的帮助企业解决一系列的问题，比如：
+<br><br>
+<span style="margin-left:25px"></span>库存管理、销售管理、销售计划的制定，为企业收集统计信息更加方便。可以说，进销存管理系统的运作是否成功和效率是否高影响企业的经济效益。
+<br><br>
+<span style="margin-left:25px"></span>企业的各项生产经营，都是物料的转换和资金流动的过程。进销存管理系统开始点是物流，然后进入采购管理系统、库存管理系统和销售管理系统，最终与生产系统、财务系统等合并。进销存管理系统给企业产生了良好的经济效益，主要体现在，一是它保障了生产经营的有效供给，提高了物料的周转效益，从而降低了采购和销售成本；二是它可以帮助企业优化物料资源配置，动态监控物料流向，压缩了库存资金的占用。采购管理、库存管理、销售管理等共同组成了进销存管理系统。
+<br><br>
+<span style="margin-left:25px"></span>2.2 进销存管理信息系统国内外研究概况性
+<br><br>
+<span style="margin-left:25px"></span>2.2.1 国外现状研究
+<br><br>
+<span style="margin-left:25px"></span>企业供销管理体系是由哈佛商学院教授迈克尔•波特在1980年提出的，他提倡使用价值链对企业进行管理和策划，以此建设企业核心竞争力。
+<br><br>
+<span style="margin-left:25px"></span>二十世纪九十年代以后供应链管理( SCM)逐渐进入各个行业领域，随着技术创新的快速跟进，
+<br><br>
+<span style="margin-left:25px"></span>全球化市场的形成和全球化信息网络广泛的建设，从而致使社会生产力得到快速上升，竞争日趋激烈，众多企业的管理模式和生产方式不得不改变，以适应发展，最普遍的是，大多数的企业从“纵向一体化”逐渐向“横向一体化”的战略转变。发达国家在二十世纪以来，对供应链系统的研究，主要在供应链的组成、供应链的财务和多级库存等方面，研究如何解决供应链上的处理效率问题。
+<br><br>
+<span style="margin-left:25px"></span>而将供应链管理作为一种战略管理体系，逐步扩展到其加盟企业的长期合作关系方向上是近年来的研究方向，也就形成后来的进销存管理系统。2.2.2 国内进销存管理系统应用现状
+<br><br>
+<span style="margin-left:25px"></span>（1）用户日益增多，中小企业份额越来越大
+<br><br>
+<span style="margin-left:25px"></span>越来越多的认识到进销存系统在企业中的作用，不仅能为企业经营带来良好的效益，还能提高管理效益；
+<br><br>
+<span style="margin-left:25px"></span>然而前期的进销存系统大部分是国外引进的，价格不仅贵还不太适应国内的情况，只有大公司才买得起，随着国内多家进销存系统开发商的出现和发现，国内的进销存系统越来越便宜，也符合我国的国情，大多数企业都能买得起。（2） 未来市场需求前景良好
+<br><br>
+<span style="margin-left:25px"></span>在近几年进销存系统的应用得到了空前的发展，给企业带来的经济效益是显而易见的，在管理方面也方便了企业的管理。
+<br><br>
+<span style="margin-left:25px"></span>随着员工的技术的提升和开发技术的成熟，越来越多企业摩拳擦掌地准备或实施着进销存系统，不久将来，企业进销存管理系统会越来越好，成为销售企业的必备工具。2.3 进销存管理信息系统的重要性
+<br><br>
+<span style="margin-left:25px"></span>关于企业食品库存管理，手工记账存在着很长时间。
+<br><br>
+<span style="margin-left:25px"></span>随着电脑技术的发展，电子表格的出现，在企业管理发展史上，是一个突破性的发展，工作效率大大提高了，进而取代了手工记账。通过纸笔计算，效率不高，时间上也是个煎熬，这是一个相当繁琐的处理方式；另一方面，还会带来诸多的坏处，比如字迹淡化和容易丢失，对于企业的会计和财务核算，会带来意想不到的损失。随着计算机技术的发展，电子表格逐渐替代手工记账，比如EXCEL表格、WPS表格等，这几类电子表格深受企业喜欢，简单易用。数据写入方便明了，数据还能进行自动运算，轻松得到想要的数据。省去人工核算的繁琐和失误。随着企业的规模不断的扩大，数据量和数据的处理越来越复杂，电子表格就爱莫能助了。如今的大数据时代，数据复杂度级高，电子表格虽然也可以进行运算，但是没有相当经验的人，是很难操作的，这种弊端急需一个新生事物来替代。于是，进销存管理系统的出现，这对企业的管理来说又是一个革命，它可以取代电子表格，完美解决了电子表格的弊端。因为进销存管理软件，它的运算速度很快，自定义程度高，满足不同的企业需求，人性化的前端设计，使输入数据更加方便和友好。在使用进销存系统的过程中，我们只要在系统界面上填入相应的信息，系统就可以为我们处理输入数据，最终输出我们想要的数据。目前，进销存管理软件可以分为两类:
+<br><br>
+<span style="margin-left:25px"></span>B/S应用和C/S应用，由于进销存系统具有相当好的优势，越来越成受到企业的喜爱，成为企业必备的管理工具。第3章 系统分析
+<br><br>
+<span style="margin-left:25px"></span>3.1 需求分析
+<br><br>
+<span style="margin-left:25px"></span>随着计算机科学技术的发展和管理信息系统技术的成熟，开发出一套经济又实用的管理系统已经不是难事。
+<br><br>
+<span style="margin-left:25px"></span>企业的发展也急需一个完整的系统进行辅助管理，从而取代大部分的手工操作，开发一套食品进销存系统势已经不能再等了。3.2 可行性分析
+<br><br>
+<span style="margin-left:25px"></span>3.2.1 经济可行性
+<br><br>
+<span style="margin-left:25px"></span>成本方面：
+<br><br>
+<span style="margin-left:25px"></span>现在的 javaWeb框架非常多，比如 Spring、 Struts2、 Wicket、 Tapestry、 Stripes等等，这些框架成熟，使用方便，开发效率快，工作量和劳动强度大大的降低，就时间成本上来说，不需要太多时间，所以没有必要投入大量人力和物力，本系统一个人就能完成；软件的开发上也不需要另外购买软件，使用的软件都是免费的，所以本软件还是有很好的经济效益，所以本管理系统的开发，在成本上是可行的。3.2.2 操作可行性
+<br><br>
+<span style="margin-left:25px"></span>本公司的管理人员均是大专以上的学历，计算机基础良好，加上本系统努力设计友好的界面，
+<br><br>
+<span style="margin-left:25px"></span>使之操作简单方便，并为本系统编写详细的使用说明，使用这个系统的人，只需要懂得简单的计算机知识便能轻松掌握。所以，本系统的开发在操作上是可行的。3.2.3 软件可行性
+<br><br>
+<span style="margin-left:25px"></span>（1）开发工具
+<br><br>
+<span style="margin-left:25px"></span> IDEA全称 IntelliJ IDEA，是一个优秀的多种语言开发软件，况且 IntelliJ在全世界被认为是最好的 java开发工具，经过本人的亲自使用，
+<br><br>
+<span style="margin-left:25px"></span>这软件给我带来了很大的惊喜，特别在代码自动提示，只需要输入一个字母就能提示整个单词，开发效率可谓大大提高，还有就是重构、 CVS整合、代码分析等方面的功能使用起来都是非常的方便。（2）数据库选择
+<br><br>
+<span style="margin-left:25px"></span>MySQL是一个典型的和最流行的关系型数据库管理系统，在 WEB 应用方面使用得较多的数据库。
+<br><br>
+<span style="margin-left:25px"></span>目前支持大型数据的存储操作，在使用上非常的方便，软件安装占用系统空间不大，该软件运行稳定，很适合做长久数据保存。3.2.4 硬件可行性
+<br><br>
+<span style="margin-left:25px"></span>由于javaweb技术的优良品性，系统对硬件的要求不是很高，开发和使用本系统，一般要求硬件达到以下标准即可：
+<br><br>
+<span style="margin-left:25px"></span>操作系统：
+<br><br>
+<span style="margin-left:25px"></span> Windows xp以上硬件配置：
+<br><br>
+<span style="margin-left:25px"></span>CPU：英特尔1Ghz 以上内存：
+<br><br>
+<span style="margin-left:25px"></span>1GB 以上显示设备：
+<br><br>
+<span style="margin-left:25px"></span>标准VGA，256色，分辨率1024*768以上其它设备：
+<br><br>
+<span style="margin-left:25px"></span>鼠标，键盘软件配置：
+<br><br>
+<span style="margin-left:25px"></span>安装MYSQL数据库根据以上的经济可行性分析、操作可行性分析、软件可行性分析和硬件可行性分析，开发出本系统并不难，可以进行开发。
+<br><br>
+<span style="margin-left:25px"></span>3.3 业务流程分析
+<br><br>
+<span style="margin-left:25px"></span>本系统使用标准的业务流程符号如下：
+<br><br>
+<span style="margin-left:25px"></span>图3-1 业务流程符号
+<br><br>
+<span style="margin-left:25px"></span>3.3.1采购管理流程
+<br><br>
+<span style="margin-left:25px"></span>在新东成食品公司进行食品采购时，首先市场部需要根据本公司制定的发展规划，以及历史销售等数据，合理制定公司的食品销售计划，交给运营总监进行审批。
+<br><br>
+<span style="margin-left:25px"></span>库存人员根据销售计划并进行食品的盘点并出库，如果库存不足，根据库存信息和历史资料制定采购计划，制定好采购计划后提交给物流总监进行审核，物流总监同意食品采购计划以后，采购部根据采购计划，筛选出相应最好的供应商，确定之后就开展食品采购工作。并由供应商将食品运送到公司指定的仓库中，采购回来的食品由收货部进行接收，之后再有质检部进行食品质检，放到仓库中指定的位置。在制定销售计划的时候，如果系统没有该食品，也就是属于新食品，这时候需要与市场部进行沟通，由市场部进行食品添加管理，然后需要物价部根据市场价和公司设定的利润等相关信息进行定价，定好价之后才能将该新食品添加到销售计划中去。质检合格的食品交给仓储部工作人员，办理入库手续。
+<br><br>
+<span style="margin-left:25px"></span>质检不合格的食品，均交给到采购部，由采购部与供应商进行联系，协调解决那些质检不合格食品的退换货等相关手续办理。图3-2 采购流程
+<br><br>
+<span style="margin-left:25px"></span>3.3.2销售管理流程
+<br><br>
+<span style="margin-left:25px"></span>新东成食品公司的销售管理分为食品销售和食品退货。
+<br><br>
+<span style="margin-left:25px"></span>下面对这两个流程进行分别说明。（1）食品销售流程
+<br><br>
+<span style="margin-left:25px"></span>新东成食品公司进销售管理工作的核心是食品销售，因为只有食品销售出去了，公司才能获得利润。
+<br><br>
+<span style="margin-left:25px"></span>食品销售的开端是市场部制定的销售计划，库存人员就根据市场部制定的销售计划进行食品的盘点和分发，并办理相应的送出库手续，之后交给配送部门相关人员进行食品配送工作。各大销售门店收到配送部门配送的食品之后，将食品放置到相应的位置，由客户进行自由选择，选择好的食品到收银台进行付款结算，
+<br><br>
+<span style="margin-left:25px"></span>收到货款之后，收银员进行食品出库办理，这就完成了食品的销售流程。图 3-3 销售流程
+<br><br>
+<span style="margin-left:25px"></span>(2) 食品退货流程
+<br><br>
+<span style="margin-left:25px"></span>客户要求退货，如果符合退货条件，食品退到客户部门，将食品放到指定的位置，财务部再将食品款退给客户。
+<br><br>
+<span style="margin-left:25px"></span>之后质检部进行食品质检，合格产品进行入库操作。图 3-4 退货流程
+<br><br>
+<span style="margin-left:25px"></span>3.3.3库存管理流程
+<br><br>
+<span style="margin-left:25px"></span>新东成食品公司的库存管理主要包括食品入库和食品出库两大流程业务。
+<br><br>
+<span style="margin-left:25px"></span>下面分别对这两个业务流程进行解析。
+<br><br>
+<span style="margin-left:25px"></span>（1）食品出库流程
+<br><br>
+<span style="margin-left:25px"></span>为了保证销售出去的食品都没有质量问题和影响到公司的销售工作，让顾客买到放心的食品，
+<br><br>
+<span style="margin-left:25px"></span>食品在配送出库之前，质检部会对所有出库的食品进行相应的严格检查工作，务必确保到顾客手中的食品没有问题，然后再由库存相关人员办理食品出库手续，才能配送到相应的门店进行销售工作。其中，新东成的食品出库又分为配送出库、销售出库和耗损出库三个类别。
+<br><br>
+<span style="margin-left:25px"></span>配送出库是指库存人员按照销售计划进行食品盘点和分发，交给配送部门送到各个门店进行销售，由于食品还没有销售出去，库存的食品数量是不会减少，只会产生一条出库记录。耗损出库是指：质检部门对食品质检过程中，食品出现问题或者过期，这些食品不能继续放到仓库里面，这样会引发其他食品的污染，造成更大的损失，这时候就要进行出库处理，食品出库时由库存人员办理的，这些食品会从库存中减去。销售出库是指：配送出库的食品配送到门店里销售，销售出去后的食品由收银员进行出库办理。新东成食品公司的食品出库流程如图所示。
+<br><br>
+<span style="margin-left:25px"></span>图3-5 食品出库流程
+<br><br>
+<span style="margin-left:25px"></span>（2）食品入库流程
+<br><br>
+<span style="margin-left:25px"></span>新东成食品公司的入库流程又分为采购入库和退货入库。
+<br><br>
+<span style="margin-left:25px"></span>采购入库是指采购部门按照采购申请采购回来的食品，经过质检部门进行食品的检查，检查通过的食品，办理入库手续后，才能进行食品的入库。退货入库：顾客对已经采购的食品不满意或者其他原因要求退货的食品，退货的食品需要质检部进行检查，如果不影响二次销售的食品，就办理入库手续，放到库存中去。新东成食品公司所有的入库手续都是有仓储部门进行办理的;
+<br><br>
+<span style="margin-left:25px"></span>然而整个食品入库流程涉及到多个部门的操作，包括采购部、收货部、质检部等。在采购完新食品时，首先由收货部门进行食品的验收，主要是食品数量的核对工作；收货部完成收货工作之后，由质检部门进行对食品的质检工作，质检通过的食品，就为其办理入库手续，交给库存人员进行库存的管理；质检部通过的食品，交给采购部门进行处理，采购部门收到不合格的食品后，会联系到相应的供应商，进行食品的换退货。客户退货的食品，由客户部门进行接收，接收的食品会放到相应的区域，由质检部门进行对食品的质检工作，
+<br><br>
+<span style="margin-left:25px"></span>质检通过的食品，就为其办理入库手续，交给库存人员进行库存的管理；质检部通过的食品，交给采购部门进行处理，采购部门收到不合格的食品后，会联系到相应的供应商，进行食品的换退货。食品入库流程如图所示。
+<br><br>
+<span style="margin-left:25px"></span>图3-6 食品入库流程
+<br><br>
+<span style="margin-left:25px"></span>3.4 进销存部的数据流程分析
+<br><br>
+<span style="margin-left:25px"></span>数据流程图符号说明：
+<br><br>
+<span style="margin-left:25px"></span>图3-7 数据流程图表示符号
+<br><br>
+<span style="margin-left:25px"></span>进销存顶级数据流程如图3-9所示。
+<br><br>
+<span style="margin-left:25px"></span>图3-8 进销存管理系统顶层数据流程图
+<br><br>
+<span style="margin-left:25px"></span>图3-9 进销存管理系统第二层数据流程图
+<br><br>
+<span style="margin-left:25px"></span>3.5 数据字典
+<br><br>
+<span style="margin-left:25px"></span>3.5.1 数据流
+<br><br>
+<span style="margin-left:25px"></span>(1) 数据流名称：
+<br><br>
+<span style="margin-left:25px"></span>进货数据流编号：
+<br><br>
+<span style="margin-left:25px"></span>D1-01数据流来源:
+<br><br>
+<span style="margin-left:25px"></span>采购管理员数据流去向：
+<br><br>
+<span style="margin-left:25px"></span>库存处理模块数据流组成：
+<br><br>
+<span style="margin-left:25px"></span>进货编号+员工姓名+条形码+食品名称+食品单位+进货量+供应商+进货类型+进货时间+过期时间+备注(2) 数据流名称：
+<br><br>
+<span style="margin-left:25px"></span>出库数据流编号：
+<br><br>
+<span style="margin-left:25px"></span>D2-01数据流来源：
+<br><br>
+<span style="margin-left:25px"></span>收银管理员数据流去向：
+<br><br>
+<span style="margin-left:25px"></span>销售处理模块数据流组成：
+<br><br>
+<span style="margin-left:25px"></span>出库编号+员工姓名+食品名称+食品单位+分类名称+出库时间+应收金额+实收金额+备注3.5.2 处理逻辑
+<br><br>
+<span style="margin-left:25px"></span>(1) 处理逻辑编号：
+<br><br>
+<span style="margin-left:25px"></span>P1-01处理逻辑名称：
+<br><br>
+<span style="margin-left:25px"></span>采购管理简述：
+<br><br>
+<span style="margin-left:25px"></span>对采购申请和进货进行管理(2) 处理逻辑编号：
+<br><br>
+<span style="margin-left:25px"></span>P2-01处理逻辑名称：
+<br><br>
+<span style="margin-left:25px"></span>库存和报损简述：
+<br><br>
+<span style="margin-left:25px"></span>库存出入库维护3.5.3 数据存储
+<br><br>
+<span style="margin-left:25px"></span>(1) 编号：
+<br><br>
+<span style="margin-left:25px"></span>S1-01数据存储名称：
+<br><br>
+<span style="margin-left:25px"></span>采购记录表简述：
+<br><br>
+<span style="margin-left:25px"></span>用来存储食品采购记录信息(2) 编号：
+<br><br>
+<span style="margin-left:25px"></span>S2-01数据存储名称：
+<br><br>
+<span style="margin-left:25px"></span>库存记录表简述：
+<br><br>
+<span style="margin-left:25px"></span>用于存储库存出入库记录信息。（3）编号：
+<br><br>
+<span style="margin-left:25px"></span>S3-01数据存储名称：
+<br><br>
+<span style="margin-left:25px"></span>销售详单简述：
+<br><br>
+<span style="margin-left:25px"></span>用于记录销售数据信息3.5.4 外部实体
+<br><br>
+<span style="margin-left:25px"></span>(1) 外部实体编号：
+<br><br>
+<span style="margin-left:25px"></span>M1-01外部实体名称：
+<br><br>
+<span style="margin-left:25px"></span>系统级别管理员简述：
+<br><br>
+<span style="margin-left:25px"></span>可以进行系统上的增删改查操作的权限人员。(2) 外部实体编号：
+<br><br>
+<span style="margin-left:25px"></span>M1-02外部实体名称：
+<br><br>
+<span style="margin-left:25px"></span>一般管理员简述：
+<br><br>
+<span style="margin-left:25px"></span>没有相应的操作权限，只能查看和浏览。第4章 系统设计
+<br><br>
+<span style="margin-left:25px"></span>4.1 系统设计与目标设计原则
+<br><br>
+<span style="margin-left:25px"></span>为确保系统的成功开发与实施，我们遵循如下的原则：
+<br><br>
+<span style="margin-left:25px"></span>(1) 统一的原则设计和统一的系统结构。
+<br><br>
+<span style="margin-left:25px"></span>还必须考虑系统的长远性和可拓展性，数据结构等全局规划。（2）保证使用的技术架构的成熟型、稳定性，符合国际标准和规范。
+<br><br>
+<span style="margin-left:25px"></span>（3）确保系统的安全性和可靠性。
+<br><br>
+<span style="margin-left:25px"></span>（4）在满足系统需求的前提下，合理降低开发成本。
+<br><br>
+<span style="margin-left:25px"></span>（5）充分考虑系统的耦合性和兼容性
+<br><br>
+<span style="margin-left:25px"></span>4.2系统总体设计
+<br><br>
+<span style="margin-left:25px"></span>新东城食品进销存管理系统主要由食品基础信息管理、采购管理、销售管理、库存管理、系统管理五部分组成。
+<br><br>
+<span style="margin-left:25px"></span>（1）食品基础信息管理：
+<br><br>
+<span style="margin-left:25px"></span>分别为食品类别管理、食品基本信息管理、供应商管理和食品价格管理。在整个系统中，无论何种系统操作，涉及到食品信息，都先通过类别选择，才能选择相应的食品。 食品基础信息管理涉及到市场部和物价部人员操作。（2）采购管理：
+<br><br>
+<span style="margin-left:25px"></span>包括采购申请、采购审批、进货单的录入与查询、质检报告的录入与查询。其中进货单的录入必须是经过质检后才能录入，进货单的录入数据作为入库的前提数据，减免了入库信息的频繁操作。（3）库存管理：
+<br><br>
+<span style="margin-left:25px"></span>包括库存报警、库存查询、食品入库与出库，食品出库查询功能。库存报警引发条件有两个，第一食品在一个星期内过期，第二在库数量低于设定的最低库存量。食品入库来源于进货单和退货单。（4）销售管理：
+<br><br>
+<span style="margin-left:25px"></span>包括销售计划申请和审批、退货单的录入和查询、销售记录的查询。其中退货单作为入库数据，销售记录来源于出库数据。（5）系统管理：
+<br><br>
+<span style="margin-left:25px"></span>包括用户管理、数据分析、系统维护、系统参数设置。用户维护可以继续权限设置，统计数据分析，主要分析销售数据。4.3 系统功能结构模块设计
+<br><br>
+<span style="margin-left:25px"></span>根据公司的实际情况以及公司的业务流程和数据流程分析，进销存管理系统分为如下5大管理模块。
+<br><br>
+<span style="margin-left:25px"></span>图4-1 系统功能模块
+<br><br>
+<span style="margin-left:25px"></span>4.4 数据库设计
+<br><br>
+<span style="margin-left:25px"></span>4.4.1 概念模型设计
+<br><br>
+<span style="margin-left:25px"></span>采用VISIO2010创建的实体如图4-2所示，具体含义有：
+<br><br>
+<span style="margin-left:25px"></span>图4-2 E-R图图例说明
+<br><br>
+<span style="margin-left:25px"></span>下面的是数据表的详细设计。
+<br><br>
+<span style="margin-left:25px"></span>图4-3 系统数据库主要表的E-R图
+<br><br>
+<span style="margin-left:25px"></span>4.4.2 逻辑结构设计
+<br><br>
+<span style="margin-left:25px"></span>食品表{食品编号，食品名称，食品单位，分类编号，分类名称，备注}
+<br><br>
+<span style="margin-left:25px"></span>价格表{食品编号，食品名称，采购价格，销售价格，备注}
+<br><br>
+<span style="margin-left:25px"></span>库存表{库存编号，食品条码，食品编号，食品名称，食品单位，食品数量，分类编码，
+<br><br>
+<span style="margin-left:25px"></span>分类名称，入库类型，入库时间，过期时间，库存总量，最低库存量，供应商名称，备注}出库单{出库编号，库存编号，食品编号，食品名称，食品单位，出库数量，分类编号，
+<br><br>
+<span style="margin-left:25px"></span>分类名称，出库类型，出库时间，过期时间，应收金额，实收金额，员工姓名，备注}进货表{进货编号，员工名称，食品条码，食品编号，食品名称，食品单位，进货数量，合格数量，分类编号，分类名称，进货类型，过期时间，状态，进货原因，备注}
+<br><br>
+<span style="margin-left:25px"></span>供应商表{供应商编号，供应商名称，联系人，联系电话，联系地址，备注}
+<br><br>
+<span style="margin-left:25px"></span>供应商供应食品{供应食品编号，供应商编号，供应商名称，食品编号，食品名称，供应价格，备注}
+<br><br>
+<span style="margin-left:25px"></span>销售计划表{销售计划编号，创建时间，开始时间，结束时间，申请人编号，申请人名称，审批人编号，审批人名称，计划总金额，申请状态，申请原因，}
+<br><br>
+<span style="margin-left:25px"></span>销售计划详细表{详细计划编号，销售计划编号，食品编号，食品名称，食品价格，计划销售数量，销售总金额，备注}
+<br><br>
+<span style="margin-left:25px"></span>采购申请表{采购申请编号，销售计划编号，创建时间，申请人编号，申请人名称，审批人编号，审批人名称，计划总金额，申请状态，申请原因，备注}
+<br><br>
+<span style="margin-left:25px"></span>采购详细表{详细计划编号，采购计划编号，食品编号，食品名称，食品价格，计划采购数量，采购总金额，备注}
+<br><br>
+<span style="margin-left:25px"></span>食品质检表{质检报告编号，员工编号，用户名称，食品编号，食品名称，质检数量，合格数量，合格率，质检意见}
+<br><br>
+<span style="margin-left:25px"></span>员工表{员工编号，员工姓名，员工密码，员工性别，员工生日，员工地址，员工权限}
+<br><br>
+<span style="margin-left:25px"></span>数据库备份表{备份编号，备份时间}
+<br><br>
+<span style="margin-left:25px"></span>食品分类{分类编号，分类名称}
+<br><br>
+<span style="margin-left:25px"></span>4.5.1 系统登录界面
+<br><br>
+<span style="margin-left:25px"></span>用户输入用户名和密码即可登陆，不需要区分管理管理员和一般用户，但是进入系统后，会根据用户的权限才能进行相应的操作。
+<br><br>
+<span style="margin-left:25px"></span>图4-5 系统登录界面
+<br><br>
+<span style="margin-left:25px"></span>4.5.2系统主界面
+<br><br>
+<span style="margin-left:25px"></span>系统主界面划分为食品基础信息管理、采购管理、销售管理、库存管理、系统管理五大模块。
+<br><br>
+<span style="margin-left:25px"></span>系统会根据用户的权限显示对应的操作，整个系统耦合性比较强。图4-6 系统主界面
+<br><br>
+<span style="margin-left:25px"></span>4.5.3添加采购计划编辑
+<br><br>
+<span style="margin-left:25px"></span>新添加采购计划时会读取销售计划ID和审批人列表。
+<br><br>
+<span style="margin-left:25px"></span>图4-7 添加采购计划编辑界面
+<br><br>
+<span style="margin-left:25px"></span>4.5 输入输出设计
+<br><br>
+<span style="margin-left:25px"></span>一个系统的工作原理是对输入数据的处理，最终输出相应的数据。
+<br><br>
+<span style="margin-left:25px"></span>所以，输入输出对于用户来说，这非常具有重要意义的，能让用户更好的接受，满足用户的需求，这是系统是否成功的关键。一个良好的输入设计，更加有利于后台数据的处理。4.5.1 输出设计
+<br><br>
+<span style="margin-left:25px"></span>本系统采用的输出方式为报表输出，可以直接导出到excel。
+<br><br>
+<span style="margin-left:25px"></span>图4-8 用户信息查询界面
+<br><br>
+<span style="margin-left:25px"></span>4.5.2 输入设计
+<br><br>
+<span style="margin-left:25px"></span>输入界面采用统一的风格，按系统需求采集相关信息。
+<br><br>
+<span style="margin-left:25px"></span>图4-9 输入设计图
+<br><br>
+<span style="margin-left:25px"></span>第5章 系统测试
+<br><br>
+<span style="margin-left:25px"></span>系统测试（System Test， ST）是为了验证整个系统是否符合按照需求设计进行开发和验证是否存在不合理的地方，检测出来后进行对应的修正，保证系统的质量和客户能够正常使用。
+<br><br>
+<span style="margin-left:25px"></span>5.1 单元测试
+<br><br>
+<span style="margin-left:25px"></span>单元测试，是指软件测试中最小的测试单元，通常是开发者编写一段小程序，测试某个功能是否按照预想的进行，功能是否正常。
+<br><br>
+<span style="margin-left:25px"></span>单元测试是提高软件质量的不可缺少的方式，还可以提高程序员的编程能力。但是单元测试并不能解决所有的bug，有时候会遗漏一些小细节，到后期发现这些bug，可能反而会产生更高的维护成本。如下是单元测试案例：
+<br><br>
+<span style="margin-left:25px"></span>集成测试，是为了弥补单元测试的中一些不能反映的全局问题；
+<br><br>
+<span style="margin-left:25px"></span>集成测试是一个整体的测试，按功能模块进行测试，保证整个模块能够正常工作。下面是我对系统的集成测试案例：5.3.1 系统调试概念
+<br><br>
+<span style="margin-left:25px"></span>当管理信息系统按照既定的设计实现之后，为了发现整个系统中的错误，程序的正确性，以便及时去改正，这就很有必要进行系统调试。
+<br><br>
+<span style="margin-left:25px"></span>系统调试可以分为理论法和实践法两种。理论法是采用数学方法是验证程序是否正确，目前该方法还在研究阶段。实验法是目前有效和最流行的方法，实验法需要时间去证明才能确定。系统调试分为程序分调和联调两大部分：
+<br><br>
+<span style="margin-left:25px"></span>(1) 分调又分为程序单调和模块分调。
+<br><br>
+<span style="margin-left:25px"></span>程序单调是由程序员自己完成，主要调试验证其语法和逻辑是否正确。 模块分调的目的是保证单个模块内部的控制关系和数据处理是否正确。（2）联调：
+<br><br>
+<span style="margin-left:25px"></span>是为了发现系统中属于相互关系方面的错误和缺陷。第6章 系统实施
+<br><br>
+<span style="margin-left:25px"></span>6.1 系统实施中常见问题
+<br><br>
+<span style="margin-left:25px"></span>系统实施是程序员最喜悦的一个过程，这是程序员成果的展现。
+<br><br>
+<span style="margin-left:25px"></span>但是实施往往不会那么顺利，以下是对系统实施中可能出现的问题的总结：（1）某些老领导不愿意接受新事物，反对系统的实施；
+<br><br>
+<span style="margin-left:25px"></span>（2）员工的技术水平有限，一时无法快速掌握和使用系统。
+<br><br>
+<span style="margin-left:25px"></span>（3）软件功能无法满足业务需求；
+<br><br>
+<span style="margin-left:25px"></span>（4）不愿意打破原有的工作状态；
+<br><br>
+<span style="margin-left:25px"></span>（5）程序运行中出现bug，导致使用者不满；
+<br><br>
+<span style="margin-left:25px"></span>（6）系统用户界面遭到某些员工的吐槽。
+<br><br>
+<span style="margin-left:25px"></span>6.2 系统实施的目标和方法
+<br><br>
+<span style="margin-left:25px"></span>系统实施是将技术转化为物理实现，应该按阶段进行，绝不能一蹴而就，那样会导致很多意外情况发生，反而不能使系统正常实施，前期的工作就白忙了。
+<br><br>
+<span style="margin-left:25px"></span>系统的实施至少分为三个阶段：前期工作、实施准备和系统转换。（1）前期工作。
+<br><br>
+<span style="margin-left:25px"></span>前期准备有必要的成立实施小组，开会研讨相关事项，开展培训工作，争取领导的重视和员工的信任。（2）实施准备。
+<br><br>
+<span style="margin-left:25px"></span>对系统基础数据进行录入，确保数据准确无误，进行模拟运行测试。（3） 系统转换。
+<br><br>
+<span style="margin-left:25px"></span>本系统采取直接却换法，新系统直接投入使用。6.3 系统实施的成果
+<br><br>
+<span style="margin-left:25px"></span>经过各种测试，发现不少小问题，但是很快的解决了，下面是进销存系统的一个输出界面：
+<br><br>
+<span style="margin-left:25px"></span>第7章 系统维护
+<br><br>
+<span style="margin-left:25px"></span>7.1系统维护概念
+<br><br>
+<span style="margin-left:25px"></span>该系统目前阶段仍然是一个非常简单的进销存系统，只满足了企业的一般需求，所以该系统需要随着企业的发展和环境的变化，需要不断的对系统进行升级和维护。
+<br><br>
+<span style="margin-left:25px"></span>本系统应该进行以下四个方面的维护。(1) 系统应用程序维护：
+<br><br>
+<span style="margin-left:25px"></span>程序的维护是系统最主要的维护，由专门程序人员来完成。程序一旦出现问题或者业务流程改变，就需要修改和完善部分程序或者全部代码，这个过程可能会影响到其他业务的正常进行，这个过程应该经过一个内存测试的过程后才能正式的部署到系统上。(2) 数据维护：
+<br><br>
+<span style="margin-left:25px"></span>根据业务需求的不断变化为，不定时更新数据，及时的对数据表的增加和修改。定时对数据库进行备份。(3) 代码维护:
+<br><br>
+<span style="margin-left:25px"></span>环境总会变化的，原有的代码不一定会适应这种变化，就需要对原有的代码进行增加、删除、修改等操作，以适应变化。(4) 硬件设备维护：
+<br><br>
+<span style="margin-left:25px"></span>系统的正常运行脱离不了外部设备的支持，外部设备是否正常直接影响到系统的正常运行。理应及时对主机等设备进行清洗、更换零件等操作第8章 总结与展望
+<br><br>
+<span style="margin-left:25px"></span>8.1 总结
+<br><br>
+<span style="margin-left:25px"></span>进过这次毕业设计的设计与开发，在极短的时间完成一个项目从无到有的开发；
+<br><br>
+<span style="margin-left:25px"></span>这对于我来说是一个极大的挑战，每天七点钟起来做设计，加上技术不熟悉的担忧，带着惶恐与决心，最终战胜了毕业设计，收获颇多。第一：此次毕业设计是一个完整的项目开发过程，从系统分析到系统设计，最后到系统实施，让我真正的认识和体会到一个系统的完整开发过程。第二;在做开发过程中，很多是自己以前没有做过的，就不断的去百度，解决问题，最欣慰的是学会了jquery的使用，让我更加的快速的开发，不仅如此，这个过程让我学会了很多新技术。第三：开发中遇到很多bug，这些bug不仅考验了我的耐心和让我学会去多思考。第四：进过这次系统开发，让我认识到数据库设计的重要性，设数据库的设计一定要充分考虑好，只改一个字段或者添加一个字段都会增加很多麻烦，浪费很多时间。以上就是我最宝贵的总结。8.2 展望
+<br><br>
+<span style="margin-left:25px"></span>经过这么一个多月的折腾，从系统分析到系统设计，最后到系统实施，企业也能正常的用上本系统，也算有点欣慰了。
+<br><br>
+<span style="margin-left:25px"></span>由于本人的技术水平有限，加上时间紧急，整个系统可能还存在一些逻辑缺陷，还有整个并不太美观，希望在今后的工作和学习中，能不断的完善该系统，以提升自己的水平。经历这么一个对我来说非常具有挑战性的毕业设计，让我明白二十一世纪最具有竞争力的是人才和技术的结合，系统设计出来了，如果没有人能真正利用好该系统，那这系统就完全没有意义了。
+<br><br>
+<span style="margin-left:25px"></span>只有真正的人才，才能为企业带来很好的效益，但光有人才，没有技术，也不能将人才发挥到最好，只有技术与人才的结合，才能符合当今的发展。科技是推动社会发展的巨大力量，也是推动人才进步的可靠力量。二十一世界最缺的就是既有技术又有管理才能的人才。以下是我对二十一管理系统与企业结合发展的展望。第一：
+<br><br>
+<span style="margin-left:25px"></span>简历完善的人才鼓励制度，鼓励创新，尽可能为人才提供可能的环境；加强对人才培训制度，强化学习能力。第二：
+<br><br>
+<span style="margin-left:25px"></span>加大管理系统开发的投入，让管理系统成为管理者决策支持的利剑；整合各种系统，使其相互支持；深入研究数据挖掘技术。
+
+<br>
+<div style="margin-left:8px">
+
+<div style="text-align:center;background-color:#CA122C;margin-top:30px;overflow:hidden;">
+<a href="http://www.paperpass.com/publish/index?from=ppreport_banner" target="_blank" style="display:block;"><img height="180" src="http://file.paperpass.com/images/fabiao.jpg"></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:400px"></div>
+</body>
+</html>
