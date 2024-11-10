@@ -2,12 +2,6 @@
 
 大学期间必备的计算机软件专业资料汇总，包括：计算机专业实习报告（58篇）、计算机毕业设计成品（含源码和论文，1900多套，包括C语言/PHP/VB/java/JSP/Andorid/Python/微信小程序等）、HTML+CSS+JS速查参考手册（收藏版）、42套div+css模板专题模板（各风格和行业应用网站模板），等等。此资料仅用于学习参考，请勿用于其他用途，否则后果自负。
 
-由于gitee仓库有大小限制，无法上传全部资料，此目录仅上传一小部分资料。
-
-如需要更多计算机专业毕业设计资料，请到github仓库下载（可能下载速度较慢）：
-
-https://github.com/dengcao/Software-Design-Professional-Materials
-
 
 # Description
 
